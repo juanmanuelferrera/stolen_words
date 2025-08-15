@@ -6,7 +6,8 @@
       "Bash(wkhtmltopdf:*)",
       "Bash(pdflatex:*)",
       "Bash(/Applications/Emacs.app/Contents/MacOS/Emacs:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(grep:*)"
     ],
     "deny": []
   }
