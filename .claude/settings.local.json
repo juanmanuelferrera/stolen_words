@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pandoc:*)",
+      "Bash(emacs:*)",
+      "Bash(wkhtmltopdf:*)",
+      "Bash(pdflatex:*)",
+      "Bash(/Applications/Emacs.app/Contents/MacOS/Emacs:*)",
+      "Bash(ls:*)"
+    ],
+    "deny": []
+  }
+}

@@ -296,7 +296,7 @@ To use this template for any book:
 
 1. *Copy all LATEX_HEADER lines* to the top of your org file
 2. *Modify title page content* with your book information
-3. *Replace "Same Book, Different Souls"* in headers with your book title
+3. *Replace title* in headers with your book title
 4. *Structure your content* using the chapter/section format shown
 5. *Add images* using the image insertion format
 6. *Export to LaTeX* and compile with pdflatex

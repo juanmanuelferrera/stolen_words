@@ -2,7 +2,7 @@
 
 **A Theological Analysis of Editorial Transformation**
 
-*Same Book, Different Souls: A Forensic Investigation of Bhagavad-gītā As It Is*
+*A Theological Analysis of Bhagavad-gītā As It Is*
 
 ## Overview
 

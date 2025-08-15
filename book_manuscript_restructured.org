@@ -18,7 +18,7 @@
 #+LATEX_HEADER:   bindingoffset=0mm, % Offset ya incluido en margen interior
 #+LATEX_HEADER:   headheight=12pt,   % Space for header
 #+LATEX_HEADER:   headsep=8mm,       % Separation between header and text
-#+LATEX_HEADER:   footskip=15mm,     % Space to put page number inside text area (reduced)
+#+LATEX_HEADER:   footskip=25mm,     % Space to put page number (increased for visibility)
 #+LATEX_HEADER:   includehead=true,  % Include header in text area
 #+LATEX_HEADER:   includefoot=true   % Include footer in text area (page number inside)
 #+LATEX_HEADER: }
@@ -43,48 +43,42 @@
 #+LATEX_HEADER: \pretolerance=100          % Try tighter spacing first
 
 # Custom hyphenation dictionary
-#+LATEX_HEADER: \hyphenation{
-#+LATEX_HEADER:   deve-lopment
-#+LATEX_HEADER:   transmi-ssion
-#+LATEX_HEADER:   Prab-hu-pā-da
-#+LATEX_HEADER:   ma-hāt-mā
-#+LATEX_HEADER:   Vā-su-de-vah
-#+LATEX_HEADER:   sys-tem-at-ic
-#+LATEX_HEADER:   the-o-log-i-cal
-#+LATEX_HEADER:   in-sti-tu-tion-al
-#+LATEX_HEADER:   trans-for-ma-tion
-#+LATEX_HEADER:   con-scious-ness
-#+LATEX_HEADER:   man-i-fes-ta-tion
-#+LATEX_HEADER:   au-then-tic-i-ty
-#+LATEX_HEADER: }
+#+LATEX_HEADER: \hyphenation{deve-lopment transmi-ssion Prab-hu-pa-da ma-hat-ma Va-su-de-vah sys-tem-at-ic the-o-log-i-cal in-sti-tu-tion-al trans-for-ma-tion con-scious-ness man-i-fes-ta-tion au-then-tic-i-ty}
 
 # Additional packages for the book
 #+LATEX_HEADER: \usepackage{xcolor}
 #+LATEX_HEADER: \usepackage{graphicx}
 #+LATEX_HEADER: \usepackage{fancyhdr}
 #+LATEX_HEADER: 
-# Page numbering and running headers configuration
-#+LATEX_HEADER: \pagestyle{fancy}
-#+LATEX_HEADER: \fancyhf{} % Clear all headers and footers first
-#+LATEX_HEADER: \fancyfoot[C]{\thepage} % Center page number at bottom
-#+LATEX_HEADER: \fancyhead[LE]{\small\textsc{Same Book, Different Souls}} % Left header on even pages (verso)
-#+LATEX_HEADER: \fancyhead[RO]{\small\textsc{\rightmark}} % Right header on odd pages (recto) - chapter name
-#+LATEX_HEADER: \renewcommand{\headrulewidth}{0.5pt} % Thin rule line under header
-#+LATEX_HEADER: \fancypagestyle{plain}{% Redefine plain style (for chapter opening pages)
-#+LATEX_HEADER:   \fancyhf{}%
-#+LATEX_HEADER:   \fancyfoot[C]{\thepage}%
-#+LATEX_HEADER:   \fancyhead[LE]{\small\textsc{Same Book, Different Souls}}%
-#+LATEX_HEADER:   \fancyhead[RO]{\small\textsc{\rightmark}}%
-#+LATEX_HEADER:   \renewcommand{\headrulewidth}{0.5pt}% Include header rule on chapter opening pages too
-#+LATEX_HEADER: }
-#+LATEX_HEADER: \fancypagestyle{frontmatter}{% Define frontmatter style (no page numbers, no headers)
+# Front matter style: no page numbers, no headers
+#+LATEX_HEADER: \fancypagestyle{frontmatter}{%
 #+LATEX_HEADER:   \fancyhf{}%
 #+LATEX_HEADER:   \renewcommand{\headrulewidth}{0pt}%
+#+LATEX_HEADER:   \renewcommand{\footrulewidth}{0pt}%
+#+LATEX_HEADER: }
+# Main content style: page numbers and headers
+#+LATEX_HEADER: \fancypagestyle{fancy}{%
+#+LATEX_HEADER:   \fancyhf{}%
+#+LATEX_HEADER:   \fancyfoot[C]{\large\bfseries\thepage}%
+#+LATEX_HEADER:   \fancyhead[LE]{\small\textsc{Stolen Words}}%
+#+LATEX_HEADER:   \fancyhead[RO]{\small\textsc{\rightmark}}%
+#+LATEX_HEADER:   \renewcommand{\headrulewidth}{0.5pt}%
+#+LATEX_HEADER:   \renewcommand{\footrulewidth}{0pt}%
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \fancypagestyle{plain}{% Plain style same as fancy - numbered pages
+#+LATEX_HEADER:   \fancyhf{}%
+#+LATEX_HEADER:   \fancyfoot[C]{\large\bfseries\thepage}%
+#+LATEX_HEADER:   \fancyhead[LE]{\small\textsc{Stolen Words}}%
+#+LATEX_HEADER:   \fancyhead[RO]{\small\textsc{\rightmark}}%
+#+LATEX_HEADER:   \renewcommand{\headrulewidth}{0.5pt}%
+#+LATEX_HEADER:   \renewcommand{\footrulewidth}{0pt}%
 #+LATEX_HEADER: }
 
-# Force fancy style on all pages including chapter openings
+# Start with front matter style (no page numbers)
+#+LATEX_HEADER: \pagestyle{frontmatter}
+# After main matter starts, force page numbering everywhere
 #+LATEX_HEADER: \makeatletter
-#+LATEX_HEADER: \let\ps@plain\ps@fancy
+#+LATEX_HEADER: \newcommand{\forcenumbering}{\let\ps@plain\ps@fancy\let\ps@headings\ps@fancy}
 #+LATEX_HEADER: \makeatother
 
 # Color definitions
@@ -96,8 +90,8 @@
 # Photo placeholder command
 #+LATEX_HEADER: \newcommand{\photoplaceholder}[4]{\fbox{\parbox{#1}{\centering\vspace{#2}\\Photo #3\\#4\\⁢\vspace{#2}}}}
 
-# Main matter command
-#+LATEX_HEADER: \newcommand{\startmainmatter}{\clearpage\pagenumbering{arabic}\setcounter{page}{1}\pagestyle{fancy}}
+# Main matter command - start page numbering at Preface
+#+LATEX_HEADER: \newcommand{\startmainmatter}{\clearpage\pagenumbering{arabic}\setcounter{page}{1}\pagestyle{fancy}\forcenumbering}
 
 # Typography improvements - Professional book hierarchy
 #+LATEX_HEADER: \makeatletter
@@ -125,28 +119,26 @@
 #+LATEX_HEADER: \setlength{\leftmarginii}{1.0em} % Reduce second level indent
 #+LATEX_HEADER: \setlength{\leftmarginiii}{0.8em} % Reduce third level indent
 
-# Half-title page comes first (professional standard)
-#+LATEX: \pagestyle{frontmatter} % No headers for front matter
-#+LATEX: \thispagestyle{empty}
+# Half-title page comes first (professional standard) - NO PAGE NUMBER
+#+LATEX: \thispagestyle{frontmatter}
 #+LATEX: \vspace*{0.25\textheight}
 #+LATEX: \begin{center}
-#+LATEX: {\Huge\textbf{SAME BOOK,}}\\[0.4cm]
-#+LATEX: {\Huge\textbf{DIFFERENT SOULS}}
+#+LATEX: {\fontfamily{cmr}\fontsize{48}{58}\selectfont\textbf{STOLEN WORDS}}
 #+LATEX: \end{center}
 #+LATEX: \vspace*{\fill}
 #+LATEX: \clearpage
 
-# Blank page
-#+LATEX: \thispagestyle{empty}
+# Blank page - NO PAGE NUMBER
+#+LATEX: \thispagestyle{frontmatter}
 #+LATEX: \mbox{}
 #+LATEX: \newpage
 
-# Full title page (professional layout)
-#+LATEX: \thispagestyle{empty}
+# Full title page (professional layout) - NO PAGE NUMBER
+#+LATEX: \thispagestyle{frontmatter}
 #+LATEX: \vspace*{0.2\textheight}
 #+LATEX: \begin{center}
-#+LATEX: {\LARGE\bfseries SAME BOOK, DIFFERENT SOULS}\\[0.8cm]
-#+LATEX: {\large A Theological Analysis of Editorial Transformation}\\[1.5cm]
+#+LATEX: {\fontfamily{cmr}\fontsize{36}{42}\selectfont\textbf{STOLEN WORDS}}\\[0.4cm]
+#+LATEX: {\large A Theological Analysis of Bhagavad-g\={\i}t\=a As It Is}\\[1.5cm]
 #+LATEX: \vspace{0.15\textheight}
 #+LATEX: {\Large Asociación Vaishnavas de España}\\[2cm]
 #+LATEX: \vspace*{\fill}
@@ -154,11 +146,12 @@
 #+LATEX: \end{center}
 #+LATEX: \clearpage
 
-#+LATEX: \thispagestyle{empty}
+# Copyright page - NO PAGE NUMBER
+#+LATEX: \thispagestyle{frontmatter}
 *STOLEN WORDS*\\
-/A Forensic Investigation of Bhagavad-gītā As It Is/
+/A Theological Investigation of Bhagavad-gītā As It Is/
 
-Copyright © 2025 CENTROS DE BHAKTI YOGA Research Team\\
+Copyright © 2025 CENTROS DE BHAKTI YOGA\\
 www.bhaktiyoga.es
 
 This work is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
@@ -174,13 +167,12 @@ ISBN: 9798298020817\\
 Published in Spain
 
 #+LATEX: \newpage
-#+LATEX: \thispagestyle{empty}
 
 ** Table of Contents
-#+LATEX: \thispagestyle{empty}
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
+#+LATEX: \thispagestyle{frontmatter}
 
 *I.  The Crisis Revealed*
 - Chapter 1: The Hidden Transformation
@@ -221,16 +213,18 @@ Published in Spain
 #+LATEX: \pagestyle{fancy}
 
 ** Preface
+#+LATEX: \enlargethispage{4\baselineskip}
+#+LATEX: \setlength{\parskip}{4pt plus 1pt minus 1pt}
 
-This book documents a discovery that challenges fundamental assumptions about spiritual authority, textual authenticity, and the nature of sacred transmission itself. When we began comparing two editions of the Bhagavad-gītā—the 1972 original and its current institutional revision—we expected minor editorial differences. What emerged was evidence of systematic theological transformation: 259 documented alterations that fundamentally restructure how readers encounter the divine, understand spiritual reality, and develop consciousness.
+This book documents a discovery that challenges fundamental assumptions about religious authority, textual authenticity, and the nature of sacred transmission itself. When we began comparing two editions of the Bhagavad-gītā—the 1972 original and its current organizational revision—we expected minor editorial differences. What emerged was evidence of comprehensive theological transformation: 259 documented alterations that fundamentally restructure how readers encounter the divine, understand transcendent reality, and develop consciousness.
 
-These are not merely academic concerns. The differences create distinct spiritual trajectories. Readers of the original develop intimate devotional consciousness through grace-dependent transformation. Readers of the revision develop systematic religious practice through knowledge-based progression. The evidence presented here will disturb those who prefer spiritual matters remain abstract and unexamined. It will challenge institutions that conflate editorial authority with spiritual authority. It will confront individuals who dismiss textual precision as unimportant to spiritual life. This book makes no apologies for that disturbance.
+These are not merely academic concerns. The differences create distinct sacred trajectories. Readers of the original develop intimate devotional consciousness through grace-dependent transformation. Readers of the revision develop methodical religious practice through knowledge-based progression. The evidence presented here will disturb those who prefer sacred matters remain abstract and unexamined. It will challenge institutions that conflate editorial authority with religious authority. It will confront individuals who dismiss textual precision as unimportant to sacred life. This book makes no apologies for that disturbance.
 
 Specific names are not mentioned extensively because this subject matter is highly inflammable, with two distinct camps holding strong positions. However, all documented changes and claims can be quickly substantiated through internet searches—this data is publicly available throughout the web for independent verification. When sacred texts undergo systematic alteration, the consequences extend far beyond publishing decisions. They reshape human consciousness itself. The analysis herein maintains scholarly objectivity while refusing to minimize the magnitude of documented changes.
 
 The evidence speaks. The implications demand recognition. The choice of response belongs to each reader.
 
-#+LATEX: \newpage
+#+LATEX: \clearpage
 #+LATEX: \thispagestyle{empty}
 #+LATEX: \mbox{}
 
@@ -252,11 +246,11 @@ The evidence speaks. The implications demand recognition. The choice of response
 ** 1. The Hidden Transformation
 #+LATEX: \markright{The Hidden Transformation}
 
-#+LATEX: {\centering\itshape When someone secretly changes the spiritual book that guides your life,\\they steal not just words—they steal your spiritual destiny.\par}
+#+LATEX: {\centering\itshape When someone secretly changes the sacred book that guides your life,\\they steal not just words—they steal your sacred destiny.\par}
 #+LATEX: \vspace{0.3cm}
 
 #+LATEX: \normalfont\justifying
-Right now, people around the globe are reading different versions of the Bhagavad-gītā and developing completely different relationships with the divine. They don't know this is happening. The books have the same title, the same author attribution, and the same spiritual reputation. But the content has been systematically transformed in ways that reshape human consciousness itself.
+Right now, people around the globe are reading different versions of the Bhagavad-gītā and developing completely different relationships with the divine. They don't know this is happening. The books have the same title, the same author attribution, and the same spiritual reputation. But the content has been methodically transformed in ways that reshape human consciousness itself.
 
 This isn't about minor editorial improvements or correcting typographical errors. This is about fundamental theological revision presented as technical enhancement. This is about the systematic alteration of sacred transmission without reader knowledge or consent.
 
@@ -271,7 +265,7 @@ The scope of alterations defies conventional understanding of editorial revision
 #+LATEX: \setlength{\leftmargini}{1em}
 - **77% of all verses systematically changed** (541 out of 700 total verses)
 - **259+ documented theological alterations** affecting core spiritual concepts
-- **245+ instances** where divine speech is transformed from intimate "Blessed Lord" to institutional "Supreme Personality of Godhead"  
+- **245+ instances** where divine speech is transformed from intimate "Blessed Lord" to formal "Supreme Personality of Godhead"  
 - **Every major spiritual relationship redefined** through linguistic manipulation
 
 These numbers represent not editorial enhancement but systematic doctrinal revision implemented without reader disclosure.
@@ -285,7 +279,7 @@ When "The Blessed Lord said" becomes "The Supreme Personality of Godhead said" i
 #+LATEX: \begin{pullquotebox}
 \textbf{Original Impact}: Creates intimate beloved relationship, encourages direct heart connection, emphasizes grace and personal divine care.
 
-\textbf{Revised Impact}: Establishes institutional hierarchy, emphasizes systematic understanding, prioritizes theological correctness over devotional accessibility.
+\textbf{Revised Impact}: Establishes organizational hierarchy, emphasizes systematic understanding, prioritizes theological correctness over devotional accessibility.
 #+LATEX: \end{pullquotebox}
 
 This isn't preference—it's neuroscience. Different linguistic patterns create different consciousness states. Different consciousness states produce different human beings.
@@ -295,7 +289,7 @@ This isn't preference—it's neuroscience. Different linguistic patterns create 
 The alterations follow systematic patterns that reveal intentional theological redirection:
 
 **** Universal Address Changes
-Every instance of divine speech has been modified to replace intimate language with institutional terminology. This affects how readers perceive their relationship with the sacred.
+Every instance of divine speech has been modified to replace intimate language with formal terminology. This affects how readers perceive their relationship with the sacred.
 
 **** Ontological Redefinitions  
 Fundamental spiritual concepts have been altered:
@@ -322,7 +316,7 @@ These changes don't affect abstract theology—they reshape actual human spiritu
 - Develop systematic religious understanding  
 - Experience knowledge-based spiritual progression
 - Approach spirituality through intellectual comprehension
-- Create mediated institutional relationship with divine authority
+- Create mediated organizational relationship with divine authority
 
 *** The Central Question
 
@@ -346,12 +340,12 @@ The goal isn't to condemn either approach but to expose the choice that readers 
 
 This analysis maintains scholarly objectivity while refusing to minimize documented impact. The evidence speaks for itself. The implications demand recognition. The response remains each reader's choice.
 
-What emerges from this investigation challenges comfortable assumptions about spiritual authority, institutional integrity, and the nature of sacred transmission itself. These challenges are necessary. When spiritual authenticity is at stake, comfort becomes a luxury we cannot afford.
+What emerges from this investigation challenges comfortable assumptions about religious authority, organizational integrity, and the nature of sacred transmission itself. These challenges are necessary. When sacred authenticity is at stake, comfort becomes a luxury we cannot afford.
 
 The Bhagavad-gītā teaches that consciousness determines reality. This book documents how editorial decisions determine consciousness. The connection between these truths reveals why textual authenticity matters to every sincere spiritual seeker.
 
 #+LATEX: \begin{chapterfindingsbox}
-• 77% of verses systematically altered (541 out of 700 verses)
+• Over 540 verses methodically altered (three-quarters of the text)
 
 • 245+ instances where "Blessed Lord" became "Supreme Personality of Godhead"
 
@@ -369,7 +363,7 @@ The Bhagavad-gītā teaches that consciousness determines reality. This book doc
 ** 2. The Numbers Don't Lie
 #+LATEX: \markright{The Numbers Don't Lie}
 
-#+LATEX: {\centering\itshape 541 verses changed out of 700 total—77\% of the Bhagavad-gītā\\systematically altered without reader disclosure.\par}
+#+LATEX: {\centering\itshape 541 verses changed out of 700 total—methodical alteration\\without reader disclosure.\par}
 #+LATEX: \vspace{0.3cm}
 
 #+LATEX: \normalfont\justifying
@@ -378,6 +372,11 @@ When people say "the changes aren't significant," they reveal they haven't exami
 This chapter presents the raw data. The numbers are stark. The patterns are unmistakable. The implications are undeniable.
 
 #+LATEX: \vfill
+
+#+LATEX: \begin{center}
+#+LATEX: \includegraphics[width=0.8\textwidth]{bbti.png}
+#+LATEX: \end{center}
+#+LATEX: \vspace{0.5cm}
 
 *** The Statistical Devastation
 
@@ -403,9 +402,9 @@ Independent statistical research reveals the shocking scope of unauthorized chan
 - Chapter 5: 66% changed (19/29) • Chapter 4: 55% changed (23/42)
 - Chapter 1: 76% changed (35/46)
 
-**Overall Total:** 541 out of 700 verses systematically altered = **77%**
+**Overall Total:** 541 out of 700 verses methodically altered = **77%**
 
-***Overall Result: 77% of all Bhagavad-gītā verses systematically altered***
+***Overall Result: The vast majority of Bhagavad-gītā verses systematically altered***
 
 Some chapters suffered near-total transformation:
 - Chapter 17: 93% of verses changed
@@ -480,7 +479,7 @@ These numbers represent comprehensive documentation by multiple independent rese
 
 *** What 77% Alteration Means
 
-When 77% of a sacred text has been changed, we're no longer discussing the same book. We're examining two different works:
+When over three-quarters of a sacred text has been changed, we're no longer discussing the same book. We're examining two different works:
 
 **Version A**: Prabhupāda's original mystical devotional text
 **Version B**: Committee-revised systematic religious text
@@ -499,7 +498,7 @@ None of these responses addresses the fundamental question: **Did readers consen
 
 *** The Reader's Right to Know
 
-These numbers establish a basic principle: readers deserve truth about textual authenticity. When 77% of verses have been altered, this isn't minor editing—it's systematic reauthoring.
+These numbers establish a basic principle: readers deserve truth about textual authenticity. When the vast majority of verses have been altered, this isn't minor editing—it's systematic reauthoring.
 
 Sacred text publishing requires different standards than ordinary literature:
 - Clear disclosure of alteration scope
@@ -656,7 +655,7 @@ The editors proceeded with systematic revision despite:
 
 *** The Smoking Gun Conclusion
 
-This evidence proves beyond reasonable doubt that systematic unauthorized alteration occurred. The class transcripts provide the "smoking gun" that no amount of institutional defense can explain away.
+This evidence proves beyond reasonable doubt that comprehensive unauthorized alteration occurred. The class transcripts provide the "smoking gun" that no amount of institutional defense can explain away.
 
 The question facing every reader is stark: When you read the Bhagavad-gītā, do you want Prabhupāda's approved translations or committee "improvements" implemented against his documented wishes?
 
@@ -1039,7 +1038,7 @@ Beyond major theological alterations lies a subtler but equally profound transfo
 
 The cumulative effect of hundreds of linguistic changes creates entirely different emotional and spiritual relationships with the sacred text and its teachings.
 
-*** The Systematic Pattern of Intimacy Removal
+*** The Coordinated Pattern of Intimacy Removal
 
 Throughout the revision, personal and intimate language is consistently replaced with formal and institutional terminology:
 
@@ -1524,7 +1523,7 @@ The one voice absent throughout this process: the original author who understood
 
 The committees couldn't know these intentions because they emerged from spiritual realization rather than academic training.
 
-*** The Systematic Pattern of Unconscious Alteration
+*** The Coordinated Pattern of Unconscious Alteration
 
 **** Category 1: Technical Improvements (Legitimate)
 - Sanskrit transliteration standardization
@@ -1565,7 +1564,7 @@ These changes represented editorial theology imposed on authorial spirituality.
 - **Institutional approval assertions**: "This has official authorization"
 
 **** Reader Ignorance Maintenance
-- **No alteration scope disclosure**: Readers never told 77% of verses changed
+- **No alteration scope disclosure**: Readers never told of systematic text revision
 - **No theological impact explanation**: Changes presented as neutral improvements
 - **No comparison availability**: Original versions gradually removed from circulation
 - **No choice architecture**: Revised edition became the only option
@@ -1707,7 +1706,7 @@ This represents the most common initial response when confronted with 259 docume
 
 **** The Reality Check
 The minimization strategy requires extraordinary psychological denial:
-- **77% of all verses systematically altered** - calling this "minor" defies basic mathematics
+- **Over 540 verses methodically altered** - calling this "minor" defies basic mathematics
 - **Every divine utterance changed from "Blessed Lord" to "Supreme Personality of Godhead"** - 245+ instances affecting every moment readers encounter divine speech
 - **Fundamental spiritual diagnosis altered from "forgotten soul" to "forgetful soul"** - complete soteriological framework transformation
 
@@ -1755,7 +1754,7 @@ This response abandons textual analysis entirely, appealing instead to organizat
 - **Spiritual authority**: "The institution represents authentic transmission"
 
 **** The Authority Confusion
-This argument reveals profound confusion about spiritual authority:
+This argument reveals profound confusion about religious authority:
 - **Editorial committees may possess technical expertise** but this doesn't grant authority to alter sacred transmission
 - **Institutional approval validates administrative decisions**, not spiritual authenticity
 - **Spiritual authority emerges from realization**, not committee consensus
@@ -1896,7 +1895,7 @@ These defense patterns reveal institutional psychological needs:
 Institutions have enormous investment in editorial decisions and must justify them to maintain credibility.
 
 **** Authority Maintenance  
-Acknowledging systematic unauthorized alteration would undermine institutional spiritual authority.
+Acknowledging comprehensive unauthorized alteration would undermine institutional religious authority.
 
 **** Cognitive Dissonance Reduction
 Defense mechanisms protect against psychological discomfort from recognizing systematic deception.
@@ -1909,7 +1908,7 @@ Maintaining unity requires minimizing divisive recognition of fundamental editor
 Rather than defending past decisions, institutions could serve readers by:
 
 **** Honest Acknowledgment
-- **Recognize alteration scope**: "77% of verses were systematically changed"
+- **Recognize alteration scope**: "The majority of verses were systematically changed"
 - **Admit theological impact**: "Different versions create different spiritual development"
 - **Acknowledge reader deception**: "People weren't informed about changes"
 - **Accept responsibility**: "We made these decisions without reader consent"
