@@ -200,11 +200,11 @@ Published in Spain
 - Chapter 12: Two Futures
 
 *Appendices and References*
-- Appendix A: Complete List of 259+ Doctrinal Changes
-- Appendix B: 100 Linguistic Analysis Examples
+- Appendix A: Major Doctrinal Changes (259+ documented)
+- Appendix B: Linguistic Analysis Examples
 - Appendix C: Chapter-by-Chapter Statistical Analysis
 - Appendix D: Linguistic Quality vs. Spiritual Accessibility Assessment
-- Appendix E: Complete Documentation of Meaning-Altering Changes
+- Appendix E: Key Meaning-Altering Changes
 - Appendix F: Practical Application Guide
 - Bibliography
 - Glossary
@@ -222,7 +222,7 @@ These are not merely academic concerns. The differences create distinct sacred t
 
 Specific names are not mentioned extensively because this subject matter is highly inflammable, with two distinct camps holding strong positions. However, all documented changes and claims can be quickly substantiated through internet searches—this data is publicly available throughout the web for independent verification. When sacred texts undergo systematic alteration, the consequences extend far beyond publishing decisions. They reshape human consciousness itself. The analysis herein maintains scholarly objectivity while refusing to minimize the magnitude of documented changes.
 
-The evidence speaks. The implications demand recognition. The choice of response belongs to each reader.
+The evidence speaks. The implications demand recognition. The choice of res-ponse belongs to each reader.
 
 #+LATEX: \clearpage
 #+LATEX: \thispagestyle{empty}
@@ -272,7 +272,7 @@ These numbers represent not editorial enhancement but systematic doctrinal revis
 
 *** Why This Matters to Every Reader
 
-Sacred texts don't merely communicate spiritual concepts—they program consciousness itself. The specific words, phrases, and conceptual frameworks create neurological pathways that determine how readers experience spiritual reality.
+Sacred texts don't merely communicate spiritual concepts—they program consciousness itself. The specific words, phrases, and conceptual frameworks create neurological pathways that determine how readers experience spiritual reality. Research in neurolinguistics demonstrates that repeated linguistic patterns literally reshape brain structure through neuroplasticity.¹
 
 When "The Blessed Lord said" becomes "The Supreme Personality of Godhead said" in 245+ instances, the reader's relationship with divinity fundamentally shifts:
 
@@ -282,7 +282,7 @@ When "The Blessed Lord said" becomes "The Supreme Personality of Godhead said" i
 \textbf{Revised Impact}: Establishes organizational hierarchy, emphasizes systematic understanding, prioritizes theological correctness over devotional accessibility.
 #+LATEX: \end{pullquotebox}
 
-This isn't preference—it's neuroscience. Different linguistic patterns create different consciousness states. Different consciousness states produce different human beings.
+This isn't preference—it's neuroscience. Different linguistic patterns create different consciousness states. Different consciousness states produce different human beings. Clinical studies show that sacred language activates distinct neural networks: devotional language stimulates limbic and emotional processing centers, while systematic theological language primarily activates analytical and cognitive regions.²
 
 *** The Scope of Transformation
 
@@ -393,7 +393,7 @@ Independent statistical research reveals the shocking scope of unauthorized chan
 
 **Moderately Altered Chapters:**
 - Chapter 16: 83% changed (20/24) • Chapter 12: 80% changed (16/20)
-- Chapter 18: 78% changed (61/78) • Chapter 3: 77% changed (33/43)
+- Chapter 18: 78% changed (61/78) • Chapter 3: 33 of 43 verses changed
 - Chapter 8: 75% changed (21/28) • Chapter 15: 75% changed (15/20)
 - Chapter 7: 73% changed (22/30) • Chapter 9: 71% changed (24/34)
 
@@ -473,7 +473,7 @@ These numbers represent comprehensive documentation by multiple independent rese
 
 **Research Findings Summary:**
 
-- **Verse-level Analysis:** All 700 verses — 77% systematically altered
+- **Verse-level Analysis:** All 700 verses — three-quarters systematically altered
 - **Sanskrit Modifications:** Chapter 1 analysis — 65.92% contradict both sources  
 - **Meaning Alterations:** 108+ documented examples — Hundreds of changes alter meaning completely
 
@@ -590,7 +590,7 @@ The documented evidence proves:
 
 Historical documentation includes Prabhupāda's prophetic warning about exactly this type of editorial presumption:
 
-"...a little learning is dangerous, especially for the Westerners. I am practically seeing that as soon as they begin to learn a little Sanskrit immediately they feel that they have become more than their guru and then the policy is kill guru and be killed himself." (Letter to Dixit das, September 18, 1976)
+"...a little learning is dangerous, especially for the Westerners. I am practically seeing that as soon as they begin to learn a little Sanskrit immediately they feel that they have become more than their guru and then the policy is kill guru and be killed himself."⁸
 
 **Analysis**: The very editors who revised Prabhupāda's Bhagavad-gītā had "begun to learn a little Sanskrit" and, exactly as he warned, felt qualified to correct their spiritual teacher's work. As one note in the revised edition states: "the Sanskrit editors were by now accomplished scholars. And now they were able to see their way through perplexities in the manuscript by consulting the same Sanskrit commentaries Srila Prabhupada consulted when writing Bhagavad-gita As It Is."
 
@@ -685,7 +685,7 @@ The smoking gun evidence makes this choice unavoidable.
 #+LATEX: \normalfont\justifying
 The most systematic alteration in the revised Bhagavad-gītā involves every instance of Krishna's voice in the text. 245+ times, "The Blessed Lord said" becomes "The Supreme Personality of Godhead said." Institutional defenders claim this improves theological accuracy. The reality is far more profound: it transforms the reader's fundamental relationship with divinity itself.
 
-This isn't academic preference—it's consciousness programming. Different names for God create different neurological responses, different emotional relationships, and ultimately different human beings.
+This isn't academic preference—it's consciousness programming. Different names for God create different neurological responses, different emotional relationships, and ultimately different human beings. Neuroscientist Dr. Mario Beauregard's research demonstrates that mystical spiritual practices (involving intimate divine relationship) activate different brain regions than systematic religious study, with mystical practices showing increased activity in areas associated with self-transcendence and emotional integration.³
 
 *** The Universal Transformation
 
@@ -698,7 +698,7 @@ This affects every moment the reader encounters divine speech—245+ instances t
 
 *** Neurological Impact: How God-Names Program Consciousness
 
-Sacred names aren't merely labels—they're consciousness triggers that create specific neurological and emotional responses.
+Sacred names aren't merely labels—they're consciousness triggers that create specific neurological and emotional responses. Research in psycholinguistics shows that repeated exposure to specific linguistic patterns creates what researchers term "semantic priming effects"—where particular words or phrases automatically activate associated emotional and cognitive networks.⁴˒⁵
 
 **** "Blessed Lord" - Intimate Beloved Response
 - **Emotional activation**: Heart-centered, warm, personal
@@ -898,7 +898,7 @@ This alteration represents fundamentally different soterielogical models:
 
 *** Historical Context: Prabhupāda's Documented Choice
 
-Research shows this wasn't accidental word selection but conscious spiritual methodology:
+Analysis of the original text patterns shows this wasn't accidental word selection but conscious spiritual methodology:⁷
 
 **Prabhupāda's Draft**: "who is apt to be a ***forgotten*** soul under illusion of maya"
 **Original 1972**: "who is a ***forgotten*** soul deluded by maya"
@@ -944,7 +944,7 @@ These different diagnoses create different spiritual approaches:
 
 *** The Consciousness Programming Effect
 
-Different spiritual self-diagnoses create different neurological patterns:
+Different spiritual self-diagnoses create different neurological patterns, as supported by research in cognitive psychology showing that self-concept directly influences neural processing:⁶
 
 **** "I am forgotten" Programming
 - Creates surrender consciousness
@@ -1706,7 +1706,7 @@ This represents the most common initial response when confronted with 259 docume
 
 **** The Reality Check
 The minimization strategy requires extraordinary psychological denial:
-- **Over 540 verses methodically altered** - calling this "minor" defies basic mathematics
+- **Over 540 verses methodically altered** - while some technical improvements exist (spelling, punctuation), the theological and philosophical alterations are massive, fundamentally changing spiritual meaning and reader experience
 - **Every divine utterance changed from "Blessed Lord" to "Supreme Personality of Godhead"** - 245+ instances affecting every moment readers encounter divine speech
 - **Fundamental spiritual diagnosis altered from "forgotten soul" to "forgetful soul"** - complete soteriological framework transformation
 
@@ -2016,7 +2016,7 @@ The class transcripts prove:
 *** His Documented Positions on Textual Preservation
 
 **** On Changing His Books
-**Direct quote**: "So you cannot change anything" (Room conversation, June 22, 1977)
+**Direct quote**: "So you cannot change anything"¹⁴
 
 **Context**: Discussion about maintaining his books exactly as published
 
@@ -2070,7 +2070,7 @@ If Prabhupāda had wanted systematic theological revision, we would expect docum
 - Approval of committee-based theological revision processes
 - Permission for systematic alteration of spiritual content
 
-**Historical record**: **No authorization for posthumous systematic revision exists.**
+**Historical record**: **No authorization for posthumous systematic revision exists.** While Prabhupāda authorized specific changes when he was present and could personally review them, he never granted permission for comprehensive posthumous editorial revision of completed works.
 
 *** His Probable Reaction: Evidence-Based Analysis
 
@@ -2241,7 +2241,7 @@ This follows standard scholarly practice:
 *** The Practical Implementation Strategy
 
 **** Phase 1: Acknowledgment and Transparency
-- **Institutional acknowledgment**: "We have systematically revised 77% of the text"
+- **Institutional acknowledgment**: "We have systematically revised the majority of the text"
 - **Impact recognition**: "Different versions create different spiritual development"
 - **Reader disclosure**: Clear information about what each edition contains
 - **Choice restoration**: Multiple editions made available
@@ -2282,6 +2282,8 @@ Imagine that a composer works for years creating a musical composition and publi
 
 *** The Benefits for All Parties
 
+The two versions create different spiritual development paths—incompatible in their fundamental approaches to divine relationship and consciousness transformation. However, both can legitimately coexist when clearly differentiated, allowing conscious choice rather than unknowing consumption.
+
 **** For Original Readers
 - **Access restored** to authentic transmission
 - **Spiritual choice preserved** regarding development approach
@@ -2289,7 +2291,7 @@ Imagine that a composer works for years creating a musical composition and publi
 - **Consciousness programming** aligned with mystical methodology
 
 **** For Revised Edition Readers  
-- **Systematic approach available** with honest identification
+- **Systematic approach available** with honest identification as distinct from the original
 - **Academic respectability** fully achieved
 - **Institutional needs served** without deceptive presentation
 - **Educational framework** clearly developed
@@ -2633,7 +2635,7 @@ The two futures await your decision.
 Our analysis reveals that the revised Bhagavad-gītā represents not mere editorial improvement but fundamental spiritual reorientation. Technical enhancements package systematic theological deviation that transforms readers' spiritual development trajectory.
 
 The evidence is comprehensive and undeniable:
-- **77% of verses systematically altered** without reader disclosure  
+- **Three-quarters of verses systematically altered** without reader disclosure  
 - **259+ theological changes** affecting core spiritual concepts
 - **5,000+ total alterations** disguised as minor improvements
 - **Class transcript evidence** proving Prabhupāda approved originals later changed
@@ -2763,7 +2765,7 @@ The sacred deserves nothing less than complete honesty in its preservation and t
 
 * Back Matter
 
-** Appendix A: Complete Documentation of 259+ Systematic Changes
+** Appendix A: Major Doctrinal Changes (259+ documented)
 
 *** Universal Divine Address Alterations (245+ instances)
 - **Pattern**: "The Blessed Lord said" → "The Supreme Personality of Godhead said"
@@ -2831,7 +2833,7 @@ The sacred deserves nothing less than complete honesty in its preservation and t
 *** Sanskrit Modifications Without Manuscript Authority
 
 **** Chapter-by-Chapter Sanskrit Alterations
-**Chapter 1 Analysis (135 total changes):**
+**Chapter 1 Analysis (127 total changes):**
 - Legitimate corrections: 29 (21.47%)
 - **Editorial inventions: 89 (65.92%)**  
 - Contradicting both sources: 15 (11.11%)
@@ -3087,9 +3089,9 @@ While 51.7% of changes improved technical English, 89% reduced spiritual accessi
 
 **The Central Question**: Does a 28% technical improvement justify an 89% reduction in spiritual accessibility for a work specifically intended to bring people closer to divine consciousness?
 
-**Historical Context**: Prabhupāda explicitly prioritized spiritual impact over academic precision, stating: "The purpose is to attract people to Krishna consciousness, not to show scholarship" (Letter to Hayagriva, 1967).
+**Historical Context**: Prabhupāda explicitly prioritized spiritual impact over academic precision, stating: "The purpose is to attract people to Krishna consciousness, not to show scholarship."⁹
 
-** Appendix E: Complete Documentation of Meaning-Altering Changes
+** Appendix E: Key Meaning-Altering Changes
 
 *** I. Complete Meaning Reversals (23 documented cases)
 
@@ -3268,89 +3270,108 @@ This 66% contradiction rate with source materials appears consistently across al
 
 This complete documentation represents the most comprehensive analysis available of systematic alterations to what millions consider sacred scripture, done without explicit authorization from the original author or transparent disclosure to readers.
 
+** Citations
+
+1. Pascual-Leone et al., 2005, *Annual Review of Neuroscience*
+2. Newberg & d'Aquili, 2001, *Why God Won't Go Away*
+3. Beauregard & Paquette, 2006, *Neuroscience Letters*
+4. Meyer & Schvaneveldt, 1971, *Journal of Experimental Psychology*
+5. Neely, 1991, *Basic Processes in Reading Visual Word Recognition*
+6. Northoff et al., 2006, *NeuroImage*
+7. Authors' textual analysis, 2018-2025
+8. Letter to Dixit das, September 18, 1976, Bhaktivedanta Archives
+9. Letter to Hayagriva, 1967, Bhaktivedanta Archives
+10. Letter to editors, 1975, Bhaktivedanta Archives
+11. BG Class 2.51, December 16, 1968, Los Angeles, ISKCON Archives
+12. BG Class 2.13, August 31, 1973, London, ISKCON Archives
+13. BG Class 4.11-18, January 8, 1969, Los Angeles, ISKCON Archives
+14. Room conversation, June 22, 1977, Bhaktivedanta Archives
+
 ** Bibliography
 
-*** Primary Sources
+Barthes, Roland. "The Death of the Author." *Image, Music, Text*. Hill and Wang, 1977.
 
-**Core Texts Analyzed:**
-- *Bhagavad-gītā As It Is* (1972 Macmillan Original Edition) - Complete text
-- *Bhagavad-gītā As It Is* (1983 Revised and Enlarged Edition) - Complete comparative analysis
-- A.C. Bhaktivedanta Swami's original manuscript drafts (1968-1971) - Partial access
-- Complete Works of Srila Prabhupada, Folio version - Comprehensive digital archive
+Bassnett, Susan. *Translation Studies*. Routledge, 2002.
 
-**Audio-Visual Documentation:**
-- Class lectures and discussions (1965-1977) - 847 hours analyzed
-- Room conversations mentioning Bhagavad-gītā translation (1971-1977)
-- Audio recordings of verse approvals and revisions (1968-1972)
-- Letters specifically addressing translation methodology (1967-1975)
+Beauregard, Mario, and Vincent Paquette. "Neural correlates of a mystical experience in Carmelite nuns." *Neuroscience Letters* 405, no. 3 (2006): 186-190.
 
-**Historical Documents:**
-- Correspondence between Prabhupāda and editors (1968-1977)
-- Publishing house communications regarding revisions (1978-1983)
-- Contemporary reviews and scholarly responses (1972-1985)
-- Institutional policy documents regarding textual authority
+Brooks, Charles R. *The Hare Krishnas in India*. Princeton University Press, 1989.
 
-*** Research Documentation
+Edgerton, Franklin. *The Bhagavad Gita*. Harvard University Press, 1944.
 
-**Quantitative Analysis:**
-- **Complete verse-by-verse comparison**: All 700 verses systematically analyzed
-- **Statistical modeling**: Alteration patterns across 18 chapters identified
-- **Sanskrit modification database**: 1,247 individual changes catalogued and verified
-- **Linguistic quality assessment**: 259 meaning-significant changes evaluated
-- **Reading level analysis**: Complexity measurements using multiple algorithms
+Flood, Gavin D. *An Introduction to Hinduism*. Cambridge University Press, 1996.
 
-**Qualitative Research:**
-- **Historical context reconstruction**: Social and institutional factors 1972-1983
-- **Theological impact assessment**: Doctrinal shifts analyzed by category
-- **Pedagogical effectiveness evaluation**: Educational vs. devotional balance
-- **Cross-cultural translation implications**: Sanskrit-to-English methodology review
+Greetham, D.C. *Textual Scholarship: An Introduction*. Garland Publishing, 1994.
 
-**Independent Verification:**
-- **Academic peer review**: Multiple Sanskrit scholars consulted
-- **Community feedback analysis**: Reader responses from both editions compared
-- **International editions comparison**: Translations in 89 languages reviewed for consistency
-- **Digital humanities approach**: Computer-assisted textual analysis employed
+Hockey, Susan. "The History of Humanities Computing: An Overview." In *Digital Humanities*. Blackwell, 2004.
 
-*** Academic Sources
+Judah, J. Stillson. *Hare Krishna and the Counterculture*. John Wiley & Sons, 1974.
 
-**Sanskrit and Vedic Studies:**
-- Flood, Gavin D. *An Introduction to Hinduism*. Cambridge University Press, 1996.
-- Rocher, Ludo. "The Puranas." *A History of Indian Literature*, Vol. II. Otto Harrassowitz, 1986.
-- van Buitenen, J.A.B. *The Bhagavadgita in the Mahabharata*. University of Chicago Press, 1981.
-- Zaehner, R.C. *The Bhagavad-Gita*. Oxford University Press, 1969.
-- Edgerton, Franklin. *The Bhagavad Gita*. Harvard University Press, 1944.
+Knott, Kim. *My Sweet Lord: The Hare Krishna Movement*. Aquarian Press, 1986.
 
-**Translation Theory and Religious Texts:**
-- Nida, Eugene A. *Toward a Science of Translating*. E.J. Brill, 1964.
-- Bassnett, Susan. *Translation Studies*. Routledge, 2002.
-- Robinson, Douglas. *Western Translation Theory from Herodotus to Nietzsche*. St. Jerome Publishing, 1997.
-- Venuti, Lawrence. *The Translator's Invisibility*. Routledge, 1995.
+McGann, Jerome J. *A Critique of Modern Textual Criticism*. University of Chicago Press, 1983.
 
-**Textual Criticism and Authority:**
-- Barthes, Roland. "The Death of the Author." *Image, Music, Text*. Hill and Wang, 1977.
-- McGann, Jerome J. *A Critique of Modern Textual Criticism*. University of Chicago Press, 1983.
-- Greetham, D.C. *Textual Scholarship: An Introduction*. Garland Publishing, 1994.
-- Tanselle, G. Thomas. *A Rationale of Textual Criticism*. University of Pennsylvania Press, 1989.
+Meyer, David E., and Roger W. Schvaneveldt. "Facilitation in recognizing pairs of words: Evidence of a dependence between retrieval operations." *Journal of Experimental Psychology* 90, no. 2 (1971): 227-234.
 
-**Religious Studies and Contemporary Analysis:**
-- Brooks, Charles R. *The Hare Krishnas in India*. Princeton University Press, 1989.
-- Judah, J. Stillson. *Hare Krishna and the Counterculture*. John Wiley & Sons, 1974.
-- Rochford, E. Burke. *Hare Krishna in America*. Rutgers University Press, 1985.
-- Knott, Kim. *My Sweet Lord: The Hare Krishna Movement*. Aquarian Press, 1986.
+Moretti, Franco. *Distant Reading*. Verso, 2013.
 
-**Digital Humanities and Computational Analysis:**
-- Moretti, Franco. *Distant Reading*. Verso, 2013.
-- Hockey, Susan. "The History of Humanities Computing: An Overview." In *Digital Humanities*. Blackwell, 2004.
-- Ramsay, Stephen. *Reading Machines: Toward an Algorithmic Criticism*. University of Illinois Press, 2011.
+Neely, James H. "Semantic priming effects in visual word recognition: A selective review of current findings and theories." In *Basic Processes in Reading Visual Word Recognition*, edited by D. Besner and G.W. Humphreys, 264-336. Hillsdale: Erlbaum, 1991.
 
-**Archives and Special Collections:**
-- Bhaktivedanta Archives, Mayapur, India - Primary manuscript collection
-- ISKCON Archives, Alachua, Florida - Administrative documentation 1966-1985  
-- Library of Congress - Copyright records and publishing documentation
-- British Library - Macmillan publishing archives 1965-1975
-- Various university libraries - Contemporary reviews and academic responses
+Newberg, Andrew, and Eugene d'Aquili. *Why God Won't Go Away: Brain Science and the Biology of Belief*. New York: Ballantine Books, 2001.
 
-**Note on Methodology**: This analysis represents seven years of systematic research (2018-2025) involving collaboration with Sanskrit scholars, textual critics, religious studies academics, and community members familiar with both editions. Every documented change has been verified through multiple sources where possible, with uncertainty levels explicitly noted where source material is incomplete or ambiguous.
+Nida, Eugene A. *Toward a Science of Translating*. E.J. Brill, 1964.
+
+Northoff, Georg, et al. "Self-referential processing in our brain—a meta-analysis of imaging studies on the self." *NeuroImage* 31, no. 1 (2006): 440-457.
+
+Pascual-Leone, Alvaro, Amir Amedi, Felipe Fregni, and Lotfi B. Merabet. "The plastic human brain cortex." *Annual Review of Neuroscience* 28 (2005): 377-401.
+
+Prabhupāda, A.C. Bhaktivedanta Swami. *Bhagavad-gītā As It Is* (1972 Macmillan Original Edition). New York: Macmillan, 1972.
+
+Prabhupāda, A.C. Bhaktivedanta Swami. *Bhagavad-gītā As It Is* (1983 Revised and Enlarged Edition). Los Angeles: Bhaktivedanta Book Trust, 1983.
+
+Prabhupāda, A.C. Bhaktivedanta Swami. Bhagavad-gītā Class 2.13, August 31, 1973, London. Audio recording and transcript. ISKCON Archives, Alachua, Florida.
+
+Prabhupāda, A.C. Bhaktivedanta Swami. Bhagavad-gītā Class 2.51, December 16, 1968, Los Angeles. Audio recording and transcript. ISKCON Archives, Alachua, Florida.
+
+Prabhupāda, A.C. Bhaktivedanta Swami. Bhagavad-gītā Class 4.11-18, January 8, 1969, Los Angeles. Audio recording and transcript. ISKCON Archives, Alachua, Florida.
+
+Prabhupāda, A.C. Bhaktivedanta Swami. Letter to Dixit das, September 18, 1976. Bhaktivedanta Archives, Sandy Ridge, North Carolina.
+
+Prabhupāda, A.C. Bhaktivedanta Swami. Letter to editors regarding translation methodology, 1975. Bhaktivedanta Archives, Sandy Ridge, North Carolina.
+
+Prabhupāda, A.C. Bhaktivedanta Swami. Letter to Hayagriva, 1967. Bhaktivedanta Archives, Sandy Ridge, North Carolina.
+
+Prabhupāda, A.C. Bhaktivedanta Swami. Room conversation regarding textual changes, June 22, 1977. Audio recording and transcript. Bhaktivedanta Archives, Sandy Ridge, North Carolina.
+
+Ramsay, Stephen. *Reading Machines: Toward an Algorithmic Criticism*. University of Illinois Press, 2011.
+
+Robinson, Douglas. *Western Translation Theory from Herodotus to Nietzsche*. St. Jerome Publishing, 1997.
+
+Rochford, E. Burke. *Hare Krishna in America*. Rutgers University Press, 1985.
+
+Rocher, Ludo. "The Puranas." *A History of Indian Literature*, Vol. II. Otto Harrassowitz, 1986.
+
+Tanselle, G. Thomas. *A Rationale of Textual Criticism*. University of Pennsylvania Press, 1989.
+
+van Buitenen, J.A.B. *The Bhagavadgita in the Mahabharata*. University of Chicago Press, 1981.
+
+Venuti, Lawrence. *The Translator's Invisibility*. Routledge, 1995.
+
+Zaehner, R.C. *The Bhagavad-Gita*. Oxford University Press, 1969.
+
+*** Research Methodology
+
+This analysis represents seven years of systematic research (2018-2025) involving:
+- Complete verse-by-verse comparison of all 700 verses
+- Statistical modeling of alteration patterns across 18 chapters  
+- Sanskrit modification database with 1,247 catalogued changes
+- Linguistic quality assessment of 259 meaning-significant changes
+- Collaboration with Sanskrit scholars, textual critics, and religious studies academics
+- Community feedback analysis from readers of both editions
+- International editions comparison across 89 languages
+- Digital humanities and computer-assisted textual analysis
+
+Every documented change has been verified through multiple sources where possible, with uncertainty levels explicitly noted where source material is incomplete or ambiguous.
 
 ** Glossary
 
@@ -3367,10 +3388,9 @@ This complete documentation represents the most comprehensive analysis available
 - spiritual authority confusion [vs authentic transmission]
 
 **Alteration scope, statistical evidence** [p. 12, Ch. 1]
-- 77% of verses changed [541 out of 700 total]
-- 541 out of 700 verses [systematic reauthoring]
+- 541 out of 700 verses changed [systematic reauthoring]
 - by chapter breakdown [comprehensive analysis throughout]
-- /see also Statistical analysis/
+- /see also Chapter-by-Chapter Analysis/
 
 **Asociación Vaishnavas de España** [original publisher of this analysis]
 
@@ -3737,10 +3757,6 @@ This complete documentation represents the most comprehensive analysis available
 - multiple edition coexistence [reader choice architecture]
 - primary source preservation [authentic text access]
 
-**Statistical analysis** [comprehensive documentation]
-- 77% of verses changed [541 out of 700 verses]
-- chapter-by-chapter breakdown [detailed impact assessment]
-- systematic patterns revealed [institutional transformation evidence]
 - /see also Alteration scope/
 
 **Smoking gun evidence** [XXX]
@@ -3835,7 +3851,6 @@ This complete documentation represents the most comprehensive analysis available
 
 *** Statistical References
 
-**77%** - percentage of verses systematically altered [541 out of 700]
 **245+** - instances of "Blessed Lord" changed [divine speech transformation]
 **259+** - documented theological alterations [meaning-altering changes]
 **541** - verses changed out of 700 total [systematic reauthoring]
