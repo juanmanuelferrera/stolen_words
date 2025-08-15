@@ -215,13 +215,15 @@ Published in Spain
 #+LATEX: \enlargethispage{4\baselineskip}
 #+LATEX: \setlength{\parskip}{4pt plus 1pt minus 1pt}
 
-This book documents a discovery that challenges fundamental assumptions about religious authority, textual authenticity, and the nature of sacred transmission itself. When we began comparing two editions of the Bhagavad-gītā—the 1972 original and its current organizational revision—we expected minor editorial differences. What emerged was evidence of comprehensive theological transformation: 259 documented alterations that fundamentally restructure how readers encounter the divine, understand transcendent reality, and develop consciousness.
+In 1972, A.C. Bhaktivedanta Swami Prabhupāda gave the world his Bhagavad-gītā As It Is—a devotional translation that would introduce millions to Krishna consciousness. After his passing in 1977, well-meaning disciples decided to "improve" his work. This book documents what happened next.
+
+When we began comparing Prabhupāda's original 1972 edition with the posthumous 1983 revision, we expected minor editorial differences. What emerged was evidence of comprehensive theological transformation: 259 documented alterations that fundamentally restructure how readers encounter the divine, understand transcendent reality, and develop consciousness. These changes were made without Prabhupāda's consent, without informing readers, and continue to shape millions of spiritual lives today.
 
 These are not merely academic concerns. The differences create distinct sacred trajectories. Readers of the original develop intimate devotional consciousness through grace-dependent transformation. Readers of the revision develop methodical religious practice through knowledge-based progression. The evidence presented here will disturb those who prefer sacred matters remain abstract and unexamined. It will challenge institutions that conflate editorial authority with religious authority. It will confront individuals who dismiss textual precision as unimportant to sacred life. This book makes no apologies for that disturbance.
 
 Specific names are not mentioned extensively because this subject matter is highly inflammable, with two distinct camps holding strong positions. However, all documented changes and claims can be quickly substantiated through internet searches—this data is publicly available throughout the web for independent verification. When sacred texts undergo systematic alteration, the consequences extend far beyond publishing decisions. They reshape human consciousness itself. The analysis herein maintains scholarly objectivity while refusing to minimize the magnitude of documented changes.
 
-The evidence speaks. The implications demand recognition. The choice of res-ponse belongs to each reader.
+The evidence speaks. The implications demand recognition. The choice of response belongs to each reader.
 
 #+LATEX: \clearpage
 #+LATEX: \thispagestyle{empty}
@@ -243,16 +245,18 @@ The evidence speaks. The implications demand recognition. The choice of res-pons
 # * Part I: The Crisis Revealed
 
 ** 1. The Hidden Transformation
-#+LATEX: \thispagestyle{plain}
 #+LATEX: \markright{The Hidden Transformation}
+#+LATEX: \thispagestyle{plain}
 
 #+LATEX: {\centering\itshape When someone secretly changes the sacred book that guides your life,\\they steal not just words—they steal your sacred destiny.\par}
 #+LATEX: \vspace{0.3cm}
 
 #+LATEX: \normalfont\justifying
-Right now, people around the globe are reading different versions of the Bhagavad-gītā and developing completely different relationships with the divine. They don't know this is happening. The books have the same title, the same author attribution, and the same spiritual reputation. But the content has been methodically transformed in ways that reshape human consciousness itself.
+In 1972, A.C. Bhaktivedanta Swami Prabhupāda published his Bhagavad-gītā As It Is, which became the most widely read edition of this sacred text in the Western world. For five years until his passing in 1977, Prabhupāda used this book as the foundation of his spiritual teaching, personally approving it through hundreds of classes where he heard it read aloud.
 
-This isn't about minor editorial improvements or correcting typographical errors. This is about fundamental theological revision presented as technical enhancement. This is about the systematic alteration of sacred transmission without reader knowledge or consent.
+After Prabhupāda's departure, his disciples made a decision that would affect millions of readers: they would "improve" his translation. What followed was not minor editorial correction but systematic theological transformation. The 1983 "Revised and Enlarged" edition contains over 5,000 changes, affecting 77% of the verses and fundamentally altering the spiritual experience of readers.
+
+Right now, people around the globe are reading these different versions and developing completely different relationships with the divine. They don't know this is happening. The books have the same title, the same author attribution, and the same spiritual reputation. But the content has been methodically transformed in ways that reshape human consciousness itself.
 
 *** The Discovery
 
@@ -361,8 +365,8 @@ The Bhagavad-gītā teaches that consciousness determines reality. This book doc
 #+LATEX: \end{chapterfindingsbox}
 
 ** 2. The Numbers Don't Lie
-#+LATEX: \thispagestyle{plain}
 #+LATEX: \markright{The Numbers Don't Lie}
+#+LATEX: \thispagestyle{plain}
 
 #+LATEX: {\centering\itshape 541 verses changed out of 700 total—methodical alteration\\without reader disclosure.\par}
 #+LATEX: \vspace{0.3cm}
@@ -515,8 +519,8 @@ But first, the numbers demand recognition: **77% of the Bhagavad-gītā has been
 The question facing every reader is simple: Should you know what you're actually receiving when you read sacred literature? These numbers suggest you should.
 
 ** 3. The Smoking Gun Evidence
-#+LATEX: \thispagestyle{plain}
 #+LATEX: \markright{The Smoking Gun Evidence}
+#+LATEX: \thispagestyle{plain}
 
 #+LATEX: {\centering\itshape There are hundreds of changes that completely alter the meaning\\of what Srila Prabhupada says in the original book, and which he confirmed\\while giving his classes and hearing the book read by devotees.\par}
 #+LATEX: \vspace{0.3cm}
@@ -679,8 +683,8 @@ The smoking gun evidence makes this choice unavoidable.
 # * Part II: The Spiritual Impact
 
 ** 4. Two Different Gods
-#+LATEX: \thispagestyle{plain}
 #+LATEX: \markright{Two Different Gods}
+#+LATEX: \thispagestyle{plain}
 
 #+LATEX: {\centering\itshape Changing 'Blessed Lord' to 'Supreme Personality of Godhead'\\doesn't improve translation—it transforms God from intimate\\beloved into institutional theology.\par}
 #+LATEX: \vspace{0.3cm}
@@ -848,8 +852,8 @@ God remains who God is. But how readers approach and experience divine reality d
 245+ alterations from "Blessed Lord" to "Supreme Personality of Godhead" don't improve the text—they transform the reader's spiritual trajectory entirely.
 
 ** 5. Two Different Souls
-#+LATEX: \thispagestyle{plain}
 #+LATEX: \markright{Two Different Souls}
+#+LATEX: \thispagestyle{plain}
 
 #+LATEX: {\centering\itshape When spiritual diagnosis changes from 'forgotten soul'\\to 'forgetful soul,' the entire path to liberation transforms—\\from grace-dependent awakening to self-improvement project.\par}
 #+LATEX: \vspace{0.3cm}
@@ -1032,8 +1036,8 @@ When the diagnosis changes from "forgotten" to "forgetful," the entire treatment
 One word. Two completely different spiritual paths. Millions of readers unknowingly choosing between them.
 
 ** 6. The Language of the Heart
-#+LATEX: \thispagestyle{plain}
 #+LATEX: \markright{The Language of the Heart}
+#+LATEX: \thispagestyle{plain}
 
 #+LATEX: {\centering\itshape Sacred language doesn't just communicate spiritual concepts—\\it programs the heart's approach to divine reality.\par}
 #+LATEX: \vspace{0.3cm}
@@ -1265,8 +1269,8 @@ When editors systematically alter heart-language into mind-language without disc
 # * Part III: The Human Consequences
 
 ** 7. Two Paths, Two Souls
-#+LATEX: \thispagestyle{plain}
 #+LATEX: \markright{Two Paths, Two Souls}
+#+LATEX: \thispagestyle{plain}
 
 #+LATEX: {\centering\itshape Two versions create two different kinds of human beings—\\one seeking intimate love with the divine, the other pursuing\\systematic religious advancement.\par}
 #+LATEX: \vspace{0.3cm}
@@ -1461,8 +1465,8 @@ Every reader deserves to know which path they're choosing and what kind of spiri
 Two paths, two souls, two completely different spiritual destinies—hidden in editorial decisions that reshape human consciousness itself.
 
 ** 8. The Publishing Deception
-#+LATEX: \thispagestyle{plain}
 #+LATEX: \markright{The Publishing Deception}
+#+LATEX: \thispagestyle{plain}
 
 #+LATEX: {\centering\itshape The most disturbing aspect of this process:\\readers were never informed that systematic\\theological alteration was occurring.\par}
 #+LATEX: \vspace{0.3cm}
@@ -1689,8 +1693,8 @@ The deception ends when the choice becomes conscious.
 # * Part IV: The Institutional Response
 
 ** 9. The Defenders and Their Strategies
-#+LATEX: \thispagestyle{plain}
 #+LATEX: \markright{The Defenders and Their Strategies}
+#+LATEX: \thispagestyle{plain}
 
 #+LATEX: {\centering\itshape When institutions say 'these are minor improvements,'\\they're asking you to trust their judgment\\over your own spiritual experience.\par}
 #+LATEX: \vspace{0.3cm}
@@ -1946,8 +1950,8 @@ Institutions that embrace this service model will discover that honesty about pa
 The defense mechanisms end when the service begins.
 
 ** 10. What Prabhupāda Actually Wanted
-#+LATEX: \thispagestyle{plain}
 #+LATEX: \markright{What Prabhupāda Actually Wanted}
+#+LATEX: \thispagestyle{plain}
 
 #+LATEX: {\centering\itshape Prabhupāda chose 'Blessed Lord' to invite intimacy,\\not 'Supreme Personality of Godhead'\\to establish institutional authority.\par}
 #+LATEX: \vspace{0.3cm}
@@ -2159,8 +2163,8 @@ Prabhupāda wanted his Bhagavad-gītā preserved "As It Is"—exactly as he publ
 # * Part V: The Path Forward
 
 ** 11. The Scholarly Solution
-#+LATEX: \thispagestyle{plain}
 #+LATEX: \markright{The Scholarly Solution}
+#+LATEX: \thispagestyle{plain}
 
 #+LATEX: {\centering\itshape Multiple editions can coexist honestly—but only when\\readers know exactly what they're getting, and the original\\remains forever untouched.\par}
 #+LATEX: \vspace{0.3cm}
@@ -2407,8 +2411,8 @@ This is how sacred traditions survive institutional pressures while serving dive
 The solution is neither complex nor expensive. It requires only honesty, transparency, and genuine commitment to serving reader spiritual choice rather than controlling it.
 
 ** 12. Two Futures
-#+LATEX: \thispagestyle{plain}
 #+LATEX: \markright{Two Futures}
+#+LATEX: \thispagestyle{plain}
 
 #+LATEX: {\centering\itshape Recognition, not condemnation; understanding, not accusation;\\conscious choice, not unconscious acceptance.\par}
 #+LATEX: \vspace{0.3cm}
@@ -3125,17 +3129,20 @@ While 51.7% of changes improved technical English, 89% reduced spiritual accessi
 **BG 2.18 - Sacred Duty Completely Reversed:**
 - Original (1972): "sacrifice the material body for the cause of religion"
 - Revised (1983): "not sacrifice the cause of religion for material considerations"
-- Analysis: From encouraging ultimate spiritual sacrifice to prohibiting religious compromise—completely opposite teachings
+- Analysis: From encouraging ultimate spiritual sacrifice to prohibiting religious 
+  compromise—completely opposite teachings
 
 **BG 7.12 - Divine Authority Reduced:**
 - Original (1972): "I am the source of all spiritual and material worlds"  
 - Revised (1983): "All states of being are manifested by My energy"
-- Analysis: Direct divine creation versus indirect energy manifestation—fundamentally different theological concepts
+- Analysis: Direct divine creation versus indirect energy manifestation—
+  fundamentally different theological concepts
 
 **BG 15.7 - Soul Nature Contradicted:**
 - Original (1972): "The living entities are My eternal fragmental parts"
 - Revised (1983): "The living entities are My eternal fragmental parts. Although eternal, they are struggling"
-- Analysis: Eternal nature qualified by temporal struggle—creates philosophical contradiction
+- Analysis: Eternal nature qualified by temporal struggle—creates philosophical 
+  contradiction
 
 *** II. Fundamental Concept Deletions
 
