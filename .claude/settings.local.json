@@ -10,7 +10,10 @@
       "Bash(grep:*)",
       "Bash(pdfinfo:*)",
       "Bash(find:*)",
-      "Bash(mdls:*)"
+      "Bash(mdls:*)",
+      "Bash(mv:*)",
+      "Bash(rm:*)",
+      "Bash(sed:*)"
     ],
     "deny": []
   }
