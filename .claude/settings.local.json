@@ -7,7 +7,10 @@
       "Bash(pdflatex:*)",
       "Bash(/Applications/Emacs.app/Contents/MacOS/Emacs:*)",
       "Bash(ls:*)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(pdfinfo:*)",
+      "Bash(find:*)",
+      "Bash(mdls:*)"
     ],
     "deny": []
   }
