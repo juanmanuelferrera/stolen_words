@@ -181,31 +181,46 @@ Published in Spain
 :END:
 #+LATEX: \markboth{}{}
 #+LATEX: \thispagestyle{frontmatter}
+#+LATEX: \vspace{0.8cm}
 
+#+LATEX: \noindent
 *I.  The Crisis Revealed*
+#+LATEX: \vspace{0.2cm}
 - Chapter 1: The Hidden Transformation
 - Chapter 2: The Numbers Don't Lie  
 - Chapter 3: The Smoking Gun Evidence
 
+#+LATEX: \vspace{0.7cm}
+#+LATEX: \noindent
 *II.  The Spiritual Impact*
+#+LATEX: \vspace{0.2cm}
 - Chapter 4: Two Different Gods
 - Chapter 5: Two Different Souls
 - Chapter 6: The Language of the Heart
 
+#+LATEX: \vspace{0.7cm}
+#+LATEX: \noindent
 *III.  The Human Consequences*
+#+LATEX: \vspace{0.2cm}
 - Chapter 7: Two Paths, Two Souls
 - Chapter 8: The Publishing Deception
 
+#+LATEX: \vspace{0.7cm}
+#+LATEX: \noindent
 *IV.  The Institutional Response*
+#+LATEX: \vspace{0.2cm}
 - Chapter 9: The Defenders and Their Strategies
 - Chapter 10: What Prabhupāda Actually Wanted
 
-#+LATEX: \newpage
-#+LATEX: \thispagestyle{empty}
-
+#+LATEX: \vspace{0.7cm}
+#+LATEX: \noindent
 *V.  The Path Forward*
+#+LATEX: \vspace{0.2cm}
 - Chapter 11: The Scholarly Solution
 - Chapter 12: Two Futures
+
+#+LATEX: \newpage
+#+LATEX: \thispagestyle{empty}
 
 *Appendices and References*
 - Appendix A: Major Doctrinal Changes
@@ -1949,6 +1964,11 @@ Prabhupāda wanted authentic preservation with technical improvements, not theol
 The solution honors both approaches: preserve the original for those seeking authentic methodology, offer revisions for systematic preferences, ensure clear identification and conscious choice¹⁶.
 
 Prabhupāda wanted his Bhagavad-gītā preserved "As It Is"—exactly as he published it after ten years of satisfied use and documented approval.
+
+** V. The Path Forward
+
+- Chapter 11: The Scholarly Solution
+- Chapter 12: Two Futures
 
 #+LATEX: \clearpage
 #+LATEX: \thispagestyle{empty}
