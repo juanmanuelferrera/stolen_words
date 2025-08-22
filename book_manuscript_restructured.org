@@ -182,30 +182,32 @@ Published in Spain
 #+LATEX: \markboth{}{}
 #+LATEX: \thispagestyle{frontmatter}
 
+#+LATEX: \setlength{\parskip}{1pt}
 *I.  The Crisis Revealed*
 - Chapter 1: The Hidden Transformation
 - Chapter 2: The Numbers Don't Lie  
 - Chapter 3: The Smoking Gun Evidence
-
+#+LATEX: \vspace{0.4cm}
 *II.  The Spiritual Impact*
 - Chapter 4: Two Different Gods
 - Chapter 5: Two Different Souls
 - Chapter 6: The Language of the Heart
-
+#+LATEX: \vspace{0.4cm}
 *III.  The Human Consequences*
 - Chapter 7: Two Paths, Two Souls
 - Chapter 8: The Publishing Deception
-
+#+LATEX: \vspace{0.4cm}
 *IV.  The Institutional Response*
 - Chapter 9: The Defenders and Their Strategies
 - Chapter 10: What Prabhupāda Actually Wanted
-
-#+LATEX: \newpage
-#+LATEX: \thispagestyle{empty}
-
+#+LATEX: \vspace{0.4cm}
 *V.  The Path Forward*
 - Chapter 11: The Scholarly Solution
 - Chapter 12: Two Futures
+#+LATEX: \setlength{\parskip}{4pt plus 1pt minus 1pt}
+
+#+LATEX: \newpage
+#+LATEX: \thispagestyle{empty}
 
 *Appendices and References*
 - Appendix A: Major Doctrinal Changes
@@ -485,8 +487,8 @@ Maya closed both books and leaned back in her chair. Her three-month investigati
 Tomorrow, she would begin documenting the global pattern she had discovered. But tonight, she sat quietly, understanding that she had witnessed something unprecedented: the secret transformation of a sacred text that had programmed millions of minds without their knowledge.
 
 ** 6. The Pattern Revealed
+#+LATEX: \thispagestyle{empty}
 #+LATEX: \markright{The Pattern Revealed}
-#+LATEX: \thispagestyle{plain}
 
 #+LATEX: \normalfont\justifying
 Maya Rodriguez sat at her kitchen table, both editions of the Bhagavad-gītā open before her, colored sticky notes marking changes. After three months of comparison, the pattern was undeniable. This wasn't random editing—it was systematic transformation of consciousness itself.
@@ -543,8 +545,8 @@ The most systematic alteration transformed every instance of Krishna's voice fro
 When 77% of a sacred text changes, readers aren't getting the same book. They're choosing between two spiritual paths without knowing it¹⁰.
 
 ** 7. Global Confusion
+#+LATEX: \thispagestyle{empty}
 #+LATEX: \markright{Global Confusion}
-#+LATEX: \thispagestyle{plain}
 
 #+LATEX: \normalfont\justifying
 By 2005, the confusion had spread to every continent where the Bhagavad-gītā was studied. Maya's investigation revealed a pattern of institutional fractures that mirrored her own personal discovery, but on a global scale.
@@ -562,8 +564,8 @@ The crisis had become global, systematic, and undeniable. Yet institutional auth
 Maya realized she had stumbled onto something far larger than personal confusion. She had discovered evidence of how spiritual authority operates in the modern world—and how sincere intentions can create profound deception when institutions prioritize protection over transparency.
 
 ** 8. The Cover-Up
+#+LATEX: \thispagestyle{empty}
 #+LATEX: \markright{The Cover-Up}
-#+LATEX: \thispagestyle{plain}
 
 #+LATEX: \normalfont\justifying
 The perfect crime requires perfect silence. For forty years, the transformation of the Bhagavad-gītā succeeded because of a simple strategy: never acknowledge what happened.
@@ -603,10 +605,10 @@ The cover-up had lasted forty years because it served everyone's immediate inter
 But as Maya was discovering, the cost of this silence extended far beyond publishing ethics. It had fractured communities, confused sincere seekers, and created a crisis of trust that threatened the very transmission the original book was meant to preserve.
 
 ** 9. The Divided House
-#+LATEX: \\markright{The Divided House}
-#+LATEX: \\thispagestyle{plain}
+#+LATEX: \thispagestyle{empty}
+#+LATEX: \markright{The Divided House}
 
-#+LATEX: \\normalfont\\justifying
+#+LATEX: \normalfont\justifying
 The revelation of systematic changes didn't just affect individual readers—it tore apart the global spiritual community that had been built on shared sacred texts.
 
 Maya discovered this when she began investigating the legal battles that erupted once the internet made comparisons impossible to suppress. What she found was a movement at war with itself, fighting over the very books that were supposed to unite them in spiritual purpose.
