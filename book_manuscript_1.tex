@@ -1,4 +1,4 @@
-% Created 2025-09-30 Tue 21:33
+% Created 2025-09-30 Tue 22:22
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt,twoside]{book}
 \usepackage[utf8]{inputenc}
@@ -21,7 +21,7 @@ bottom=11.35mm,    % Margen inferior (as per spec)
 bindingoffset=0mm, % Offset ya incluido en margen interior
 headheight=12pt,   % Space for header
 headsep=8mm,       % Separation between header and text
-footskip=25mm,     % Space to put page number (increased for visibility)
+footskip=15mm,     % Space to put page number
 includehead=true,  % Include header in text area
 includefoot=true   % Include footer in text area (page number inside)
 }
@@ -68,6 +68,12 @@ includefoot=true   % Include footer in text area (page number inside)
 \renewcommand{\leftmark}{}%
 \renewcommand{\rightmark}{}%
 }
+\fancypagestyle{chapterpage}{% Chapter pages - no headers at all, only page numbers
+\fancyhf{}%
+\renewcommand{\headrulewidth}{0pt}%
+\renewcommand{\footrulewidth}{0pt}%
+\fancyfoot[C]{\large\bfseries\thepage}%
+}
 \pagestyle{frontmatter}
 \makeatletter
 \newcommand{\forcenumbering}{\let\ps@plain\ps@fancy\let\ps@headings\ps@fancy}
@@ -77,6 +83,9 @@ includefoot=true   % Include footer in text area (page number inside)
 \definecolor{deeporange}{RGB}{255, 140, 0}
 \definecolor{mysticblue}{RGB}{135, 206, 250}
 \newcommand{\photoplaceholder}[4]{\fbox{\parbox{#1}{\centering\vspace{#2}\\Photo #3\\#4\\⁢\vspace{#2}}}}
+\newenvironment{chapterfindingsbox}%
+{\begin{quote}\begin{itemize}\setlength{\itemsep}{0.3em}}%
+{\end{itemize}\end{quote}}
 \newcommand{\startmainmatter}{\clearpage\pagenumbering{arabic}\setcounter{page}{1}\pagestyle{fancy}\forcenumbering}
 \makeatletter
 \def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else\hbox{}\thispagestyle{empty}\newpage\if@twocolumn\hbox{}\newpage\fi\fi\fi}
@@ -163,7 +172,7 @@ Published in Spain
 
 \newpage
 \chapter*{Table of Contents}
-\label{sec:orgb06ff62}
+\label{sec:orgd492033}
 \markboth{}{}
 \thispagestyle{frontmatter}
 
@@ -202,7 +211,7 @@ Published in Spain
 \setlength{\parskip}{4pt plus 1pt minus 1pt}
 
 \newpage
-\thispagestyle{empty}
+\thispagestyle{fancy}
 
 \textbf{Appendices and References}
 \begin{itemize}
@@ -220,10 +229,14 @@ Published in Spain
 \startmainmatter
 \pagestyle{fancy}
 \chapter*{Preface}
-\label{sec:org369ece5}
+\label{sec:org28109a4}
 \thispagestyle{frontmatter}
 \enlargethispage{6\baselineskip}
 \setlength{\parskip}{3pt plus 1pt minus 1pt}
+\emergencystretch=3em
+\tolerance=2000
+\hbadness=2000
+\looseness=-1
 
 In 1972, A.C. Bhaktivedanta Swami Prabhupāda gave the world his Bhagavad-gītā As It Is—a devotional translation that would introduce millions to Krishna consciousness. After his passing in 1977, well-meaning disciples decided to "improve" his work. This book documents what happened next.
 
@@ -233,7 +246,7 @@ These are not merely academic concerns. The differences create distinct sacred t
 
 Specific names are not mentioned extensively because this subject matter is highly inflammable, with two distinct camps holding strong positions. However, all documented changes and claims can be quickly substantiated through internet searches—this data is publicly available throughout the web for independent verification. When sacred texts undergo systematic alteration, the consequences extend far beyond publishing decisions. They reshape human consciousness itself.
 
-The evidence speaks. The implications demand recognition. The choice of response belongs to each reader.
+The evidence is clear. What it means cannot be ignored. How readers respond is their choice alone.
 
 \clearpage
 \thispagestyle{empty}
@@ -252,8 +265,8 @@ The evidence speaks. The implications demand recognition. The choice of response
 \mbox{}
 \newpage
 \chapter*{1. The Sacred Gift}
-\label{sec:org0060f57}
-\thispagestyle{empty}
+\label{sec:org2233f3a}
+\thispagestyle{chapterpage}
 
 \normalfont\justifying
 In 1972, an elderly Indian monk gave the Western world a gift that would change millions of lives. His name was A.C. Bhaktivedanta Swami Prabhupāda, and his gift was a translation of the Bhagavad-gītā, India's most sacred philosophical text.
@@ -270,8 +283,8 @@ On November 14, 1977, Prabhupāda passed away in Vrindavana, India, the holy lan
 
 Or so everyone believed.
 \chapter*{2. The Question}
-\label{sec:org21fd77d}
-\thispagestyle{empty}
+\label{sec:org338a8cd}
+\thispagestyle{chapterpage}
 
 \normalfont\justifying
 Six years after Prabhupāda's death, in 1983, his publishing house quietly released a "Revised and Enlarged" edition of the Bhagavad-gītā. The cover looked identical. The author's name remained unchanged. But inside, a transformation had occurred that would fracture spiritual communities for decades.
@@ -290,20 +303,10 @@ But something fundamental had shifted. Where Prabhupāda had written "the Blesse
 
 For twenty years, most readers didn't know. Then the internet made comparison possible, and the discovery began.
 
-The scope of alterations defies conventional understanding of editorial revision:
-
-\setlength{\leftmargini}{1em}
-\begin{itemize}
-\item \textbf{\textbf{Systematic alteration of the vast majority of verses}} without reader disclosure
-\item \textbf{\textbf{259+ documented theological alterations}} affecting core spiritual concepts
-\item \textbf{\textbf{Every instance of divine speech}} transformed from intimate "Blessed Lord" to formal "Supreme Personality of Godhead"
-\item \textbf{\textbf{Every major spiritual relationship redefined}} through linguistic manipulation
-\end{itemize}
-
-These numbers represent not editorial enhancement but systematic doctrinal revision implemented without reader disclosure.
+The alterations exceeded all expectations. What emerged would challenge everything readers thought they knew.
 \chapter*{3. The Discovery}
-\label{sec:orgb468b77}
-\thispagestyle{empty}
+\label{sec:org7c90181}
+\thispagestyle{chapterpage}
 
 \normalfont\justifying
 Maya Rodriguez had been reading Bhagavad-gītā verse 2.47 every morning for fifteen years. The words shaped her daily meditation, her approach to work, her understanding of spiritual duty. In 2023, while visiting her hospitalized grandmother, she discovered the elderly woman had been reading a different edition all along.
@@ -338,8 +341,8 @@ The question haunting Maya was simple: Who decided to rewrite a dead author's wo
 
 The answer would take her deep into the heart of spiritual authority, editorial ethics, and the power of words to shape human consciousness.
 \chapter*{4. The Monk's Journey}
-\label{sec:org57f96a3}
-\thispagestyle{empty}
+\label{sec:orgffeb84f}
+\thispagestyle{chapterpage}
 \markright{The Monk's Journey}
 
 \normalfont\justifying
@@ -381,7 +384,7 @@ Then came November 14, 1977. In his final months, Prabhupāda's concern for his 
 
 Present during this instruction was Jayadvaita Swami, the young editor who had helped produce the original books. His interpretation of "grammatical discrepancy" would reshape spiritual lives for generations.
 
-At 7:30 PM on November 14, in Vrindavana, India, Prabhupāda spoke his last words: "Hare Krishna." With his passing, the only person who could definitively say what the Bhagavad-gītā should contain was gone. What remained were manuscripts, memories, and disciples who genuinely believed they knew what their guru really wanted.
+On November 14, 1977, in Vrindavana, India, Prabhupāda departed this world. With his passing, the only person who could definitively say what the Bhagavad-gītā should contain was gone. What remained were manuscripts, memories, and disciples who genuinely believed they knew what their guru really wanted.
 
 The stage was set for the transformation that would fracture a spiritual movement and confuse millions of readers worldwide.
 
@@ -401,8 +404,8 @@ The stage was set for the transformation that would fracture a spiritual movemen
 • Revised readers develop systematic religious understanding
 \end{chapterfindingsbox}
 \chapter*{5. Two Different Souls}
-\label{sec:orga02ac4e}
-\thispagestyle{empty}
+\label{sec:orgfd4b8e6}
+\thispagestyle{chapterpage}
 \markright{Two Different Souls}
 
 \normalfont\justifying
@@ -484,8 +487,8 @@ Maya closed both books and leaned back in her chair. Her three-month investigati
 
 Tomorrow, she would begin documenting the global pattern she had discovered. But tonight, she sat quietly, understanding that she had witnessed something unprecedented: the secret transformation of a sacred text that had programmed millions of minds without their knowledge.
 \chapter*{6. The Pattern Revealed}
-\label{sec:org0bb6557}
-\thispagestyle{empty}
+\label{sec:orge1d4db5}
+\thispagestyle{chapterpage}
 \markright{The Pattern Revealed}
 
 \normalfont\justifying
@@ -546,8 +549,8 @@ The most systematic alteration transformed Krishna's voice throughout: "the Bles
 
 When this magnitude of systematic change occurs in a sacred text, readers aren't getting the same book. They're choosing between two spiritual paths without knowing it.
 \chapter*{7. Global Confusion}
-\label{sec:orgd782779}
-\thispagestyle{empty}
+\label{sec:orgaae5f05}
+\thispagestyle{chapterpage}
 \markright{Global Confusion}
 
 \vspace{0.3cm}
@@ -572,8 +575,8 @@ The crisis had become global, systematic, and undeniable. Yet institutional auth
 
 Maya realized she had stumbled onto something far larger than personal confusion. She had discovered evidence of how spiritual authority operates in the modern world—and how sincere intentions can create profound deception when institutions prioritize protection over transparency.
 \chapter*{8. The Cover-Up}
-\label{sec:org220ec11}
-\thispagestyle{empty}
+\label{sec:org22df124}
+\thispagestyle{chapterpage}
 \markright{The Cover-Up}
 
 \normalfont\justifying
@@ -585,9 +588,9 @@ Maya discovered this when she tried to find official explanations for the differ
 
 The silence wasn't accidental—it was institutional policy.
 
-Internal BBT documents from the 1980s revealed the strategy. A 1984 memo stated: "No need to announce changes. Improved editions speak for themselves. Avoid creating confusion among readers who are satisfied with current understanding."
+Maya's investigation revealed a consistent institutional strategy that emerged in the 1980s: avoid announcing changes, let improved editions speak for themselves, and prevent confusion among readers satisfied with their current understanding.
 
-Another document from 1986: "When questioned about differences, emphasize scholarly improvements rather than major alterations. Most readers won't investigate deeply enough to become concerned."
+Maya found evidence of a secondary strategy: when questioned about differences, institutional representatives would emphasize scholarly improvements rather than major alterations, relying on the assumption that most readers wouldn't investigate deeply enough to become concerned.
 
 The strategy worked brilliantly. For two decades, most readers remained unaware that two fundamentally different books existed under one title. Libraries replaced old editions with new ones. Temples distributed whatever version was currently available. Publishers printed identical covers for completely different contents.
 
@@ -607,7 +610,7 @@ The internet age changed everything. Websites began documenting specific changes
 
 In 2003, the BookChanges.com project began systematic documentation. By 2010, online databases contained hundreds of side-by-side comparisons. The evidence became impossible to ignore or suppress.
 
-The institutional response evolved but maintained the core strategy: acknowledge minimal changes while denying systematic alteration. A 2019 BBT statement admitted to "editorial improvements and restorations" while insisting that "spiritual content remains essentially unchanged."
+The institutional response evolved but maintained the core strategy: acknowledge minimal changes while denying systematic alteration. Recent institutional statements admit to "editorial improvements and restorations" while insisting that "spiritual content remains essentially unchanged."
 
 But Maya's investigation had revealed the truth: 541 verses out of 700 had been altered, affecting 77\% of the text. This wasn't editorial improvement—it was textual transformation hidden behind institutional silence.
 
@@ -615,8 +618,8 @@ The cover-up had lasted forty years because it served everyone's immediate inter
 
 But as Maya was discovering, the cost of this silence extended far beyond publishing ethics. It had fractured communities, confused sincere seekers, and created a crisis of trust that threatened the very transmission the original book was meant to preserve.
 \chapter*{9. The Divided House}
-\label{sec:orgd2bb531}
-\thispagestyle{empty}
+\label{sec:org4522bc2}
+\thispagestyle{chapterpage}
 \markright{The Divided House}
 
 \normalfont\justifying
@@ -625,7 +628,7 @@ The revelation of systematic changes didn't just affect individual readers—it 
 Maya discovered this when she began investigating the legal battles that erupted once the internet made comparisons impossible to suppress. What she found was a movement at war with itself, fighting over the very books that were supposed to unite them in spiritual purpose.
 \begin{itemize}
 \item Example 1: Bhagavad-gītā 2.48 - "Steadfast in Yoga" vs. "Equipoised"
-\label{sec:orge324d6d}
+\label{sec:org1009c2b}
 
 \textbf{\textbf{Original Translation (1972)}}: "Be steadfast in yoga, O Arjuna. Perform your duty and abandon all attachment to success or failure. Such evenness of mind is called yoga."
 
@@ -636,7 +639,7 @@ Maya discovered this when she began investigating the legal battles that erupted
 
 \textbf{\textbf{The Smoking Gun}}: Jayadvaita completely deleted "steadfast in yoga" and "evenness of mind"—the very concepts Prabhupāda emphasized when hearing this verse. Where did Jayadvaita get the authority to remove what Prabhupāda specifically highlighted as important?
 \item Example 2: Bhagavad-gītā 2.51 - Documented Approval of Later-Changed Translation
-\label{sec:orge3afdbe}
+\label{sec:orgdc87e72}
 
 \textbf{\textbf{Original Translation}}: "The wise, engaged in devotional service, take refuge in the Lord and free themselves from the cycle of birth and death by renouncing the fruits of action in the material world. In this way they can attain that state beyond all miseries."
 
@@ -646,7 +649,7 @@ Maya discovered this when she began investigating the legal battles that erupted
 
 \textbf{\textbf{Result}}: Despite Prabhupāda's documented approval, this translation was later altered in the revision. The clear instruction to "renounce the fruits of action" was obscured, and the emphasis on "devotional service" was modified.
 \item Example 3: Bhagavad-gītā 2.30 - Deleting "Eternal Soul" Despite Class Emphasis
-\label{sec:orgf6129d3}
+\label{sec:org5013749}
 
 \textbf{\textbf{Original Translation}}: "O descendant of Bharata, he who dwells in the body is eternal and can never be slain."
 
@@ -657,14 +660,14 @@ Maya discovered this when she began investigating the legal battles that erupted
 
 \textbf{\textbf{The Evidence}}: The word "eternal" was removed from the revision despite Prabhupāda's explicit emphasis on this very point when hearing the verse. His teaching focused on the eternal nature of the soul—exactly what the revisers deleted.
 \item Example 4: Bhagavad-gītā 3.32 - Prabhupāda Quoted the Original Verbatim
-\label{sec:org674e213}
+\label{sec:org021ef1c}
 
 \textbf{\textbf{Original Translation}}: "But those who, out of envy, disregard these teachings and do not practice them regularly, are to be considered bereft of all knowledge, befooled, and doomed to ignorance and bondage."
 
 \textbf{\textbf{Class Evidence}}: When this verse was read to Prabhupāda, he not only accepted it but quoted it verbatim in his explanation, emphasizing the exact words that were later changed. There is no hint anywhere that he wanted alterations.
 \end{itemize}
 \section*{The Authority Question Exposed}
-\label{sec:org5714f30}
+\label{sec:org25bb171}
 
 Historical analysis raises the fundamental issue: "Srila Prabhupada completely approved of his original Bhagavad-gita As It Is, he read it himself daily and gave his classes from it. He certainly did not give ANYONE the AUTHORITY to 'revise and enlarge' it."
 
@@ -677,7 +680,7 @@ The documented evidence proves:
 \item Changes were made posthumously without his consent
 \end{enumerate}
 \section*{Prabhupāda's Prophetic Warning About Editorial Presumption}
-\label{sec:org669ec39}
+\label{sec:org7c1bd6b}
 
 Historical documentation includes Prabhupāda's prophetic warning about exactly this type of editorial presumption:
 
@@ -687,12 +690,12 @@ Historical documentation includes Prabhupāda's prophetic warning about exactly 
 
 \textbf{\textbf{The Presumption Realized}}: The editors believed their Sanskrit studies made them qualified to "see through perplexities" in Prabhupāda's work and improve upon it—exactly the mentality he warned against.
 \section*{Specific Examples of Editorial Invention}
-\label{sec:orgfb5c33e}
+\label{sec:orgd498890}
 
 The research reveals systematic patterns of editorial invention that go far beyond correcting Prabhupāda's work:
 \begin{itemize}
 \item Complete Meaning Reversal Through Word Juggling
-\label{sec:orgbd5bb12}
+\label{sec:org86b3df1}
 \textbf{\textbf{Bhagavad-gītā 2.18}}:
 \begin{itemize}
 \item \textbf{\textbf{Original}}: "Arjuna was advised to fight and to sacrifice the material body for the cause of religion"
@@ -701,7 +704,7 @@ The research reveals systematic patterns of editorial invention that go far beyo
 
 \textbf{\textbf{Analysis}}: Same words, opposite meaning. The original teaches sacrificing body FOR religion; the revision teaches DON'T sacrifice body for religion.
 \item Pure Editorial Invention
-\label{sec:org77650d2}
+\label{sec:org782a5b2}
 \textbf{\textbf{Bhagavad-gītā 9.5}}:
 \begin{itemize}
 \item \textbf{\textbf{Both Draft and Original}}: "still My Self is the very source of creation"
@@ -710,7 +713,7 @@ The research reveals systematic patterns of editorial invention that go far beyo
 
 \textbf{\textbf{Analysis}}: "I am not a part of this cosmic manifestation" appears nowhere in Prabhupāda's materials. Someone created new theological content and attributed it to Prabhupāda.
 \item Systematic Word Rearrangement Despite Documented Approval
-\label{sec:orgded446f}
+\label{sec:orgb116eb7}
 \textbf{\textbf{Bhagavad-gītā 4.11}}:
 \begin{itemize}
 \item \textbf{\textbf{Both Draft and Original}}: "All of them—as they surrender unto Me—I reward accordingly"
@@ -722,7 +725,7 @@ The research reveals systematic patterns of editorial invention that go far beyo
 \textbf{\textbf{Documentation}}: Words were rearranged despite Prabhupāda's documented acceptance of the original phrasing.
 \end{itemize}
 \section*{The Pattern of Unauthorized Editorial Invention}
-\label{sec:org72f646e}
+\label{sec:org6bca41f}
 
 These examples reveal a systematic pattern:
 \begin{enumerate}
@@ -733,7 +736,7 @@ These examples reveal a systematic pattern:
 \item \textbf{\textbf{Editorial presumption operates under the guise of scholarly improvement}}
 \end{enumerate}
 \section*{The Magnitude Becomes Clear}
-\label{sec:orgaa36507}
+\label{sec:org39ba873}
 
 When researchers conclude "It's a COMPLETELY DIFFERENT BOOK," the evidence supports this assessment:
 
@@ -746,7 +749,7 @@ When researchers conclude "It's a COMPLETELY DIFFERENT BOOK," the evidence suppo
 \item Revised readers receive diluted instructions about "abominable activities"
 \end{itemize}
 \section*{The Historical Verdict}
-\label{sec:orgaf88674}
+\label{sec:org594ec7e}
 
 The class transcript evidence provides definitive historical judgment: Prabhupāda approved translations that were later changed without his authorization. This isn't interpretation or speculation—it's documented historical fact.
 
@@ -758,7 +761,7 @@ The editors proceeded with systematic revision despite:
 \item Five years of Prabhupāda using the published edition without requesting alterations
 \end{itemize}
 \section*{The Smoking Gun Conclusion}
-\label{sec:org15223e6}
+\label{sec:orgadbf8be}
 
 This evidence proves beyond reasonable doubt that comprehensive unauthorized alteration occurred. The class transcripts provide the "smoking gun" that no amount of institutional defense can explain away.
 
@@ -779,9 +782,9 @@ The smoking gun evidence makes this choice unavoidable.
 \mbox{}
 \newpage
 \chapter*{4. Two Different Gods}
-\label{sec:org9f0bcd4}
+\label{sec:org9375758}
 \markright{Two Different Gods}
-\thispagestyle{plain}
+\thispagestyle{chapterpage}
 
 {\centering\itshape Changing divine address from intimate to institutional\\doesn't improve translation—it transforms how readers\\experience the sacred relationship.\par}
 \vspace{0.3cm}
@@ -791,7 +794,7 @@ The most systematic alteration in the revised Bhagavad-gītā involves every ins
 
 This isn't academic preference—it's the consciousness programming Maya had documented. Different names for God create different neurological responses, different emotional relationships, and ultimately different human beings. As neuroscientist Dr. Mario Beauregard's research demonstrates, mystical spiritual practices involving intimate divine relationship activate different brain regions than systematic religious study, with mystical practices showing increased activity in areas associated with self-transcendence and emotional integration.
 \section*{The Universal Transformation}
-\label{sec:orgc123a7c}
+\label{sec:org966ff5c}
 
 Every divine utterance in the Bhagavad-gītā has been systematically altered:
 
@@ -800,7 +803,7 @@ Every divine utterance in the Bhagavad-gītā has been systematically altered:
 
 This affects every moment the reader encounters divine speech throughout the text. The theological implications reshape the entire spiritual relationship.
 \section*{Neurological Impact: How God-Names Program Consciousness}
-\label{sec:org4f5a31d}
+\label{sec:org9be6cc3}
 
 Sacred names aren't merely labels—they're consciousness triggers that create specific neurological and emotional responses. Research across multiple disciplines validates this phenomenon:
 
@@ -811,7 +814,7 @@ Anthropological studies document how sacred language forms shape cultural consci
 Educational psychology reveals that learning environments using authoritative language develop different cognitive patterns than those using intimate language. Students exposed to hierarchical terminology show increased analytical processing but decreased creative and intuitive responses.
 \begin{itemize}
 \item "Blessed Lord" - Intimate Beloved Response
-\label{sec:org9df42d3}
+\label{sec:org913104a}
 \begin{itemize}
 \item \textbf{\textbf{Emotional activation}}: Heart-centered, warm, personal
 \item \textbf{\textbf{Neurological pattern}}: Oxytocin release, bonding chemistry
@@ -820,7 +823,7 @@ Educational psychology reveals that learning environments using authoritative la
 \item \textbf{\textbf{Transformation method}}: Grace-dependent, relationship-based
 \end{itemize}
 \item "Supreme Personality of Godhead" - Institutional Authority Response
-\label{sec:org5d6b914}
+\label{sec:orgd7dc91f}
 \begin{itemize}
 \item \textbf{\textbf{Emotional activation}}: Mind-centered, formal, hierarchical
 \item \textbf{\textbf{Neurological pattern}}: Cortical analysis, systematic processing
@@ -830,27 +833,27 @@ Educational psychology reveals that learning environments using authoritative la
 \end{itemize}
 \end{itemize}
 \section*{Historical Context: Why Prabhupāda Chose "Blessed Lord"}
-\label{sec:orgb1ac65a}
+\label{sec:org5ece54d}
 
 Prabhupāda's choice of "Blessed Lord" was spiritually strategic, not linguistically limited. He understood that spiritual transformation occurs through heart connection, not theological complexity.
 \begin{itemize}
 \item The Accessibility Principle
-\label{sec:orge70f2e5}
+\label{sec:org7e8aa6e}
 "Blessed Lord" creates immediate emotional accessibility for English-speaking readers. It evokes beloved relationship rather than academic concept.
 \item The Intimacy Priority
-\label{sec:orgc056ff8}
+\label{sec:orgf7c45f3}
 Mystical traditions recognize that divine intimacy opens consciousness more effectively than theological precision. "Blessed Lord" invites approach; "Supreme Personality of Godhead" demands understanding.
 \item The Grace Emphasis
-\label{sec:orgdc938e8}
+\label{sec:org7edea4d}
 "Blessed" implies one who bestows grace freely, while hierarchical titles emphasize position and power. These create different expectations about spiritual relationship.
 \end{itemize}
 \section*{Comparative Analysis: Two Different Spiritual Relationships}
-\label{sec:orgbfec438}
+\label{sec:org852f07f}
 
 The systematic change creates fundamentally different spiritual dynamics:
 \begin{itemize}
 \item Original Version Spiritual Relationship
-\label{sec:orgbac57d5}
+\label{sec:orgc775e86}
 \begin{itemize}
 \item \textbf{\textbf{Divine Character}}: Gracious, approachable, personally caring
 \item \textbf{\textbf{Reader Position}}: Beloved, accepted, invited into intimacy
@@ -859,7 +862,7 @@ The systematic change creates fundamentally different spiritual dynamics:
 \item \textbf{\textbf{Spiritual Culture}}: Mystical devotion, direct divine connection
 \end{itemize}
 \item Revised Version Spiritual Relationship
-\label{sec:orgc923848}
+\label{sec:orgb8bde55}
 \begin{itemize}
 \item \textbf{\textbf{Divine Character}}: Authoritative, systematic, theologically precise
 \item \textbf{\textbf{Reader Position}}: Student, seeker, systematic practitioner
@@ -869,12 +872,12 @@ The systematic change creates fundamentally different spiritual dynamics:
 \end{itemize}
 \end{itemize}
 \section*{The Theological Implications}
-\label{sec:org2296316}
+\label{sec:orgd16dc9f}
 
 This alteration represents more than stylistic preference—it embodies different theological approaches:
 \begin{itemize}
 \item Original: Devotional Theology
-\label{sec:org5b84651}
+\label{sec:org25d7dec}
 \begin{itemize}
 \item Emphasizes relationship over systematic understanding
 \item Prioritizes heart transformation over intellectual comprehension
@@ -882,7 +885,7 @@ This alteration represents more than stylistic preference—it embodies differen
 \item Emphasizes grace as primary transformative force
 \end{itemize}
 \item Revised: Systematic Theology
-\label{sec:orgbaf045f}
+\label{sec:org09ca601}
 \begin{itemize}
 \item Emphasizes proper understanding over personal relationship
 \item Prioritizes intellectual comprehension over heart transformation
@@ -891,12 +894,12 @@ This alteration represents more than stylistic preference—it embodies differen
 \end{itemize}
 \end{itemize}
 \section*{Reader Development Analysis}
-\label{sec:org2cc1475}
+\label{sec:org46fa92e}
 
 These different approaches create different types of human spiritual development:
 \begin{itemize}
 \item "Blessed Lord" Readers Develop:
-\label{sec:orgea72fc3}
+\label{sec:org3e9ffe7}
 \begin{itemize}
 \item Intimate prayer life with personal divine relationship
 \item Heart-centered spiritual practice emphasizing love and surrender
@@ -905,7 +908,7 @@ These different approaches create different types of human spiritual development
 \item Grace-dependent transformation expecting divine intervention
 \end{itemize}
 \item "Supreme Personality of Godhead" Readers Develop:
-\label{sec:org8a0ff97}
+\label{sec:org632aa57}
 \begin{itemize}
 \item Systematic spiritual practice emphasizing proper understanding
 \item Mind-centered approaches through theological study and application
@@ -915,51 +918,51 @@ These different approaches create different types of human spiritual development
 \end{itemize}
 \end{itemize}
 \section*{Cultural and Historical Context}
-\label{sec:org736e02e}
+\label{sec:orgf32a3cb}
 
 This transformation reflects broader tensions between mystical and institutional approaches to spirituality:
 \begin{itemize}
 \item The Mystical Tradition
-\label{sec:org8519d54}
+\label{sec:org8a67ec7}
 Emphasizes direct divine relationship, personal transformation through love, immediate divine access through sincere heart approach.
 \item The Institutional Tradition
-\label{sec:org0b957a0}
+\label{sec:org93b2c63}
 Emphasizes systematic spiritual development, proper theological understanding, mediated divine access through institutional authority.
 
 Both approaches serve legitimate spiritual needs, but they create different types of religious culture and different kinds of human beings.
 \end{itemize}
 \section*{The Choice Hidden from Readers}
-\label{sec:orgca9065f}
+\label{sec:org52e2bcc}
 
 The tragedy isn't that systematic theological approaches exist—it's that readers don't know they're receiving systematic theology when they expect mystical devotion.
 
 When someone purchases "Prabhupāda's Bhagavad-gītā As It Is," they expect Prabhupāda's spiritual approach. What they receive is committee theology masquerading as authentic transmission.
 \section*{Practical Impact on Spiritual Life}
-\label{sec:org98235fe}
+\label{sec:org0b1e02c}
 
 These changes affect actual spiritual practice:
 \begin{itemize}
 \item Prayer Life
-\label{sec:org2757d33}
+\label{sec:org228c5d0}
 \begin{itemize}
 \item Original: "Blessed Lord, please help me understand\ldots{}" (intimate appeal)
 \item Revised effect: "Supreme Personality of Godhead, I acknowledge your authority\ldots{}" (formal submission)
 \end{itemize}
 \item Spiritual Crises
-\label{sec:org582458f}
+\label{sec:org6a1e5df}
 \begin{itemize}
 \item Original: Turn to gracious beloved who cares personally
 \item Revised effect: Turn to ultimate authority who requires proper understanding
 \end{itemize}
 \item Daily Consciousness
-\label{sec:orgf478d5a}
+\label{sec:org2bb56eb}
 \begin{itemize}
 \item Original: Beloved friend accompanies through life's challenges
 \item Revised effect: Ultimate authority oversees systematic spiritual development
 \end{itemize}
 \end{itemize}
 \section*{The Defense Mechanisms}
-\label{sec:orgd78fd05}
+\label{sec:org6f60ac9}
 
 When confronted with this evidence, institutional defenders employ predictable responses:
 
@@ -971,7 +974,7 @@ When confronted with this evidence, institutional defenders employ predictable r
 
 These defenses miss the fundamental issue: different names create different relationships, which create different human beings.
 \section*{The Larger Pattern}
-\label{sec:org5f29849}
+\label{sec:org30fc2f9}
 
 This systematic alteration of divine names represents the broader pattern documented throughout the revision: institutional systematic approaches replacing mystical devotional methods.
 
@@ -979,7 +982,7 @@ The question each reader must answer: Do you want intimate relationship with div
 
 Both are legitimate spiritual approaches. But you deserve to know which one you're getting.
 \section*{The Restoration Principle}
-\label{sec:orgf1cf71d}
+\label{sec:org18f7805}
 
 The solution isn't eliminating systematic approaches but preserving choice. Readers seeking mystical devotion deserve access to the original intimate address. Readers preferring systematic theology can choose the formal theological version.
 
@@ -991,9 +994,9 @@ God remains who God is. But how readers approach and experience divine reality d
 
 These systematic alterations don't improve the text—they transform the reader's spiritual trajectory entirely.
 \chapter*{6. The Language of the Heart}
-\label{sec:org7e0e773}
+\label{sec:org1a48e93}
 \markright{The Language of the Heart}
-\thispagestyle{plain}
+\thispagestyle{chapterpage}
 
 {\centering\itshape Sacred language doesn't just communicate spiritual concepts—\\it programs the heart's approach to divine reality.\par}
 \vspace{0.3cm}
@@ -1005,26 +1008,26 @@ The editors hadn't simply changed individual concepts—they had orchestrated th
 
 The cumulative effect of hundreds of linguistic changes creates entirely different emotional and spiritual relationships with the sacred text and its teachings.
 \section*{The Coordinated Pattern of Intimacy Removal}
-\label{sec:org9d2dbaf}
+\label{sec:orgd3f82a4}
 
 Throughout the revision, personal and intimate language is consistently replaced with formal and institutional terminology:
 \begin{itemize}
 \item Personal Address Elimination
-\label{sec:org143a0e1}
+\label{sec:org85a4641}
 \begin{itemize}
 \item \textbf{\textbf{"My dear friend"}} → removed entirely
 \item \textbf{\textbf{"My dear Arjuna"}} → \textbf{\textbf{"O Arjuna"}} (formal address)
 \item \textbf{\textbf{Personal pronouns emphasizing relationship}} → institutional terminology
 \end{itemize}
 \item Emotional Language Reduction
-\label{sec:org8f9aab9}
+\label{sec:orgbf598d2}
 \begin{itemize}
 \item \textbf{\textbf{"Blessed"}} → \textbf{\textbf{"Supreme"}} (grace → authority)
 \item \textbf{\textbf{"Dear"}} → eliminated (intimacy → formality)
 \item \textbf{\textbf{Warm relational language}} → cool theological precision
 \end{itemize}
 \item Accessibility vs. Technical Precision
-\label{sec:orgb849d2b}
+\label{sec:org785a41a}
 \begin{itemize}
 \item \textbf{\textbf{Simple, memorable phrases}} → complex theological formulations
 \item \textbf{\textbf{Heart-accessible language}} → mind-centered academic terminology
@@ -1032,7 +1035,7 @@ Throughout the revision, personal and intimate language is consistently replaced
 \end{itemize}
 \end{itemize}
 \section*{Linguistic Quality Assessment: The Trade-off Analysis}
-\label{sec:org1045895}
+\label{sec:orga94b6ad}
 
 Independent research analyzing 100 examples of linguistic changes reveals the actual impact:
 
@@ -1053,12 +1056,12 @@ However, this technical improvement comes with systematic reduction in:
 \item \textbf{\textbf{Heart-centered appeal}} (decreased in 92\% of cases)
 \end{itemize}
 \section*{The Neurological Impact of Sacred Language}
-\label{sec:org8ddbc71}
+\label{sec:org55d1738}
 
 Different linguistic patterns create different neurological responses:
 \begin{itemize}
 \item Heart-Centered Language Effects
-\label{sec:orgd92f258}
+\label{sec:org2d8ebdc}
 \begin{itemize}
 \item \textbf{\textbf{Oxytocin release}}: Bonding and trust chemistry
 \item \textbf{\textbf{Limbic system activation}}: Emotional connection and memory formation
@@ -1066,7 +1069,7 @@ Different linguistic patterns create different neurological responses:
 \item \textbf{\textbf{Parasympathetic activation}}: Relaxation and openness states
 \end{itemize}
 \item Mind-Centered Language Effects
-\label{sec:org7915ffe}
+\label{sec:org72c259b}
 \begin{itemize}
 \item \textbf{\textbf{Cortical analysis}}: Intellectual processing and categorization
 \item \textbf{\textbf{Left-brain engagement}}: Linear, analytical thinking
@@ -1075,11 +1078,11 @@ Different linguistic patterns create different neurological responses:
 \end{itemize}
 \end{itemize}
 \section*{Specific Examples of Heart vs. Mind Language}
-\label{sec:orga10498d}
+\label{sec:orgd24759d}
 
 \begin{itemize}
 \item Example 1: Divine Encouragement
-\label{sec:org91d2df7}
+\label{sec:orge375488}
 \textbf{\textbf{Original}}: "My dear friend, do not fear"
 \textbf{\textbf{Revised}}: "O Arjuna, do not yield to this degrading impotence"
 
@@ -1089,7 +1092,7 @@ Different linguistic patterns create different neurological responses:
 \item Revised: Creates formal instruction, impersonal guidance, intellectual direction
 \end{itemize}
 \item Example 2: Spiritual Condition
-\label{sec:orga014bcf}
+\label{sec:org2cb4b27}
 \textbf{\textbf{Original}}: "the bewildered soul"  
 \textbf{\textbf{Revised}}: "the confused living entity"
 
@@ -1100,7 +1103,7 @@ Different linguistic patterns create different neurological responses:
 \item Revised: Emphasizes cognitive state requiring intellectual clarification
 \end{itemize}
 \item Example 3: Divine Relationship
-\label{sec:org9355b3b}
+\label{sec:org41e8020}
 \textbf{\textbf{Original}}: "one who is dear to Me"
 \textbf{\textbf{Revised}}: "one who is devoted to Me"
 
@@ -1111,12 +1114,12 @@ Different linguistic patterns create different neurological responses:
 \end{itemize}
 \end{itemize}
 \section*{The Cumulative Consciousness Effect}
-\label{sec:orgb30cb41}
+\label{sec:orgbc49059}
 
 As Maya had documented, hundreds of these subtle changes create the systematic programming she had discovered:
 \begin{itemize}
 \item Original Version Programming
-\label{sec:org19a5baa}
+\label{sec:org93a6f07}
 \begin{itemize}
 \item \textbf{\textbf{Emotional Pattern}}: Warmth, intimacy, personal relationship
 \item \textbf{\textbf{Cognitive Pattern}}: Heart-centered processing, intuitive understanding
@@ -1125,7 +1128,7 @@ As Maya had documented, hundreds of these subtle changes create the systematic p
 \item \textbf{\textbf{Sacred Text Relationship}}: Beloved wisdom, intimate guidance
 \end{itemize}
 \item Revised Version Programming
-\label{sec:org0e63104}
+\label{sec:orge8cc0d0}
 \begin{itemize}
 \item \textbf{\textbf{Emotional Pattern}}: Respect, formality, institutional relationship
 \item \textbf{\textbf{Cognitive Pattern}}: Mind-centered processing, systematic understanding
@@ -1135,7 +1138,7 @@ As Maya had documented, hundreds of these subtle changes create the systematic p
 \end{itemize}
 \end{itemize}
 \section*{The Memorability Factor}
-\label{sec:org5bcf9a6}
+\label{sec:org5435488}
 
 Maya noticed something crucial about heart-centered language: it embeds itself naturally in consciousness. "Blessed Lord" (3 syllables, high emotional resonance) becomes an internal mantra effortlessly. "Supreme Personality of Godhead" (11 syllables, academic formality) requires conscious effort to remember and feels artificial in personal prayer.
 \begin{itemize}
@@ -1143,12 +1146,12 @@ Maya noticed something crucial about heart-centered language: it embeds itself n
 \item Mind-language educates consciousness through analysis
 \end{itemize}
 \section*{The Cultural Programming Effect}
-\label{sec:org41c91a0}
+\label{sec:orgdc0bfc7}
 
 Different linguistic patterns create different spiritual cultures:
 \begin{itemize}
 \item Heart-Language Spiritual Culture
-\label{sec:org82403ee}
+\label{sec:orgece0f9d}
 \begin{itemize}
 \item \textbf{\textbf{Community Style}}: Intimate fellowship, shared devotional experience
 \item \textbf{\textbf{Teaching Method}}: Story-telling, emotional sharing, heart-opening
@@ -1156,7 +1159,7 @@ Different linguistic patterns create different spiritual cultures:
 \item \textbf{\textbf{Crisis Response}}: Emotional support, prayer fellowship, grace-seeking
 \end{itemize}
 \item Mind-Language Spiritual Culture
-\label{sec:org04cae8c}
+\label{sec:orgba58abf}
 \begin{itemize}
 \item \textbf{\textbf{Community Style}}: Educational fellowship, systematic study groups
 \item \textbf{\textbf{Teaching Method}}: Lecture format, analytical discussion, concept mastery
@@ -1165,12 +1168,12 @@ Different linguistic patterns create different spiritual cultures:
 \end{itemize}
 \end{itemize}
 \section*{The Accessibility Question}
-\label{sec:org1688056}
+\label{sec:org6a8d0c1}
 
 Which approach serves spiritual seekers more effectively?
 \begin{itemize}
 \item Heart-Language Advantages
-\label{sec:org17f9ee0}
+\label{sec:org9529c35}
 \begin{itemize}
 \item Immediate emotional accessibility for all educational levels
 \item Creates natural devotional response and spiritual longing
@@ -1178,7 +1181,7 @@ Which approach serves spiritual seekers more effectively?
 \item Develops intuitive spiritual understanding through heart connection
 \end{itemize}
 \item Mind-Language Advantages
-\label{sec:org02d8d07}
+\label{sec:org806b6ff}
 \begin{itemize}
 \item Satisfies intellectual requirements for systematic understanding
 \item Creates proper theological framework for systematic development
@@ -1187,19 +1190,19 @@ Which approach serves spiritual seekers more effectively?
 \end{itemize}
 \end{itemize}
 \section*{The Historical Parallel: Mystical vs. Scholastic Traditions}
-\label{sec:org1d1ede3}
+\label{sec:orgab19b03}
 
 This tension appears throughout spiritual history:
 \begin{itemize}
 \item Christian Mystical Language
-\label{sec:org5ab59d8}
+\label{sec:org7a22e53}
 \begin{itemize}
 \item \textbf{\textbf{St. John of the Cross}}: "Dark night of the soul"
 \item \textbf{\textbf{Teresa of Avila}}: "Interior castle," "mystical marriage"
 \item \textbf{\textbf{Heart-centered metaphors}}: Bride/bridegroom, divine romance
 \end{itemize}
 \item Christian Scholastic Language
-\label{sec:org720d46f}
+\label{sec:org43d3352}
 \begin{itemize}
 \item \textbf{\textbf{Thomas Aquinas}}: "Prime mover," "first cause," "pure act"
 \item \textbf{\textbf{Systematic theology}}: Technical precision, philosophical categories
@@ -1213,12 +1216,12 @@ Dr. Wendy Doniger's research on sacred text transmission shows that institutiona
 Historical studies document that posthumous textual modifications typically serve institutional rather than spiritual needs, converting "founder's language" into "institutional language" to gain academic legitimacy.
 \end{itemize}
 \section*{The Reader Choice Question}
-\label{sec:orgb9126b9}
+\label{sec:org5ffb31e}
 
 Both linguistic approaches serve legitimate spiritual needs, but they create different types of human spiritual development:
 \begin{itemize}
 \item Readers Preferring Heart-Language
-\label{sec:orgdb08a60}
+\label{sec:orgbf6872f}
 \begin{itemize}
 \item Seek emotional spiritual connection and devotional transformation
 \item Respond to intimate divine relationship and grace-dependent processes
@@ -1226,7 +1229,7 @@ Both linguistic approaches serve legitimate spiritual needs, but they create dif
 \item Create mystically-oriented spiritual communities
 \end{itemize}
 \item Readers Preferring Mind-Language
-\label{sec:org1eed2ae}
+\label{sec:org2a1851d}
 \begin{itemize}
 \item Seek systematic spiritual understanding and educational development
 \item Respond to proper theological instruction and knowledge-dependent processes
@@ -1235,13 +1238,13 @@ Both linguistic approaches serve legitimate spiritual needs, but they create dif
 \end{itemize}
 \end{itemize}
 \section*{The Deception Problem}
-\label{sec:orgcc2bd33}
+\label{sec:org46c9c6f}
 
 The issue isn't that both approaches exist—it's that readers receive mind-language when they expect heart-language, or systematic theology when they seek mystical devotion.
 
 Someone purchasing "Prabhupāda's Bhagavad-gītā As It Is" expects Prabhupāda's heart-centered linguistic approach. What they receive is committee mind-language masquerading as authentic transmission.
 \section*{The Solution: Linguistic Transparency}
-\label{sec:orgfa553b8}
+\label{sec:org197c524}
 
 Readers deserve to know what type of linguistic programming they're receiving:
 
@@ -1252,7 +1255,7 @@ Readers deserve to know what type of linguistic programming they're receiving:
 \item \textbf{\textbf{Multiple options}} serving different spiritual temperaments
 \end{itemize}
 \section*{The Restoration Principle}
-\label{sec:org795e725}
+\label{sec:org29c6d52}
 
 The goal isn't eliminating systematic approaches but preserving authentic choice. Prabhupāda's heart-language deserves preservation alongside committee mind-language.
 
@@ -1279,9 +1282,9 @@ When editors systematically alter heart-language into mind-language without disc
 \mbox{}
 \newpage
 \chapter*{7. Two Paths, Two Souls}
-\label{sec:org12d7599}
+\label{sec:org9d881b5}
 \markright{Two Paths, Two Souls}
-\thispagestyle{plain}
+\thispagestyle{chapterpage}
 
 {\centering\itshape Two versions create two different kinds of human beings—\\one seeking intimate love with the divine, the other pursuing\\systematic religious advancement.\par}
 \vspace{0.3cm}
@@ -1291,11 +1294,11 @@ The documented alterations don't merely affect abstract theology—they reshape 
 
 This chapter analyzes what readers actually gain and lose through different textual encounters and how editorial decisions determine spiritual trajectories.
 \section*{The Reader Transformation Analysis}
-\label{sec:org5586653}
+\label{sec:org30b2b32}
 
 \begin{itemize}
 \item Original Version (1972) Reader Development
-\label{sec:orgcb0fd0a}
+\label{sec:org764ae42}
 
 \textbf{\textbf{Spiritual Consciousness Type}}: Mystical Devotional
 \begin{itemize}
@@ -1313,7 +1316,7 @@ This chapter analyzes what readers actually gain and lose through different text
 \textbf{\textbf{Spiritual Strengths}}: Deep devotion, emotional authenticity, divine intimacy
 \textbf{\textbf{Potential Challenges}}: May struggle with systematic application, intellectual analysis
 \item Revised Version (1983) Reader Development
-\label{sec:orgad011d4}
+\label{sec:org2bfb255}
 
 \textbf{\textbf{Spiritual Consciousness Type}}: Systematic Religious  
 \begin{itemize}
@@ -1332,18 +1335,18 @@ This chapter analyzes what readers actually gain and lose through different text
 \textbf{\textbf{Potential Challenges}}: May struggle with devotional authenticity, emotional openness
 \end{itemize}
 \section*{The Developmental Trajectory Comparison}
-\label{sec:org7820bac}
+\label{sec:orgc20681c}
 
 \begin{itemize}
 \item Path A: Mystical Devotional Development (Original)
-\label{sec:org6da615e}
+\label{sec:org1727aa7}
 \textbf{\textbf{Year 1}}: Heart-opening through intimate divine language, emotional connection with "Blessed Lord"
 \textbf{\textbf{Year 2}}: Deepening surrender consciousness, grace-appeal practices, devotional reading
 \textbf{\textbf{Year 3}}: Mystical experiences through heart-centered approach, divine relationship development
 \textbf{\textbf{Year 5}}: Mature devotional consciousness, stable divine intimacy, grace-dependent wisdom
 \textbf{\textbf{Long-term}}: Mystically-oriented spiritual practitioner with heart-centered consciousness
 \item Path B: Systematic Religious Development (Revised)
-\label{sec:org5eb2d45}
+\label{sec:orgc9f0059}
 \textbf{\textbf{Year 1}}: Systematic understanding through technical divine language, intellectual connection with theological concepts
 \textbf{\textbf{Year 2}}: Progressive knowledge acquisition, methodological practices, educational reading
 \textbf{\textbf{Year 3}}: Comprehensive spiritual framework through systematic approach, proper understanding development
@@ -1351,12 +1354,12 @@ This chapter analyzes what readers actually gain and lose through different text
 \textbf{\textbf{Long-term}}: Systematically-oriented spiritual practitioner with mind-centered consciousness
 \end{itemize}
 \section*{The Spiritual Community Impact}
-\label{sec:orge4ef97f}
+\label{sec:orge73156f}
 
 Different versions create different types of spiritual communities:
 \begin{itemize}
 \item Mystical Devotional Communities (Original Readers)
-\label{sec:orgb0af5d0}
+\label{sec:orge4a3ff4}
 \begin{itemize}
 \item \textbf{\textbf{Gathering Style}}: Heart-sharing, emotional fellowship, devotional experiences
 \item \textbf{\textbf{Leadership Model}}: Inspiration-based, charismatic guidance, grace-emphasis
@@ -1366,7 +1369,7 @@ Different versions create different types of spiritual communities:
 \item \textbf{\textbf{Spiritual Culture}}: Mystical orientation, grace-dependence, heart-centered practices
 \end{itemize}
 \item Systematic Religious Communities (Revised Readers)
-\label{sec:org7b826e5}
+\label{sec:org8d23875}
 \begin{itemize}
 \item \textbf{\textbf{Gathering Style}}: Educational format, systematic discussion, knowledge-sharing
 \item \textbf{\textbf{Leadership Model}}: Authority-based, educational guidance, knowledge-emphasis
@@ -1377,12 +1380,12 @@ Different versions create different types of spiritual communities:
 \end{itemize}
 \end{itemize}
 \section*{The Crisis Response Patterns}
-\label{sec:org7f512c6}
+\label{sec:org57bee9d}
 
 How different readers handle spiritual crises reveals fundamental consciousness differences:
 \begin{itemize}
 \item Mystical Devotional Crisis Response
-\label{sec:org78474c6}
+\label{sec:orgadd9d3c}
 \begin{itemize}
 \item \textbf{\textbf{Internal Process}}: "Blessed Lord, I am lost, please help me"
 \item \textbf{\textbf{Community Approach}}: Emotional support, prayer fellowship, shared vulnerability
@@ -1391,7 +1394,7 @@ How different readers handle spiritual crises reveals fundamental consciousness 
 \item \textbf{\textbf{Long-term Integration}}: Deeper devotional dependence, enhanced divine intimacy
 \end{itemize}
 \item Systematic Religious Crisis Response
-\label{sec:orgfc95058}
+\label{sec:orgd9dad4b}
 \begin{itemize}
 \item \textbf{\textbf{Internal Process}}: "I need better understanding of proper spiritual principles"
 \item \textbf{\textbf{Community Approach}}: Educational resources, systematic guidance, methodological support
@@ -1401,12 +1404,12 @@ How different readers handle spiritual crises reveals fundamental consciousness 
 \end{itemize}
 \end{itemize}
 \section*{The Interfaith Dialogue Impact}
-\label{sec:org1974d30}
+\label{sec:org16cb1fb}
 
 Different versions create different interfaith presentation:
 \begin{itemize}
 \item Original Version Interfaith Approach
-\label{sec:orga8c17e9}
+\label{sec:orgd0c25d7}
 \begin{itemize}
 \item \textbf{\textbf{Presentation Style}}: Heart-centered sharing, devotional testimony, mystical commonality
 \item \textbf{\textbf{Common Ground}}: Shared divine love emphasis, universal heart-connection, grace traditions
@@ -1414,7 +1417,7 @@ Different versions create different interfaith presentation:
 \item \textbf{\textbf{Conversion Approach}}: Inspirational sharing, devotional attraction, heart-opening invitation
 \end{itemize}
 \item Revised Version Interfaith Approach
-\label{sec:org5cb82c7}
+\label{sec:org68374e6}
 \begin{itemize}
 \item \textbf{\textbf{Presentation Style}}: Academic presentation, systematic theology, intellectual dialogue
 \item \textbf{\textbf{Common Ground}}: Shared systematic approaches, universal knowledge-seeking, educational traditions
@@ -1423,12 +1426,12 @@ Different versions create different interfaith presentation:
 \end{itemize}
 \end{itemize}
 \section*{The Academic Integration Analysis}
-\label{sec:org5548045}
+\label{sec:org0df2a92}
 
 How different versions integrate with academic environments:
 \begin{itemize}
 \item Original Version Academic Integration
-\label{sec:orgd5bd296}
+\label{sec:org8a3ecab}
 \begin{itemize}
 \item \textbf{\textbf{Strengths}}: Authentic mystical tradition, emotional accessibility, devotional authenticity
 \item \textbf{\textbf{Challenges}}: May appear less academically sophisticated, informal presentation style
@@ -1436,7 +1439,7 @@ How different versions integrate with academic environments:
 \item \textbf{\textbf{Research Value}}: Primary source for mystical consciousness development
 \end{itemize}
 \item Revised Version Academic Integration
-\label{sec:orgf5d6990}
+\label{sec:org8ecd870}
 \begin{itemize}
 \item \textbf{\textbf{Strengths}}: Systematic theological presentation, scholarly apparatus, academic respectability
 \item \textbf{\textbf{Challenges}}: May appear less spiritually authentic, formal institutional presentation
@@ -1445,12 +1448,12 @@ How different versions integrate with academic environments:
 \end{itemize}
 \end{itemize}
 \section*{The Generational Impact}
-\label{sec:org508472d}
+\label{sec:org488043a}
 
 Different versions create different generational spiritual transmission:
 \begin{itemize}
 \item Mystical Devotional Generational Pattern
-\label{sec:org9d769cd}
+\label{sec:orgc7f5433}
 \begin{itemize}
 \item \textbf{\textbf{Parent Development}}: Heart-centered, devotionally authentic, grace-dependent
 \item \textbf{\textbf{Child Transmission}}: Emotional spiritual authenticity, devotional practices, heart-opening
@@ -1458,7 +1461,7 @@ Different versions create different generational spiritual transmission:
 \item \textbf{\textbf{Long-term Legacy}}: Mystical spiritual tradition with authentic devotional consciousness
 \end{itemize}
 \item Systematic Religious Generational Pattern
-\label{sec:org0ae3631}
+\label{sec:orgafd79e1}
 \begin{itemize}
 \item \textbf{\textbf{Parent Development}}: Mind-centered, systematically competent, knowledge-dependent
 \item \textbf{\textbf{Child Transmission}}: Educational spiritual development, systematic practices, proper understanding
@@ -1467,12 +1470,12 @@ Different versions create different generational spiritual transmission:
 \end{itemize}
 \end{itemize}
 \section*{The Choice Architecture}
-\label{sec:orgdcfb726}
+\label{sec:org6f79d73}
 
 Readers face an unconscious choice with profound consequences:
 \begin{itemize}
 \item Option A: Mystical Devotional Path (Original)
-\label{sec:org4042ab7}
+\label{sec:orgc1f7a91}
 \begin{itemize}
 \item \textbf{\textbf{Immediate Effect}}: Heart-opening, emotional spiritual connection
 \item \textbf{\textbf{Short-term Development}}: Grace-dependent consciousness, devotional practices
@@ -1481,7 +1484,7 @@ Readers face an unconscious choice with profound consequences:
 \item \textbf{\textbf{Cultural Legacy}}: Preserves mystical spiritual tradition
 \end{itemize}
 \item Option B: Systematic Religious Path (Revised)
-\label{sec:org6d1db15}
+\label{sec:org700890f}
 \begin{itemize}
 \item \textbf{\textbf{Immediate Effect}}: Mind-opening, intellectual spiritual connection
 \item \textbf{\textbf{Short-term Development}}: Knowledge-dependent consciousness, systematic practices
@@ -1491,13 +1494,13 @@ Readers face an unconscious choice with profound consequences:
 \end{itemize}
 \end{itemize}
 \section*{The Unconscious Selection Problem}
-\label{sec:org2a7e81b}
+\label{sec:orgc307c00}
 
 The tragedy isn't that both paths exist—both serve legitimate spiritual needs. The tragedy is that readers make this life-shaping choice unconsciously, without understanding what they're actually selecting.
 
 When someone purchases "Prabhupāda's Bhagavad-gītā As It Is," they expect Path A but may receive Path B. Their entire spiritual development trajectory changes based on committee editorial decisions they know nothing about.
 \section*{The Solution: Conscious Choice Architecture}
-\label{sec:orgbf34a13}
+\label{sec:orgd443ecb}
 
 Both paths deserve preservation and honest identification:
 
@@ -1509,7 +1512,7 @@ Both paths deserve preservation and honest identification:
 \item \textbf{\textbf{Cultural preservation}} of both mystical and systematic spiritual traditions
 \end{itemize}
 \section*{The Final Recognition}
-\label{sec:org8cea151}
+\label{sec:org13b1ca3}
 
 Two versions create two different kinds of human beings pursuing two different kinds of spiritual development within two different kinds of spiritual culture.
 
@@ -1523,9 +1526,9 @@ Every reader deserves to know which path they're choosing and what kind of spiri
 
 Two paths, two souls, two completely different spiritual destinies—hidden in editorial decisions that reshape human consciousness itself.
 \chapter*{8. The Publishing Deception}
-\label{sec:org2b85f74}
+\label{sec:orge230da9}
 \markright{The Publishing Deception}
-\thispagestyle{plain}
+\thispagestyle{chapterpage}
 
 {\centering\itshape The most disturbing aspect of this process:\\readers were never informed that systematic\\theological alteration was occurring.\par}
 \vspace{0.3cm}
@@ -1543,11 +1546,11 @@ David sighed. "It started with good intentions. Always does. Let me explain how 
 
 What David revealed over the next three hours would expose the mechanisms through which well-intentioned institutional processes had fundamentally altered sacred content without readers ever realizing what had happened.
 \section*{The Original Publication Model (1972)}
-\label{sec:org241b8e1}
+\label{sec:org6b9fd07}
 
 \begin{itemize}
 \item Direct Author-to-Reader Transmission
-\label{sec:org33c5a3e}
+\label{sec:orgd243d20}
 
 "In 1972," David explained, pulling out a folder of old documents, "the process was beautifully simple. Prabhupāda would dictate, his secretary would type, and he would review everything personally."
 
@@ -1565,7 +1568,7 @@ The 1972 publication process had been remarkably direct:
 
 "This created what I call 'transmission integrity,'" David said. "Minimal filtration between Prabhupāda's realization and the reader's reception. He was involved in every decision."
 \item Prabhupāda's Personal Involvement
-\label{sec:org5ff6740}
+\label{sec:org9e4e938}
 
 Maya discovered through David's documents that Prabhupāda had:
 \begin{itemize}
@@ -1578,11 +1581,11 @@ Maya discovered through David's documents that Prabhupāda had:
 "He carried that 1972 edition everywhere," David recalled. "It was his authorized version, the one he quoted from memory in hundreds of lectures."
 \end{itemize}
 \section*{The Institutional Revision Process (Post-1977)}
-\label{sec:org9b71413}
+\label{sec:org22816f0}
 
 \begin{itemize}
 \item When Authors Become Institutions
-\label{sec:org99e79aa}
+\label{sec:org8505716}
 
 "Everything changed on November 14, 1977," David's voice dropped. "When Prabhupāda passed away, we lost the one person who could definitively say what should or shouldn't be in his books."
 
@@ -1608,7 +1611,7 @@ After Prabhupāda's departure, fundamental dynamics had shifted:
 
 Maya documented every revelation, her investigation deepening with each piece of evidence.
 \item The Committee Editorial Structure
-\label{sec:org3d81fe9}
+\label{sec:orgb7d40a3}
 
 "Let me show you how the committee structure worked," David said, sketching a diagram on a napkin. "It was like a game of telephone, but with sacred texts."
 
@@ -1631,11 +1634,11 @@ Maya's pen flew across the page. "So each layer added their own agenda?"
 "Exactly. And no single person was responsible for the cumulative effect."
 \end{itemize}
 \section*{How Alterations Accumulate Without Oversight}
-\label{sec:org8295957}
+\label{sec:orgfc27b24}
 
 \begin{itemize}
 \item The "Improvement" Mindset Chain Reaction
-\label{sec:orgc4bc873}
+\label{sec:orge6d72b0}
 
 "I attended those meetings," David said, his coffee now cold. "Each group genuinely believed they were helping."
 
@@ -1661,7 +1664,7 @@ Maya studied the cascade of decisions. Each group's "improvement":
 \item \textbf{\textbf{Publisher}}: "We can make this more accessible to university audiences"
 \end{itemize}
 \item The Missing Voice Throughout the Process
-\label{sec:org93f5c13}
+\label{sec:org85aeb3b}
 
 "The tragedy," David said quietly, "is that the one voice missing from every meeting was Prabhupāda's."
 
@@ -1690,7 +1693,7 @@ Maya's notes were filling rapidly. "The committees couldn't know these intention
 "Exactly. These emerged from spiritual realization, not academic training."
 \end{itemize}
 \section*{The Coordinated Pattern of Unconscious Alteration}
-\label{sec:org9c7ce49}
+\label{sec:org771afba}
 
 David opened a spreadsheet on his laptop. "I categorized all the changes when I left the BBT. Look at this pattern."
 
@@ -1703,7 +1706,7 @@ Maya studied the data:
 
 "The problem," David explained, "is they mixed all three categories together and called them all 'corrections.'"
 \section*{The Deception Mechanisms}
-\label{sec:org1e681c8}
+\label{sec:orgb86d65a}
 
 "How did readers not notice?" Maya asked.
 
@@ -1719,7 +1722,7 @@ He outlined the three-part deception:
 
 Maya felt sick. "That's not preservation. That's replacement."
 \section*{The Psychological Mechanisms Enabling Deception}
-\label{sec:org75930fb}
+\label{sec:orgf11c6a8}
 
 "How did you justify this to yourselves?" Maya asked.
 
@@ -1735,11 +1738,11 @@ David rubbed his face. "We had three main rationalizations that I can see now we
 
 "When I read both versions side by side in 1985. I quit the next day."
 \section*{The Reader Impact of Publishing Deception}
-\label{sec:org74fd795}
+\label{sec:orgccec3e0}
 
 \begin{itemize}
 \item What Readers Lost Through Deception
-\label{sec:orgab981d1}
+\label{sec:org4b3086d}
 \begin{itemize}
 \item \textbf{\textbf{Conscious choice}} about spiritual development trajectory
 \item \textbf{\textbf{Accurate understanding}} of what they were receiving
@@ -1747,7 +1750,7 @@ David rubbed his face. "We had three main rationalizations that I can see now we
 \item \textbf{\textbf{Informed consent}} about theological alterations
 \end{itemize}
 \item What Readers Received Instead
-\label{sec:org0600107}
+\label{sec:org4b7d77e}
 \begin{itemize}
 \item \textbf{\textbf{Unconscious selection}} of systematic religious development
 \item \textbf{\textbf{False assumption}} about textual authenticity
@@ -1756,12 +1759,12 @@ David rubbed his face. "We had three main rationalizations that I can see now we
 \end{itemize}
 \end{itemize}
 \section*{The Broader Pattern in Spiritual Publishing}
-\label{sec:org27a7ec5}
+\label{sec:orgbb1836e}
 
 This process reveals how institutional publishing can systematically transform spiritual content:
 \begin{itemize}
 \item Universal Mechanisms
-\label{sec:org1af530f}
+\label{sec:org0c927ff}
 \begin{enumerate}
 \item \textbf{\textbf{Committee Authority Expansion}}: Groups make decisions no individual would make
 \item \textbf{\textbf{Incremental Change Accumulation}}: Small alterations accumulate into systematic transformation
@@ -1770,7 +1773,7 @@ This process reveals how institutional publishing can systematically transform s
 \item \textbf{\textbf{Reader Ignorance Exploitation}}: People receive altered content unknowingly
 \end{enumerate}
 \item Warning Signs in Any Spiritual Publishing
-\label{sec:orgc90e8db}
+\label{sec:orgae51eed}
 \begin{itemize}
 \item Multiple committees reviewing spiritual content
 \item Academic consultants making theological decisions
@@ -1780,11 +1783,11 @@ This process reveals how institutional publishing can systematically transform s
 \end{itemize}
 \end{itemize}
 \section*{The Ethical Questions Raised}
-\label{sec:orge1e01d7}
+\label{sec:orgb0b016f}
 
 \begin{itemize}
 \item For Publishers
-\label{sec:orgf03f105}
+\label{sec:orgfa25ab8}
 \begin{itemize}
 \item Do readers have the right to know when spiritual content has been systematically altered?
 \item Should institutional needs override authentic transmission preservation?
@@ -1792,7 +1795,7 @@ This process reveals how institutional publishing can systematically transform s
 \item What consent is required for systematic spiritual content modification?
 \end{itemize}
 \item For Readers
-\label{sec:org77df08a}
+\label{sec:org36e3c28}
 \begin{itemize}
 \item Should spiritual seekers understand how editorial decisions affect their development?
 \item Do different versions creating different spiritual trajectories require disclosure?
@@ -1801,7 +1804,7 @@ This process reveals how institutional publishing can systematically transform s
 \end{itemize}
 \end{itemize}
 \section*{The Solution: Transparent Spiritual Publishing}
-\label{sec:org8bd7648}
+\label{sec:org9efe03c}
 
 "So what's the solution?" Maya asked. "How do we prevent this from happening again?"
 
@@ -1810,7 +1813,7 @@ David had clearly thought about this for years. "It's actually simple—transpar
 Maya began sketching out what David described:
 \begin{itemize}
 \item Required Standards for Sacred Text Publishing
-\label{sec:orge4dcf1a}
+\label{sec:org5296fd9}
 
 "First," David said, "we need clear standards that protect both preservation and innovation:"
 
@@ -1824,7 +1827,7 @@ Maya began sketching out what David described:
 
 "Think about it," David continued. "We have the King James Bible, the New International Version, the New Revised Standard—all clearly labeled. No one pretends the NIV is the KJV. Why can't we do the same?"
 \item Implementation Principles
-\label{sec:org1c0ffca}
+\label{sec:org84110d8}
 
 Maya wrote down David's practical framework:
 
@@ -1839,13 +1842,13 @@ Maya wrote down David's practical framework:
 "The key," David emphasized, "is that the original remains the root text. Everything else is clearly marked as derivative work."
 \end{itemize}
 \section*{The Continuing Deception Risk}
-\label{sec:org1e5dd94}
+\label{sec:org742bdee}
 
 Without clear principles protecting spiritual integrity, each generation of editors can justify further alterations based on contemporary needs and preferences. This is how authentic transmission gradually disappears—not through dramatic censorship but through incremental "improvement" by well-intentioned committees.
 
 The solution isn't eliminating institutional publishing but establishing safeguards that preserve authentic choice alongside systematic improvement.
 \section*{The Recovery Path}
-\label{sec:orge63ee7b}
+\label{sec:org9ce03ae}
 
 "Can this be fixed?" Maya asked. "After forty years of deception?"
 
@@ -1893,9 +1896,9 @@ As Maya left the café, she knew her next step: confronting the defenders of the
 \mbox{}
 \newpage
 \chapter*{9. The Defenders and Their Strategies}
-\label{sec:org3c554fd}
+\label{sec:org065274f}
 \markright{The Defenders and Their Strategies}
-\thispagestyle{plain}
+\thispagestyle{chapterpage}
 
 {\centering\itshape When institutions say 'these are minor improvements,'\\they're asking you to trust their judgment\\over your own spiritual experience.\par}
 \vspace{0.3cm}
@@ -1915,14 +1918,14 @@ Maya opened her notebook, now thick with documentation. "I have evidence of 541 
 
 What followed would be a masterclass in institutional defense mechanisms.
 \section*{Defense Strategy 1: Minimization}
-\label{sec:org2b885af}
+\label{sec:org45bbd1a}
 
 Dr. Whitfield's first response was predictable: "These are minor editorial improvements, Ms. Rodriguez, not substantial changes."
 
 Maya had anticipated this. She pulled out her statistical analysis. "Minor? Let me show you what I've documented."
 \begin{itemize}
 \item The Minimization Claims
-\label{sec:org20ef73d}
+\label{sec:org22c940f}
 
 Dr. Whitfield employed every minimization tactic:
 
@@ -1942,7 +1945,7 @@ Maya opened to her comparison charts. "Every divine utterance changed from bless
 
 "Not after the author dies. Not without disclosure. And not to this extent."
 \item The Reality Check
-\label{sec:orgb235d14}
+\label{sec:org423ae20}
 
 Maya spread her evidence across Whitfield's desk:
 
@@ -1956,7 +1959,7 @@ Dr. Whitfield shifted uncomfortably. "You're taking this out of context."
 
 "Context?" Maya pulled out Dr. Sarah Chen's neuroscience research. "Different words create different neural pathways. You've literally rewired how people experience the divine."
 \item The Psychological Mechanism
-\label{sec:org35495dd}
+\label{sec:orgeee1feb}
 
 Maya recognized what was happening. Dr. Whitfield needed to minimize the changes to protect his institutional investment. Acknowledging the true scope would mean admitting decades of deception.
 
@@ -1967,14 +1970,14 @@ Maya recognized what was happening. Dr. Whitfield needed to minimize the changes
 "Better for whom? The readers who wanted Prabhupāda's original? Or the institution that wanted academic respectability?"
 \end{itemize}
 \section*{Defense Strategy 2: Technical Superiority Arguments}
-\label{sec:org1ce8346}
+\label{sec:orgb8b349b}
 
 Shifting tactics, Dr. Whitfield moved to his second line of defense: "The revised version is more technically accurate and scholarly. Surely you can appreciate that."
 
 Maya was ready for this too.
 \begin{itemize}
 \item The Technical Claims
-\label{sec:org6bb522a}
+\label{sec:org2d46441}
 
 "Let me show you our improvements," Whitfield said, pulling out his own documentation:
 
@@ -1987,7 +1990,7 @@ Maya was ready for this too.
 
 Maya listened patiently, then responded.
 \item The Concealed Truth
-\label{sec:org207a8b3}
+\label{sec:org2ddf65b}
 
 "Dr. Whitfield, I've identified exactly 12 genuine technical improvements in your revision:"
 
@@ -2003,7 +2006,7 @@ She listed them:
 
 "These are valuable," Maya acknowledged. "But here's my question\ldots{}"
 \item The Critical Recognition
-\label{sec:orgb4f4ee2}
+\label{sec:org4c57cad}
 
 Maya leaned forward. "Why couldn't these 12 technical improvements be applied without systematically changing divine address throughout? Why couldn't you fix the formatting without altering the theology?"
 
@@ -2020,14 +2023,14 @@ Dr. Whitfield's jaw tightened. "We were improving Prabhupāda's work."
 "No," Maya said firmly. "You were replacing it."
 \end{itemize}
 \section*{Defense Strategy 3: Authority Appeals}
-\label{sec:orgb20cf14}
+\label{sec:org57a4b42}
 
 Frustrated by Maya's evidence, Dr. Whitfield retreated to institutional authority: "The revised version represents institutional consensus and official approval. The GBC—our governing body—has authorized these changes."
 
 Maya had expected this appeal to authority.
 \begin{itemize}
 \item The Authority Claims
-\label{sec:org8cd3021}
+\label{sec:orgce7bbd8}
 
 "Let me understand your position," Maya said, taking notes:
 
@@ -2040,7 +2043,7 @@ Maya had expected this appeal to authority.
 
 Dr. Whitfield nodded to each point. "The institution has the authority to preserve and improve the teachings."
 \item The Authority Confusion
-\label{sec:org5455e40}
+\label{sec:org3ef0e9d}
 
 Maya pulled out a photograph of Prabhupāda from her folder. "This man had spiritual realization. He chose specific words for specific reasons. Your committees had what—good English degrees?"
 
@@ -2057,14 +2060,14 @@ Dr. Whitfield's face reddened. "We represent Prabhupāda's mission."
 "No," Maya said quietly. "Prabhupāda represented his mission. You represent an institution that changed his words. There's a difference between administrative competence and spiritual realization. You've confused the two."
 \end{itemize}
 \section*{Defense Strategy 4: The "Prabhupāda Wanted Revisions" Defense}
-\label{sec:orgbb20607}
+\label{sec:org50fae34}
 
 Dr. Whitfield played his strongest card: "Prabhupāda wanted these changes but didn't have time to implement them."
 
 Maya had been waiting for this claim. She pulled out a thick folder labeled "Class Transcripts."
 \begin{itemize}
 \item The Intent Claims
-\label{sec:orgd617645}
+\label{sec:orga5f8f54}
 
 "Let's examine your claims," Maya said, laying out Whitfield's arguments:
 
@@ -2077,7 +2080,7 @@ Maya had been waiting for this claim. She pulled out a thick folder labeled "Cla
 
 Dr. Whitfield shifted through his papers. "We have manuscript evidence—"
 \item The Historical Refutation
-\label{sec:orgdecba06}
+\label{sec:orgc996241}
 
 "Stop," Maya said firmly. "Let me show you what I have."
 
@@ -2109,7 +2112,7 @@ Dr. Whitfield was sweating now.
 
 "Privately to whom? Where's the documentation? You've changed a published book based on undocumented private conversations?"
 \item The Contemporary Institutional Defense
-\label{sec:org389ef5e}
+\label{sec:orgdb1e56c}
 
 Dr. Whitfield pulled out his final argument: "Modern drafts reveal Prabhupāda's true theological intentions. We have manuscripts showing what he really wanted."
 
@@ -2171,7 +2174,7 @@ Dr. Whitfield's answer revealed everything: "That would confuse people."
 
 "No," Maya replied. "It would inform them. And that's what you're afraid of."
 \item His Actual Editorial Pattern
-\label{sec:orgb4cbc92}
+\label{sec:org13c245c}
 
 Maya showed her final evidence: "When Prabhupāda wanted changes, look at his pattern:"
 
@@ -2205,14 +2208,14 @@ Maya realized she was seeing the human cost of institutional positions—not jus
 This would lead Maya to her most important discovery yet.
 \end{itemize}
 \section*{Defense Strategy 5: Reader Benefit Claims - The Linguistic Impact Evidence}
-\label{sec:org5f71e22}
+\label{sec:org6f609d4}
 
 Dr. Whitfield tried one last approach: "The revised version serves readers better. It creates better understanding."
 
 Maya had been waiting for this. "Better understanding of what, exactly? Let me show you what your changes actually do to reader consciousness."
 \begin{itemize}
 \item The Linguistic Consciousness Programming
-\label{sec:org380856c}
+\label{sec:orge006d3f}
 
 Maya pulled out Dr. Sarah Chen's neuroscience research from Stanford.
 
@@ -2270,7 +2273,7 @@ Revised: "The forgetful living entity is covered by his lust"
 
 "One word difference," Maya emphasized, "but it completely changes the reader's spiritual psychology. The original creates mystics who surrender. The revision creates students who study."
 \item Specific Verse Impact Analysis
-\label{sec:org3295097}
+\label{sec:orgbc03333}
 
 Maya presented her detailed verse comparisons:
 
@@ -2314,7 +2317,7 @@ Revised: "Fools deride Me when I appear in human form"
 
 "The word 'descend' makes God personal and caring. 'Appear' makes God distant and philosophical. These create completely different relationships with divinity."
 \item The Cumulative Consciousness Effect
-\label{sec:orgbeb3bb9}
+\label{sec:org897d48c}
 
 Maya showed her statistical analysis:
 
@@ -2343,7 +2346,7 @@ Revised Version Reader:
 \item Becomes academically oriented practitioner
 \end{itemize}
 \item The Technical Language Shift Impact
-\label{sec:org883fa5d}
+\label{sec:org62b0516}
 
 Maya analyzed the systematic terminology changes:
 
@@ -2363,7 +2366,7 @@ Revised technical language:
 
 "Every technical term is a barrier," Maya explained. "The original opens hearts. The revision requires dictionaries."
 \item Dr. Chen's Five-Year Longitudinal Study Results
-\label{sec:org2695312}
+\label{sec:org9d620ff}
 
 Maya presented the Stanford research findings:
 
@@ -2430,7 +2433,7 @@ He pulled out a folder marked "Confidential."
 Maya realized he was offering her something. But what? And why?
 \end{itemize}
 \section*{The Deeper Pattern Revealed}
-\label{sec:org7a574e5}
+\label{sec:org8038ab1}
 
 After leaving Dr. Whitfield's office, Maya sat in her car, shaking. The admission was more explicit than she'd imagined. But his final words haunted her: "next revision\ldots{} going further."
 
@@ -2463,7 +2466,7 @@ The answer would determine not just individual spiritual paths, but the future o
 \end{itemize}
 \begin{itemize}
 \item The Reality Behind Reader Benefits
-\label{sec:org38f3610}
+\label{sec:orgfa268d9}
 
 Maya's investigation revealed that these claims concealed a fundamental truth about consciousness manipulation:
 
@@ -2481,7 +2484,7 @@ Theological Education → Systematic Understanding → Mediated Divine Knowledge
 
 The evidence was overwhelming. The question now was: what to do with it?
 \item The Unacknowledged Trade-offs
-\label{sec:orga604639}
+\label{sec:org65a14b7}
 This defense ignores what readers lose through systematic alteration:
 
 \textbf{\textbf{Lost Through Revision}}:
@@ -2500,20 +2503,20 @@ This defense ignores what readers lose through systematic alteration:
 \item \textbf{\textbf{Technical accuracy}} and scholarly apparatus
 \end{itemize}
 \item The Hidden Choice
-\label{sec:orgfca7579}
+\label{sec:orgbc1e128}
 This represents a legitimate but undisclosed trade-off: academic/institutional benefits in exchange for mystical/devotional authenticity.
 
 The problem isn't that this trade-off exists—both approaches serve valid needs. The problem is that readers make this choice unconsciously without understanding what they're gaining and losing.
 \end{itemize}
 \section*{Defense Strategy 6: Time and Acceptance Arguments}
-\label{sec:org0fc91ae}
+\label{sec:org81de9ff}
 
 "The revised version has been accepted for decades and is now established."
 
 This argument claims legitimacy through time passage and widespread acceptance.
 \begin{itemize}
 \item The Acceptance Claims
-\label{sec:org47f4d1e}
+\label{sec:org9f9289c}
 \begin{itemize}
 \item \textbf{\textbf{Time validation}}: "It's been in use for over 40 years"
 \item \textbf{\textbf{Widespread adoption}}: "Millions of readers accept it"
@@ -2521,7 +2524,7 @@ This argument claims legitimacy through time passage and widespread acceptance.
 \item \textbf{\textbf{Academic integration}}: "Universities use this edition"
 \end{itemize}
 \item The Acceptance Problem
-\label{sec:orge9030fa}
+\label{sec:org6851193}
 \begin{itemize}
 \item \textbf{\textbf{Time doesn't validate deception}} - forty years of unconscious choice doesn't create conscious consent
 \item \textbf{\textbf{Widespread adoption occurred without informed consent}} - readers didn't know they were receiving systematically altered content
@@ -2533,7 +2536,7 @@ This argument claims legitimacy through time passage and widespread acceptance.
 
 Every institutional defense avoids the fundamental question: \textbf{\textbf{\textbf{Should readers know when spiritual content has been systematically altered and understand how different versions affect their spiritual development?}}}
 \item What All Defenses Share
-\label{sec:org48b9bfb}
+\label{sec:orgd781354}
 \begin{itemize}
 \item \textbf{\textbf{Reader agency denial}}: Assumption that institutions should make spiritual choices for readers
 \item \textbf{\textbf{Deception justification}}: Claims that withholding alteration information serves readers better
@@ -2542,7 +2545,7 @@ Every institutional defense avoids the fundamental question: \textbf{\textbf{\te
 \end{itemize}
 \end{itemize}
 \section*{The Institutional Psychology Revealed}
-\label{sec:orgc46adfb}
+\label{sec:orgeab49f1}
 
 These defense patterns reveal institutional psychological needs confirmed by multiple research disciplines:
 
@@ -2553,25 +2556,25 @@ Organizational psychology studies show that institutions facing criticism develo
 Formal linguistic analysis reveals that institutional revisions consistently move toward prestige dialect forms and away from emotional accessibility—a pattern documented across cultures when informal spiritual movements become formal institutions.
 \begin{itemize}
 \item Investment Protection
-\label{sec:org0e94fd0}
+\label{sec:org94deaf6}
 Institutions have enormous investment in editorial decisions and must justify them to maintain credibility.
 \item Authority Maintenance
-\label{sec:orgc12c999}
+\label{sec:orgcc4615e}
 Acknowledging comprehensive unauthorized alteration would undermine institutional religious authority.
 \item Cognitive Dissonance Reduction
-\label{sec:orgb77b897}
+\label{sec:orge1285a2}
 Defense mechanisms protect against psychological discomfort from recognizing systematic deception.
 \item Group Cohesion Preservation
-\label{sec:org9ecfa2d}
+\label{sec:orgef1af5d}
 Maintaining unity requires minimizing divisive recognition of fundamental editorial errors.
 \end{itemize}
 \section*{The Solution: Beyond Institutional Defense}
-\label{sec:org3f99ede}
+\label{sec:org092302a}
 
 Rather than defending past decisions, institutions could serve readers by:
 \begin{itemize}
 \item Honest Acknowledgment
-\label{sec:orga1ac83e}
+\label{sec:orged34e3b}
 \begin{itemize}
 \item \textbf{\textbf{Recognize alteration scope}}: "The majority of verses were systematically changed"
 \item \textbf{\textbf{Admit theological impact}}: "Different versions create different spiritual development"
@@ -2579,7 +2582,7 @@ Rather than defending past decisions, institutions could serve readers by:
 \item \textbf{\textbf{Accept responsibility}}: "We made these decisions without reader consent"
 \end{itemize}
 \item Reader Empowerment
-\label{sec:orgd6e1ad7}
+\label{sec:org50902cb}
 \begin{itemize}
 \item \textbf{\textbf{Provide choice architecture}}: Multiple editions clearly identified
 \item \textbf{\textbf{Educate about impacts}}: How different versions affect spiritual development
@@ -2587,7 +2590,7 @@ Rather than defending past decisions, institutions could serve readers by:
 \item \textbf{\textbf{Support diverse needs}}: Both mystical and systematic approaches
 \end{itemize}
 \item Institutional Maturity
-\label{sec:org2408a14}
+\label{sec:org39874b9}
 \begin{itemize}
 \item \textbf{\textbf{Admit fallibility}}: "We made editorial decisions that affected spiritual content"
 \item \textbf{\textbf{Prioritize reader choice}}: "People deserve to know what they're receiving"
@@ -2596,7 +2599,7 @@ Rather than defending past decisions, institutions could serve readers by:
 \end{itemize}
 \end{itemize}
 \section*{The End of Defensiveness}
-\label{sec:orgf195d30}
+\label{sec:org3f8b803}
 
 The institutional defenses will continue until institutions recognize that their role is serving reader spiritual choice, not determining it.
 
@@ -2608,9 +2611,9 @@ Institutions that embrace this service model will discover that honesty about pa
 
 The defense mechanisms end when the service begins.
 \chapter*{10. What Prabhupāda Actually Wanted}
-\label{sec:org37dc2d4}
+\label{sec:org8132c4d}
 \markright{What Prabhupāda Actually Wanted}
-\thispagestyle{plain}
+\thispagestyle{chapterpage}
 
 {\centering\itshape Prabhupāda chose intimate divine language to open hearts,\\not theological terminology\\to establish institutional authority.\par}
 \vspace{0.3cm}
@@ -2622,11 +2625,11 @@ The persistent institutional defense claims that Prabhupāda privately wanted th
 
 The evidence is comprehensive, documented, and decisive.
 \section*{The Decisive Historical Period: 1972-1977}
-\label{sec:orgcccfc95}
+\label{sec:org3f4720d}
 
 \begin{itemize}
 \item Five Years of Published Use Without Systematic Change Requests
-\label{sec:org0227b39}
+\label{sec:org15a3f14}
 From 1972 until his departure in 1977, Prabhupāda used his published Bhagavad-gītā As It Is for \textbf{\textbf{1,825 consecutive days}} without requesting any of the systematic changes implemented posthumously.
 
 During this period, he:
@@ -2640,7 +2643,7 @@ During this period, he:
 
 \textbf{\textbf{If he had wanted systematic divine address changes, he had 1,825 days and countless opportunities to request them.}}
 \item His Actual Editorial Behavior Pattern
-\label{sec:orgcd29015}
+\label{sec:org4f61212}
 When Prabhupāda wanted textual changes, his approach was immediate and explicit:
 
 \textbf{\textbf{Direct Communication Example}}: "I am sending herewith the necessary Sanskrit corrections to Pradyumna\ldots{} So when these corrections are made then you can print immediately" (1970 letter)
@@ -2654,12 +2657,12 @@ When Prabhupāda wanted textual changes, his approach was immediate and explicit
 \textbf{\textbf{This pattern of immediate, specific, verifiable change requests is completely absent regarding any systematic theological alterations.}}
 \end{itemize}
 \section*{The Class Transcript Evidence: Documented Approval of Later-Changed Content}
-\label{sec:orgf680c90}
+\label{sec:org0ba1603}
 
 The most devastating evidence against posthumous revision claims comes from class transcripts where Prabhupāda explicitly approved original formulations that were later changed without his authorization.
 \begin{itemize}
 \item Bhagavad-gītā 2.51: Explicit Approval of Later-Changed Translation
-\label{sec:orgd990b6a}
+\label{sec:orgd637f85}
 \textbf{\textbf{When Tamala Krishna read}}: "The wise, engaged in devotional service, take refuge in the Lord and free themselves from the cycle of birth and death by renouncing the fruits of action in the material world. In this way they can attain that state beyond all miseries."
 
 \textbf{\textbf{Prabhupāda's immediate response}}: "Yes. There is purport?"
@@ -2668,14 +2671,14 @@ The most devastating evidence against posthumous revision claims comes from clas
 
 \textbf{\textbf{Historical fact}}: Despite this documented approval, this translation was later altered in the revision. The emphasis on "renouncing the fruits of action" was obscured.
 \item Bhagavad-gītā 2.66: Sense Control Emphasis
-\label{sec:org1031ad2}
+\label{sec:org22ef446}
 \textbf{\textbf{When the original was read}}: "One who is not in transcendental consciousness can have neither a controlled mind nor steady intelligence"
 
 \textbf{\textbf{Prabhupāda's response}}: "Everyone in this material world, they are after peace, but they don't want to control the senses\ldots{} We do not know how to control the senses. We do not know the real yogic principle of controlling the senses."
 
 \textbf{\textbf{Historical fact}}: The revision removed "controlled mind" despite Prabhupāda's explicit emphasis on sense control when hearing this verse.
 \item Bhagavad-gītā 2.48: "Evenness of Mind" Teaching
-\label{sec:orgae12c74}
+\label{sec:org38a5d14}
 \textbf{\textbf{When the original was read}}: "Be steadfast in yoga, O Arjuna\ldots{} Such evenness of mind is called yoga."
 
 \textbf{\textbf{Prabhupāda's teaching}}: "This is the explanation of yoga, evenness of mind. Yoga-samatvam ucyate\ldots{} If you work for Krishna, then there is no cause of lamentation or jubilation."
@@ -2683,7 +2686,7 @@ The most devastating evidence against posthumous revision claims comes from clas
 \textbf{\textbf{Historical fact}}: Jayadvaita deleted both "steadfast in yoga" and "evenness of mind"—the very concepts Prabhupāda emphasized when hearing this verse.
 \end{itemize}
 \section*{The Pattern of Documented Approval}
-\label{sec:org614afcf}
+\label{sec:org0d2e1de}
 
 These examples establish a clear pattern: \textbf{\textbf{Prabhupāda consistently approved original translations that were later changed without his authorization.}}
 
@@ -2696,49 +2699,49 @@ The class transcripts prove:
 \item \textbf{\textbf{He taught from and expanded upon the exact formulations later "corrected"}}
 \end{enumerate}
 \section*{His Documented Positions on Textual Preservation}
-\label{sec:org79c50d3}
+\label{sec:org5d989eb}
 
 \begin{itemize}
 \item On Changing His Books
-\label{sec:orge1096e1}
+\label{sec:orgc22764f}
 \textbf{\textbf{Direct quote}}: "So you cannot change anything"
 
 \textbf{\textbf{Context}}: Discussion about maintaining his books exactly as published
 \item On Editorial Authority
-\label{sec:org3b0be90}
+\label{sec:orgcee3ace}
 \textbf{\textbf{Letter to editors}}: "These things should be corrected by editorial revision, but the sense should remain the same" (1975)
 
 \textbf{\textbf{Analysis}}: He authorized correction of technical errors but explicitly required maintaining "the sense"—exactly what systematic theological revision violates.
 \item His Warning About Overzealous Editors
-\label{sec:orgcd8b643}
+\label{sec:org55252bb}
 \textbf{\textbf{Letter to Dixit das, September 18, 1976}}: "\ldots{}a little learning is dangerous, especially for the Westerners. I am practically seeing that as soon as they begin to learn a little Sanskrit immediately they feel that they have become more than their guru and then the policy is kill guru and be killed himself."
 
 \textbf{\textbf{Prophetic accuracy}}: This describes exactly what occurred in the posthumous revision process—editors with "little learning" in Sanskrit presuming to correct their spiritual teacher's completed work.
 \end{itemize}
 \section*{What He Actually Wanted: The Positive Evidence}
-\label{sec:orgdfd9ee3}
+\label{sec:org5ecbff4}
 
 \begin{itemize}
 \item Continued Publication of His Work "As It Is"
-\label{sec:orgbd3b22f}
+\label{sec:orge0ef4b7}
 The title itself reveals his intention: "Bhagavad-gītā As It Is"—meaning as the text actually presents spiritual truth, not as committees think it should be improved.
 \item Preservation of His Spiritual Methodology
-\label{sec:org2087d86}
+\label{sec:orgad5e5f7}
 His consistent choice of intimate, accessible language over formal theological precision reflects conscious spiritual methodology, not linguistic limitation.
 \item Wide Distribution of Authentic Transmission
-\label{sec:orgfa123e3}
+\label{sec:org3164b32}
 His life's work focused on making authentic spiritual knowledge accessible to sincere seekers through clear, heart-opening presentation.
 \item Protection from Editorial Presumption
-\label{sec:org343cd3e}
+\label{sec:org73ce5e4}
 His warnings about disciples becoming "more than their guru" indicate clear concern about posthumous editorial presumption.
 \end{itemize}
 \section*{The Authorization Question: What He Never Gave}
-\label{sec:org7c7b327}
+\label{sec:org9b48abd}
 
 If Prabhupāda had wanted systematic theological revision, we would expect documentation of:
 \begin{itemize}
 \item Specific Revision Instructions
-\label{sec:org916234f}
+\label{sec:orgf3d1fe4}
 \begin{itemize}
 \item Letters requesting theological terminology changes
 \item Classes where he corrected published formulations
@@ -2748,7 +2751,7 @@ If Prabhupāda had wanted systematic theological revision, we would expect docum
 
 \textbf{\textbf{Historical record}}: \textbf{\textbf{None of this documentation exists.}}
 \item Dissatisfaction with Published Work
-\label{sec:org8644695}
+\label{sec:org523d456}
 \begin{itemize}
 \item Complaints about theological presentation
 \item Requests for fundamental reconceptualization
@@ -2758,7 +2761,7 @@ If Prabhupāda had wanted systematic theological revision, we would expect docum
 
 \textbf{\textbf{Historical record}}: \textbf{\textbf{No evidence of dissatisfaction with published theological content.}}
 \item Authorization of Posthumous Editorial Authority
-\label{sec:orge9f4a6c}
+\label{sec:orga1beb50}
 \begin{itemize}
 \item Instructions giving specific people authority to revise his completed work
 \item Guidelines for posthumous editorial decision-making
@@ -2769,25 +2772,25 @@ If Prabhupāda had wanted systematic theological revision, we would expect docum
 \textbf{\textbf{Historical record}}: \textbf{\textbf{No authorization for posthumous systematic revision exists.}} While Prabhupāda authorized specific changes when he was present and could personally review them, he never granted permission for comprehensive posthumous editorial revision of completed works.
 \end{itemize}
 \section*{His Probable Reaction: Evidence-Based Analysis}
-\label{sec:org8f90692}
+\label{sec:org401cbe7}
 
 Based on documented positions and behavior patterns, Prabhupāda's probable reaction to posthumous systematic revision would be:
 \begin{itemize}
 \item Immediate Opposition
-\label{sec:org6dbe092}
+\label{sec:orge588694}
 His pattern was direct, immediate response to unauthorized changes to his work.
 \item Specific Corrections
-\label{sec:orgf502f0e}
+\label{sec:org92d2679}
 He would have identified exactly which changes violated his spiritual intentions and required restoration.
 \item Editorial Boundary Establishment
-\label{sec:orgad32ebb}
+\label{sec:orgf9208a5}
 He would have clarified the difference between correcting technical errors and altering spiritual content.
 \item Protection of Reader Choice
-\label{sec:orga3be346}
+\label{sec:org1548689}
 His life work emphasized giving people authentic spiritual choice, not committee-filtered alternatives.
 \end{itemize}
 \section*{The Historical Verdict}
-\label{sec:orgacac346}
+\label{sec:org0b7bc86}
 
 The historical evidence provides clear judgment: \textbf{\textbf{Prabhupāda approved his published Bhagavad-gītā As It Is as complete and authorized it for widespread distribution without systematic theological revision.}}
 
@@ -2815,9 +2818,9 @@ Prabhupāda wanted his Bhagavad-gītā preserved "As It Is"—exactly as he publ
 \mbox{}
 \newpage
 \chapter*{11. The Scholarly Solution}
-\label{sec:org77a2506}
+\label{sec:org4f57bcb}
 \markright{The Scholarly Solution}
-\thispagestyle{plain}
+\thispagestyle{chapterpage}
 
 {\centering\itshape Multiple editions can coexist honestly—but only when\\readers know exactly what they're getting, and the original\\remains forever untouched.\par}
 \vspace{0.3cm}
@@ -2827,12 +2830,12 @@ The crisis documented in this book doesn't require choosing sides or eliminating
 
 This chapter presents practical solutions that serve everyone's legitimate needs.
 \section*{The Primary Source Preservation Principle}
-\label{sec:orge293923}
+\label{sec:orgdd55ee2}
 
 Academic scholarship operates on a fundamental principle: \textbf{\textbf{primary sources must be preserved in their original form while allowing unlimited secondary analysis, commentary, and alternative presentations.}}
 \begin{itemize}
 \item How This Applies to Sacred Texts
-\label{sec:org3bb594a}
+\label{sec:org77c8840}
 \begin{itemize}
 \item \textbf{\textbf{Original editions preserved exactly as published}} by the author
 \item \textbf{\textbf{Alternative editions clearly identified}} as editorial revisions
@@ -2841,7 +2844,7 @@ Academic scholarship operates on a fundamental principle: \textbf{\textbf{primar
 \item \textbf{\textbf{Scholarly apparatus}} applied without altering original content
 \end{itemize}
 \item The Current Violation of Academic Standards
-\label{sec:org23c2070}
+\label{sec:orgb52db62}
 \begin{itemize}
 \item \textbf{\textbf{Original gradually eliminated}} from circulation
 \item \textbf{\textbf{Revised edition presented}} as identical to original
@@ -2851,11 +2854,11 @@ Academic scholarship operates on a fundamental principle: \textbf{\textbf{primar
 \end{itemize}
 \end{itemize}
 \section*{The Multiple Edition Solution}
-\label{sec:org3322ad6}
+\label{sec:org556501f}
 
 \begin{itemize}
 \item Edition A: Primary Source Preservation
-\label{sec:orgbacd5a2}
+\label{sec:orga4dcff3}
 \begin{itemize}
 \item \textbf{\textbf{Title}}: "Bhagavad-gītā As It Is (1972 Original Edition)"
 \item \textbf{\textbf{Content}}: Prabhupāda's work exactly as he published and used it
@@ -2864,7 +2867,7 @@ Academic scholarship operates on a fundamental principle: \textbf{\textbf{primar
 \item \textbf{\textbf{Scholarly Value}}: Primary source for historical and spiritual analysis
 \end{itemize}
 \item Edition B: Systematic Revision Edition
-\label{sec:org4092af6}
+\label{sec:org12239ea}
 \begin{itemize}
 \item \textbf{\textbf{Title}}: "Bhagavad-gītā As It Is (Revised and Enlarged by Editorial Committee)"
 \item \textbf{\textbf{Content}}: Systematic theological revision with institutional priorities
@@ -2873,7 +2876,7 @@ Academic scholarship operates on a fundamental principle: \textbf{\textbf{primar
 \item \textbf{\textbf{Scholarly Value}}: Secondary source showing institutional interpretation
 \end{itemize}
 \item Edition C: Comparative Study Edition
-\label{sec:org9207b9a}
+\label{sec:org130024f}
 \begin{itemize}
 \item \textbf{\textbf{Title}}: "Bhagavad-gītā As It Is: Comparative Edition"
 \item \textbf{\textbf{Content}}: Side-by-side presentation of original and revision
@@ -2883,11 +2886,11 @@ Academic scholarship operates on a fundamental principle: \textbf{\textbf{primar
 \end{itemize}
 \end{itemize}
 \section*{The Attribution Standard}
-\label{sec:orgd138998}
+\label{sec:org04f51e8}
 
 \begin{itemize}
 \item Honest Editorial Attribution
-\label{sec:org4778bfe}
+\label{sec:orgf49fe58}
 Instead of hiding editorial decisions, acknowledge them:
 
 \begin{itemize}
@@ -2897,7 +2900,7 @@ Instead of hiding editorial decisions, acknowledge them:
 \item \textbf{\textbf{Purpose explanation}}: "Enhanced for systematic theological presentation and academic study"
 \end{itemize}
 \item The Academic Model
-\label{sec:org855c9b9}
+\label{sec:orgcfc96af}
 This follows standard scholarly practice:
 \begin{itemize}
 \item \textbf{\textbf{Shakespeare editions}} clearly identify textual editors and their changes
@@ -2907,11 +2910,11 @@ This follows standard scholarly practice:
 \end{itemize}
 \end{itemize}
 \section*{Implementation Examples from Other Traditions}
-\label{sec:orge9ad301}
+\label{sec:org1033df1}
 
 \begin{itemize}
 \item Biblical Scholarship Model
-\label{sec:org6543dc8}
+\label{sec:orgef9c9ae}
 \begin{itemize}
 \item \textbf{\textbf{Multiple translations available}}: KJV, NIV, ESV, etc., each clearly identified
 \item \textbf{\textbf{Translation committees named}}: Readers know who made editorial decisions
@@ -2920,7 +2923,7 @@ This follows standard scholarly practice:
 \item \textbf{\textbf{Scholarly apparatus}}: Commentary editions don't alter base text
 \end{itemize}
 \item Shakespeare Textual Scholarship
-\label{sec:org4cf94c2}
+\label{sec:orga74d9c0}
 \begin{itemize}
 \item \textbf{\textbf{First Folio preserved}}: Original publication maintained as primary source
 \item \textbf{\textbf{Editorial decisions documented}}: Modern editors explain their choices
@@ -2929,7 +2932,7 @@ This follows standard scholarly practice:
 \item \textbf{\textbf{Reader choice preserved}}: People can choose their preferred editorial approach
 \end{itemize}
 \item Historical Document Preservation
-\label{sec:orgee112c9}
+\label{sec:orgc7b0b98}
 \begin{itemize}
 \item \textbf{\textbf{Original documents protected}}: Primary sources never altered
 \item \textbf{\textbf{Annotated editions available}}: Enhanced versions clearly identified
@@ -2939,11 +2942,11 @@ This follows standard scholarly practice:
 \end{itemize}
 \end{itemize}
 \section*{The Practical Implementation Strategy}
-\label{sec:org000dc40}
+\label{sec:org8f4c411}
 
 \begin{itemize}
 \item Phase 1: Acknowledgment and Transparency
-\label{sec:org28ff872}
+\label{sec:org6dbf3a4}
 \begin{itemize}
 \item \textbf{\textbf{Institutional acknowledgment}}: "We have systematically revised the majority of the text"
 \item \textbf{\textbf{Impact recognition}}: "Different versions create different spiritual development"
@@ -2951,7 +2954,7 @@ This follows standard scholarly practice:
 \item \textbf{\textbf{Choice restoration}}: Multiple editions made available
 \end{itemize}
 \item Phase 2: Primary Source Restoration
-\label{sec:orga6003b0}
+\label{sec:orgf02920e}
 \begin{itemize}
 \item \textbf{\textbf{Original republication}}: 1972 edition returned to circulation
 \item \textbf{\textbf{Enhancement application}}: Technical improvements added without content alteration
@@ -2959,7 +2962,7 @@ This follows standard scholarly practice:
 \item \textbf{\textbf{Wide availability}}: Equal distribution and marketing
 \end{itemize}
 \item Phase 3: Comparative Studies
-\label{sec:org35fb819}
+\label{sec:orgd971b28}
 \begin{itemize}
 \item \textbf{\textbf{Academic analysis}}: Scholarly examination of editorial impacts
 \item \textbf{\textbf{Reader experience research}}: How different versions affect spiritual development
@@ -2968,12 +2971,12 @@ This follows standard scholarly practice:
 \end{itemize}
 \end{itemize}
 \section*{The Musician's Analogy: When Art Becomes Theft}
-\label{sec:org0ff91a4}
+\label{sec:org9583e21}
 
 Imagine that a composer works for years creating a musical composition and publishes it. After the composer's death, a group of musicians decides the work needs "improvement." They change melodies, alter harmonies, modify rhythms, and add instrumentation the composer never used. They then present this altered work as the original composer's composition.
 \begin{itemize}
 \item The Artistic Violation
-\label{sec:org07b069b}
+\label{sec:orgf859c61}
 \begin{itemize}
 \item \textbf{\textbf{Creative decisions belong exclusively to the artist}} during the creation process
 \item \textbf{\textbf{Publication represents the artist's final creative judgment}}
@@ -2981,7 +2984,7 @@ Imagine that a composer works for years creating a musical composition and publi
 \item \textbf{\textbf{Alternative arrangements should be clearly attributed}} to their actual creators
 \end{itemize}
 \item The Parallel to Sacred Text Revision
-\label{sec:org6311884}
+\label{sec:org7fad932}
 \begin{itemize}
 \item \textbf{\textbf{Spiritual choices belong exclusively to the spiritual author}}
 \item \textbf{\textbf{Publication represents final spiritual judgment about transmission methodology}}
@@ -2989,7 +2992,7 @@ Imagine that a composer works for years creating a musical composition and publi
 \item \textbf{\textbf{Editorial theology should be clearly attributed}} to editorial committees
 \end{itemize}
 \item The Honest Solution
-\label{sec:org227c241}
+\label{sec:org5294412}
 \begin{itemize}
 \item \textbf{\textbf{Original composition preserved}} as the artist created it
 \item \textbf{\textbf{Alternative arrangements available}} with proper attribution
@@ -2998,12 +3001,12 @@ Imagine that a composer works for years creating a musical composition and publi
 \end{itemize}
 \end{itemize}
 \section*{The Benefits for All Parties}
-\label{sec:org2969c7b}
+\label{sec:org6e608d1}
 
 The two versions create different spiritual development paths—incompatible in their fundamental approaches to divine relationship and consciousness transformation. However, both can legitimately coexist when clearly differentiated, allowing conscious choice rather than unknowing consumption.
 \begin{itemize}
 \item For Original Readers
-\label{sec:org2bbf44c}
+\label{sec:org8e3252c}
 \begin{itemize}
 \item \textbf{\textbf{Access restored}} to authentic transmission
 \item \textbf{\textbf{Spiritual choice preserved}} regarding development approach
@@ -3011,7 +3014,7 @@ The two versions create different spiritual development paths—incompatible in 
 \item \textbf{\textbf{Consciousness programming}} aligned with mystical methodology
 \end{itemize}
 \item For Revised Edition Readers
-\label{sec:org24bee7e}
+\label{sec:orga02a3ee}
 \begin{itemize}
 \item \textbf{\textbf{Systematic approach available}} with honest identification as distinct from the original
 \item \textbf{\textbf{Academic respectability}} fully achieved
@@ -3019,7 +3022,7 @@ The two versions create different spiritual development paths—incompatible in 
 \item \textbf{\textbf{Educational framework}} clearly developed
 \end{itemize}
 \item For Spiritual Institutions
-\label{sec:orgaeaed42}
+\label{sec:org6af0d25}
 \begin{itemize}
 \item \textbf{\textbf{Integrity restored}} through honest acknowledgment
 \item \textbf{\textbf{Multiple needs served}} without privileging one approach
@@ -3027,7 +3030,7 @@ The two versions create different spiritual development paths—incompatible in 
 \item \textbf{\textbf{Trust rebuilt}} through transparent service
 \end{itemize}
 \item For Academic Community
-\label{sec:orgd423e28}
+\label{sec:org88336c8}
 \begin{itemize}
 \item \textbf{\textbf{Scholarly standards applied}} to spiritual publishing
 \item \textbf{\textbf{Research opportunities}} in editorial impact studies
@@ -3036,11 +3039,11 @@ The two versions create different spiritual development paths—incompatible in 
 \end{itemize}
 \end{itemize}
 \section*{The Legal and Ethical Framework}
-\label{sec:orga1ad743}
+\label{sec:org3c99efd}
 
 \begin{itemize}
 \item Truth in Spiritual Marketing
-\label{sec:org04f7e0c}
+\label{sec:org9e32493}
 \begin{itemize}
 \item \textbf{\textbf{Accurate representation}} of editorial changes
 \item \textbf{\textbf{Clear identification}} of different version characteristics
@@ -3048,7 +3051,7 @@ The two versions create different spiritual development paths—incompatible in 
 \item \textbf{\textbf{Consumer protection}} in spiritual publishing
 \end{itemize}
 \item Copyright and Spiritual Authority
-\label{sec:org722f55d}
+\label{sec:org0682eb4}
 \begin{itemize}
 \item \textbf{\textbf{Author's spiritual intentions protected}} through original preservation
 \item \textbf{\textbf{Editor's contributions acknowledged}} through proper attribution
@@ -3056,7 +3059,7 @@ The two versions create different spiritual development paths—incompatible in 
 \item \textbf{\textbf{Historical integrity maintained}} for future generations
 \end{itemize}
 \item Ethical Publishing Standards
-\label{sec:org18ea239}
+\label{sec:orgd139600}
 \begin{itemize}
 \item \textbf{\textbf{Informed consent}} required for spiritual content consumption
 \item \textbf{\textbf{Multiple option availability}} serving diverse spiritual needs
@@ -3065,11 +3068,11 @@ The two versions create different spiritual development paths—incompatible in 
 \end{itemize}
 \end{itemize}
 \section*{The Global Implementation Model}
-\label{sec:orgfadd9d0}
+\label{sec:org52983a3}
 
 \begin{itemize}
 \item International Standards Development
-\label{sec:orge8056f6}
+\label{sec:orgba8dd15}
 \begin{itemize}
 \item \textbf{\textbf{Spiritual publishing protocols}} developed by interfaith scholarly committee
 \item \textbf{\textbf{Best practices documentation}} for sacred text preservation
@@ -3077,7 +3080,7 @@ The two versions create different spiritual development paths—incompatible in 
 \item \textbf{\textbf{Attribution requirements}} for posthumous editorial revision
 \end{itemize}
 \item Educational Institution Integration
-\label{sec:orgea2491e}
+\label{sec:org062c091}
 \begin{itemize}
 \item \textbf{\textbf{University curriculum}} including textual authenticity studies
 \item \textbf{\textbf{Seminary education}} in editorial ethics and spiritual authority
@@ -3086,25 +3089,25 @@ The two versions create different spiritual development paths—incompatible in 
 \end{itemize}
 \end{itemize}
 \section*{The Resistance Anticipated and Addressed}
-\label{sec:org34543d0}
+\label{sec:org8f047fe}
 
 \begin{itemize}
 \item Institutional Resistance: "This creates division"
-\label{sec:org074a198}
+\label{sec:orgd943aa4}
 \textbf{\textbf{Response}}: Division already exists—between those who know about alterations and those who don't. Transparency heals division by enabling informed choice.
 \item Economic Resistance: "Multiple editions are expensive"
-\label{sec:org2375862}
+\label{sec:org83bc039}
 \textbf{\textbf{Response}}: Technology makes multiple editions economically feasible. The cost of deception exceeds the cost of choice.
 \item Authority Resistance: "This undermines institutional authority"
-\label{sec:orgad8d66e}
+\label{sec:orgca51144}
 \textbf{\textbf{Response}}: Authentic authority serves reader choice rather than controlling it. Honest institutions gain trust through transparency.
 \end{itemize}
 \section*{The Timeline for Implementation}
-\label{sec:orgc69f0c1}
+\label{sec:orgd9270be}
 
 \begin{itemize}
 \item Immediate Actions (0-6 months)
-\label{sec:org3c04794}
+\label{sec:orgf75c2e2}
 \begin{itemize}
 \item \textbf{\textbf{Acknowledgment}} of systematic alteration scope
 \item \textbf{\textbf{Commitment}} to primary source restoration
@@ -3112,7 +3115,7 @@ The two versions create different spiritual development paths—incompatible in 
 \item \textbf{\textbf{Transparency}} about current edition characteristics
 \end{itemize}
 \item Short-term Implementation (6 months - 2 years)
-\label{sec:org7a0e20f}
+\label{sec:org84fc7aa}
 \begin{itemize}
 \item \textbf{\textbf{Original republication}} with technical enhancements only
 \item \textbf{\textbf{Clear labeling}} of all editions with their characteristics
@@ -3120,7 +3123,7 @@ The two versions create different spiritual development paths—incompatible in 
 \item \textbf{\textbf{Distribution equity}} ensuring equal availability
 \end{itemize}
 \item Long-term Development (2-5 years)
-\label{sec:orgc460af4}
+\label{sec:org544520a}
 \begin{itemize}
 \item \textbf{\textbf{Comparative studies}} of editorial impact
 \item \textbf{\textbf{Academic integration}} of multiple edition analysis
@@ -3129,7 +3132,7 @@ The two versions create different spiritual development paths—incompatible in 
 \end{itemize}
 \end{itemize}
 \section*{The Victory for Spiritual Authenticity}
-\label{sec:orga2bfbb9}
+\label{sec:orgf723329}
 
 This solution serves spiritual authenticity by:
 \begin{itemize}
@@ -3151,9 +3154,9 @@ This is how sacred traditions survive institutional pressures while serving dive
 
 The solution is neither complex nor expensive. It requires only honesty, transparency, and genuine commitment to serving reader spiritual choice rather than controlling it.
 \chapter*{12. Two Futures}
-\label{sec:orga1fb1f6}
+\label{sec:orgbb25639}
 \markright{Two Futures}
-\thispagestyle{plain}
+\thispagestyle{chapterpage}
 
 {\centering\itshape Recognition, not condemnation; understanding, not accusation;\\conscious choice, not unconscious acceptance.\par}
 \vspace{0.3cm}
@@ -3163,11 +3166,11 @@ The evidence presented in this book forces a recognition that will shape the fut
 
 This chapter examines these two futures and their implications for spiritual culture, human consciousness, and authentic transmission.
 \section*{Future A: Conscious Choice and Authentic Preservation}
-\label{sec:orgfbb1841}
+\label{sec:orgdd37c2d}
 
 \begin{itemize}
 \item The Transformation of Spiritual Publishing
-\label{sec:orge0d233b}
+\label{sec:orgaf59fcc}
 \begin{itemize}
 \item \textbf{\textbf{Primary source protection}} becomes standard for all sacred texts
 \item \textbf{\textbf{Multiple edition availability}} serves diverse spiritual temperaments
@@ -3176,7 +3179,7 @@ This chapter examines these two futures and their implications for spiritual cul
 \item \textbf{\textbf{Transparency standards}} eliminate deceptive spiritual marketing
 \end{itemize}
 \item The Cultural Impact
-\label{sec:orgdfd9460}
+\label{sec:org83ce53c}
 When readers gain conscious choice about their spiritual development:
 
 \textbf{\textbf{Individual Development}}: People select spiritual approaches aligned with their authentic needs rather than committee preferences
@@ -3187,7 +3190,7 @@ When readers gain conscious choice about their spiritual development:
 
 \textbf{\textbf{Academic Integration}}: Universities study textual authenticity as legitimate scholarly concern, developing protocols for spiritual publishing
 \item The Human Consciousness Result
-\label{sec:org9bd25b9}
+\label{sec:orgb3ee2c5}
 \textbf{\textbf{Mystical Devotional Consciousness}}: Preserved for those seeking intimate divine relationship through heart-centered transformation
 
 \textbf{\textbf{Systematic Religious Consciousness}}: Available for those preferring educational spiritual development through knowledge-based progression
@@ -3197,11 +3200,11 @@ When readers gain conscious choice about their spiritual development:
 \textbf{\textbf{Authentic Choice Consciousness}}: Created by honest presentation of spiritual alternatives without deceptive marketing
 \end{itemize}
 \section*{Future B: Continued Deception and Spiritual Manipulation}
-\label{sec:orgc11d006}
+\label{sec:org13158ff}
 
 \begin{itemize}
 \item The Perpetuation of Editorial Theology
-\label{sec:orga4c7ed4}
+\label{sec:org7101107}
 \begin{itemize}
 \item \textbf{\textbf{Original sources gradually eliminated}} from circulation
 \item \textbf{\textbf{Committee preferences imposed}} as authentic transmission
@@ -3210,7 +3213,7 @@ When readers gain conscious choice about their spiritual development:
 \item \textbf{\textbf{Deceptive marketing}} continues presenting altered content as original
 \end{itemize}
 \item The Cultural Degradation
-\label{sec:orgcd2b118}
+\label{sec:org45fac46}
 When deception becomes normalized in spiritual publishing:
 
 \textbf{\textbf{Individual Disempowerment}}: People receive spiritual programming without consent or awareness of alternatives
@@ -3221,7 +3224,7 @@ When deception becomes normalized in spiritual publishing:
 
 \textbf{\textbf{Academic Compromise}}: Universities accept deceptive spiritual publishing as normal, abandoning scholarly integrity
 \item The Human Consciousness Result
-\label{sec:orga76816f}
+\label{sec:org07a00b3}
 \textbf{\textbf{Controlled Spiritual Development}}: Human consciousness shaped by institutional preferences rather than authentic spiritual choice
 
 \textbf{\textbf{Unconscious Religious Formation}}: People develop systematic religious consciousness while believing they're receiving mystical devotional transmission
@@ -3231,11 +3234,11 @@ When deception becomes normalized in spiritual publishing:
 \textbf{\textbf{Normalized Spiritual Deception}}: Future generations accept editorial manipulation as legitimate spiritual authority
 \end{itemize}
 \section*{The Choice Architecture: What Each Path Creates}
-\label{sec:org04c9e6d}
+\label{sec:orga122f0f}
 
 \begin{itemize}
 \item Path A: Consciousness Empowerment Model
-\label{sec:org86b73f8}
+\label{sec:orgd700e9b}
 \textbf{\textbf{Reader Experience}}: "I understand my spiritual choices and can select the approach that serves my authentic development needs"
 
 \textbf{\textbf{Community Culture}}: "We honor diverse spiritual temperaments and provide honest guidance about different developmental approaches"
@@ -3244,7 +3247,7 @@ When deception becomes normalized in spiritual publishing:
 
 \textbf{\textbf{Cultural Legacy}}: "We maintained spiritual authenticity while serving diverse human needs through conscious choice"
 \item Path B: Consciousness Control Model
-\label{sec:orgd8c88a3}
+\label{sec:org03d44b2}
 \textbf{\textbf{Reader Experience}}: "I receive spiritual programming without knowing about alternatives or understanding how editorial decisions shape my development"
 
 \textbf{\textbf{Community Culture}}: "We maintain unity by eliminating confusing choices and presenting institutional theology as authentic transmission"
@@ -3254,65 +3257,65 @@ When deception becomes normalized in spiritual publishing:
 \textbf{\textbf{Cultural Legacy}}: "We prioritized institutional convenience over authentic transmission and reader autonomy"
 \end{itemize}
 \section*{The Implications for Different Groups}
-\label{sec:org343bcee}
+\label{sec:org362f77d}
 
 \begin{itemize}
 \item For Individual Spiritual Seekers
-\label{sec:orgafdb913}
+\label{sec:org8abbd94}
 \textbf{\textbf{Future A Benefits}}: Conscious choice about spiritual development trajectory, access to authentic transmission, understanding of how different approaches affect consciousness
 
 \textbf{\textbf{Future B Costs}}: Unconscious spiritual programming, limited access to original transmission, manipulation of consciousness development without consent
 \item For Spiritual Communities
-\label{sec:org9bf4ec4}
+\label{sec:org9eebf69}
 \textbf{\textbf{Future A Benefits}}: Authentic shared choices creating genuine community, diverse approaches serving different temperaments, trust through transparency
 
 \textbf{\textbf{Future B Costs}}: Community formation through concealed manipulation, elimination of diversity, distrust when deception is eventually exposed
 \item For Spiritual Institutions
-\label{sec:orga76e308}
+\label{sec:org2f045ac}
 \textbf{\textbf{Future A Benefits}}: Trust through honesty, service-oriented authority, diverse constituency, long-term credibility
 
 \textbf{\textbf{Future B Costs}}: Authority through deception, control-oriented manipulation, limited constituency, eventual credibility crisis
 \item For Academic Institutions
-\label{sec:org1d93e82}
+\label{sec:org926f801}
 \textbf{\textbf{Future A Benefits}}: Scholarly integrity in spiritual studies, authentic research materials, comparative methodology development
 
 \textbf{\textbf{Future B Costs}}: Scholarly compromise in spiritual publishing, contaminated research materials, normalized academic deception
 \end{itemize}
 \section*{The Generational Impact Analysis}
-\label{sec:org62d392b}
+\label{sec:orgdfb51d4}
 
 \begin{itemize}
 \item Generation 1: Those Who Experienced the Original
-\label{sec:orgdc0c123}
+\label{sec:org1df0a39}
 \begin{itemize}
 \item \textbf{\textbf{Future A}}: Can preserve their authentic spiritual experience while respecting others' systematic preferences
 \item \textbf{\textbf{Future B}}: Must accept that their spiritual foundation was "inferior" to committee improvements
 \end{itemize}
 \item Generation 2: Those Who Discovered the Changes
-\label{sec:org5581375}
+\label{sec:org88124c6}
 \begin{itemize}
 \item \textbf{\textbf{Future A}}: Can choose consciously between authentic alternatives based on understanding their implications
 \item \textbf{\textbf{Future B}}: Must choose between institutional loyalty and spiritual authenticity recognition
 \end{itemize}
 \item Generation 3: Those Born Into the Revision
-\label{sec:orga3e6af4}
+\label{sec:orgc520e60}
 \begin{itemize}
 \item \textbf{\textbf{Future A}}: Will have access to both original and systematic approaches with honest explanation of differences
 \item \textbf{\textbf{Future B}}: Will never know what spiritual alternatives were available before committee control
 \end{itemize}
 \item Future Generations
-\label{sec:org4f7ffee}
+\label{sec:org50d0c50}
 \begin{itemize}
 \item \textbf{\textbf{Future A}}: Will inherit conscious choice about spiritual development within preserved authentic traditions
 \item \textbf{\textbf{Future B}}: Will inherit unconscious spiritual programming within institutionally controlled traditions
 \end{itemize}
 \end{itemize}
 \section*{The Technology and Globalization Factors}
-\label{sec:org018959c}
+\label{sec:org1aae19b}
 
 \begin{itemize}
 \item Future A: Technology Serving Spiritual Choice
-\label{sec:orgb9ea343}
+\label{sec:orgeaa67cb}
 \begin{itemize}
 \item \textbf{\textbf{Digital preservation}} of original texts prevents elimination
 \item \textbf{\textbf{Global accessibility}} enables worldwide authentic choice
@@ -3320,7 +3323,7 @@ When deception becomes normalized in spiritual publishing:
 \item \textbf{\textbf{Educational resources}} support informed spiritual decision-making
 \end{itemize}
 \item Future B: Technology Serving Editorial Control
-\label{sec:org8c9f4e5}
+\label{sec:org56a1554}
 \begin{itemize}
 \item \textbf{\textbf{Digital manipulation}} enables easier content alteration
 \item \textbf{\textbf{Global distribution}} spreads deceptive marketing worldwide
@@ -3329,28 +3332,28 @@ When deception becomes normalized in spiritual publishing:
 \end{itemize}
 \end{itemize}
 \section*{The Broader Implications for Sacred Tradition Preservation}
-\label{sec:orgaf2a145}
+\label{sec:orga3f778d}
 
 \begin{itemize}
 \item Future A: Authentic Tradition Model
-\label{sec:org766412f}
+\label{sec:org40955cb}
 \textbf{\textbf{Preservation Method}}: Original sources protected alongside contemporary adaptations
 \textbf{\textbf{Development Process}}: New approaches honestly attributed and clearly differentiated
 \textbf{\textbf{Authority Structure}}: Service-oriented guidance helping people choose appropriate spiritual approaches
 \textbf{\textbf{Cultural Evolution}}: Conscious development serving diverse human spiritual needs
 \item Future B: Controlled Tradition Model
-\label{sec:orga5354ee}
+\label{sec:org03e60cd}
 \textbf{\textbf{Preservation Method}}: Contemporary institutional preferences replace original sources
 \textbf{\textbf{Development Process}}: Editorial theology disguised as authentic transmission
 \textbf{\textbf{Authority Structure}}: Control-oriented manipulation determining spiritual choices for others  
 \textbf{\textbf{Cultural Evolution}}: Unconscious development serving institutional rather than human needs
 \end{itemize}
 \section*{The Resolution Pathway}
-\label{sec:org586d73a}
+\label{sec:orgc3b5ef5}
 
 \begin{itemize}
 \item The Individual Choice
-\label{sec:orgbed2c1f}
+\label{sec:orgf295453}
 Every reader now faces a conscious choice:
 \begin{itemize}
 \item Accept unconscious spiritual programming or demand transparent choice
@@ -3358,7 +3361,7 @@ Every reader now faces a conscious choice:
 \item Remain passive about editorial manipulation or actively seek spiritual authenticity
 \end{itemize}
 \item The Institutional Choice
-\label{sec:org6c1b2d8}
+\label{sec:org4831972}
 Every spiritual organization now faces a fundamental decision:
 \begin{itemize}
 \item Serve reader choice or control reader development
@@ -3366,7 +3369,7 @@ Every spiritual organization now faces a fundamental decision:
 \item Build trust through transparency or maintain authority through concealment
 \end{itemize}
 \item The Cultural Choice
-\label{sec:orgd3002d5}
+\label{sec:org14eb35c}
 Every society now confronts a basic question:
 \begin{itemize}
 \item Protect spiritual authenticity or normalize editorial manipulation
@@ -3375,11 +3378,11 @@ Every society now confronts a basic question:
 \end{itemize}
 \end{itemize}
 \section*{The Practical Steps Toward Future A}
-\label{sec:orgbc6244d}
+\label{sec:org0df99e8}
 
 \begin{itemize}
 \item Immediate Actions Anyone Can Take
-\label{sec:orgecd4a25}
+\label{sec:orgdae0c76}
 \begin{itemize}
 \item \textbf{\textbf{Investigate textual authenticity}} in spiritual literature you read
 \item \textbf{\textbf{Demand transparency}} from spiritual publishers about editorial changes
@@ -3387,7 +3390,7 @@ Every society now confronts a basic question:
 \item \textbf{\textbf{Educate others}} about the importance of conscious spiritual choice
 \end{itemize}
 \item Institutional Actions Required
-\label{sec:org5816340}
+\label{sec:orgd29d4d3}
 \begin{itemize}
 \item \textbf{\textbf{Acknowledge systematic alterations}} honestly and completely
 \item \textbf{\textbf{Restore original access}} through republication and equal availability
@@ -3395,7 +3398,7 @@ Every society now confronts a basic question:
 \item \textbf{\textbf{Commit to service}} rather than control in spiritual guidance
 \end{itemize}
 \item Cultural Actions Needed
-\label{sec:org4a27037}
+\label{sec:org8bd674a}
 \begin{itemize}
 \item \textbf{\textbf{Establish reader protection}} standards in spiritual publishing
 \item \textbf{\textbf{Develop academic protocols}} for sacred text preservation
@@ -3404,11 +3407,11 @@ Every society now confronts a basic question:
 \end{itemize}
 \end{itemize}
 \section*{The Victory Conditions}
-\label{sec:org2fb1a97}
+\label{sec:orge9e1a35}
 
 \begin{itemize}
 \item Future A Victory Indicators
-\label{sec:org500392a}
+\label{sec:org855e91e}
 \begin{itemize}
 \item Multiple clearly-identified editions of sacred texts widely available
 \item Readers educated about how different versions affect spiritual development
@@ -3416,7 +3419,7 @@ Every society now confronts a basic question:
 \item Academic community studying textual authenticity as legitimate scholarly concern
 \end{itemize}
 \item Future B Victory Indicators
-\label{sec:orge5fcbed}
+\label{sec:orgafe1234}
 \begin{itemize}
 \item Original texts eliminated from circulation or marginalized
 \item Readers unconsciously accepting editorial theology as authentic transmission
@@ -3425,7 +3428,7 @@ Every society now confronts a basic question:
 \end{itemize}
 \end{itemize}
 \section*{The Final Choice}
-\label{sec:org47d39a1}
+\label{sec:org6ba7db5}
 
 The evidence in this book forces recognition that spiritual authenticity and institutional control represent fundamentally incompatible approaches to sacred transmission.
 
@@ -3449,7 +3452,7 @@ Choose the future you want to create for human spiritual development.
 
 The two futures await your decision.
 \part*{Chapter 11: The Critical Changes Maya Discovered}
-\label{sec:org01ba382}
+\label{sec:orga675090}
 \chapter*{Chapter 11: The Critical Changes Maya Discovered}
 \addcontentsline{toc}{chapter}{Chapter 11: The Critical Changes Maya Discovered}
 \markright{The Critical Changes Maya Discovered}
@@ -3461,7 +3464,7 @@ Maya's investigation had revealed the systematic nature of the alterations, but 
 
 "Each stolen word steals a different type of consciousness," Maya wrote in her final report. "But some thefts are more devastating than others."
 \section*{The Ontological Theft: "Unchangeable" Disappears}
-\label{sec:org49db84e}
+\label{sec:org5a7171b}
 
 Maya discovered that in twelve critical verses, the word "unchangeable" had been systematically removed when describing the soul's nature. In verse 2.25, readers originally encountered: "invisible, inconceivable, immutable and unchangeable." The revision eliminated "unchangeable," leaving only: "invisible, inconceivable and immutable."
 
@@ -3469,7 +3472,7 @@ Dr. Chen's brain scans revealed the neurological impact: "When people read about
 
 Maya understood the theft: unchangeable consciousness trusted divine permanence; changeable consciousness sought human improvement. Two fundamentally different approaches to spiritual identity.
 \section*{The Grace Theft: "Forgotten" Becomes "Forgetful"}
-\label{sec:org6e217e3}
+\label{sec:orgcba1d3e}
 
 The most sophisticated consciousness theft Maya documented was the transformation of "forgotten soul" to "forgetful soul" throughout the text. This single word change rewired entire spiritual orientations.
 
@@ -3495,7 +3498,7 @@ Maya saw how this stolen word programming affected millions:
 
 One word stolen. Two types of spiritual humans created.
 \section*{The Reversal Theft: Complete Meaning Inversion}
-\label{sec:org16695aa}
+\label{sec:org66f8172}
 
 Maya found the most shocking example in verse 2.18, where editorial changes had created exactly opposite teachings about spiritual duty:
 
@@ -3506,7 +3509,7 @@ Maya found the most shocking example in verse 2.18, where editorial changes had 
 
 Dr. Chen's team found that readers of these opposite instructions developed incompatible neural patterns for spiritual decision-making. Original readers developed sacrifice-oriented processing; revised readers developed preservation-oriented processing.
 \section*{The Authority Theft: Personal Divine Becomes Theological System}
-\label{sec:org8d3d09f}
+\label{sec:org6b1276f}
 
 Maya traced how the systematic replacement of "I am" with theological formulations stole personal divine connection:
 
@@ -3522,7 +3525,7 @@ Dr. Chen's research showed that "I am" statements activated mirror neuron networ
 
 One neural pathway leads to mystical union; the other to religious understanding.
 \section*{The Intimacy Theft: "Blessed Lord" Becomes Institution}
-\label{sec:orgb4e0a15}
+\label{sec:org1c96e35}
 
 Maya's most extensive documentation concerned the 245+ instances where "The Blessed Lord said" became "The Supreme Personality of Godhead said."
 
@@ -3532,7 +3535,7 @@ Working with Dr. Chen's colleague Dr. Martinez, a specialist in social neuroscie
 
 Maya saw the theft clearly: stolen words programmed whether readers approached spirituality through the heart or through the mind, through love or through learning, through intimate relationship or through institutional mediation.
 \section*{The Effort Theft: Divine Works Become Human Tasks}
-\label{sec:orgd3c6e8e}
+\label{sec:org24cb895}
 
 Maya documented how 73 modifications systematically shifted emphasis from divine grace to human effort:
 
@@ -3547,7 +3550,7 @@ Dr. Chen's brain imaging revealed the consciousness theft: grace-language activa
 
 "We're literally programming different nervous systems," Dr. Chen told Maya. "Grace-based spirituality and effort-based spirituality use fundamentally different neurological pathways."
 \section*{The Evidence Maya Compiled}
-\label{sec:org4bfc9db}
+\label{sec:org8493119}
 
 By her investigation's end, Maya had documented how specific word thefts created specific consciousness programming:
 
@@ -3562,7 +3565,7 @@ By her investigation's end, Maya had documented how specific word thefts created
 
 Maya's investigation revealed that while both consciousness types created sincere spiritual practitioners, they approached the Divine through fundamentally different neural and psychological pathways—pathways determined by editorial choices most readers never knew were made.
 \part*{Chapter 12: Maya's Final Discovery - The Path Forward}
-\label{sec:orgb70e50d}
+\label{sec:org1dc8138}
 \chapter*{Chapter 12: Maya's Final Discovery - The Path Forward}
 \addcontentsline{toc}{chapter}{Chapter 12: Maya's Final Discovery - The Path Forward}
 \markright{Maya's Final Discovery}
@@ -3576,7 +3579,7 @@ Six months after beginning her investigation, Maya Rodriguez sat in Dr. Chen's S
 
 Maya had solved the mystery that began with her grandmother's confusion. But the solution revealed something larger: a choice that extended far beyond any single book or tradition.
 \section*{The Universal Pattern Maya Discovered}
-\label{sec:orga363eaf}
+\label{sec:org071878f}
 
 Through her investigation, Maya realized the Bhagavad-gītā case represented a broader pattern affecting spiritual transmission worldwide:
 
@@ -3592,7 +3595,7 @@ Every spiritual tradition faced the same tension between preservation and adapta
 
 "The problem isn't that these are legitimate choices," Maya wrote in her final report. "The problem is when the choice is made for people without their knowledge."
 \section*{What Maya's Grandmother Taught Her}
-\label{sec:org5d2b9a7}
+\label{sec:orged785a5}
 
 Returning to her grandmother's bedside, Maya finally understood the old woman's confusion. Two books with identical titles had programmed different spiritual responses:
 
@@ -3616,7 +3619,7 @@ Returning to her grandmother's bedside, Maya finally understood the old woman's 
 
 Her grandmother smiled weakly. "Now I understand why you seemed so\ldots{} different in your practice. Not wrong, just\ldots{} walking a different path to the same destination."
 \section*{The Neuroscience Maya Could Finally Explain}
-\label{sec:orgbb6918a}
+\label{sec:org4c92175}
 
 Dr. Chen's research had identified specific neural pathway development based on word choices:
 
@@ -3638,7 +3641,7 @@ Dr. Chen's research had identified specific neural pathway development based on 
 
 "Both pathways lead to genuine spiritual development," Dr. Chen explained to Maya. "But they're fundamentally different types of spiritual humans. One approaches the Divine like a child with a loving parent; the other like a student with a respected teacher."
 \section*{Maya's Solution: Conscious Choice Architecture}
-\label{sec:org75a8b25}
+\label{sec:orgcca4c36}
 
 Working with researchers, educators, and spiritual practitioners from multiple traditions, Maya developed a framework for preserving authentic choice in spiritual transmission:
 
@@ -3666,7 +3669,7 @@ Working with researchers, educators, and spiritual practitioners from multiple t
 \item Future generations inherit authentic choice rather than concealed editorial preferences
 \end{itemize}
 \section*{The Personal Solution Maya Found}
-\label{sec:org55c1ab1}
+\label{sec:org4d4d050}
 
 For herself, Maya discovered she needed both approaches:
 
@@ -3677,7 +3680,7 @@ For herself, Maya discovered she needed both approaches:
 
 But the crucial element was consciousness: knowing which version did what, when, and why.
 \section*{The Global Implications Maya Foresaw}
-\label{sec:org268ec9f}
+\label{sec:org34fd0b9}
 
 Maya's investigation revealed patterns extending beyond spiritual texts to all consciousness-programming content:
 
@@ -3688,7 +3691,7 @@ Maya's investigation revealed patterns extending beyond spiritual texts to all c
 
 "Once you see stolen words in sacred texts," Maya realized, "you start seeing consciousness programming everywhere."
 \section*{Maya's Final Conversation with Dr. Whitfield}
-\label{sec:orgeb9fc46}
+\label{sec:orgd0dd768}
 
 Six months later, Maya met again with BBT representative Dr. Whitfield. This time, she came with solutions rather than accusations.
 
@@ -3702,7 +3705,7 @@ Whitfield was quiet for a long moment. "You're asking us to admit we fundamental
 
 "I'm asking you to admit you created a valuable alternative approach and stop hiding it. Your version has helped thousands of people. Honor that achievement honestly rather than defending it deceptively."
 \section*{The Letter Maya Never Sent}
-\label{sec:org01dc879}
+\label{sec:orgc9ad317}
 
 In her final investigation notes, Maya drafted a letter to future readers:
 
@@ -3720,7 +3723,7 @@ In her final investigation notes, Maya drafted a letter to future readers:
 
 \textbf{—Maya Rodriguez and the Stolen Words Investigation Team"}
 \section*{The Conclusion Maya Reached}
-\label{sec:orgd76ab99}
+\label{sec:org24aa700}
 
 Maya's investigation proved that words carry consciousness, stolen words steal consciousness, and editorial choices determine whether readers develop mystical or systematic spiritual orientations.
 
@@ -3730,11 +3733,11 @@ Sacred texts deserve nothing less than complete honesty in their transmission.
 
 The rest is up to conscious readers who understand what they're choosing and why.
 \part*{Conclusion: Preserving the Sacred in Translation}
-\label{sec:orgf1a2115}
+\label{sec:org9f5aa4b}
 \markright{Conclusion}
-\thispagestyle{plain}
+\thispagestyle{chapterpage}
 \chapter*{The Central Finding}
-\label{sec:orge0919ee}
+\label{sec:orgf89252e}
 
 Maya Rodriguez's investigation reveals that the revised Bhagavad-gītā represents not mere editorial improvement but fundamental spiritual reorientation. Technical enhancements package systematic theological deviation that transforms readers' spiritual development trajectory.
 
@@ -3747,10 +3750,10 @@ The evidence is comprehensive and undeniable:
 \item \textbf{\textbf{No authorization}} for posthumous systematic revision
 \end{itemize}
 \section*{The Two Paths Diverge}
-\label{sec:orgd66c628}
+\label{sec:org6c2bb0a}
 
 \section*{Original Version: Mystical Devotional Path}
-\label{sec:org1795097}
+\label{sec:orgfbcbc37}
 \begin{itemize}
 \item Creates intimate divine relationship through "Blessed Lord"
 \item Emphasizes grace-dependent transformation via "forgotten soul"
@@ -3759,7 +3762,7 @@ The evidence is comprehensive and undeniable:
 \item Maintains direct spiritual transmission without institutional mediation
 \end{itemize}
 \section*{Revised Version: Systematic Religious Path}
-\label{sec:org78283e4}
+\label{sec:org440b722}
 \begin{itemize}
 \item Creates institutional theological understanding through "Supreme Personality of Godhead"
 \item Emphasizes knowledge-based progression via "forgetful soul"
@@ -3768,16 +3771,16 @@ The evidence is comprehensive and undeniable:
 \item Establishes mediated spiritual authority through educational systems
 \end{itemize}
 \section*{The Crucial Recognition}
-\label{sec:orgdbc77ec}
+\label{sec:orgea6bd11}
 
 These represent equally valid but fundamentally different spiritual approaches. The problem arises when institutional revision is presented as mere improvement rather than acknowledged paradigm shift.
 
 As Maya discovered, when readers purchase "Prabhupāda's Bhagavad-gītā As It Is," they expect mystical devotional transmission. What they receive is systematic religious education masquerading as authentic transmission.
 \section*{Recommendations}
-\label{sec:orgcdafba8}
+\label{sec:org86fd8eb}
 
 \section*{For Individual Readers}
-\label{sec:org118f8d4}
+\label{sec:org829dd03}
 \begin{itemize}
 \item Understand theological differences before choosing between versions
 \item Consider reading both versions for complete perspective on available approaches
@@ -3785,7 +3788,7 @@ As Maya discovered, when readers purchase "Prabhupāda's Bhagavad-gītā As It I
 \item Choose consciously based on your authentic spiritual temperament and needs
 \end{itemize}
 \section*{For Spiritual Organizations}
-\label{sec:org001ba29}
+\label{sec:orgb5561e9}
 \begin{itemize}
 \item Acknowledge that editorial changes fundamentally alter spiritual transmission
 \item Preserve original versions alongside revised editions with clear differentiation
@@ -3793,7 +3796,7 @@ As Maya discovered, when readers purchase "Prabhupāda's Bhagavad-gītā As It I
 \item Maintain both mystical and systematic spiritual approaches serving diverse temperaments
 \end{itemize}
 \section*{For Academic Study}
-\label{sec:org9c05219}
+\label{sec:org8533610}
 \begin{itemize}
 \item Recognize both versions as legitimate but different spiritual methodologies
 \item Study theological differences as distinct approaches to consciousness transformation
@@ -3801,7 +3804,7 @@ As Maya discovered, when readers purchase "Prabhupāda's Bhagavad-gītā As It I
 \item Include devotional authenticity alongside academic respectability in textual assessment
 \end{itemize}
 \section*{The Larger Implications}
-\label{sec:org89db205}
+\label{sec:orgc7b25e7}
 
 This analysis extends beyond the Bhagavad-gītā to fundamental questions affecting all spiritual transmission:
 
@@ -3812,11 +3815,11 @@ This analysis extends beyond the Bhagavad-gītā to fundamental questions affect
 \item How do we maintain both devotional intimacy and academic respectability?
 \end{itemize}
 \section*{The Path Forward}
-\label{sec:org31ba2d1}
+\label{sec:orgfb3336d}
 
 Rather than defending past deception or condemning either approach, the solution lies in conscious choice architecture:
 \section*{Multiple Edition Availability}
-\label{sec:org9e66a6c}
+\label{sec:org41c4802}
 \begin{itemize}
 \item \textbf{\textbf{Original preserved}} exactly as Prabhupāda published and approved it
 \item \textbf{\textbf{Revisions available}} with honest attribution to editorial committees
@@ -3824,7 +3827,7 @@ Rather than defending past deception or condemning either approach, the solution
 \item \textbf{\textbf{Equal availability}} ensuring authentic choice rather than imposed preference
 \end{itemize}
 \section*{Truth in Spiritual Publishing}
-\label{sec:org2d8bc44}
+\label{sec:orgd8c1628}
 \begin{itemize}
 \item \textbf{\textbf{Complete disclosure}} of alteration scope and theological implications
 \item \textbf{\textbf{Transparent attribution}} showing who made what changes and why
@@ -3832,7 +3835,7 @@ Rather than defending past deception or condemning either approach, the solution
 \item \textbf{\textbf{Honest marketing}} eliminating deceptive presentation of altered content as original
 \end{itemize}
 \section*{Institutional Maturity}
-\label{sec:orgbd24a91}
+\label{sec:org29eca31}
 \begin{itemize}
 \item \textbf{\textbf{Service orientation}} rather than control of reader spiritual choices
 \item \textbf{\textbf{Transparency}} building trust through honest acknowledgment of editorial decisions
@@ -3840,7 +3843,7 @@ Rather than defending past deception or condemning either approach, the solution
 \item \textbf{\textbf{Authentic preservation}} alongside contemporary adaptation
 \end{itemize}
 \section*{The Final Assessment}
-\label{sec:orgb712eae}
+\label{sec:org0f694c9}
 
 The revised Bhagavad-gītā gains academic respectability, systematic presentation, and institutional compatibility. These benefits serve legitimate needs for certain readers and communities.
 
@@ -3853,7 +3856,7 @@ However, these gains come at the cost of:
 \item \textbf{\textbf{Direct transmission}} replaced with mediated institutional authority
 \end{itemize}
 \section*{The Trade-off Recognition}
-\label{sec:org1c2ef7d}
+\label{sec:org5c592c2}
 
 The devastating reality is that the 12 legitimate scholarly improvements (better citations, improved formatting, enhanced transliteration) could have been applied \textbf{\textbf{without theological alteration.}} The technical enhancements are cosmetic formatting upgrades that don't require changing spiritual content.
 
@@ -3861,7 +3864,7 @@ Instead, institutional priorities used technical improvement as cover for system
 
 The original's "imperfect" formatting preserved perfect mystical transmission. The revised version's perfect formatting transmits imperfect devotional authenticity.
 \section*{The Restoration Principle}
-\label{sec:org077134f}
+\label{sec:orgd368501}
 
 Sacred texts carry transformative power through precise spiritual transmission. When institutional needs override authentic preservation, the result may be academically respectable but spiritually diminished.
 
@@ -3869,13 +3872,13 @@ The goal isn't condemning systematic approaches but preserving authentic choice 
 
 The Bhagavad-gītā's greatest teaching may be demonstrating that different spiritual approaches serve different psychological and cultural needs. Our responsibility is choosing consciously and preserving authentically.
 \section*{The Historical Judgment}
-\label{sec:org4a0230e}
+\label{sec:org9fedd16}
 
 Future generations will judge whether we preserved authentic spiritual choice or allowed institutional convenience to eliminate it. The evidence presented in this book provides the information necessary for conscious choice.
 
 The choice between mystical devotion and systematic religion is legitimate and should remain available. What is not legitimate is disguising one as the other or eliminating authentic alternatives through deceptive marketing.
 \section*{The Final Word}
-\label{sec:org241b168}
+\label{sec:org9327748}
 
 When someone changes the spiritual book that guides your life, they change your spiritual destiny. When they do this without your knowledge or consent, they steal not just words—they steal your right to conscious spiritual development.
 
@@ -3891,9 +3894,9 @@ The preservation of authentic spiritual transmission depends on honest acknowled
 
 The sacred deserves nothing less than complete honesty in its preservation and transmission.
 \part*{Bibliography}
-\label{sec:orgbb9d534}
+\label{sec:org65bd911}
 \markright{Bibliography}
-\thispagestyle{plain}
+\thispagestyle{chapterpage}
 
 Barthes, Roland. "The Death of the Author." \textbf{Image, Music, Text}. Hill and Wang, 1977.
 
@@ -3965,7 +3968,7 @@ Venuti, Lawrence. \textbf{The Translator's Invisibility}. Routledge, 1995.
 
 Zaehner, R.C. \textbf{The Bhagavad-Gita}. Oxford University Press, 1969.
 \section*{Research Methodology}
-\label{sec:org7c7250e}
+\label{sec:org9b756ca}
 
 This analysis represents seven years of systematic research (2018-2025) involving:
 
@@ -3995,8 +3998,8 @@ This analysis represents seven years of systematic research (2018-2025) involvin
 
 Every documented change has been verified through multiple sources where possible, with uncertainty levels explicitly noted where source material is incomplete or ambiguous.
 \part*{Glossary}
-\label{sec:org8fbe911}
-\thispagestyle{plain}
+\label{sec:org2b5e963}
+\thispagestyle{chapterpage}
 \markright{Glossary}
 
 A guide to key terms and concepts for understanding the transformation of sacred texts.
@@ -4039,19 +4042,19 @@ A guide to key terms and concepts for understanding the transformation of sacred
 
 \textbf{\textbf{Version Comparison}} — The key to discovery: when readers compare editions side-by-side, the transformation becomes undeniable. What institutions hid for forty years, the internet exposed.
 \part*{Appendix A: Research Methodology}
-\label{sec:org63381d5}
+\label{sec:orgea5fadc}
 \markright{Appendix A}
-\thispagestyle{plain}
+\thispagestyle{chapterpage}
 
 This investigation draws upon research from multiple scientific disciplines to validate its conclusions: \textbf{\textbf{Neuroscience}} (brain imaging studies of consciousness development), \textbf{\textbf{Psycholinguistics}} (semantic priming and language processing), \textbf{\textbf{Educational Psychology}} (learning environment effects and mindset research), \textbf{\textbf{Anthropology}} (cultural transmission patterns and sacred language studies), \textbf{\textbf{Sociology of Religious Institutions}} (organizational survival strategies), \textbf{\textbf{Organizational Psychology}} (institutional defensiveness patterns), \textbf{\textbf{Formal Linguistics}} (prestige dialect adoption and language formalization), \textbf{\textbf{Comparative Religious Studies}} (charismatic-to-bureaucratic language shifts), \textbf{\textbf{History of Religions}} (posthumous textual modification patterns), and \textbf{\textbf{Cognitive Anthropology}} (collectivist versus individualist orientation development). 
 
 This interdisciplinary approach ensures the findings represent rigorous cross-field validation rather than single-discipline speculation. Each discipline contributes specific methodological tools and validation frameworks that collectively support the investigation's conclusions about consciousness programming through sacred text alteration.
 \part*{Appendix B: Major Doctrinal Changes}
-\label{sec:org6e489d1}
+\label{sec:org926ec23}
 \markright{Appendix B}
-\thispagestyle{plain}
+\thispagestyle{chapterpage}
 \section*{Universal Divine Address Alterations}
-\label{sec:org7c3aca6}
+\label{sec:org3bad303}
 \begin{itemize}
 \item \textbf{\textbf{Pattern}}: Every instance of intimate divine speech systematically replaced with formal theological address
 \item \textbf{\textbf{Impact}}: Transforms personal beloved into institutional authority
@@ -4059,7 +4062,7 @@ This interdisciplinary approach ensures the findings represent rigorous cross-fi
 \item \textbf{\textbf{Consciousness effect}}: Heart-centered intimacy → mind-centered hierarchy
 \end{itemize}
 \section*{Ontological Redefinitions}
-\label{sec:orga1ddd67}
+\label{sec:org292456a}
 \begin{itemize}
 \item \textbf{\textbf{"Forgotten soul deluded by māyā" → "Forgetful soul deluded by māyā"}}
 \begin{itemize}
@@ -4074,11 +4077,11 @@ This interdisciplinary approach ensures the findings represent rigorous cross-fi
 \end{itemize}
 \end{itemize}
 \section*{Complete Meaning Reversals}
-\label{sec:orge3a116a}
+\label{sec:org2fe10a7}
 
 \begin{itemize}
 \item BG 4.11 - Theological Transformation
-\label{sec:orga002857}
+\label{sec:org5895880}
 \textbf{\textbf{Original (1972)}}: "As all surrender unto Me, I reward them accordingly"
 \textbf{\textbf{Revised (1983)}}: "As they surrender unto Me, I reward them accordingly"
 \begin{itemize}
@@ -4086,7 +4089,7 @@ This interdisciplinary approach ensures the findings represent rigorous cross-fi
 \item \textbf{\textbf{Impact}}: Universal grace → selective blessing theology
 \end{itemize}
 \item BG 9.11 - Incarnation Understanding
-\label{sec:orgabcd46f}
+\label{sec:orge8b3065}
 \textbf{\textbf{Original (1972)}}: "When I descend in the human form, fools deride Me"
 \textbf{\textbf{Revised (1983)}}: "When I appear in human form, fools deride Me"
 \begin{itemize}
@@ -4094,7 +4097,7 @@ This interdisciplinary approach ensures the findings represent rigorous cross-fi
 \item \textbf{\textbf{Impact}}: Personal incarnation → impersonal appearance
 \end{itemize}
 \item BG 2.18 - Complete Reversal
-\label{sec:org3b15c1f}
+\label{sec:org9443da8}
 \textbf{\textbf{Original}}: "sacrifice the material body for the cause of religion" 
 \textbf{\textbf{Revised}}: "not sacrifice the cause of religion for material considerations"
 \begin{itemize}
@@ -4103,32 +4106,32 @@ This interdisciplinary approach ensures the findings represent rigorous cross-fi
 \end{itemize}
 \end{itemize}
 \section*{BG 2.48: "Steadfast in Yoga" Documentation}
-\label{sec:org6264c32}
+\label{sec:org105ff2f}
 \textbf{\textbf{Original read to Prabhupāda}}: "Be steadfast in yoga, O Arjuna. Perform your duty and abandon all attachment to success or failure. Such evenness of mind is called yoga."
 
 \textbf{\textbf{Prabhupāda's response}}: "This is the explanation of yoga, evenness of mind. Yoga-samatvam ucyate\ldots{} If you work for Krishna, then there is no cause of lamentation or jubiliation." (December 16, 1968, Los Angeles)
 
 \textbf{\textbf{Revision result}}: Both "steadfast in yoga" and "evenness of mind" deleted despite his explicit emphasis on these concepts.
 \section*{BG 2.51: Documented Approval of Later-Changed Content}
-\label{sec:org293ecad}
+\label{sec:org185a62d}
 \textbf{\textbf{Tamala Krishna read}}: "The wise, engaged in devotional service, take refuge in the Lord and free themselves from the cycle of birth and death by renouncing the fruits of action in the material world. In this way they can attain that state beyond all miseries."
 
 \textbf{\textbf{Prabhupāda's immediate approval}}: "Yes. There is purport?" Then after hearing it again: "How easy it is. You take to Krishna consciousness, you act in Krishna consciousness, you overcome the cycle of birth and death."
 
 \textbf{\textbf{Historical fact}}: Despite documented approval, this translation was later altered, obscuring the "renouncing the fruits of action" emphasis.
 \section*{BG 2.30: "Eternal Soul" Emphasis}
-\label{sec:org62325c9}
+\label{sec:org734924c}
 \textbf{\textbf{Original read}}: "O descendant of Bharata, he who dwells in the body is eternal and can never be slain."
 
 \textbf{\textbf{Prabhupāda's response}}: "Dehi nityam, eternal. In so many ways, Krishna has explained. Nityam, eternal. Indestructible, immutable\ldots{} again he says nityam, eternal." (August 31, 1973, London)
 
 \textbf{\textbf{Revision result}}: "Eternal" removed despite his repeated emphasis on this concept.
 \part*{Appendix C: Chapter-by-Chapter Statistical Analysis}
-\label{sec:org72c6a09}
+\label{sec:org0126e20}
 \markright{Appendix C}
-\thispagestyle{plain}
+\thispagestyle{chapterpage}
 \section*{Overall Alteration Scope}
-\label{sec:orgba62e2a}
+\label{sec:orgc057aae}
 
 \textbf{\textbf{Total Scope of Changes:}}
 \begin{itemize}
@@ -4144,7 +4147,7 @@ This interdisciplinary approach ensures the findings represent rigorous cross-fi
 \item 14 chapters with 70\%+ changes (systematic revision)
 \end{itemize}
 \section*{Chapter-by-Chapter Analysis}
-\label{sec:orgddde9e5}
+\label{sec:org057671c}
 
 \textbf{\textbf{Chapters 1-6: Foundation Transformation}}
 
@@ -4206,7 +4209,7 @@ Ch & Title & Changed & Total & \%\\
 
 \textbf{\textbf{Critical Pattern}}: The chapters containing the most essential spiritual instructions (Chapters 9-11) show the highest alteration rates, indicating systematic targeting of core philosophical content.
 \section*{Sanskrit Synonym Alterations - Chapter 1 Analysis}
-\label{sec:org330a67c}
+\label{sec:org077bc69}
 
 \textbf{\textbf{Categories of Chapter 1 Sanskrit Changes:}}
 
@@ -4227,11 +4230,11 @@ Ch & Title & Changed & Total & \%\\
 
 \textbf{\textbf{Critical finding:}} Nearly two-thirds of Sanskrit alterations contradict both Prabhupāda's original draft AND the 1972 published edition, representing pure editorial invention.
 \part*{Appendix D: Linguistic Quality vs. Spiritual Accessibility Assessment}
-\label{sec:orgc760fd8}
+\label{sec:org3faafba}
 \markright{Appendix D}
-\thispagestyle{plain}
+\thispagestyle{chapterpage}
 \section*{Comprehensive 259-Change Analysis Results}
-\label{sec:org629f005}
+\label{sec:org5598306}
 
 \textbf{\textbf{Objective Language Quality Assessment:}}
 \begin{itemize}
@@ -4241,7 +4244,7 @@ Ch & Title & Changed & Total & \%\\
 \item \textbf{\textbf{Net technical improvement}}: 28.1\%
 \end{itemize}
 \section*{Detailed Category Breakdown}
-\label{sec:orga210644}
+\label{sec:org8971bbd}
 
 \textbf{\textbf{Grammar and Syntax Improvements (134 changes):}}
 \begin{itemize}
@@ -4266,7 +4269,7 @@ Ch & Title & Changed & Total & \%\\
 \item Formatting standardizations: 29 instances
 \end{itemize}
 \section*{Spiritual Impact vs. Technical Quality Analysis}
-\label{sec:org06c98b1}
+\label{sec:org65bc0e5}
 
 \textbf{\textbf{The Quality Paradox:}}
 While 51.7\% of changes improved technical English, 89\% reduced spiritual accessibility—revealing the fundamental tension between academic precision and devotional warmth.
@@ -4311,7 +4314,7 @@ While 51.7\% of changes improved technical English, 89\% reduced spiritual acces
 \item Emotional impact: Distant, technical
 \end{itemize}
 \section*{Trade-off Analysis Summary}
-\label{sec:org108f2f6}
+\label{sec:org9f87901}
 
 \textbf{\textbf{Technical Gains Achieved:}}
 \begin{itemize}
@@ -4334,11 +4337,11 @@ While 51.7\% of changes improved technical English, 89\% reduced spiritual acces
 
 \textbf{\textbf{Historical Context}}: Prabhupāda explicitly prioritized spiritual impact over academic precision, stating: "The purpose is to attract people to Krishna consciousness, not to show scholarship."
 \part*{Appendix E: Key Meaning-Altering Changes}
-\label{sec:org3c032e4}
+\label{sec:org869d1b2}
 \markright{Appendix E}
-\thispagestyle{plain}
+\thispagestyle{chapterpage}
 \section*{I. Complete Meaning Reversals}
-\label{sec:orgf6abe79}
+\label{sec:org247f8b3}
 
 \textbf{\textbf{Examples of Opposite Meanings Created:}}
 
@@ -4366,7 +4369,7 @@ manifestation—fundamentally different theological concepts
 contradiction
 \end{itemize}
 \section*{II. Fundamental Concept Deletions}
-\label{sec:orgb007c73}
+\label{sec:orgc19c681}
 
 \textbf{\textbf{Essential Divine Attributes Systematically Removed:}}
 
@@ -4401,7 +4404,7 @@ contradiction
 \item Pattern: Intimate spiritual relationship formalized into distant theology
 \end{itemize}
 \section*{III. Editorial Inventions Without Source Authority}
-\label{sec:orgad6e6e5}
+\label{sec:org7116e59}
 
 \textbf{\textbf{Content Added Without Any Historical Source:}}
 
@@ -4427,7 +4430,7 @@ contradiction
 \item Represents pure editorial interpretation presented as author's words
 \end{itemize}
 \section*{IV. Class Transcript Direct Contradictions}
-\label{sec:orgf64fdfe}
+\label{sec:org6531411}
 
 \textbf{\textbf{Teacher's Documented Approval Contradicted by Editorial Changes:}}
 
@@ -4463,7 +4466,7 @@ All 31 contradictions verified through cross-reference of:
 \item Letters confirming specific teachings
 \end{itemize}
 \section*{V. Sanskrit Modifications Without Manuscript Authority}
-\label{sec:org5ec2f3f}
+\label{sec:org96cc7dc}
 
 \textbf{\textbf{Chapter 1 Representative Analysis (Pattern Repeated Throughout):}}
 
@@ -4497,11 +4500,11 @@ All 31 contradictions verified through cross-reference of:
 \textbf{\textbf{Pattern Extends Beyond Chapter 1:}}
 This 66\% contradiction rate with source materials appears consistently across all 18 chapters, indicating systematic editorial approach prioritizing change over source fidelity.
 \section*{VI. Theological Transformation Documentation}
-\label{sec:org861d5a2}
+\label{sec:org6ecd0f1}
 
 \begin{itemize}
 \item A. Grace-Dependent to Self-Effort Shift (73 instances)
-\label{sec:orgddb0ee7}
+\label{sec:org504954a}
 
 \textbf{\textbf{Pattern Analysis:}}
 \begin{itemize}
@@ -4517,7 +4520,7 @@ This 66\% contradiction rate with source materials appears consistently across a
 \item \textbf{\textbf{Cumulative impact}}: Fundamental shift in liberation theology
 \end{itemize}
 \item B. Personal-to-Impersonal Divine Concept (94 instances)
-\label{sec:orgbb44c4e}
+\label{sec:org6875c9b}
 
 \textbf{\textbf{Documentation Pattern:}}
 \begin{itemize}
@@ -4534,7 +4537,7 @@ This 66\% contradiction rate with source materials appears consistently across a
 \end{itemize}
 \end{itemize}
 \section*{VII. Complete Statistical Overview}
-\label{sec:orgce06ced}
+\label{sec:org3f31366}
 
 \textbf{\textbf{Total Documented Changes: 259+}}
 
@@ -4569,8 +4572,8 @@ This 66\% contradiction rate with source materials appears consistently across a
 
 This complete documentation represents the most comprehensive analysis available of systematic alterations to what millions consider sacred scripture, done without explicit authorization from the original author or transparent disclosure to readers.
 \part*{Citations}
-\label{sec:orgadfd221}
-\thispagestyle{plain}
+\label{sec:org29f22c7}
+\thispagestyle{chapterpage}
 \markright{Citations}
 
 \begin{enumerate}
@@ -4590,16 +4593,16 @@ This complete documentation represents the most comprehensive analysis available
 \item Room conversation, June 22, 1977, Bhaktivedanta Archives
 \end{enumerate}
 \section*{Editorial Inventions (Not in Original or Draft)}
-\label{sec:org2d8b02c}
+\label{sec:orgcb2a0a7}
 \begin{itemize}
 \item \textbf{\textbf{BG 9.5}}: Addition of "I am not a part of this cosmic manifestation" (appears nowhere in Prabhupāda's materials)
 \end{itemize}
 \section*{Systematic Language Pattern Changes}
-\label{sec:org3876095}
+\label{sec:org7481c8f}
 
 \begin{itemize}
 \item Personal Address Elimination (89 instances)
-\label{sec:org4ed89ce}
+\label{sec:org03dfaf2}
 \begin{itemize}
 \item "My dear friend" → eliminated entirely (12 instances)
 \item "My dear Arjuna" → "O Arjuna" (23 instances)
@@ -4608,7 +4611,7 @@ This complete documentation represents the most comprehensive analysis available
 \item Affectionate terms → neutral addresses (11 instances)
 \end{itemize}
 \item Emotional Language Reduction (127 instances)
-\label{sec:org5f7db84}
+\label{sec:org35bffc9}
 \begin{itemize}
 \item "Blessed" → "Supreme" (systematic replacement throughout)
 \item "Love" → "devotional service" (18 instances)
@@ -4620,7 +4623,7 @@ This complete documentation represents the most comprehensive analysis available
 \item "Beloved" → "Personality of Godhead" (31 instances)
 \end{itemize}
 \item Theological Terminology Shifts (78 instances)
-\label{sec:orgcb20101}
+\label{sec:org2ea0957}
 \begin{itemize}
 \item Grace-dependent language → effort-dependent language
 \item Mystical experience terms → systematic practice terms
@@ -4629,11 +4632,11 @@ This complete documentation represents the most comprehensive analysis available
 \end{itemize}
 \end{itemize}
 \section*{Sanskrit Modifications Without Manuscript Authority}
-\label{sec:orga418e08}
+\label{sec:org439fe9f}
 
 \begin{itemize}
 \item Chapter-by-Chapter Sanskrit Alterations
-\label{sec:org8dd0486}
+\label{sec:orgf5ba965}
 \textbf{\textbf{Chapter 1 Analysis (127 total changes):}}
 \begin{itemize}
 \item Legitimate corrections: 29 (21.47\%)
@@ -4650,7 +4653,7 @@ This complete documentation represents the most comprehensive analysis available
 \item Pronunciation guides altered from Prabhupāda's recorded versions
 \end{itemize}
 \item Documented Sanskrit Inconsistencies
-\label{sec:orgf45fdee}
+\label{sec:orgb0ecc1e}
 \begin{itemize}
 \item \textbf{\textbf{BG 2.13}}: "deha" interpretation changed without authority
 \item \textbf{\textbf{BG 4.7}}: "dharma" rendering altered from established meaning
@@ -4659,11 +4662,11 @@ This complete documentation represents the most comprehensive analysis available
 \end{itemize}
 \end{itemize}
 \section*{Purport Alterations (Critical Meaning Changes)}
-\label{sec:org2fb6c74}
+\label{sec:org364b8ff}
 
 \begin{itemize}
 \item Philosophical Framework Modifications
-\label{sec:org3cd7393}
+\label{sec:orgc46bd87}
 \textbf{\textbf{BG 2.62-63 Purport Changes:}}
 \begin{itemize}
 \item Meditation methodology altered from original instructions
@@ -4685,7 +4688,7 @@ This complete documentation represents the most comprehensive analysis available
 \item Self-effort emphasis increased systematically
 \end{itemize}
 \item Historical Context Removals
-\label{sec:orgbafdc85}
+\label{sec:org4ab37cf}
 \begin{itemize}
 \item References to Prabhupāda's personal instructions removed
 \item Contemporary spiritual examples eliminated
@@ -4694,7 +4697,7 @@ This complete documentation represents the most comprehensive analysis available
 \end{itemize}
 \end{itemize}
 \section*{Complete Documentation of 259+ Changes}
-\label{sec:org4d895cb}
+\label{sec:org1f40516}
 
 \textbf{\textbf{Category 1: Divine Address (Systematic Change)}}
 Every instance of intimate divine blessing replaced with institutional theological formulation
@@ -4740,36 +4743,36 @@ Every instance of intimate divine blessing replaced with institutional theologic
 \item \textbf{\textbf{Heart-accessible → Mind-centered}}: Simple phrases replaced with complex formulations
 \end{itemize}
 \part*{Appendix B: Class Transcript Evidence of Prabhupāda's Approval}
-\label{sec:orgbe6297b}
+\label{sec:org6430bf4}
 \markright{Appendix B}
-\thispagestyle{plain}
+\thispagestyle{chapterpage}
 \section*{BG 2.48: "Steadfast in Yoga" Documentation}
-\label{sec:org809d70d}
+\label{sec:org8fd6017}
 \textbf{\textbf{Original read to Prabhupāda}}: "Be steadfast in yoga, O Arjuna. Perform your duty and abandon all attachment to success or failure. Such evenness of mind is called yoga."
 
 \textbf{\textbf{Prabhupāda's response}}: "This is the explanation of yoga, evenness of mind. Yoga-samatvam ucyate\ldots{} If you work for Krishna, then there is no cause of lamentation or jubiliation." (December 16, 1968, Los Angeles)
 
 \textbf{\textbf{Revision result}}: Both "steadfast in yoga" and "evenness of mind" deleted despite his explicit emphasis on these concepts.
 \section*{BG 2.51: Documented Approval of Later-Changed Content}
-\label{sec:orgd9cf62f}
+\label{sec:org5760b08}
 \textbf{\textbf{Tamala Krishna read}}: "The wise, engaged in devotional service, take refuge in the Lord and free themselves from the cycle of birth and death by renouncing the fruits of action in the material world. In this way they can attain that state beyond all miseries."
 
 \textbf{\textbf{Prabhupāda's immediate approval}}: "Yes. There is purport?" Then after hearing it again: "How easy it is. You take to Krishna consciousness, you act in Krishna consciousness, you overcome the cycle of birth and death."
 
 \textbf{\textbf{Historical fact}}: Despite documented approval, this translation was later altered, obscuring the "renouncing the fruits of action" emphasis.
 \section*{BG 2.30: "Eternal Soul" Emphasis}
-\label{sec:org5b031ae}
+\label{sec:org4dd223e}
 \textbf{\textbf{Original read}}: "O descendant of Bharata, he who dwells in the body is eternal and can never be slain."
 
 \textbf{\textbf{Prabhupāda's response}}: "Dehi nityam, eternal. In so many ways, Krishna has explained. Nityam, eternal. Indestructible, immutable\ldots{} again he says nityam, eternal." (August 31, 1973, London)
 
 \textbf{\textbf{Revision result}}: "Eternal" removed despite his repeated emphasis on this concept.
 \part*{Appendix C: Chapter-by-Chapter Statistical Analysis}
-\label{sec:org5cafefd}
+\label{sec:org47409fc}
 \markright{Appendix C}
-\thispagestyle{plain}
+\thispagestyle{chapterpage}
 \section*{Overall Alteration Scope}
-\label{sec:org2fc4861}
+\label{sec:org60264c1}
 
 \textbf{\textbf{Total Scope of Changes:}}
 \begin{itemize}
@@ -4785,7 +4788,7 @@ Every instance of intimate divine blessing replaced with institutional theologic
 \item 14 chapters with 70\%+ changes (systematic revision)
 \end{itemize}
 \section*{Chapter-by-Chapter Analysis}
-\label{sec:org6d1eabe}
+\label{sec:orgbbb16a3}
 
 \textbf{\textbf{Chapters 1-6: Foundation Transformation}}
 
@@ -4847,7 +4850,7 @@ Ch & Title & Changed & Total & \%\\
 
 \textbf{\textbf{Critical Pattern}}: The chapters containing the most essential spiritual instructions (Chapters 9-11) show the highest alteration rates, indicating systematic targeting of core philosophical content.
 \section*{Sanskrit Synonym Alterations - Chapter 1 Analysis}
-\label{sec:org115cb3e}
+\label{sec:org0b42d6d}
 
 \textbf{\textbf{Categories of Chapter 1 Sanskrit Changes:}}
 
@@ -4868,11 +4871,11 @@ Ch & Title & Changed & Total & \%\\
 
 \textbf{\textbf{Critical finding:}} Nearly two-thirds of Sanskrit alterations contradict both Prabhupāda's original draft AND the 1972 published edition, representing pure editorial invention.
 \part*{Appendix D: Linguistic Quality vs. Spiritual Accessibility Assessment}
-\label{sec:org7ea00c1}
+\label{sec:org009bb79}
 \markright{Appendix D}
-\thispagestyle{plain}
+\thispagestyle{chapterpage}
 \section*{Comprehensive 259-Change Analysis Results}
-\label{sec:org1156a4d}
+\label{sec:orgac4d727}
 
 \textbf{\textbf{Objective Language Quality Assessment:}}
 \begin{itemize}
@@ -4882,7 +4885,7 @@ Ch & Title & Changed & Total & \%\\
 \item \textbf{\textbf{Net technical improvement}}: 28.1\%
 \end{itemize}
 \section*{Detailed Category Breakdown}
-\label{sec:org5db825f}
+\label{sec:org1d10677}
 
 \textbf{\textbf{Grammar and Syntax Improvements (134 changes):}}
 \begin{itemize}
@@ -4907,7 +4910,7 @@ Ch & Title & Changed & Total & \%\\
 \item Formatting standardizations: 29 instances
 \end{itemize}
 \section*{Spiritual Impact vs. Technical Quality Analysis}
-\label{sec:orgd97c9ff}
+\label{sec:org566c3e0}
 
 \textbf{\textbf{The Quality Paradox:}}
 While 51.7\% of changes improved technical English, 89\% reduced spiritual accessibility—revealing the fundamental tension between academic precision and devotional warmth.
@@ -4952,7 +4955,7 @@ While 51.7\% of changes improved technical English, 89\% reduced spiritual acces
 \item Emotional impact: Distant, technical
 \end{itemize}
 \section*{Trade-off Analysis Summary}
-\label{sec:org16a6de2}
+\label{sec:orgc0e0e20}
 
 \textbf{\textbf{Technical Gains Achieved:}}
 \begin{itemize}
@@ -4975,11 +4978,11 @@ While 51.7\% of changes improved technical English, 89\% reduced spiritual acces
 
 \textbf{\textbf{Historical Context}}: Prabhupāda explicitly prioritized spiritual impact over academic precision, stating: "The purpose is to attract people to Krishna consciousness, not to show scholarship."
 \part*{Appendix E: Key Meaning-Altering Changes}
-\label{sec:org1f07f5f}
+\label{sec:org704dc1f}
 \markright{Appendix E}
-\thispagestyle{plain}
+\thispagestyle{chapterpage}
 \section*{I. Complete Meaning Reversals}
-\label{sec:orga04c834}
+\label{sec:orgbd7eeca}
 
 \textbf{\textbf{Examples of Opposite Meanings Created:}}
 
@@ -5007,7 +5010,7 @@ manifestation—fundamentally different theological concepts
 contradiction
 \end{itemize}
 \section*{II. Fundamental Concept Deletions}
-\label{sec:org7683948}
+\label{sec:orgc478933}
 
 \textbf{\textbf{Essential Divine Attributes Systematically Removed:}}
 
@@ -5042,7 +5045,7 @@ contradiction
 \item Pattern: Intimate spiritual relationship formalized into distant theology
 \end{itemize}
 \section*{III. Editorial Inventions Without Source Authority}
-\label{sec:org2385699}
+\label{sec:org0e4ed4f}
 
 \textbf{\textbf{Content Added Without Any Historical Source:}}
 
@@ -5068,7 +5071,7 @@ contradiction
 \item Represents pure editorial interpretation presented as author's words
 \end{itemize}
 \section*{IV. Class Transcript Direct Contradictions}
-\label{sec:orgd45d91b}
+\label{sec:org81c6ea0}
 
 \textbf{\textbf{Teacher's Documented Approval Contradicted by Editorial Changes:}}
 
@@ -5104,7 +5107,7 @@ All 31 contradictions verified through cross-reference of:
 \item Letters confirming specific teachings
 \end{itemize}
 \section*{V. Sanskrit Modifications Without Manuscript Authority}
-\label{sec:org8eba529}
+\label{sec:org3fc985f}
 
 \textbf{\textbf{Chapter 1 Representative Analysis (Pattern Repeated Throughout):}}
 
@@ -5138,11 +5141,11 @@ All 31 contradictions verified through cross-reference of:
 \textbf{\textbf{Pattern Extends Beyond Chapter 1:}}
 This 66\% contradiction rate with source materials appears consistently across all 18 chapters, indicating systematic editorial approach prioritizing change over source fidelity.
 \section*{VI. Theological Transformation Documentation}
-\label{sec:org711960a}
+\label{sec:orgbc47aa2}
 
 \begin{itemize}
 \item A. Grace-Dependent to Self-Effort Shift (73 instances)
-\label{sec:org49f7986}
+\label{sec:orgada3918}
 
 \textbf{\textbf{Pattern Analysis:}}
 \begin{itemize}
@@ -5158,7 +5161,7 @@ This 66\% contradiction rate with source materials appears consistently across a
 \item \textbf{\textbf{Cumulative impact}}: Fundamental shift in liberation theology
 \end{itemize}
 \item B. Personal-to-Impersonal Divine Concept (94 instances)
-\label{sec:org7d6ec0a}
+\label{sec:org756edc7}
 
 \textbf{\textbf{Documentation Pattern:}}
 \begin{itemize}
@@ -5175,7 +5178,7 @@ This 66\% contradiction rate with source materials appears consistently across a
 \end{itemize}
 \end{itemize}
 \section*{VII. Complete Statistical Overview}
-\label{sec:orgddcd843}
+\label{sec:org11f98a8}
 
 \textbf{\textbf{Total Documented Changes: 259+}}
 
@@ -5210,9 +5213,9 @@ This 66\% contradiction rate with source materials appears consistently across a
 
 This complete documentation represents the most comprehensive analysis available of systematic alterations to what millions consider sacred scripture, done without explicit authorization from the original author or transparent disclosure to readers.
 \part*{Appendix F: Practical Application Guide}
-\label{sec:orgd40e3c0}
+\label{sec:org88871d7}
 \markright{Practical Guide}
-\thispagestyle{plain}
+\thispagestyle{chapterpage}
 
 {\centering\itshape Tools for applying the forensic findings to spiritual practice,\\enabling conscious choice based on documented evidence.\par}
 \vspace{0.3cm}
@@ -5228,15 +5231,15 @@ This appendix provides practical tools for applying the findings from this foren
 \item Implement the strategies consistently
 \end{enumerate}
 \section*{Section I: Quick Reference Tools}
-\label{sec:orgb645901}
+\label{sec:org4103462}
 
 \begin{itemize}
 \item Version Identification Checklist
-\label{sec:orga88c5b8}
+\label{sec:org49e2931}
 
 \begin{itemize}
 \item Publication Data Check
-\label{sec:orgde02bfc}
+\label{sec:org4b35894}
 \begin{itemize}
 \item[{$\square$}] 1972 Macmillan edition = Original
 \item[{$\square$}] "Revised and Enlarged" = Current version
@@ -5244,7 +5247,7 @@ This appendix provides practical tools for applying the findings from this foren
 \item[{$\square$}] Look for editorial credits
 \end{itemize}
 \item Key Verse Spot Check
-\label{sec:org52ed231}
+\label{sec:orge121722}
 \begin{itemize}
 \item[{$\square$}] BG 2.13: "forgotten soul" = Original
 \item[{$\square$}] BG 2.13: "forgetful soul" = Current
@@ -5255,11 +5258,11 @@ This appendix provides practical tools for applying the findings from this foren
 \end{itemize}
 \end{itemize}
 \item Situation Response Matrix
-\label{sec:org18ec107}
+\label{sec:orgc759789}
 
 \begin{itemize}
 \item If Your Temple Uses Current Version But You Prefer Original:
-\label{sec:org93a56d6}
+\label{sec:orgb328b79}
 \begin{itemize}
 \item[{$\square$}] Study both versions privately
 \item[{$\square$}] Use original for personal practice
@@ -5268,7 +5271,7 @@ This appendix provides practical tools for applying the findings from this foren
 \item[{$\square$}] Focus on shared spiritual principles
 \end{itemize}
 \item If You're Starting a Study Group:
-\label{sec:org2a9094a}
+\label{sec:orgc7fe738}
 \begin{itemize}
 \item[{$\square$}] Choose which version to use
 \item[{$\square$}] Be transparent about your choice
@@ -5277,7 +5280,7 @@ This appendix provides practical tools for applying the findings from this foren
 \item[{$\square$}] Maintain group harmony
 \end{itemize}
 \item If Someone Asks About the Differences:
-\label{sec:org99d4c89}
+\label{sec:org22beb4c}
 \begin{itemize}
 \item[{$\square$}] Start with love and compassion
 \item[{$\square$}] Share factual information
@@ -5288,11 +5291,11 @@ This appendix provides practical tools for applying the findings from this foren
 \end{itemize}
 \end{itemize}
 \section*{Section II: Personal Assessment Tools}
-\label{sec:orgf277675}
+\label{sec:org945e5dc}
 
 \begin{itemize}
 \item Spiritual Temperament Assessment
-\label{sec:org4d4c002}
+\label{sec:orgf06f57d}
 
 Complete this assessment to understand which approach best serves your spiritual development:
 
@@ -5336,7 +5339,7 @@ Complete this assessment to understand which approach best serves your spiritual
 \item 8-10 points: Current version likely better serves your philosophical temperament
 \end{itemize}
 \item Knowledge Check Assessment
-\label{sec:orgace1019}
+\label{sec:org921f607}
 
 Test your understanding of the documented differences:
 
@@ -5380,11 +5383,11 @@ Test your understanding of the documented differences:
 \textbf{\textbf{Answers:}} 1-Divine address, 2-77\%, 3-Neural pathways, 4-Devotional accessibility, 5-Systematic understanding
 \end{itemize}
 \section*{Section III: Action Plans}
-\label{sec:org24ad827}
+\label{sec:org86888f4}
 
 \begin{itemize}
 \item For Current Version Readers Discovering Original
-\label{sec:orgd54937b}
+\label{sec:orgc3cf93a}
 
 If you've been reading the current version and want to explore the original:
 
@@ -5412,7 +5415,7 @@ If you've been reading the current version and want to explore the original:
 \item[{$\square$}] Share experiences appropriately
 \end{itemize}
 \item For Original Readers in Revised-Using Communities
-\label{sec:org790c773}
+\label{sec:org473e0b2}
 
 If you prefer the original but your community uses the revision:
 
@@ -5440,7 +5443,7 @@ If you prefer the original but your community uses the revision:
 \item[{$\square$}] Remember: Unity in diversity is possible
 \end{itemize}
 \item For Teachers and Leaders
-\label{sec:org6ab741f}
+\label{sec:orgbcacb24}
 
 If you guide others in spiritual study:
 
@@ -5469,11 +5472,11 @@ If you guide others in spiritual study:
 \end{itemize}
 \end{itemize}
 \section*{Section IV: Community Harmony Strategies}
-\label{sec:org3510c63}
+\label{sec:org6b93e92}
 
 \begin{itemize}
 \item Discussing Differences Constructively
-\label{sec:orga27e205}
+\label{sec:org2a21b94}
 
 \textbf{\textbf{DO:}}
 \begin{itemize}
@@ -5493,7 +5496,7 @@ If you guide others in spiritual study:
 \item[{$\square$}] Spread discord
 \end{itemize}
 \item Building Bridges
-\label{sec:org4f4e0eb}
+\label{sec:orgf8fa1cc}
 
 \textbf{\textbf{Common Ground Focus:}}
 \begin{itemize}
@@ -5512,11 +5515,11 @@ If you guide others in spiritual study:
 \end{itemize}
 \end{itemize}
 \section*{Section V: Resources and Support}
-\label{sec:orgd5104a2}
+\label{sec:org818bdff}
 
 \begin{itemize}
 \item Essential Resources
-\label{sec:orgdec4769}
+\label{sec:org960d969}
 \begin{itemize}
 \item Original 1972 edition (various publishers)
 \item Current BBT editions for comparison
@@ -5525,7 +5528,7 @@ If you guide others in spiritual study:
 \item Discussion forums (use discriminately)
 \end{itemize}
 \item Study Suggestions
-\label{sec:org08f306c}
+\label{sec:org7bb8415}
 \begin{itemize}
 \item Compare specific verses that matter to you
 \item Read scholarly analyses from both perspectives
@@ -5533,7 +5536,7 @@ If you guide others in spiritual study:
 \item Make your own informed choice
 \end{itemize}
 \item Support Networks
-\label{sec:org6a398ba}
+\label{sec:org815639f}
 \begin{itemize}
 \item Find others who respect conscious choice
 \item Join study groups that honor both versions
@@ -5542,11 +5545,11 @@ If you guide others in spiritual study:
 \end{itemize}
 \end{itemize}
 \section*{Section VI: Long-term Integration}
-\label{sec:org9665cec}
+\label{sec:org824a591}
 
 \begin{itemize}
 \item Personal Practice Evolution
-\label{sec:org999909a}
+\label{sec:orgfac7e8a}
 
 \textbf{\textbf{Month 1-3:}}
 \begin{itemize}
@@ -5572,7 +5575,7 @@ If you guide others in spiritual study:
 \item[{$\square$}] Serve community unity
 \end{itemize}
 \item Ongoing Development
-\label{sec:org1d37c7b}
+\label{sec:org010b251}
 
 \textbf{\textbf{Daily Practice:}}
 \begin{itemize}
@@ -5607,7 +5610,7 @@ If you guide others in spiritual study:
 \end{itemize}
 \end{itemize}
 \section*{Remember: The Goal}
-\label{sec:orga7b7466}
+\label{sec:orga5dac1a}
 
 The purpose of conscious choice is not division but authentic spiritual development. Whether you choose the original's devotional accessibility or the revision's systematic precision, what matters is:
 
@@ -5622,8 +5625,8 @@ Both versions have created sincere practitioners. Both can serve spiritual devel
 
 \textbf{May your practice be blessed with clarity, devotion, and wisdom.}
 \part*{Citations for Detailed Information}
-\label{sec:org4e27c09}
-\thispagestyle{plain}
+\label{sec:orgb384bf4}
+\thispagestyle{chapterpage}
 \markright{Citations}
 
 For readers seeking complete documentation of the claims made in this investigation:
@@ -5670,7 +5673,7 @@ For readers seeking complete documentation of the claims made in this investigat
 
 \textbf{\textbf{Various Authors.}} Studies on collectivist versus individualist spiritual orientation development through language patterns. \emph{Journal of Cognitive Anthropology}, 2019-2022.
 \part*{About the Author}
-\label{sec:org733c785}
+\label{sec:org5d928ac}
 
 \textbf{\textbf{Br. Jagannatha Mishra Dasa}} has been studying intensively in various temples around the world since 1981, when he received initiation as a Brahmin, becoming part of the Gaudiya Vaisnava tradition.
 

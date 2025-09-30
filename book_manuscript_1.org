@@ -18,7 +18,7 @@
 #+LATEX_HEADER:   bindingoffset=0mm, % Offset ya incluido en margen interior
 #+LATEX_HEADER:   headheight=12pt,   % Space for header
 #+LATEX_HEADER:   headsep=8mm,       % Separation between header and text
-#+LATEX_HEADER:   footskip=25mm,     % Space to put page number (increased for visibility)
+#+LATEX_HEADER:   footskip=15mm,     % Space to put page number
 #+LATEX_HEADER:   includehead=true,  % Include header in text area
 #+LATEX_HEADER:   includefoot=true   % Include footer in text area (page number inside)
 #+LATEX_HEADER: }
@@ -75,6 +75,12 @@
 #+LATEX_HEADER:   \renewcommand{\leftmark}{}%
 #+LATEX_HEADER:   \renewcommand{\rightmark}{}%
 #+LATEX_HEADER: }
+#+LATEX_HEADER: \fancypagestyle{chapterpage}{% Chapter pages - no headers at all, only page numbers
+#+LATEX_HEADER:   \fancyhf{}%
+#+LATEX_HEADER:   \renewcommand{\headrulewidth}{0pt}%
+#+LATEX_HEADER:   \renewcommand{\footrulewidth}{0pt}%
+#+LATEX_HEADER:   \fancyfoot[C]{\large\bfseries\thepage}%
+#+LATEX_HEADER: }
 
 # Start with front matter style (no page numbers)
 #+LATEX_HEADER: \pagestyle{frontmatter}
@@ -91,6 +97,11 @@
 
 # Photo placeholder command
 #+LATEX_HEADER: \newcommand{\photoplaceholder}[4]{\fbox{\parbox{#1}{\centering\vspace{#2}\\Photo #3\\#4\\⁢\vspace{#2}}}}
+
+# Chapter findings box environment
+#+LATEX_HEADER: \newenvironment{chapterfindingsbox}%
+#+LATEX_HEADER: {\begin{quote}\begin{itemize}\setlength{\itemsep}{0.3em}}%
+#+LATEX_HEADER: {\end{itemize}\end{quote}}
 
 # Main matter command - start page numbering at Preface
 #+LATEX_HEADER: \newcommand{\startmainmatter}{\clearpage\pagenumbering{arabic}\setcounter{page}{1}\pagestyle{fancy}\forcenumbering}
@@ -207,7 +218,7 @@ Published in Spain
 #+LATEX: \setlength{\parskip}{4pt plus 1pt minus 1pt}
 
 #+LATEX: \newpage
-#+LATEX: \thispagestyle{empty}
+#+LATEX: \thispagestyle{fancy}
 
 *Appendices and References*
 - Appendix A: Research Methodology
@@ -227,6 +238,10 @@ Published in Spain
 #+LATEX: \thispagestyle{frontmatter}
 #+LATEX: \enlargethispage{6\baselineskip}
 #+LATEX: \setlength{\parskip}{3pt plus 1pt minus 1pt}
+#+LATEX: \emergencystretch=3em
+#+LATEX: \tolerance=2000
+#+LATEX: \hbadness=2000
+#+LATEX: \looseness=-1
 
 In 1972, A.C. Bhaktivedanta Swami Prabhupāda gave the world his Bhagavad-gītā As It Is—a devotional translation that would introduce millions to Krishna consciousness. After his passing in 1977, well-meaning disciples decided to "improve" his work. This book documents what happened next.
 
@@ -236,7 +251,7 @@ These are not merely academic concerns. The differences create distinct sacred t
 
 Specific names are not mentioned extensively because this subject matter is highly inflammable, with two distinct camps holding strong positions. However, all documented changes and claims can be quickly substantiated through internet searches—this data is publicly available throughout the web for independent verification. When sacred texts undergo systematic alteration, the consequences extend far beyond publishing decisions. They reshape human consciousness itself.
 
-The evidence speaks. The implications demand recognition. The choice of response belongs to each reader.
+The evidence is clear. What it means cannot be ignored. How readers respond is their choice alone.
 
 #+LATEX: \clearpage
 #+LATEX: \thispagestyle{empty}
@@ -258,7 +273,7 @@ The evidence speaks. The implications demand recognition. The choice of response
 # Part I: The Crisis Revealed
 
 ** 1. The Sacred Gift
-#+LATEX: \thispagestyle{empty}
+#+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: \normalfont\justifying
 In 1972, an elderly Indian monk gave the Western world a gift that would change millions of lives. His name was A.C. Bhaktivedanta Swami Prabhupāda, and his gift was a translation of the Bhagavad-gītā, India's most sacred philosophical text.
@@ -276,7 +291,7 @@ On November 14, 1977, Prabhupāda passed away in Vrindavana, India, the holy lan
 Or so everyone believed.
 
 ** 2. The Question
-#+LATEX: \thispagestyle{empty}
+#+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: \normalfont\justifying
 Six years after Prabhupāda's death, in 1983, his publishing house quietly released a "Revised and Enlarged" edition of the Bhagavad-gītā. The cover looked identical. The author's name remained unchanged. But inside, a transformation had occurred that would fracture spiritual communities for decades.
@@ -295,10 +310,10 @@ But something fundamental had shifted. Where Prabhupāda had written "the Blesse
 
 For twenty years, most readers didn't know. Then the internet made comparison possible, and the discovery began.
 
-The scope of alterations defies conventional understanding of editorial revision. What Maya would discover through her investigation would challenge everything readers thought they knew about sacred text preservation.
+The alterations exceeded all expectations. What emerged would challenge everything readers thought they knew.
 
 ** 3. The Discovery
-#+LATEX: \thispagestyle{empty}
+#+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: \normalfont\justifying
 Maya Rodriguez had been reading Bhagavad-gītā verse 2.47 every morning for fifteen years. The words shaped her daily meditation, her approach to work, her understanding of spiritual duty. In 2023, while visiting her hospitalized grandmother, she discovered the elderly woman had been reading a different edition all along.
@@ -334,7 +349,7 @@ The question haunting Maya was simple: Who decided to rewrite a dead author's wo
 The answer would take her deep into the heart of spiritual authority, editorial ethics, and the power of words to shape human consciousness.
 
 ** 4. The Monk's Journey
-#+LATEX: \thispagestyle{empty}
+#+LATEX: \thispagestyle{chapterpage}
 #+LATEX: \markright{The Monk's Journey}
 
 #+LATEX: \normalfont\justifying
@@ -376,7 +391,7 @@ Then came November 14, 1977. In his final months, Prabhupāda's concern for his 
 
 Present during this instruction was Jayadvaita Swami, the young editor who had helped produce the original books. His interpretation of "grammatical discrepancy" would reshape spiritual lives for generations.
 
-At 7:30 PM on November 14, in Vrindavana, India, Prabhupāda spoke his last words: "Hare Krishna." With his passing, the only person who could definitively say what the Bhagavad-gītā should contain was gone. What remained were manuscripts, memories, and disciples who genuinely believed they knew what their guru really wanted.
+On November 14, 1977, in Vrindavana, India, Prabhupāda departed this world. With his passing, the only person who could definitively say what the Bhagavad-gītā should contain was gone. What remained were manuscripts, memories, and disciples who genuinely believed they knew what their guru really wanted.
 
 The stage was set for the transformation that would fracture a spiritual movement and confuse millions of readers worldwide.
 
@@ -397,7 +412,7 @@ The stage was set for the transformation that would fracture a spiritual movemen
 #+LATEX: \end{chapterfindingsbox}
 
 ** 5. Two Different Souls
-#+LATEX: \thispagestyle{empty}
+#+LATEX: \thispagestyle{chapterpage}
 #+LATEX: \markright{Two Different Souls}
 
 #+LATEX: \normalfont\justifying
@@ -480,7 +495,7 @@ Maya closed both books and leaned back in her chair. Her three-month investigati
 Tomorrow, she would begin documenting the global pattern she had discovered. But tonight, she sat quietly, understanding that she had witnessed something unprecedented: the secret transformation of a sacred text that had programmed millions of minds without their knowledge.
 
 ** 6. The Pattern Revealed
-#+LATEX: \thispagestyle{empty}
+#+LATEX: \thispagestyle{chapterpage}
 #+LATEX: \markright{The Pattern Revealed}
 
 #+LATEX: \normalfont\justifying
@@ -542,7 +557,7 @@ The most systematic alteration transformed Krishna's voice throughout: "the Bles
 When this magnitude of systematic change occurs in a sacred text, readers aren't getting the same book. They're choosing between two spiritual paths without knowing it.
 
 ** 7. Global Confusion
-#+LATEX: \thispagestyle{empty}
+#+LATEX: \thispagestyle{chapterpage}
 #+LATEX: \markright{Global Confusion}
 
 #+LATEX: \vspace{0.3cm}
@@ -568,7 +583,7 @@ The crisis had become global, systematic, and undeniable. Yet institutional auth
 Maya realized she had stumbled onto something far larger than personal confusion. She had discovered evidence of how spiritual authority operates in the modern world—and how sincere intentions can create profound deception when institutions prioritize protection over transparency.
 
 ** 8. The Cover-Up
-#+LATEX: \thispagestyle{empty}
+#+LATEX: \thispagestyle{chapterpage}
 #+LATEX: \markright{The Cover-Up}
 
 #+LATEX: \normalfont\justifying
@@ -611,7 +626,7 @@ The cover-up had lasted forty years because it served everyone's immediate inter
 But as Maya was discovering, the cost of this silence extended far beyond publishing ethics. It had fractured communities, confused sincere seekers, and created a crisis of trust that threatened the very transmission the original book was meant to preserve.
 
 ** 9. The Divided House
-#+LATEX: \thispagestyle{empty}
+#+LATEX: \thispagestyle{chapterpage}
 #+LATEX: \markright{The Divided House}
 
 #+LATEX: \normalfont\justifying
@@ -760,7 +775,7 @@ The smoking gun evidence makes this choice unavoidable.
 
 ** 4. Two Different Gods
 #+LATEX: \markright{Two Different Gods}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: {\centering\itshape Changing divine address from intimate to institutional\\doesn't improve translation—it transforms how readers\\experience the sacred relationship.\par}
 #+LATEX: \vspace{0.3cm}
@@ -936,7 +951,7 @@ These systematic alterations don't improve the text—they transform the reader'
 
 ** 6. The Language of the Heart
 #+LATEX: \markright{The Language of the Heart}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: {\centering\itshape Sacred language doesn't just communicate spiritual concepts—\\it programs the heart's approach to divine reality.\par}
 #+LATEX: \vspace{0.3cm}
@@ -1165,7 +1180,7 @@ When editors systematically alter heart-language into mind-language without disc
 
 ** 7. Two Paths, Two Souls
 #+LATEX: \markright{Two Paths, Two Souls}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: {\centering\itshape Two versions create two different kinds of human beings—\\one seeking intimate love with the divine, the other pursuing\\systematic religious advancement.\par}
 #+LATEX: \vspace{0.3cm}
@@ -1361,7 +1376,7 @@ Two paths, two souls, two completely different spiritual destinies—hidden in e
 
 ** 8. The Publishing Deception
 #+LATEX: \markright{The Publishing Deception}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: {\centering\itshape The most disturbing aspect of this process:\\readers were never informed that systematic\\theological alteration was occurring.\par}
 #+LATEX: \vspace{0.3cm}
@@ -1682,7 +1697,7 @@ As Maya left the café, she knew her next step: confronting the defenders of the
 
 ** 9. The Defenders and Their Strategies
 #+LATEX: \markright{The Defenders and Their Strategies}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: {\centering\itshape When institutions say 'these are minor improvements,'\\they're asking you to trust their judgment\\over your own spiritual experience.\par}
 #+LATEX: \vspace{0.3cm}
@@ -2315,7 +2330,7 @@ The defense mechanisms end when the service begins.
 
 ** 10. What Prabhupāda Actually Wanted
 #+LATEX: \markright{What Prabhupāda Actually Wanted}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: {\centering\itshape Prabhupāda chose intimate divine language to open hearts,\\not theological terminology\\to establish institutional authority.\par}
 #+LATEX: \vspace{0.3cm}
@@ -2499,7 +2514,7 @@ Prabhupāda wanted his Bhagavad-gītā preserved "As It Is"—exactly as he publ
 
 ** 11. The Scholarly Solution
 #+LATEX: \markright{The Scholarly Solution}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: {\centering\itshape Multiple editions can coexist honestly—but only when\\readers know exactly what they're getting, and the original\\remains forever untouched.\par}
 #+LATEX: \vspace{0.3cm}
@@ -2747,7 +2762,7 @@ The solution is neither complex nor expensive. It requires only honesty, transpa
 
 ** 12. Two Futures
 #+LATEX: \markright{Two Futures}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: {\centering\itshape Recognition, not condemnation; understanding, not accusation;\\conscious choice, not unconscious acceptance.\par}
 #+LATEX: \vspace{0.3cm}
@@ -3240,7 +3255,7 @@ The rest is up to conscious readers who understand what they're choosing and why
 
 * Conclusion: Preserving the Sacred in Translation
 #+LATEX: \markright{Conclusion}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{chapterpage}
 
 ** The Central Finding
 
@@ -3377,7 +3392,7 @@ The sacred deserves nothing less than complete honesty in its preservation and t
 
 * Bibliography
 #+LATEX: \markright{Bibliography}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{chapterpage}
 
 Barthes, Roland. "The Death of the Author." *Image, Music, Text*. Hill and Wang, 1977.
 
@@ -3474,7 +3489,7 @@ This analysis represents seven years of systematic research (2018-2025) involvin
 Every documented change has been verified through multiple sources where possible, with uncertainty levels explicitly noted where source material is incomplete or ambiguous.
 
 * Glossary
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{chapterpage}
 #+LATEX: \markright{Glossary}
 
 A guide to key terms and concepts for understanding the transformation of sacred texts.
@@ -3519,7 +3534,7 @@ A guide to key terms and concepts for understanding the transformation of sacred
 
 * Appendix A: Research Methodology
 #+LATEX: \markright{Appendix A}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{chapterpage}
 
 This investigation draws upon research from multiple scientific disciplines to validate its conclusions: **Neuroscience** (brain imaging studies of consciousness development), **Psycholinguistics** (semantic priming and language processing), **Educational Psychology** (learning environment effects and mindset research), **Anthropology** (cultural transmission patterns and sacred language studies), **Sociology of Religious Institutions** (organizational survival strategies), **Organizational Psychology** (institutional defensiveness patterns), **Formal Linguistics** (prestige dialect adoption and language formalization), **Comparative Religious Studies** (charismatic-to-bureaucratic language shifts), **History of Religions** (posthumous textual modification patterns), and **Cognitive Anthropology** (collectivist versus individualist orientation development). 
 
@@ -3527,7 +3542,7 @@ This interdisciplinary approach ensures the findings represent rigorous cross-fi
 
 * Appendix B: Major Doctrinal Changes
 #+LATEX: \markright{Appendix B}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{chapterpage}
 
 *** Universal Divine Address Alterations
 - **Pattern**: Every instance of intimate divine speech systematically replaced with formal theological address
@@ -3587,7 +3602,7 @@ This interdisciplinary approach ensures the findings represent rigorous cross-fi
 
 * Appendix C: Chapter-by-Chapter Statistical Analysis
 #+LATEX: \markright{Appendix C}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{chapterpage}
 
 *** Overall Alteration Scope
 
@@ -3668,7 +3683,7 @@ This interdisciplinary approach ensures the findings represent rigorous cross-fi
 
 * Appendix D: Linguistic Quality vs. Spiritual Accessibility Assessment
 #+LATEX: \markright{Appendix D}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{chapterpage}
 
 *** Comprehensive 259-Change Analysis Results
 
@@ -3753,7 +3768,7 @@ While 51.7% of changes improved technical English, 89% reduced spiritual accessi
 
 * Appendix E: Key Meaning-Altering Changes
 #+LATEX: \markright{Appendix E}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{chapterpage}
 
 *** I. Complete Meaning Reversals
 
@@ -3936,7 +3951,7 @@ This 66% contradiction rate with source materials appears consistently across al
 This complete documentation represents the most comprehensive analysis available of systematic alterations to what millions consider sacred scripture, done without explicit authorization from the original author or transparent disclosure to readers.
 
 * Citations
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{chapterpage}
 #+LATEX: \markright{Citations}
 
 1. Pascual-Leone et al., 2005, *Annual Review of Neuroscience*
@@ -4066,7 +4081,7 @@ Every instance of intimate divine blessing replaced with institutional theologic
 
 * Appendix B: Class Transcript Evidence of Prabhupāda's Approval
 #+LATEX: \markright{Appendix B}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{chapterpage}
 
 *** BG 2.48: "Steadfast in Yoga" Documentation
 **Original read to Prabhupāda**: "Be steadfast in yoga, O Arjuna. Perform your duty and abandon all attachment to success or failure. Such evenness of mind is called yoga."
@@ -4091,7 +4106,7 @@ Every instance of intimate divine blessing replaced with institutional theologic
 
 * Appendix C: Chapter-by-Chapter Statistical Analysis
 #+LATEX: \markright{Appendix C}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{chapterpage}
 
 *** Overall Alteration Scope
 
@@ -4172,7 +4187,7 @@ Every instance of intimate divine blessing replaced with institutional theologic
 
 * Appendix D: Linguistic Quality vs. Spiritual Accessibility Assessment
 #+LATEX: \markright{Appendix D}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{chapterpage}
 
 *** Comprehensive 259-Change Analysis Results
 
@@ -4257,7 +4272,7 @@ While 51.7% of changes improved technical English, 89% reduced spiritual accessi
 
 * Appendix E: Key Meaning-Altering Changes
 #+LATEX: \markright{Appendix E}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{chapterpage}
 
 *** I. Complete Meaning Reversals
 
@@ -4441,7 +4456,7 @@ This complete documentation represents the most comprehensive analysis available
 
 * Appendix F: Practical Application Guide
 #+LATEX: \markright{Practical Guide}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: {\centering\itshape Tools for applying the forensic findings to spiritual practice,\\enabling conscious choice based on documented evidence.\par}
 #+LATEX: \vspace{0.3cm}
@@ -4742,7 +4757,7 @@ Both versions have created sincere practitioners. Both can serve spiritual devel
 *May your practice be blessed with clarity, devotion, and wisdom.*
 
 * Citations for Detailed Information
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{chapterpage}
 #+LATEX: \markright{Citations}
 
 For readers seeking complete documentation of the claims made in this investigation:
