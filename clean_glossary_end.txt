@@ -1,8 +1,0 @@
-*"The words can be returned through simple honesty."* — The book's central message that transparency solves what deception created.
-
-* Appendix F: Practical Application Guide
-#+LATEX: \markright{Practical Guide}
-#+LATEX: \thispagestyle{plain}
-
-#+LATEX: {\centering\itshape Tools for applying the forensic findings to spiritual practice,\\enabling conscious choice based on documented evidence.\par}
-#+LATEX: \vspace{0.3cm}

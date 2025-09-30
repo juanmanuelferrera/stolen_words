@@ -1,0 +1,430 @@
+\documentclass[11pt,twoside]{book}
+
+% Page Layout Configuration (6x9 inches)
+\usepackage[paperwidth=6in,paperheight=9in]{geometry}
+\geometry{
+  inner=17.7mm,      % Inner margin (gutter)
+  outer=11.35mm,     % Outer margin
+  top=11.35mm,       % Top margin
+  bottom=11.35mm,    % Bottom margin
+  bindingoffset=0mm, % Binding offset
+  headheight=12pt,   % Space for header
+  headsep=8mm,       % Separation between header and text
+  footskip=25mm,     % Space for page number
+  includehead=true,  % Include header in text area
+  includefoot=true   % Include footer in text area
+}
+
+% Typography Configuration
+\usepackage{times}
+\usepackage[final,babel=true]{microtype}
+\usepackage{setspace}
+\setstretch{1.05}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt plus 1pt minus 1pt}
+\usepackage{ragged2e}
+\justifying
+
+% Hyphenation settings
+\hyphenpenalty=50
+\exhyphenpenalty=50
+\doublehyphendemerits=2500
+\finalhyphendemerits=5000
+\adjdemerits=10000
+\tolerance=1000
+\pretolerance=100
+
+% Custom hyphenation
+\hyphenation{deve-lopment transmi-ssion Prab-hu-pa-da ma-hat-ma Va-su-de-vah sys-tem-at-ic the-o-log-i-cal in-sti-tu-tion-al trans-for-ma-tion con-scious-ness man-i-fes-ta-tion au-then-tic-i-ty}
+
+% Additional packages
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+
+% Page style configuration
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\fancyhead[LE]{\small\textsc{Stolen Words}}
+\fancyhead[RO]{\small\textsc{\rightmark}}
+\renewcommand{\headrulewidth}{0.5pt}
+
+% Chapter formatting
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyfoot[C]{\thepage}%
+  \renewcommand{\headrulewidth}{0pt}%
+}
+
+% Title page style
+\fancypagestyle{frontmatter}{%
+  \fancyhf{}%
+  \renewcommand{\headrulewidth}{0pt}%
+}
+
+% Chapter heading customization
+\makeatletter
+\renewcommand\LARGE{\@setfontsize\LARGE{18}{22}}
+\renewcommand{\@makechapterhead}[1]{%
+  \vspace*{25\p@}%
+  {\parindent \z@ \raggedright \normalfont
+    \LARGE \bfseries #1\par\nobreak
+    \vskip 15\p@
+  }}
+\renewcommand{\@makeschapterhead}[1]{%
+  \vspace*{25\p@}%
+  {\parindent \z@ \raggedright \normalfont
+    \LARGE \bfseries #1\par\nobreak
+    \vskip 15\p@
+  }}
+\makeatother
+
+% List settings
+\setcounter{secnumdepth}{0}
+\setlength{\leftmargini}{1.2em}
+\setlength{\leftmarginii}{1.0em}
+\setlength{\leftmarginiii}{0.8em}
+
+% Custom commands
+\newcommand{\startmainmatter}{\clearpage\pagenumbering{arabic}\setcounter{page}{1}}
+
+% Blank page handling
+\makeatletter
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else\hbox{}\thispagestyle{empty}\newpage\if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+
+\begin{document}
+
+% Title Page
+\pagestyle{frontmatter}
+\thispagestyle{empty}
+\vspace*{0.2\textheight}
+\begin{center}
+{\LARGE\bfseries\textsc{STOLEN WORDS}}\\[0.8cm]
+{\large A Forensic Investigation of Bhagavad-gītā As It Is}\\[1.5cm]
+\vspace{0.15\textheight}
+{\Large Br. Jagannatha Mishra Dasa}\\[2cm]
+\vspace*{\fill}
+{\normalsize 2025 - Version 2.0}
+\end{center}
+\clearpage
+
+% Start main matter
+\startmainmatter
+\pagestyle{fancy}
+
+\chapter*{Preface}
+\addcontentsline{toc}{chapter}{Preface}
+\markright{Preface}
+
+Sacred texts guide human consciousness. When editors change sacred words without disclosure, they secretly redirect millions of spiritual journeys. This investigation documents the largest undisclosed revision in modern spiritual publishing: how 77\% of the Bhagavad-gītā As It Is was systematically altered after its author's death, creating two fundamentally different spiritual paths disguised as the same book.
+
+The evidence reveals that specific word changes steal specific types of consciousness from readers. Each ``stolen word'' programs whether people approach the Divine through their heart or mind, through dependence or independence, through mystical union or systematic understanding.
+
+Both approaches create sincere spiritual practitioners. The problem arises when this choice is made for readers without their knowledge.
+
+This book proves that changing words changes consciousness, and hidden changes steal the right to conscious spiritual development.
+
+Maya Rodriguez's investigation—representing millions who discovered by accident that their sacred text had been transformed—reveals how editorial choices determine the type of spiritual human readers become.
+
+The solution isn't choosing one approach over another, but preserving honest choice between authentic alternatives.
+
+Sacred texts deserve complete honesty in their transmission.
+
+\chapter*{Introduction: Maya's Discovery}
+\addcontentsline{toc}{chapter}{Introduction: Maya's Discovery}
+\markright{Introduction}
+
+Maya Rodriguez held two books with identical titles. Both claimed to be ``Bhagavad-gītā As It Is'' by A.C. Bhaktivedanta Swami Prabhupāda. Yet the words inside told different spiritual stories.
+
+Her 89-year-old grandmother lay in the hospital bed, clutching her worn 1975 edition. ``Pray for me, mija,'' she whispered. ``I'm just a forgotten soul without Krishna's mercy.''
+
+Maya opened her own 2010 edition to the same verse the old woman quoted. The page read: ``one who is forgetful'' must ``properly understand'' the path to spiritual advancement.
+
+Same verse number. Different consciousness programming.
+
+Her grandmother's book taught dependence on divine grace. Maya's book taught systematic self-improvement through proper knowledge. Both created sincere spiritual practitioners, but fundamentally different types of spiritual humans.
+
+``Grandma, why does your book say 'forgotten soul' but mine says 'forgetful'?''
+
+The old woman's eyes sharpened despite her weakness. ``That's impossible, mija. They wouldn't change Prabhupāda's words.''
+
+But they had. Maya's three-month investigation would reveal that 541 out of 700 verses had been systematically altered without reader disclosure, creating two different spiritual paths disguised as the same sacred text.
+
+This is the story of how Maya Rodriguez discovered that stolen words steal consciousness, and how millions of readers had been unknowingly programmed to approach the Divine through editorial choices they never knew were made.
+
+\chapter*{Chapter 1: The Pattern Emerges}
+\addcontentsline{toc}{chapter}{Chapter 1: The Pattern Emerges}
+\markright{The Pattern Emerges}
+
+Maya's investigation began with simple curiosity but quickly revealed systematic deception on a scale that shocked her.
+
+Working as a freelance editor, Maya understood the difference between minor corrections and fundamental revision. What she found went far beyond anything she had encountered in her professional experience.
+
+Verse after verse showed not random improvements but coordinated transformation following specific patterns:
+
+\textbf{Pattern 1: Personal Divine Address Eliminated}
+
+Every instance of ``The Blessed Lord said'' (245+ occurrences) had been changed to ``The Supreme Personality of Godhead said.'' This wasn't stylistic preference—it was consciousness programming.
+
+Her grandmother's book created intimate relationship: ``The Blessed Lord said'' activated the heart's devotional responses. Maya's book created institutional hierarchy: ``The Supreme Personality of Godhead said'' activated the mind's analytical responses.
+
+Different neural pathways. Different spiritual humans.
+
+\textbf{Pattern 2: Grace-Dependent Language Eliminated}
+
+Systematic removal of divine mercy emphasis appeared throughout:
+\begin{itemize}
+\item ``forgotten soul'' → ``forgetful soul''
+\item ``Krishna acts'' → ``one must act''
+\item ``divine mercy'' → ``proper understanding''
+\item ``surrender to Him'' → ``follow the process''
+\end{itemize}
+
+Maya's grandmother's book programmed grace-dependent consciousness: trust divine intervention for spiritual advancement. Maya's book programmed effort-dependent consciousness: develop systematic techniques for spiritual advancement.
+
+\textbf{Pattern 3: Meaning Reversals}
+
+The most shocking discovery: complete theological reversals hidden behind identical verse numbers.
+
+Verse 2.18 originally read: ``sacrifice the material body for the cause of religion.''
+The revision read: ``not sacrifice the cause of religion for material considerations.''
+
+Opposite teachings. Same verse number. No disclosure to readers.
+
+\textbf{Pattern 4: Ontological Security Theft}
+
+Twelve critical verses had ``unchangeable'' deleted when describing the soul's nature. Original readers encountered: ``invisible, inconceivable, immutable and unchangeable.'' Revised readers found: ``invisible, inconceivable and immutable.''
+
+Maya realized the theft: ``unchangeable'' consciousness trusted divine permanence; ``changeable'' consciousness sought human improvement.
+
+\textbf{The Global Scope}
+
+Maya's analysis revealed that 541 out of 700 verses (77\%) had been systematically altered without reader disclosure. This wasn't editorial improvement—it was consciousness programming disguised as minor correction.
+
+Two different spiritual paths. Two different types of spiritual humans. Hidden behind identical titles, identical covers, identical marketing.
+
+Maya understood she had discovered the largest undisclosed revision in modern spiritual publishing history.
+
+The question that haunted her: Who made this choice for millions of readers, and why did they hide it for forty years?
+
+\chapter*{Chapter 2: The Neuroscience Behind Stolen Words}
+\addcontentsline{toc}{chapter}{Chapter 2: The Neuroscience Behind Stolen Words}
+\markright{The Neuroscience Behind Stolen Words}
+
+Dr. Sarah Chen's Stanford neuroscience laboratory provided Maya with the scientific foundation that transformed her investigation from literary analysis into consciousness research.
+
+``I've never seen anything like this,'' Dr. Chen said, reviewing Maya's documentation of the word changes. ``You're describing systematic consciousness programming through linguistic manipulation. Let me show you what this looks like in the brain.''
+
+\textbf{The Brain Scans}
+
+Dr. Chen's team conducted neuroimaging studies comparing people who had studied the original version versus the revised version for six months each. The results were startling.
+
+\textbf{Original Version Neural Patterns:}
+\begin{itemize}
+\item Parasympathetic nervous system activation (rest and receive)
+\item Mirror neuron engagement (connecting with divine consciousness)
+\item Attachment and intimacy networks strengthened
+\item Anterior cingulate cortex activation (heart-centered processing)
+\end{itemize}
+
+\textbf{Revised Version Neural Patterns:}
+\begin{itemize}
+\item Sympathetic nervous system activation (effort and achieve)
+\item Analytical networks processing theological concepts
+\item Hierarchy and achievement networks strengthened  
+\item Prefrontal cortex activation (mind-centered processing)
+\end{itemize}
+
+``Both create genuine spiritual development,'' Dr. Chen explained to Maya. ``But they're fundamentally different types of spiritual humans. One approaches the Divine like a child with a loving parent; the other like a student with a respected teacher.''
+
+\textbf{The Consciousness Programming Mechanism}
+
+Dr. Chen's research revealed how specific word choices literally rewired neural pathways:
+
+\textbf{``Blessed Lord'' vs. ``Supreme Personality of Godhead'':}
+``Blessed Lord'' activated attachment and intimacy networks—the same neural circuits involved in parent-child bonding. ``Supreme Personality of Godhead'' activated hierarchy and institutional networks—the circuits involved in teacher-student relationships.
+
+\textbf{``Forgotten Soul'' vs. ``Forgetful Soul'':}
+``Forgotten soul'' activated receiving networks in the brain—parasympathetic responses expecting external help. ``Forgetful soul'' activated doing networks—sympathetic responses focused on self-correction.
+
+\textbf{``Unchangeable'' vs. Deletion:}
+References to ``unchangeable'' soul activated what Dr. Chen termed ``ontological security networks''—deep brain patterns of stability and permanence. Removing this word eliminated the neural foundation for spiritual indestructibility.
+
+\textbf{The Two Spiritual Orientations}
+
+Dr. Chen's brain imaging proved that the word changes created two distinct spiritual orientations:
+
+\textbf{Grace-Dependent Spirituality (Original):}
+\begin{itemize}
+\item Brain develops receptive, surrendering patterns
+\item Nervous system optimized for receiving divine intervention
+\item Heart-centered processing dominates
+\item Mystical, devotional orientation emerges
+\end{itemize}
+
+\textbf{Knowledge-Dependent Spirituality (Revised):}
+\begin{itemize}
+\item Brain develops active, controlling patterns
+\item Nervous system optimized for systematic effort
+\item Mind-centered processing dominates
+\item Analytical, educational orientation emerges
+\end{itemize}
+
+\textbf{Maya's Realization}
+
+``Dr. Chen, you're telling me that editorial choices determine whether people become mystics or scholars?''
+
+``More precisely,'' Dr. Chen replied, ``editorial choices determine whether people's brains develop mystical or systematic spiritual processing. Both create sincere practitioners, but the neural pathways are fundamentally different.''
+
+Maya understood the full scope of what she had discovered: stolen words didn't just change meaning—they stole specific types of consciousness development from readers who never knew the choice was being made for them.
+
+Each word change programmed millions of brains to approach the Divine through different neural pathways, creating different types of spiritual humans without their knowledge or consent.
+
+\chapter*{Chapter 3: Global Confusion - The Evidence Spreads}
+\addcontentsline{toc}{chapter}{Chapter 3: Global Confusion - The Evidence Spreads}
+\markright{Global Confusion}
+
+By 2005, Maya discovered, the confusion had spread to every continent where the Bhagavad-gītā was studied. Her investigation revealed a pattern of institutional fractures that mirrored her own personal discovery, but on a global scale.
+
+\textbf{Moscow: The Sunday Evening Crisis}
+
+In Moscow, the crisis erupted during a Sunday evening class at the Mandir Temple. An elderly Russian devotee named Dmitri was reading from his treasured 1976 edition—one of the first books that had survived the Soviet era's religious restrictions. As he quoted verse 7.12 about divine source, younger students began shaking their heads.
+
+``Grandfather Dmitri, your translation is incorrect,'' said Anya, a university student holding her 2003 edition. ``Krishna doesn't say 'I am the source.' The proper translation is 'All states of being are manifested by My energy.'''
+
+Dmitri's weathered hands tightened on his book. ``Child, I have read this verse ten thousand times. It says what it says.''
+
+But when they compared the books side by side, the verses were completely different. The room fell silent as thirty people realized they had been studying incompatible spiritual teachings while believing they followed the same path.
+
+\textbf{São Paulo: The Academic Challenge}
+
+Professor Maria Santos at the University of São Paulo faced a similar crisis during her comparative religion seminar. A visiting scholar from Harvard quoted the Bhagavad-gītā's teaching about ``forgotten souls'' requiring divine mercy. Her Brazilian students insisted the text taught about ``forgetful souls'' needing proper understanding.
+
+``Professor,'' asked Carlos, a philosophy major, ``how can the same verse teach opposite spiritual methods?''
+
+Maria's investigation revealed that universities across Brazil had different editions in their libraries, cataloged identically but containing fundamentally different philosophical content. Academic papers citing the ``same'' verses reached contradictory conclusions because scholars unknowingly quoted from systematically altered texts.
+
+\textbf{Berlin: The Institutional Split}
+
+The German ISKCON temple experienced a community fracture when longtime members couldn't agree on basic spiritual principles. Elder devotees emphasized surrender and divine mercy, quoting their original German translations. Newer members emphasized systematic practice and proper understanding, quoting their revised translations.
+
+Both groups thought the others had deviated from authentic teachings. Neither group realized they were reading different books with identical titles.
+
+Heinrich Mueller, a devotee since 1974, held up his original German edition: ```Hier steht 'vergessene Seele'—forgotten soul requiring grace.''
+
+Greta Schmidt, initiated in 2001, held up her revised German edition: ```Nein, hier steht 'vergessliche Seele'—forgetful soul requiring knowledge.''
+
+The community split into two factions, each convinced the other had lost spiritual authenticity, when actually each had been programmed by different editorial choices to develop different spiritual orientations.
+
+\textbf{The Cover-Up Strategy}
+
+Maya's investigation revealed how institutional silence enabled global confusion:
+
+\textbf{No Disclosure:} Revised editions carried no indication of systematic alteration
+\textbf{Identical Cataloging:} Libraries listed different versions with identical entries
+\textbf{Uniform Marketing:} Both versions sold as ``original Prabhupāda''
+\textbf{Teacher Confusion:} Instructors didn't know which version students owned
+
+The institutional response evolved but maintained the core strategy: acknowledge minimal changes while denying systematic alteration. A 2019 BBT statement admitted to ``editorial improvements and restorations'' while insisting that ``spiritual content remains essentially unchanged.''
+
+But Maya's investigation had revealed the truth: 541 verses out of 700 had been altered, affecting 77\% of the text. This wasn't editorial improvement—it was textual transformation hidden behind institutional silence.
+
+\textbf{The Forty-Year Deception}
+
+Maya documented how the cover-up had lasted forty years because it served everyone's immediate interests:
+\begin{itemize}
+\item Publishers avoided admitting deception
+\item Institutions avoided acknowledging error  
+\item Readers avoided confronting uncomfortable truths about spiritual authority
+\item Academics avoided investigating spiritual publishing practices
+\end{itemize}
+
+The result: millions of people thought they were having theological disagreements about the same teaching, when they were actually programmed by different editions to understand human spiritual nature in fundamentally incompatible ways.
+
+Maya's global investigation revealed that a single hidden editorial decision had secretly divided entire spiritual communities across six continents, creating confusion where unity was intended, conflict where harmony was promised.
+
+The scope of the deception was unprecedented in modern spiritual publishing.
+
+\chapter*{Conclusion: Preserving the Sacred in Translation}
+\addcontentsline{toc}{chapter}{Conclusion: Preserving the Sacred in Translation}
+\markright{Conclusion}
+
+\textbf{The Central Finding}
+
+Maya Rodriguez's investigation reveals that the revised Bhagavad-gītā represents not mere editorial improvement but fundamental spiritual reorientation. Technical enhancements package systematic theological deviation that transforms readers' spiritual development trajectory.
+
+The evidence is comprehensive and undeniable:
+\begin{itemize}
+\item \textbf{Three-quarters of verses systematically altered} without reader disclosure
+\item \textbf{259+ theological changes} affecting core spiritual concepts
+\item \textbf{5,000+ total alterations} disguised as minor improvements
+\item \textbf{Class transcript evidence} proving Prabhupāda approved originals later changed
+\item \textbf{No authorization} for posthumous systematic revision
+\end{itemize}
+
+\textbf{The Two Paths Diverge}
+
+\textbf{Original Version: Mystical Devotional Path}
+\begin{itemize}
+\item Creates intimate divine relationship through ``Blessed Lord''
+\item Emphasizes grace-dependent transformation via ``forgotten soul''
+\item Produces mystically-oriented practitioners seeking divine love
+\item Preserves authentic Vedic devotional culture
+\item Maintains direct spiritual transmission without institutional mediation
+\end{itemize}
+
+\textbf{Revised Version: Systematic Religious Path}
+\begin{itemize}
+\item Creates institutional theological understanding through ``Supreme Personality of Godhead''
+\item Emphasizes knowledge-based progression via ``forgetful soul''
+\item Produces systematically-oriented practitioners seeking proper understanding
+\item Develops academic religious framework compatible with institutional needs
+\item Establishes mediated spiritual authority through educational systems
+\end{itemize}
+
+\textbf{The Crucial Recognition}
+
+These represent equally valid but fundamentally different spiritual approaches. The problem arises when institutional revision is presented as mere improvement rather than acknowledged paradigm shift.
+
+As Maya discovered, when readers purchase ``Prabhupāda's Bhagavad-gītā As It Is,'' they expect mystical devotional transmission. What they receive is systematic religious education masquerading as authentic transmission.
+
+\textbf{The Path Forward}
+
+Rather than defending past deception or condemning either approach, the solution lies in conscious choice architecture:
+
+\textbf{Multiple Edition Availability}
+\begin{itemize}
+\item \textbf{Original preserved} exactly as Prabhupāda published and approved it
+\item \textbf{Revisions available} with honest attribution to editorial committees
+\item \textbf{Clear identification} of which version serves which spiritual temperament
+\item \textbf{Equal availability} ensuring authentic choice rather than imposed preference
+\end{itemize}
+
+\textbf{Truth in Spiritual Publishing}
+\begin{itemize}
+\item \textbf{Complete disclosure} of alteration scope and theological implications
+\item \textbf{Transparent attribution} showing who made what changes and why
+\item \textbf{Reader education} about how different versions affect consciousness development
+\item \textbf{Honest marketing} eliminating deceptive presentation of altered content as original
+\end{itemize}
+
+\textbf{The Final Word}
+
+When someone changes the spiritual book that guides your life, they change your spiritual destiny. When they do this without your knowledge or consent, they steal not just words—they steal your right to conscious spiritual development.
+
+Both versions of the Bhagavad-gītā create sincere spiritual practitioners. But they create different kinds of practitioners through different consciousness programming.
+
+Every reader deserves to know which kind of spiritual development they're choosing and which consciousness programming they're receiving.
+
+Recognition, not condemnation. Understanding, not accusation. Conscious choice, not unconscious acceptance.
+
+The preservation of authentic spiritual transmission depends on honest acknowledgment of what has occurred and courageous commitment to preserving choice for future generations.
+
+\textit{Same book, different souls}—the choice of which soul to become should belong to each reader, not to editorial committees operating in secret.
+
+The sacred deserves nothing less than complete honesty in its preservation and transmission.
+
+\end{document}
