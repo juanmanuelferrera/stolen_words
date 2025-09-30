@@ -295,15 +295,7 @@ But something fundamental had shifted. Where Prabhupāda had written "the Blesse
 
 For twenty years, most readers didn't know. Then the internet made comparison possible, and the discovery began.
 
-The scope of alterations defies conventional understanding of editorial revision:
-
-#+LATEX: \setlength{\leftmargini}{1em}
-- **Systematic alteration of the vast majority of verses** without reader disclosure
-- **259+ documented theological alterations** affecting core spiritual concepts
-- **Every instance of divine speech** transformed from intimate "Blessed Lord" to formal "Supreme Personality of Godhead"  
-- **Every major spiritual relationship redefined** through linguistic manipulation
-
-These numbers represent not editorial enhancement but systematic doctrinal revision implemented without reader disclosure.
+The scope of alterations defies conventional understanding of editorial revision. What Maya would discover through her investigation would challenge everything readers thought they knew about sacred text preservation.
 
 ** 3. The Discovery
 #+LATEX: \thispagestyle{empty}
