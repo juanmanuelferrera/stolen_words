@@ -1685,7 +1685,8 @@ As Maya left the café, she knew her next step: confronting the defenders of the
 #+LATEX: \vspace*{0.25\textheight}
 #+LATEX: \begin{center}
 #+LATEX: {\Huge\bfseries\MakeUppercase{\textbf{IV}}}\\[0.5cm]
-#+LATEX: {\huge\bfseries THE INSTITUTIONAL RESPONSE}
+#+LATEX: {\huge\bfseries THE INSTITUTIONAL}\\[0.5cm]
+#+LATEX: {\huge\bfseries RESPONSE}
 #+LATEX: \end{center}
 #+LATEX: \vspace*{\fill}
 #+LATEX: \clearpage
@@ -3536,7 +3537,13 @@ A guide to key terms and concepts for understanding the transformation of sacred
 #+LATEX: \markright{Appendix A}
 #+LATEX: \thispagestyle{chapterpage}
 
-This investigation draws upon research from multiple scientific disciplines to validate its conclusions: **Neuroscience** (brain imaging studies of consciousness development), **Psycholinguistics** (semantic priming and language processing), **Educational Psychology** (learning environment effects and mindset research), **Anthropology** (cultural transmission patterns and sacred language studies), **Sociology of Religious Institutions** (organizational survival strategies), **Organizational Psychology** (institutional defensiveness patterns), **Formal Linguistics** (prestige dialect adoption and language formalization), **Comparative Religious Studies** (charismatic-to-bureaucratic language shifts), **History of Religions** (posthumous textual modification patterns), and **Cognitive Anthropology** (collectivist versus individualist orientation development). 
+This investigation draws upon research from multiple scientific disciplines to validate its conclusions:
+
+**Cognitive Sciences**: **Neuroscience** (brain imaging studies of consciousness development), **Psycholinguistics** (semantic priming and language processing), **Educational Psychology** (learning environment effects and mindset research), **Cognitive Anthropology** (collectivist versus individualist orientation development).
+
+**Cultural Studies**: **Anthropology** (cultural transmission patterns and sacred language studies), **Comparative Religious Studies** (charismatic-to-bureaucratic language shifts), **History of Religions** (posthumous textual modification patterns).
+
+**Institutional Analysis**: **Sociology of Religious Institutions** (organizational survival strategies), **Organizational Psychology** (institutional defensiveness patterns), **Formal Linguistics** (prestige dialect adoption and language formalization).
 
 This interdisciplinary approach ensures the findings represent rigorous cross-field validation rather than single-discipline speculation. Each discipline contributes specific methodological tools and validation frameworks that collectively support the investigation's conclusions about consciousness programming through sacred text alteration.
 
