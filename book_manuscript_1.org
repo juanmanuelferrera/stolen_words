@@ -81,6 +81,21 @@
 #+LATEX_HEADER:   \renewcommand{\footrulewidth}{0pt}%
 #+LATEX_HEADER:   \fancyfoot[C]{\large\bfseries\thepage}%
 #+LATEX_HEADER: }
+#+LATEX_HEADER: \fancypagestyle{chapteropening}{% Chapter opening pages - no headers, no page numbers
+#+LATEX_HEADER:   \fancyhf{}%
+#+LATEX_HEADER:   \renewcommand{\headrulewidth}{0pt}%
+#+LATEX_HEADER:   \renewcommand{\footrulewidth}{0pt}%
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \fancypagestyle{sectionopening}{% Section opening pages - no headers, no page numbers
+#+LATEX_HEADER:   \fancyhf{}%
+#+LATEX_HEADER:   \renewcommand{\headrulewidth}{0pt}%
+#+LATEX_HEADER:   \renewcommand{\footrulewidth}{0pt}%
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \fancypagestyle{none}{% Pages with no headers and no page numbers
+#+LATEX_HEADER:   \fancyhf{}%
+#+LATEX_HEADER:   \renewcommand{\headrulewidth}{0pt}%
+#+LATEX_HEADER:   \renewcommand{\footrulewidth}{0pt}%
+#+LATEX_HEADER: }
 
 # Start with front matter style (no page numbers)
 #+LATEX_HEADER: \pagestyle{frontmatter}
@@ -634,7 +649,7 @@ The revelation of systematic changes didn't just affect individual readers—it 
 
 Maya discovered this when she began investigating the legal battles that erupted once the internet made comparisons impossible to suppress. What she found was a movement at war with itself, fighting over the very books that were supposed to unite them in spiritual purpose.
 
-**** Example 1: Bhagavad-gītā 2.48 - "Steadfast in Yoga" vs. "Equipoised"
+*** Example 1: Bhagavad-gītā 2.48 - "Steadfast in Yoga" vs. "Equipoised"
 
 **Original Translation (1972)**: "Be steadfast in yoga, O Arjuna. Perform your duty and abandon all attachment to success or failure. Such evenness of mind is called yoga."
 
@@ -645,7 +660,7 @@ Maya discovered this when she began investigating the legal battles that erupted
 
 **The Smoking Gun**: Jayadvaita completely deleted "steadfast in yoga" and "evenness of mind"—the very concepts Prabhupāda emphasized when hearing this verse. Where did Jayadvaita get the authority to remove what Prabhupāda specifically highlighted as important?
 
-**** Example 2: Bhagavad-gītā 2.51 - Documented Approval of Later-Changed Translation
+*** Example 2: Bhagavad-gītā 2.51 - Documented Approval of Later-Changed Translation
 
 **Original Translation**: "The wise, engaged in devotional service, take refuge in the Lord and free themselves from the cycle of birth and death by renouncing the fruits of action in the material world. In this way they can attain that state beyond all miseries."
 
@@ -655,7 +670,7 @@ Maya discovered this when she began investigating the legal battles that erupted
 
 **Result**: Despite Prabhupāda's documented approval, this translation was later altered in the revision. The clear instruction to "renounce the fruits of action" was obscured, and the emphasis on "devotional service" was modified.
 
-**** Example 3: Bhagavad-gītā 2.30 - Deleting "Eternal Soul" Despite Class Emphasis
+*** Example 3: Bhagavad-gītā 2.30 - Deleting "Eternal Soul" Despite Class Emphasis
 
 **Original Translation**: "O descendant of Bharata, he who dwells in the body is eternal and can never be slain."
 
@@ -666,7 +681,7 @@ Maya discovered this when she began investigating the legal battles that erupted
 
 **The Evidence**: The word "eternal" was removed from the revision despite Prabhupāda's explicit emphasis on this very point when hearing the verse. His teaching focused on the eternal nature of the soul—exactly what the revisers deleted.
 
-**** Example 4: Bhagavad-gītā 3.32 - Prabhupāda Quoted the Original Verbatim
+*** Example 4: Bhagavad-gītā 3.32 - Prabhupāda Quoted the Original Verbatim
 
 **Original Translation**: "But those who, out of envy, disregard these teachings and do not practice them regularly, are to be considered bereft of all knowledge, befooled, and doomed to ignorance and bondage."
 
@@ -697,21 +712,21 @@ Historical documentation includes Prabhupāda's prophetic warning about exactly 
 
 The research reveals systematic patterns of editorial invention that go far beyond correcting Prabhupāda's work:
 
-**** Complete Meaning Reversal Through Word Juggling
+*** Complete Meaning Reversal Through Word Juggling
 **Bhagavad-gītā 2.18**:
 - **Original**: "Arjuna was advised to fight and to sacrifice the material body for the cause of religion"
 - **Revised**: "Arjuna was advised to fight and not sacrifice the cause of religion for material, bodily considerations"
 
 **Analysis**: Same words, opposite meaning. The original teaches sacrificing body FOR religion; the revision teaches DON'T sacrifice body for religion.
 
-**** Pure Editorial Invention
+*** Pure Editorial Invention
 **Bhagavad-gītā 9.5**:
 - **Both Draft and Original**: "still My Self is the very source of creation"
 - **1983 Revision**: "I am not a part of this cosmic manifestation, for My Self is the very source of creation"
 
 **Analysis**: "I am not a part of this cosmic manifestation" appears nowhere in Prabhupāda's materials. Someone created new theological content and attributed it to Prabhupāda.
 
-**** Systematic Word Rearrangement Despite Documented Approval
+*** Systematic Word Rearrangement Despite Documented Approval
 **Bhagavad-gītā 4.11**:
 - **Both Draft and Original**: "All of them—as they surrender unto Me—I reward accordingly"
 - **1983 Revision**: "As all surrender unto Me, I reward them accordingly"
@@ -804,14 +819,14 @@ Anthropological studies document how sacred language forms shape cultural consci
 
 Educational psychology reveals that learning environments using authoritative language develop different cognitive patterns than those using intimate language. Students exposed to hierarchical terminology show increased analytical processing but decreased creative and intuitive responses.
 
-**** "Blessed Lord" - Intimate Beloved Response
+*** "Blessed Lord" - Intimate Beloved Response
 - **Emotional activation**: Heart-centered, warm, personal
 - **Neurological pattern**: Oxytocin release, bonding chemistry
 - **Relationship model**: Beloved friend, gracious protector
 - **Spiritual approach**: Heart-centered devotion, surrender, intimacy
 - **Transformation method**: Grace-dependent, relationship-based
 
-**** "Supreme Personality of Godhead" - Institutional Authority Response  
+*** "Supreme Personality of Godhead" - Institutional Authority Response  
 - **Emotional activation**: Mind-centered, formal, hierarchical
 - **Neurological pattern**: Cortical analysis, systematic processing
 - **Relationship model**: Ultimate authority, theological concept
@@ -822,27 +837,27 @@ Educational psychology reveals that learning environments using authoritative la
 
 Prabhupāda's choice of "Blessed Lord" was spiritually strategic, not linguistically limited. He understood that spiritual transformation occurs through heart connection, not theological complexity.
 
-**** The Accessibility Principle
+*** The Accessibility Principle
 "Blessed Lord" creates immediate emotional accessibility for English-speaking readers. It evokes beloved relationship rather than academic concept.
 
-**** The Intimacy Priority
+*** The Intimacy Priority
 Mystical traditions recognize that divine intimacy opens consciousness more effectively than theological precision. "Blessed Lord" invites approach; "Supreme Personality of Godhead" demands understanding.
 
-**** The Grace Emphasis
+*** The Grace Emphasis
 "Blessed" implies one who bestows grace freely, while hierarchical titles emphasize position and power. These create different expectations about spiritual relationship.
 
 *** Comparative Analysis: Two Different Spiritual Relationships
 
 The systematic change creates fundamentally different spiritual dynamics:
 
-**** Original Version Spiritual Relationship
+*** Original Version Spiritual Relationship
 - **Divine Character**: Gracious, approachable, personally caring
 - **Reader Position**: Beloved, accepted, invited into intimacy
 - **Spiritual Process**: Heart-opening, surrender, trust-based transformation
 - **Transformation Agent**: Divine grace working through personal relationship
 - **Spiritual Culture**: Mystical devotion, direct divine connection
 
-**** Revised Version Spiritual Relationship
+*** Revised Version Spiritual Relationship
 - **Divine Character**: Authoritative, systematic, theologically precise
 - **Reader Position**: Student, seeker, systematic practitioner
 - **Spiritual Process**: Understanding-based, knowledge-dependent progression
@@ -853,13 +868,13 @@ The systematic change creates fundamentally different spiritual dynamics:
 
 This alteration represents more than stylistic preference—it embodies different theological approaches:
 
-**** Original: Devotional Theology
+*** Original: Devotional Theology
 - Emphasizes relationship over systematic understanding
 - Prioritizes heart transformation over intellectual comprehension
 - Creates direct divine-human connection
 - Emphasizes grace as primary transformative force
 
-**** Revised: Systematic Theology  
+*** Revised: Systematic Theology  
 - Emphasizes proper understanding over personal relationship
 - Prioritizes intellectual comprehension over heart transformation
 - Creates mediated institutional connection
@@ -869,14 +884,14 @@ This alteration represents more than stylistic preference—it embodies differen
 
 These different approaches create different types of human spiritual development:
 
-**** "Blessed Lord" Readers Develop:
+*** "Blessed Lord" Readers Develop:
 - Intimate prayer life with personal divine relationship
 - Heart-centered spiritual practice emphasizing love and surrender
 - Direct approaches to divine reality through devotional methods
 - Mystical orientation seeking union with beloved divine person
 - Grace-dependent transformation expecting divine intervention
 
-**** "Supreme Personality of Godhead" Readers Develop:
+*** "Supreme Personality of Godhead" Readers Develop:
 - Systematic spiritual practice emphasizing proper understanding
 - Mind-centered approaches through theological study and application  
 - Institutional orientation seeking guidance through proper authorities
@@ -887,10 +902,10 @@ These different approaches create different types of human spiritual development
 
 This transformation reflects broader tensions between mystical and institutional approaches to spirituality:
 
-**** The Mystical Tradition
+*** The Mystical Tradition
 Emphasizes direct divine relationship, personal transformation through love, immediate divine access through sincere heart approach.
 
-**** The Institutional Tradition  
+*** The Institutional Tradition  
 Emphasizes systematic spiritual development, proper theological understanding, mediated divine access through institutional authority.
 
 Both approaches serve legitimate spiritual needs, but they create different types of religious culture and different kinds of human beings.
@@ -905,15 +920,15 @@ When someone purchases "Prabhupāda's Bhagavad-gītā As It Is," they expect Pra
 
 These changes affect actual spiritual practice:
 
-**** Prayer Life
+*** Prayer Life
 - Original: "Blessed Lord, please help me understand..." (intimate appeal)
 - Revised effect: "Supreme Personality of Godhead, I acknowledge your authority..." (formal submission)
 
-**** Spiritual Crises  
+*** Spiritual Crises  
 - Original: Turn to gracious beloved who cares personally
 - Revised effect: Turn to ultimate authority who requires proper understanding
 
-**** Daily Consciousness
+*** Daily Consciousness
 - Original: Beloved friend accompanies through life's challenges
 - Revised effect: Ultimate authority oversees systematic spiritual development
 
@@ -967,17 +982,17 @@ The cumulative effect of hundreds of linguistic changes creates entirely differe
 
 Throughout the revision, personal and intimate language is consistently replaced with formal and institutional terminology:
 
-**** Personal Address Elimination
+*** Personal Address Elimination
 - **"My dear friend"** → removed entirely
 - **"My dear Arjuna"** → **"O Arjuna"** (formal address)
 - **Personal pronouns emphasizing relationship** → institutional terminology
 
-**** Emotional Language Reduction
+*** Emotional Language Reduction
 - **"Blessed"** → **"Supreme"** (grace → authority)
 - **"Dear"** → eliminated (intimacy → formality)
 - **Warm relational language** → cool theological precision
 
-**** Accessibility vs. Technical Precision
+*** Accessibility vs. Technical Precision
 - **Simple, memorable phrases** → complex theological formulations
 - **Heart-accessible language** → mind-centered academic terminology
 - **Devotional warmth** → scholarly apparatus
@@ -1003,13 +1018,13 @@ However, this technical improvement comes with systematic reduction in:
 
 Different linguistic patterns create different neurological responses:
 
-**** Heart-Centered Language Effects
+*** Heart-Centered Language Effects
 - **Oxytocin release**: Bonding and trust chemistry
 - **Limbic system activation**: Emotional connection and memory formation
 - **Right-brain engagement**: Holistic, intuitive processing
 - **Parasympathetic activation**: Relaxation and openness states
 
-**** Mind-Centered Language Effects
+*** Mind-Centered Language Effects
 - **Cortical analysis**: Intellectual processing and categorization
 - **Left-brain engagement**: Linear, analytical thinking
 - **Sympathetic activation**: Alert, systematic attention
@@ -1017,7 +1032,7 @@ Different linguistic patterns create different neurological responses:
 
 *** Specific Examples of Heart vs. Mind Language
 
-**** Example 1: Divine Encouragement
+*** Example 1: Divine Encouragement
 **Original**: "My dear friend, do not fear"
 **Revised**: "O Arjuna, do not yield to this degrading impotence"
 
@@ -1025,7 +1040,7 @@ Different linguistic patterns create different neurological responses:
 - Original: Creates intimate divine friendship, personal care, emotional support
 - Revised: Creates formal instruction, impersonal guidance, intellectual direction
 
-**** Example 2: Spiritual Condition
+*** Example 2: Spiritual Condition
 **Original**: "the bewildered soul"  
 **Revised**: "the confused living entity"
 
@@ -1034,7 +1049,7 @@ Different linguistic patterns create different neurological responses:
 - Original: Emphasizes emotional/spiritual state requiring heart-healing
 - Revised: Emphasizes cognitive state requiring intellectual clarification
 
-**** Example 3: Divine Relationship
+*** Example 3: Divine Relationship
 **Original**: "one who is dear to Me"
 **Revised**: "one who is devoted to Me"
 
@@ -1046,14 +1061,14 @@ Different linguistic patterns create different neurological responses:
 
 As Maya had documented, hundreds of these subtle changes create the systematic programming she had discovered:
 
-**** Original Version Programming
+*** Original Version Programming
 - **Emotional Pattern**: Warmth, intimacy, personal relationship
 - **Cognitive Pattern**: Heart-centered processing, intuitive understanding
 - **Spiritual Approach**: Devotional surrender, emotional openness
 - **Transformation Method**: Relationship-based, grace-dependent
 - **Sacred Text Relationship**: Beloved wisdom, intimate guidance
 
-**** Revised Version Programming
+*** Revised Version Programming
 - **Emotional Pattern**: Respect, formality, institutional relationship
 - **Cognitive Pattern**: Mind-centered processing, systematic understanding
 - **Spiritual Approach**: Religious education, intellectual development
@@ -1070,13 +1085,13 @@ Maya noticed something crucial about heart-centered language: it embeds itself n
 
 Different linguistic patterns create different spiritual cultures:
 
-**** Heart-Language Spiritual Culture
+*** Heart-Language Spiritual Culture
 - **Community Style**: Intimate fellowship, shared devotional experience
 - **Teaching Method**: Story-telling, emotional sharing, heart-opening
 - **Spiritual Goals**: Divine love, personal relationship, mystical union
 - **Crisis Response**: Emotional support, prayer fellowship, grace-seeking
 
-**** Mind-Language Spiritual Culture
+*** Mind-Language Spiritual Culture
 - **Community Style**: Educational fellowship, systematic study groups
 - **Teaching Method**: Lecture format, analytical discussion, concept mastery
 - **Spiritual Goals**: Proper understanding, systematic advancement, knowledge attainment
@@ -1086,13 +1101,13 @@ Different linguistic patterns create different spiritual cultures:
 
 Which approach serves spiritual seekers more effectively?
 
-**** Heart-Language Advantages
+*** Heart-Language Advantages
 - Immediate emotional accessibility for all educational levels
 - Creates natural devotional response and spiritual longing
 - Produces memorable, transformative spiritual experiences
 - Develops intuitive spiritual understanding through heart connection
 
-**** Mind-Language Advantages  
+*** Mind-Language Advantages  
 - Satisfies intellectual requirements for systematic understanding
 - Creates proper theological framework for systematic development
 - Produces academically respectable spiritual presentation
@@ -1102,12 +1117,12 @@ Which approach serves spiritual seekers more effectively?
 
 This tension appears throughout spiritual history:
 
-**** Christian Mystical Language
+*** Christian Mystical Language
 - **St. John of the Cross**: "Dark night of the soul"
 - **Teresa of Avila**: "Interior castle," "mystical marriage"
 - **Heart-centered metaphors**: Bride/bridegroom, divine romance
 
-**** Christian Scholastic Language
+*** Christian Scholastic Language
 - **Thomas Aquinas**: "Prime mover," "first cause," "pure act"
 - **Systematic theology**: Technical precision, philosophical categories
 - **Mind-centered concepts**: Ontological arguments, systematic frameworks
@@ -1122,13 +1137,13 @@ Historical studies document that posthumous textual modifications typically serv
 
 Both linguistic approaches serve legitimate spiritual needs, but they create different types of human spiritual development:
 
-**** Readers Preferring Heart-Language
+*** Readers Preferring Heart-Language
 - Seek emotional spiritual connection and devotional transformation
 - Respond to intimate divine relationship and grace-dependent processes  
 - Develop through love-centered practices and surrender consciousness
 - Create mystically-oriented spiritual communities
 
-**** Readers Preferring Mind-Language
+*** Readers Preferring Mind-Language
 - Seek systematic spiritual understanding and educational development
 - Respond to proper theological instruction and knowledge-dependent processes
 - Develop through study-centered practices and systematic advancement
@@ -1192,7 +1207,7 @@ This chapter analyzes what readers actually gain and lose through different text
 
 *** The Reader Transformation Analysis
 
-**** Original Version (1972) Reader Development
+*** Original Version (1972) Reader Development
 
 **Spiritual Consciousness Type**: Mystical Devotional
 - **Divine Relationship**: Intimate beloved friend ("Blessed Lord")
@@ -1208,7 +1223,7 @@ This chapter analyzes what readers actually gain and lose through different text
 **Spiritual Strengths**: Deep devotion, emotional authenticity, divine intimacy
 **Potential Challenges**: May struggle with systematic application, intellectual analysis
 
-**** Revised Version (1983) Reader Development
+*** Revised Version (1983) Reader Development
 
 **Spiritual Consciousness Type**: Systematic Religious  
 - **Divine Relationship**: Ultimate authority figure ("Supreme Personality of Godhead")
@@ -1226,14 +1241,14 @@ This chapter analyzes what readers actually gain and lose through different text
 
 *** The Developmental Trajectory Comparison
 
-**** Path A: Mystical Devotional Development (Original)
+*** Path A: Mystical Devotional Development (Original)
 **Year 1**: Heart-opening through intimate divine language, emotional connection with "Blessed Lord"
 **Year 2**: Deepening surrender consciousness, grace-appeal practices, devotional reading
 **Year 3**: Mystical experiences through heart-centered approach, divine relationship development
 **Year 5**: Mature devotional consciousness, stable divine intimacy, grace-dependent wisdom
 **Long-term**: Mystically-oriented spiritual practitioner with heart-centered consciousness
 
-**** Path B: Systematic Religious Development (Revised)
+*** Path B: Systematic Religious Development (Revised)
 **Year 1**: Systematic understanding through technical divine language, intellectual connection with theological concepts
 **Year 2**: Progressive knowledge acquisition, methodological practices, educational reading
 **Year 3**: Comprehensive spiritual framework through systematic approach, proper understanding development
@@ -1244,7 +1259,7 @@ This chapter analyzes what readers actually gain and lose through different text
 
 Different versions create different types of spiritual communities:
 
-**** Mystical Devotional Communities (Original Readers)
+*** Mystical Devotional Communities (Original Readers)
 - **Gathering Style**: Heart-sharing, emotional fellowship, devotional experiences
 - **Leadership Model**: Inspiration-based, charismatic guidance, grace-emphasis
 - **Teaching Method**: Story-telling, personal testimony, transformational sharing
@@ -1252,7 +1267,7 @@ Different versions create different types of spiritual communities:
 - **Community Goals**: Shared divine love, mutual spiritual support, collective devotional growth
 - **Spiritual Culture**: Mystical orientation, grace-dependence, heart-centered practices
 
-**** Systematic Religious Communities (Revised Readers)
+*** Systematic Religious Communities (Revised Readers)
 - **Gathering Style**: Educational format, systematic discussion, knowledge-sharing
 - **Leadership Model**: Authority-based, educational guidance, knowledge-emphasis  
 - **Teaching Method**: Lecture format, analytical discussion, systematic instruction
@@ -1264,14 +1279,14 @@ Different versions create different types of spiritual communities:
 
 How different readers handle spiritual crises reveals fundamental consciousness differences:
 
-**** Mystical Devotional Crisis Response
+*** Mystical Devotional Crisis Response
 - **Internal Process**: "Blessed Lord, I am lost, please help me"
 - **Community Approach**: Emotional support, prayer fellowship, shared vulnerability
 - **Resolution Method**: Grace-seeking, surrender practices, heart-opening
 - **Recovery Pattern**: Divine intervention expectation, relationship healing emphasis
 - **Long-term Integration**: Deeper devotional dependence, enhanced divine intimacy
 
-**** Systematic Religious Crisis Response
+*** Systematic Religious Crisis Response
 - **Internal Process**: "I need better understanding of proper spiritual principles"
 - **Community Approach**: Educational resources, systematic guidance, methodological support
 - **Resolution Method**: Knowledge-seeking, systematic application, proper technique
@@ -1282,13 +1297,13 @@ How different readers handle spiritual crises reveals fundamental consciousness 
 
 Different versions create different interfaith presentation:
 
-**** Original Version Interfaith Approach
+*** Original Version Interfaith Approach
 - **Presentation Style**: Heart-centered sharing, devotional testimony, mystical commonality
 - **Common Ground**: Shared divine love emphasis, universal heart-connection, grace traditions
 - **Dialogue Method**: Emotional authenticity, spiritual experience sharing, heart-level connection
 - **Conversion Approach**: Inspirational sharing, devotional attraction, heart-opening invitation
 
-**** Revised Version Interfaith Approach  
+*** Revised Version Interfaith Approach  
 - **Presentation Style**: Academic presentation, systematic theology, intellectual dialogue
 - **Common Ground**: Shared systematic approaches, universal knowledge-seeking, educational traditions
 - **Dialogue Method**: Intellectual analysis, theological comparison, systematic understanding
@@ -1298,13 +1313,13 @@ Different versions create different interfaith presentation:
 
 How different versions integrate with academic environments:
 
-**** Original Version Academic Integration
+*** Original Version Academic Integration
 - **Strengths**: Authentic mystical tradition, emotional accessibility, devotional authenticity
 - **Challenges**: May appear less academically sophisticated, informal presentation style
 - **Academic Reception**: Studied as genuine mystical text with unique devotional approach
 - **Research Value**: Primary source for mystical consciousness development
 
-**** Revised Version Academic Integration
+*** Revised Version Academic Integration
 - **Strengths**: Systematic theological presentation, scholarly apparatus, academic respectability
 - **Challenges**: May appear less spiritually authentic, formal institutional presentation
 - **Academic Reception**: Accepted as systematic religious text with proper scholarly format
@@ -1314,13 +1329,13 @@ How different versions integrate with academic environments:
 
 Different versions create different generational spiritual transmission:
 
-**** Mystical Devotional Generational Pattern
+*** Mystical Devotional Generational Pattern
 - **Parent Development**: Heart-centered, devotionally authentic, grace-dependent
 - **Child Transmission**: Emotional spiritual authenticity, devotional practices, heart-opening
 - **Cultural Creation**: Mystically-oriented spiritual culture emphasizing divine love
 - **Long-term Legacy**: Mystical spiritual tradition with authentic devotional consciousness
 
-**** Systematic Religious Generational Pattern
+*** Systematic Religious Generational Pattern
 - **Parent Development**: Mind-centered, systematically competent, knowledge-dependent
 - **Child Transmission**: Educational spiritual development, systematic practices, proper understanding
 - **Cultural Creation**: Academically-oriented spiritual culture emphasizing systematic advancement
@@ -1330,14 +1345,14 @@ Different versions create different generational spiritual transmission:
 
 Readers face an unconscious choice with profound consequences:
 
-**** Option A: Mystical Devotional Path (Original)
+*** Option A: Mystical Devotional Path (Original)
 - **Immediate Effect**: Heart-opening, emotional spiritual connection
 - **Short-term Development**: Grace-dependent consciousness, devotional practices
 - **Long-term Outcome**: Mystically-oriented spiritual practitioner with heart-centered consciousness
 - **Community Impact**: Creates devotionally authentic spiritual culture
 - **Cultural Legacy**: Preserves mystical spiritual tradition
 
-**** Option B: Systematic Religious Path (Revised)
+*** Option B: Systematic Religious Path (Revised)
 - **Immediate Effect**: Mind-opening, intellectual spiritual connection  
 - **Short-term Development**: Knowledge-dependent consciousness, systematic practices
 - **Long-term Outcome**: Systematically-oriented spiritual practitioner with mind-centered consciousness
@@ -1396,7 +1411,7 @@ What David revealed over the next three hours would expose the mechanisms throug
 
 *** The Original Publication Model (1972)
 
-**** Direct Author-to-Reader Transmission
+*** Direct Author-to-Reader Transmission
 
 "In 1972," David explained, pulling out a folder of old documents, "the process was beautifully simple. Prabhupāda would dictate, his secretary would type, and he would review everything personally."
 
@@ -1412,7 +1427,7 @@ The 1972 publication process had been remarkably direct:
 
 "This created what I call 'transmission integrity,'" David said. "Minimal filtration between Prabhupāda's realization and the reader's reception. He was involved in every decision."
 
-**** Prabhupāda's Personal Involvement
+*** Prabhupāda's Personal Involvement
 
 Maya discovered through David's documents that Prabhupāda had:
 - Written translations and purports by hand with specific spiritual intentions
@@ -1424,7 +1439,7 @@ Maya discovered through David's documents that Prabhupāda had:
 
 *** The Institutional Revision Process (Post-1977)
 
-**** When Authors Become Institutions
+*** When Authors Become Institutions
 
 "Everything changed on November 14, 1977," David's voice dropped. "When Prabhupāda passed away, we lost the one person who could definitively say what should or shouldn't be in his books."
 
@@ -1448,7 +1463,7 @@ After Prabhupāda's departure, fundamental dynamics had shifted:
 
 Maya documented every revelation, her investigation deepening with each piece of evidence.
 
-**** The Committee Editorial Structure
+*** The Committee Editorial Structure
 
 "Let me show you how the committee structure worked," David said, sketching a diagram on a napkin. "It was like a game of telephone, but with sacred texts."
 
@@ -1472,7 +1487,7 @@ Maya's pen flew across the page. "So each layer added their own agenda?"
 
 *** How Alterations Accumulate Without Oversight
 
-**** The "Improvement" Mindset Chain Reaction
+*** The "Improvement" Mindset Chain Reaction
 
 "I attended those meetings," David said, his coffee now cold. "Each group genuinely believed they were helping."
 
@@ -1496,7 +1511,7 @@ Maya studied the cascade of decisions. Each group's "improvement":
 - **Review Board**: "We can create more systematic theological terminology"
 - **Publisher**: "We can make this more accessible to university audiences"
 
-**** The Missing Voice Throughout the Process
+*** The Missing Voice Throughout the Process
 
 "The tragedy," David said quietly, "is that the one voice missing from every meeting was Prabhupāda's."
 
@@ -1563,13 +1578,13 @@ David rubbed his face. "We had three main rationalizations that I can see now we
 
 *** The Reader Impact of Publishing Deception
 
-**** What Readers Lost Through Deception
+*** What Readers Lost Through Deception
 - **Conscious choice** about spiritual development trajectory
 - **Accurate understanding** of what they were receiving
 - **Access to original spiritual transmission** in its authentic form
 - **Informed consent** about theological alterations
 
-**** What Readers Received Instead
+*** What Readers Received Instead
 - **Unconscious selection** of systematic religious development
 - **False assumption** about textual authenticity
 - **Committee theology** disguised as authentic transmission
@@ -1579,14 +1594,14 @@ David rubbed his face. "We had three main rationalizations that I can see now we
 
 This process reveals how institutional publishing can systematically transform spiritual content:
 
-**** Universal Mechanisms
+*** Universal Mechanisms
 1. **Committee Authority Expansion**: Groups make decisions no individual would make
 2. **Incremental Change Accumulation**: Small alterations accumulate into systematic transformation
 3. **Mixed Motivation Confusion**: Good intentions don't guarantee spiritual integrity  
 4. **Technical Expertise Overreach**: Language skills can't substitute for spiritual realization
 5. **Reader Ignorance Exploitation**: People receive altered content unknowingly
 
-**** Warning Signs in Any Spiritual Publishing
+*** Warning Signs in Any Spiritual Publishing
 - Multiple committees reviewing spiritual content
 - Academic consultants making theological decisions
 - "Improvement" narratives for completed spiritual works
@@ -1595,13 +1610,13 @@ This process reveals how institutional publishing can systematically transform s
 
 *** The Ethical Questions Raised
 
-**** For Publishers
+*** For Publishers
 - Do readers have the right to know when spiritual content has been systematically altered?
 - Should institutional needs override authentic transmission preservation?
 - Can technical improvements justify theological revision?
 - What consent is required for systematic spiritual content modification?
 
-**** For Readers
+*** For Readers
 - Should spiritual seekers understand how editorial decisions affect their development?
 - Do different versions creating different spiritual trajectories require disclosure?
 - Is unconscious spiritual path selection acceptable in sacred text publishing?
@@ -1615,7 +1630,7 @@ David had clearly thought about this for years. "It's actually simple—transpar
 
 Maya began sketching out what David described:
 
-**** Required Standards for Sacred Text Publishing
+*** Required Standards for Sacred Text Publishing
 
 "First," David said, "we need clear standards that protect both preservation and innovation:"
 
@@ -1627,7 +1642,7 @@ Maya began sketching out what David described:
 
 "Think about it," David continued. "We have the King James Bible, the New International Version, the New Revised Standard—all clearly labeled. No one pretends the NIV is the KJV. Why can't we do the same?"
 
-**** Implementation Principles
+*** Implementation Principles
 
 Maya wrote down David's practical framework:
 
@@ -1724,7 +1739,7 @@ Dr. Whitfield's first response was predictable: "These are minor editorial impro
 
 Maya had anticipated this. She pulled out her statistical analysis. "Minor? Let me show you what I've documented."
 
-**** The Minimization Claims
+*** The Minimization Claims
 
 Dr. Whitfield employed every minimization tactic:
 
@@ -1744,7 +1759,7 @@ Maya opened to her comparison charts. "Every divine utterance changed from bless
 
 "Not after the author dies. Not without disclosure. And not to this extent."
 
-**** The Reality Check
+*** The Reality Check
 
 Maya spread her evidence across Whitfield's desk:
 
@@ -1756,7 +1771,7 @@ Dr. Whitfield shifted uncomfortably. "You're taking this out of context."
 
 "Context?" Maya pulled out Dr. Sarah Chen's neuroscience research. "Different words create different neural pathways. You've literally rewired how people experience the divine."
 
-**** The Psychological Mechanism
+*** The Psychological Mechanism
 
 Maya recognized what was happening. Dr. Whitfield needed to minimize the changes to protect his institutional investment. Acknowledging the true scope would mean admitting decades of deception.
 
@@ -1772,7 +1787,7 @@ Shifting tactics, Dr. Whitfield moved to his second line of defense: "The revise
 
 Maya was ready for this too.
 
-**** The Technical Claims
+*** The Technical Claims
 
 "Let me show you our improvements," Whitfield said, pulling out his own documentation:
 
@@ -1783,7 +1798,7 @@ Maya was ready for this too.
 
 Maya listened patiently, then responded.
 
-**** The Concealed Truth
+*** The Concealed Truth
 
 "Dr. Whitfield, I've identified exactly 12 genuine technical improvements in your revision:"
 
@@ -1797,7 +1812,7 @@ She listed them:
 
 "These are valuable," Maya acknowledged. "But here's my question..."
 
-**** The Critical Recognition
+*** The Critical Recognition
 
 Maya leaned forward. "Why couldn't these 12 technical improvements be applied without systematically changing divine address throughout? Why couldn't you fix the formatting without altering the theology?"
 
@@ -1819,7 +1834,7 @@ Frustrated by Maya's evidence, Dr. Whitfield retreated to institutional authorit
 
 Maya had expected this appeal to authority.
 
-**** The Authority Claims
+*** The Authority Claims
 
 "Let me understand your position," Maya said, taking notes:
 
@@ -1830,7 +1845,7 @@ Maya had expected this appeal to authority.
 
 Dr. Whitfield nodded to each point. "The institution has the authority to preserve and improve the teachings."
 
-**** The Authority Confusion
+*** The Authority Confusion
 
 Maya pulled out a photograph of Prabhupāda from her folder. "This man had spiritual realization. He chose specific words for specific reasons. Your committees had what—good English degrees?"
 
@@ -1852,7 +1867,7 @@ Dr. Whitfield played his strongest card: "Prabhupāda wanted these changes but d
 
 Maya had been waiting for this claim. She pulled out a thick folder labeled "Class Transcripts."
 
-**** The Intent Claims
+*** The Intent Claims
 
 "Let's examine your claims," Maya said, laying out Whitfield's arguments:
 
@@ -1863,7 +1878,7 @@ Maya had been waiting for this claim. She pulled out a thick folder labeled "Cla
 
 Dr. Whitfield shifted through his papers. "We have manuscript evidence—"
 
-**** The Historical Refutation
+*** The Historical Refutation
 
 "Stop," Maya said firmly. "Let me show you what I have."
 
@@ -1893,7 +1908,7 @@ Dr. Whitfield was sweating now.
 
 "Privately to whom? Where's the documentation? You've changed a published book based on undocumented private conversations?"
 
-**** The Contemporary Institutional Defense
+*** The Contemporary Institutional Defense
 
 Dr. Whitfield pulled out his final argument: "Modern drafts reveal Prabhupāda's true theological intentions. We have manuscripts showing what he really wanted."
 
@@ -1953,7 +1968,7 @@ Dr. Whitfield's answer revealed everything: "That would confuse people."
 
 "No," Maya replied. "It would inform them. And that's what you're afraid of."
 
-**** His Actual Editorial Pattern
+*** His Actual Editorial Pattern
 
 Maya showed her final evidence: "When Prabhupāda wanted changes, look at his pattern:"
 
@@ -1990,7 +2005,7 @@ Dr. Whitfield tried one last approach: "The revised version serves readers bette
 
 Maya had been waiting for this. "Better understanding of what, exactly? Let me show you what your changes actually do to reader consciousness."
 
-**** The Linguistic Consciousness Programming
+*** The Linguistic Consciousness Programming
 
 Maya pulled out Dr. Sarah Chen's neuroscience research from Stanford.
 
@@ -2040,7 +2055,7 @@ Revised: "The forgetful living entity is covered by his lust"
 
 "One word difference," Maya emphasized, "but it completely changes the reader's spiritual psychology. The original creates mystics who surrender. The revision creates students who study."
 
-**** Specific Verse Impact Analysis
+*** Specific Verse Impact Analysis
 
 Maya presented her detailed verse comparisons:
 
@@ -2076,7 +2091,7 @@ Revised: "Fools deride Me when I appear in human form"
 
 "The word 'descend' makes God personal and caring. 'Appear' makes God distant and philosophical. These create completely different relationships with divinity."
 
-**** The Cumulative Consciousness Effect
+*** The Cumulative Consciousness Effect
 
 Maya showed her statistical analysis:
 
@@ -2099,7 +2114,7 @@ Revised Version Reader:
 - Analytical centers engaged with spirituality
 - Becomes academically oriented practitioner
 
-**** The Technical Language Shift Impact
+*** The Technical Language Shift Impact
 
 Maya analyzed the systematic terminology changes:
 
@@ -2115,7 +2130,7 @@ Revised technical language:
 
 "Every technical term is a barrier," Maya explained. "The original opens hearts. The revision requires dictionaries."
 
-**** Dr. Chen's Five-Year Longitudinal Study Results
+*** Dr. Chen's Five-Year Longitudinal Study Results
 
 Maya presented the Stanford research findings:
 
@@ -2207,7 +2222,7 @@ The answer would determine not just individual spiritual paths, but the future o
 - **Spiritual effectiveness**: "Creates better spiritual development"
 - **Modern relevance**: "Updated for contemporary readers"
 
-**** The Reality Behind Reader Benefits
+*** The Reality Behind Reader Benefits
 
 Maya's investigation revealed that these claims concealed a fundamental truth about consciousness manipulation:
 
@@ -2225,7 +2240,7 @@ Theological Education → Systematic Understanding → Mediated Divine Knowledge
 
 The evidence was overwhelming. The question now was: what to do with it?
 
-**** The Unacknowledged Trade-offs
+*** The Unacknowledged Trade-offs
 This defense ignores what readers lose through systematic alteration:
 
 **Lost Through Revision**:
@@ -2240,7 +2255,7 @@ This defense ignores what readers lose through systematic alteration:
 - **Institutional compatibility** and organizational alignment
 - **Technical accuracy** and scholarly apparatus
 
-**** The Hidden Choice
+*** The Hidden Choice
 This represents a legitimate but undisclosed trade-off: academic/institutional benefits in exchange for mystical/devotional authenticity.
 
 The problem isn't that this trade-off exists—both approaches serve valid needs. The problem is that readers make this choice unconsciously without understanding what they're gaining and losing.
@@ -2251,13 +2266,13 @@ The problem isn't that this trade-off exists—both approaches serve valid needs
 
 This argument claims legitimacy through time passage and widespread acceptance.
 
-**** The Acceptance Claims
+*** The Acceptance Claims
 - **Time validation**: "It's been in use for over 40 years"
 - **Widespread adoption**: "Millions of readers accept it"
 - **Established status**: "It's become the standard version"
 - **Academic integration**: "Universities use this edition"
 
-**** The Acceptance Problem
+*** The Acceptance Problem
 - **Time doesn't validate deception** - forty years of unconscious choice doesn't create conscious consent
 - **Widespread adoption occurred without informed consent** - readers didn't know they were receiving systematically altered content
 - **Established status emerged through elimination of alternatives** - original versions were systematically removed from circulation
@@ -2267,7 +2282,7 @@ This argument claims legitimacy through time passage and widespread acceptance.
 
 Every institutional defense avoids the fundamental question: ***Should readers know when spiritual content has been systematically altered and understand how different versions affect their spiritual development?***
 
-**** What All Defenses Share
+*** What All Defenses Share
 - **Reader agency denial**: Assumption that institutions should make spiritual choices for readers
 - **Deception justification**: Claims that withholding alteration information serves readers better
 - **Authority displacement**: Institutional judgment substituted for individual spiritual choice
@@ -2283,35 +2298,35 @@ Organizational psychology studies show that institutions facing criticism develo
 
 Formal linguistic analysis reveals that institutional revisions consistently move toward prestige dialect forms and away from emotional accessibility—a pattern documented across cultures when informal spiritual movements become formal institutions.
 
-**** Investment Protection
+*** Investment Protection
 Institutions have enormous investment in editorial decisions and must justify them to maintain credibility.
 
-**** Authority Maintenance  
+*** Authority Maintenance  
 Acknowledging comprehensive unauthorized alteration would undermine institutional religious authority.
 
-**** Cognitive Dissonance Reduction
+*** Cognitive Dissonance Reduction
 Defense mechanisms protect against psychological discomfort from recognizing systematic deception.
 
-**** Group Cohesion Preservation
+*** Group Cohesion Preservation
 Maintaining unity requires minimizing divisive recognition of fundamental editorial errors.
 
 *** The Solution: Beyond Institutional Defense
 
 Rather than defending past decisions, institutions could serve readers by:
 
-**** Honest Acknowledgment
+*** Honest Acknowledgment
 - **Recognize alteration scope**: "The majority of verses were systematically changed"
 - **Admit theological impact**: "Different versions create different spiritual development"
 - **Acknowledge reader deception**: "People weren't informed about changes"
 - **Accept responsibility**: "We made these decisions without reader consent"
 
-**** Reader Empowerment
+*** Reader Empowerment
 - **Provide choice architecture**: Multiple editions clearly identified
 - **Educate about impacts**: How different versions affect spiritual development  
 - **Preserve original access**: Maintain authentic transmission alongside revisions
 - **Support diverse needs**: Both mystical and systematic approaches
 
-**** Institutional Maturity
+*** Institutional Maturity
 - **Admit fallibility**: "We made editorial decisions that affected spiritual content"
 - **Prioritize reader choice**: "People deserve to know what they're receiving"
 - **Separate technical from spiritual authority**: "Our Sanskrit skills don't grant us authority over sacred transmission"
@@ -2345,7 +2360,7 @@ The evidence is comprehensive, documented, and decisive.
 
 *** The Decisive Historical Period: 1972-1977
 
-**** Five Years of Published Use Without Systematic Change Requests
+*** Five Years of Published Use Without Systematic Change Requests
 From 1972 until his departure in 1977, Prabhupāda used his published Bhagavad-gītā As It Is for **1,825 consecutive days** without requesting any of the systematic changes implemented posthumously.
 
 During this period, he:
@@ -2357,7 +2372,7 @@ During this period, he:
 
 **If he had wanted systematic divine address changes, he had 1,825 days and countless opportunities to request them.**
 
-**** His Actual Editorial Behavior Pattern
+*** His Actual Editorial Behavior Pattern
 When Prabhupāda wanted textual changes, his approach was immediate and explicit:
 
 **Direct Communication Example**: "I am sending herewith the necessary Sanskrit corrections to Pradyumna... So when these corrections are made then you can print immediately" (1970 letter)
@@ -2374,7 +2389,7 @@ When Prabhupāda wanted textual changes, his approach was immediate and explicit
 
 The most devastating evidence against posthumous revision claims comes from class transcripts where Prabhupāda explicitly approved original formulations that were later changed without his authorization.
 
-**** Bhagavad-gītā 2.51: Explicit Approval of Later-Changed Translation
+*** Bhagavad-gītā 2.51: Explicit Approval of Later-Changed Translation
 **When Tamala Krishna read**: "The wise, engaged in devotional service, take refuge in the Lord and free themselves from the cycle of birth and death by renouncing the fruits of action in the material world. In this way they can attain that state beyond all miseries."
 
 **Prabhupāda's immediate response**: "Yes. There is purport?"
@@ -2383,14 +2398,14 @@ The most devastating evidence against posthumous revision claims comes from clas
 
 **Historical fact**: Despite this documented approval, this translation was later altered in the revision. The emphasis on "renouncing the fruits of action" was obscured.
 
-**** Bhagavad-gītā 2.66: Sense Control Emphasis
+*** Bhagavad-gītā 2.66: Sense Control Emphasis
 **When the original was read**: "One who is not in transcendental consciousness can have neither a controlled mind nor steady intelligence"
 
 **Prabhupāda's response**: "Everyone in this material world, they are after peace, but they don't want to control the senses... We do not know how to control the senses. We do not know the real yogic principle of controlling the senses."
 
 **Historical fact**: The revision removed "controlled mind" despite Prabhupāda's explicit emphasis on sense control when hearing this verse.
 
-**** Bhagavad-gītā 2.48: "Evenness of Mind" Teaching
+*** Bhagavad-gītā 2.48: "Evenness of Mind" Teaching
 **When the original was read**: "Be steadfast in yoga, O Arjuna... Such evenness of mind is called yoga."
 
 **Prabhupāda's teaching**: "This is the explanation of yoga, evenness of mind. Yoga-samatvam ucyate... If you work for Krishna, then there is no cause of lamentation or jubilation."
@@ -2410,40 +2425,40 @@ The class transcripts prove:
 
 *** His Documented Positions on Textual Preservation
 
-**** On Changing His Books
+*** On Changing His Books
 **Direct quote**: "So you cannot change anything"
 
 **Context**: Discussion about maintaining his books exactly as published
 
-**** On Editorial Authority
+*** On Editorial Authority
 **Letter to editors**: "These things should be corrected by editorial revision, but the sense should remain the same" (1975)
 
 **Analysis**: He authorized correction of technical errors but explicitly required maintaining "the sense"—exactly what systematic theological revision violates.
 
-**** His Warning About Overzealous Editors
+*** His Warning About Overzealous Editors
 **Letter to Dixit das, September 18, 1976**: "...a little learning is dangerous, especially for the Westerners. I am practically seeing that as soon as they begin to learn a little Sanskrit immediately they feel that they have become more than their guru and then the policy is kill guru and be killed himself."
 
 **Prophetic accuracy**: This describes exactly what occurred in the posthumous revision process—editors with "little learning" in Sanskrit presuming to correct their spiritual teacher's completed work.
 
 *** What He Actually Wanted: The Positive Evidence
 
-**** Continued Publication of His Work "As It Is"
+*** Continued Publication of His Work "As It Is"
 The title itself reveals his intention: "Bhagavad-gītā As It Is"—meaning as the text actually presents spiritual truth, not as committees think it should be improved.
 
-**** Preservation of His Spiritual Methodology
+*** Preservation of His Spiritual Methodology
 His consistent choice of intimate, accessible language over formal theological precision reflects conscious spiritual methodology, not linguistic limitation.
 
-**** Wide Distribution of Authentic Transmission
+*** Wide Distribution of Authentic Transmission
 His life's work focused on making authentic spiritual knowledge accessible to sincere seekers through clear, heart-opening presentation.
 
-**** Protection from Editorial Presumption
+*** Protection from Editorial Presumption
 His warnings about disciples becoming "more than their guru" indicate clear concern about posthumous editorial presumption.
 
 *** The Authorization Question: What He Never Gave
 
 If Prabhupāda had wanted systematic theological revision, we would expect documentation of:
 
-**** Specific Revision Instructions
+*** Specific Revision Instructions
 - Letters requesting theological terminology changes
 - Classes where he corrected published formulations
 - Meetings where he authorized systematic alterations
@@ -2451,7 +2466,7 @@ If Prabhupāda had wanted systematic theological revision, we would expect docum
 
 **Historical record**: **None of this documentation exists.**
 
-**** Dissatisfaction with Published Work
+*** Dissatisfaction with Published Work
 - Complaints about theological presentation
 - Requests for fundamental reconceptualization
 - Expressions of regret about original publication decisions
@@ -2459,7 +2474,7 @@ If Prabhupāda had wanted systematic theological revision, we would expect docum
 
 **Historical record**: **No evidence of dissatisfaction with published theological content.**
 
-**** Authorization of Posthumous Editorial Authority
+*** Authorization of Posthumous Editorial Authority
 - Instructions giving specific people authority to revise his completed work
 - Guidelines for posthumous editorial decision-making
 - Approval of committee-based theological revision processes
@@ -2471,16 +2486,16 @@ If Prabhupāda had wanted systematic theological revision, we would expect docum
 
 Based on documented positions and behavior patterns, Prabhupāda's probable reaction to posthumous systematic revision would be:
 
-**** Immediate Opposition
+*** Immediate Opposition
 His pattern was direct, immediate response to unauthorized changes to his work.
 
-**** Specific Corrections
+*** Specific Corrections
 He would have identified exactly which changes violated his spiritual intentions and required restoration.
 
-**** Editorial Boundary Establishment  
+*** Editorial Boundary Establishment  
 He would have clarified the difference between correcting technical errors and altering spiritual content.
 
-**** Protection of Reader Choice
+*** Protection of Reader Choice
 His life work emphasized giving people authentic spiritual choice, not committee-filtered alternatives.
 
 *** The Historical Verdict
@@ -2529,14 +2544,14 @@ This chapter presents practical solutions that serve everyone's legitimate needs
 
 Academic scholarship operates on a fundamental principle: **primary sources must be preserved in their original form while allowing unlimited secondary analysis, commentary, and alternative presentations.**
 
-**** How This Applies to Sacred Texts
+*** How This Applies to Sacred Texts
 - **Original editions preserved exactly as published** by the author
 - **Alternative editions clearly identified** as editorial revisions
 - **Transparent attribution** showing who made what changes and why
 - **Multiple approaches available** serving different reader needs
 - **Scholarly apparatus** applied without altering original content
 
-**** The Current Violation of Academic Standards
+*** The Current Violation of Academic Standards
 - **Original gradually eliminated** from circulation
 - **Revised edition presented** as identical to original
 - **Editorial changes concealed** from readers
@@ -2545,21 +2560,21 @@ Academic scholarship operates on a fundamental principle: **primary sources must
 
 *** The Multiple Edition Solution
 
-**** Edition A: Primary Source Preservation
+*** Edition A: Primary Source Preservation
 - **Title**: "Bhagavad-gītā As It Is (1972 Original Edition)"
 - **Content**: Prabhupāda's work exactly as he published and used it
 - **Enhancement**: Technical improvements (citations, formatting) applied without content alteration
 - **Target Audience**: Readers seeking authentic mystical devotional transmission
 - **Scholarly Value**: Primary source for historical and spiritual analysis
 
-**** Edition B: Systematic Revision Edition  
+*** Edition B: Systematic Revision Edition  
 - **Title**: "Bhagavad-gītā As It Is (Revised and Enlarged by Editorial Committee)"
 - **Content**: Systematic theological revision with institutional priorities
 - **Enhancement**: Full scholarly apparatus with systematic presentation
 - **Target Audience**: Readers preferring academic religious approach
 - **Scholarly Value**: Secondary source showing institutional interpretation
 
-**** Edition C: Comparative Study Edition
+*** Edition C: Comparative Study Edition
 - **Title**: "Bhagavad-gītā As It Is: Comparative Edition"
 - **Content**: Side-by-side presentation of original and revision
 - **Enhancement**: Analysis of changes and their theological implications
@@ -2568,7 +2583,7 @@ Academic scholarship operates on a fundamental principle: **primary sources must
 
 *** The Attribution Standard
 
-**** Honest Editorial Attribution
+*** Honest Editorial Attribution
 Instead of hiding editorial decisions, acknowledge them:
 
 - **Primary authorship**: "By His Divine Grace A.C. Bhaktivedanta Swami Prabhupāda"
@@ -2576,7 +2591,7 @@ Instead of hiding editorial decisions, acknowledge them:
 - **Change documentation**: "With 5,000+ alterations from the 1972 original edition"
 - **Purpose explanation**: "Enhanced for systematic theological presentation and academic study"
 
-**** The Academic Model
+*** The Academic Model
 This follows standard scholarly practice:
 - **Shakespeare editions** clearly identify textual editors and their changes
 - **Biblical editions** specify translation committees and methodologies
@@ -2585,21 +2600,21 @@ This follows standard scholarly practice:
 
 *** Implementation Examples from Other Traditions
 
-**** Biblical Scholarship Model
+*** Biblical Scholarship Model
 - **Multiple translations available**: KJV, NIV, ESV, etc., each clearly identified
 - **Translation committees named**: Readers know who made editorial decisions
 - **Methodology explained**: Each edition describes its approach and priorities
 - **Original language preservation**: Hebrew/Greek texts remain available
 - **Scholarly apparatus**: Commentary editions don't alter base text
 
-**** Shakespeare Textual Scholarship
+*** Shakespeare Textual Scholarship
 - **First Folio preserved**: Original publication maintained as primary source
 - **Editorial decisions documented**: Modern editors explain their choices
 - **Alternative readings provided**: Multiple versions available for comparison
 - **Scholarly consensus**: Best editorial practices developed over centuries
 - **Reader choice preserved**: People can choose their preferred editorial approach
 
-**** Historical Document Preservation
+*** Historical Document Preservation
 - **Original documents protected**: Primary sources never altered
 - **Annotated editions available**: Enhanced versions clearly identified
 - **Multiple presentation formats**: Facsimile, transcribed, modernized
@@ -2608,19 +2623,19 @@ This follows standard scholarly practice:
 
 *** The Practical Implementation Strategy
 
-**** Phase 1: Acknowledgment and Transparency
+*** Phase 1: Acknowledgment and Transparency
 - **Institutional acknowledgment**: "We have systematically revised the majority of the text"
 - **Impact recognition**: "Different versions create different spiritual development"
 - **Reader disclosure**: Clear information about what each edition contains
 - **Choice restoration**: Multiple editions made available
 
-**** Phase 2: Primary Source Restoration
+*** Phase 2: Primary Source Restoration
 - **Original republication**: 1972 edition returned to circulation
 - **Enhancement application**: Technical improvements added without content alteration
 - **Quality production**: Professional publishing standards applied
 - **Wide availability**: Equal distribution and marketing
 
-**** Phase 3: Comparative Studies
+*** Phase 3: Comparative Studies
 - **Academic analysis**: Scholarly examination of editorial impacts
 - **Reader experience research**: How different versions affect spiritual development
 - **Historical documentation**: Complete record of revision process and motivations
@@ -2630,19 +2645,19 @@ This follows standard scholarly practice:
 
 Imagine that a composer works for years creating a musical composition and publishes it. After the composer's death, a group of musicians decides the work needs "improvement." They change melodies, alter harmonies, modify rhythms, and add instrumentation the composer never used. They then present this altered work as the original composer's composition.
 
-**** The Artistic Violation
+*** The Artistic Violation
 - **Creative decisions belong exclusively to the artist** during the creation process
 - **Publication represents the artist's final creative judgment**
 - **Posthumous "improvement" violates artistic integrity**
 - **Alternative arrangements should be clearly attributed** to their actual creators
 
-**** The Parallel to Sacred Text Revision
+*** The Parallel to Sacred Text Revision
 - **Spiritual choices belong exclusively to the spiritual author**
 - **Publication represents final spiritual judgment about transmission methodology**
 - **Posthumous systematic revision violates spiritual integrity**
 - **Editorial theology should be clearly attributed** to editorial committees
 
-**** The Honest Solution
+*** The Honest Solution
 - **Original composition preserved** as the artist created it
 - **Alternative arrangements available** with proper attribution
 - **Multiple performance options** serving different audiences
@@ -2652,25 +2667,25 @@ Imagine that a composer works for years creating a musical composition and publi
 
 The two versions create different spiritual development paths—incompatible in their fundamental approaches to divine relationship and consciousness transformation. However, both can legitimately coexist when clearly differentiated, allowing conscious choice rather than unknowing consumption.
 
-**** For Original Readers
+*** For Original Readers
 - **Access restored** to authentic transmission
 - **Spiritual choice preserved** regarding development approach
 - **Historical integrity maintained** for mystical devotional tradition
 - **Consciousness programming** aligned with mystical methodology
 
-**** For Revised Edition Readers  
+*** For Revised Edition Readers  
 - **Systematic approach available** with honest identification as distinct from the original
 - **Academic respectability** fully achieved
 - **Institutional needs served** without deceptive presentation
 - **Educational framework** clearly developed
 
-**** For Spiritual Institutions
+*** For Spiritual Institutions
 - **Integrity restored** through honest acknowledgment
 - **Multiple needs served** without privileging one approach
 - **Educational opportunity** in spiritual choice guidance
 - **Trust rebuilt** through transparent service
 
-**** For Academic Community
+*** For Academic Community
 - **Scholarly standards applied** to spiritual publishing
 - **Research opportunities** in editorial impact studies  
 - **Primary source access** for historical analysis
@@ -2678,19 +2693,19 @@ The two versions create different spiritual development paths—incompatible in 
 
 *** The Legal and Ethical Framework
 
-**** Truth in Spiritual Marketing
+*** Truth in Spiritual Marketing
 - **Accurate representation** of editorial changes
 - **Clear identification** of different version characteristics
 - **Honest attribution** of authorship and revision
 - **Consumer protection** in spiritual publishing
 
-**** Copyright and Spiritual Authority
+*** Copyright and Spiritual Authority
 - **Author's spiritual intentions protected** through original preservation
 - **Editor's contributions acknowledged** through proper attribution
 - **Reader's choice empowered** through transparent options
 - **Historical integrity maintained** for future generations
 
-**** Ethical Publishing Standards
+*** Ethical Publishing Standards
 - **Informed consent** required for spiritual content consumption
 - **Multiple option availability** serving diverse spiritual needs
 - **Transparent attribution** of all editorial contributions
@@ -2698,13 +2713,13 @@ The two versions create different spiritual development paths—incompatible in 
 
 *** The Global Implementation Model
 
-**** International Standards Development
+*** International Standards Development
 - **Spiritual publishing protocols** developed by interfaith scholarly committee
 - **Best practices documentation** for sacred text preservation
 - **Reader protection standards** in spiritual literature marketing
 - **Attribution requirements** for posthumous editorial revision
 
-**** Educational Institution Integration
+*** Educational Institution Integration
 - **University curriculum** including textual authenticity studies
 - **Seminary education** in editorial ethics and spiritual authority
 - **Comparative religion courses** using multiple edition analysis
@@ -2712,30 +2727,30 @@ The two versions create different spiritual development paths—incompatible in 
 
 *** The Resistance Anticipated and Addressed
 
-**** Institutional Resistance: "This creates division"
+*** Institutional Resistance: "This creates division"
 **Response**: Division already exists—between those who know about alterations and those who don't. Transparency heals division by enabling informed choice.
 
-**** Economic Resistance: "Multiple editions are expensive"
+*** Economic Resistance: "Multiple editions are expensive"
 **Response**: Technology makes multiple editions economically feasible. The cost of deception exceeds the cost of choice.
 
-**** Authority Resistance: "This undermines institutional authority"
+*** Authority Resistance: "This undermines institutional authority"
 **Response**: Authentic authority serves reader choice rather than controlling it. Honest institutions gain trust through transparency.
 
 *** The Timeline for Implementation
 
-**** Immediate Actions (0-6 months)
+*** Immediate Actions (0-6 months)
 - **Acknowledgment** of systematic alteration scope
 - **Commitment** to primary source restoration
 - **Planning** for multiple edition production
 - **Transparency** about current edition characteristics
 
-**** Short-term Implementation (6 months - 2 years)
+*** Short-term Implementation (6 months - 2 years)
 - **Original republication** with technical enhancements only
 - **Clear labeling** of all editions with their characteristics
 - **Educational materials** helping readers understand choices
 - **Distribution equity** ensuring equal availability
 
-**** Long-term Development (2-5 years)
+*** Long-term Development (2-5 years)
 - **Comparative studies** of editorial impact
 - **Academic integration** of multiple edition analysis
 - **International standards** for spiritual publishing
@@ -2775,14 +2790,14 @@ This chapter examines these two futures and their implications for spiritual cul
 
 *** Future A: Conscious Choice and Authentic Preservation
 
-**** The Transformation of Spiritual Publishing
+*** The Transformation of Spiritual Publishing
 - **Primary source protection** becomes standard for all sacred texts
 - **Multiple edition availability** serves diverse spiritual temperaments
 - **Editorial attribution** clearly identifies who made what changes
 - **Reader empowerment** through honest choice architecture
 - **Transparency standards** eliminate deceptive spiritual marketing
 
-**** The Cultural Impact
+*** The Cultural Impact
 When readers gain conscious choice about their spiritual development:
 
 **Individual Development**: People select spiritual approaches aligned with their authentic needs rather than committee preferences
@@ -2793,7 +2808,7 @@ When readers gain conscious choice about their spiritual development:
 
 **Academic Integration**: Universities study textual authenticity as legitimate scholarly concern, developing protocols for spiritual publishing
 
-**** The Human Consciousness Result
+*** The Human Consciousness Result
 **Mystical Devotional Consciousness**: Preserved for those seeking intimate divine relationship through heart-centered transformation
 
 **Systematic Religious Consciousness**: Available for those preferring educational spiritual development through knowledge-based progression
@@ -2804,14 +2819,14 @@ When readers gain conscious choice about their spiritual development:
 
 *** Future B: Continued Deception and Spiritual Manipulation
 
-**** The Perpetuation of Editorial Theology
+*** The Perpetuation of Editorial Theology
 - **Original sources gradually eliminated** from circulation
 - **Committee preferences imposed** as authentic transmission
 - **Institutional theology disguised** as authorial spirituality
 - **Reader choice eliminated** through editorial control
 - **Deceptive marketing** continues presenting altered content as original
 
-**** The Cultural Degradation
+*** The Cultural Degradation
 When deception becomes normalized in spiritual publishing:
 
 **Individual Disempowerment**: People receive spiritual programming without consent or awareness of alternatives
@@ -2822,7 +2837,7 @@ When deception becomes normalized in spiritual publishing:
 
 **Academic Compromise**: Universities accept deceptive spiritual publishing as normal, abandoning scholarly integrity
 
-**** The Human Consciousness Result
+*** The Human Consciousness Result
 **Controlled Spiritual Development**: Human consciousness shaped by institutional preferences rather than authentic spiritual choice
 
 **Unconscious Religious Formation**: People develop systematic religious consciousness while believing they're receiving mystical devotional transmission
@@ -2833,7 +2848,7 @@ When deception becomes normalized in spiritual publishing:
 
 *** The Choice Architecture: What Each Path Creates
 
-**** Path A: Consciousness Empowerment Model
+*** Path A: Consciousness Empowerment Model
 **Reader Experience**: "I understand my spiritual choices and can select the approach that serves my authentic development needs"
 
 **Community Culture**: "We honor diverse spiritual temperaments and provide honest guidance about different developmental approaches"
@@ -2842,7 +2857,7 @@ When deception becomes normalized in spiritual publishing:
 
 **Cultural Legacy**: "We maintained spiritual authenticity while serving diverse human needs through conscious choice"
 
-**** Path B: Consciousness Control Model  
+*** Path B: Consciousness Control Model  
 **Reader Experience**: "I receive spiritual programming without knowing about alternatives or understanding how editorial decisions shape my development"
 
 **Community Culture**: "We maintain unity by eliminating confusing choices and presenting institutional theology as authentic transmission"
@@ -2853,53 +2868,53 @@ When deception becomes normalized in spiritual publishing:
 
 *** The Implications for Different Groups
 
-**** For Individual Spiritual Seekers
+*** For Individual Spiritual Seekers
 **Future A Benefits**: Conscious choice about spiritual development trajectory, access to authentic transmission, understanding of how different approaches affect consciousness
 
 **Future B Costs**: Unconscious spiritual programming, limited access to original transmission, manipulation of consciousness development without consent
 
-**** For Spiritual Communities
+*** For Spiritual Communities
 **Future A Benefits**: Authentic shared choices creating genuine community, diverse approaches serving different temperaments, trust through transparency
 
 **Future B Costs**: Community formation through concealed manipulation, elimination of diversity, distrust when deception is eventually exposed
 
-**** For Spiritual Institutions  
+*** For Spiritual Institutions  
 **Future A Benefits**: Trust through honesty, service-oriented authority, diverse constituency, long-term credibility
 
 **Future B Costs**: Authority through deception, control-oriented manipulation, limited constituency, eventual credibility crisis
 
-**** For Academic Institutions
+*** For Academic Institutions
 **Future A Benefits**: Scholarly integrity in spiritual studies, authentic research materials, comparative methodology development
 
 **Future B Costs**: Scholarly compromise in spiritual publishing, contaminated research materials, normalized academic deception
 
 *** The Generational Impact Analysis
 
-**** Generation 1: Those Who Experienced the Original
+*** Generation 1: Those Who Experienced the Original
 - **Future A**: Can preserve their authentic spiritual experience while respecting others' systematic preferences  
 - **Future B**: Must accept that their spiritual foundation was "inferior" to committee improvements
 
-**** Generation 2: Those Who Discovered the Changes
+*** Generation 2: Those Who Discovered the Changes
 - **Future A**: Can choose consciously between authentic alternatives based on understanding their implications
 - **Future B**: Must choose between institutional loyalty and spiritual authenticity recognition
 
-**** Generation 3: Those Born Into the Revision
+*** Generation 3: Those Born Into the Revision
 - **Future A**: Will have access to both original and systematic approaches with honest explanation of differences
 - **Future B**: Will never know what spiritual alternatives were available before committee control
 
-**** Future Generations
+*** Future Generations
 - **Future A**: Will inherit conscious choice about spiritual development within preserved authentic traditions
 - **Future B**: Will inherit unconscious spiritual programming within institutionally controlled traditions
 
 *** The Technology and Globalization Factors
 
-**** Future A: Technology Serving Spiritual Choice
+*** Future A: Technology Serving Spiritual Choice
 - **Digital preservation** of original texts prevents elimination
 - **Global accessibility** enables worldwide authentic choice
 - **Comparative tools** help readers understand different approaches
 - **Educational resources** support informed spiritual decision-making
 
-**** Future B: Technology Serving Editorial Control
+*** Future B: Technology Serving Editorial Control
 - **Digital manipulation** enables easier content alteration
 - **Global distribution** spreads deceptive marketing worldwide  
 - **Search optimization** prioritizes revised editions over originals
@@ -2907,13 +2922,13 @@ When deception becomes normalized in spiritual publishing:
 
 *** The Broader Implications for Sacred Tradition Preservation
 
-**** Future A: Authentic Tradition Model
+*** Future A: Authentic Tradition Model
 **Preservation Method**: Original sources protected alongside contemporary adaptations
 **Development Process**: New approaches honestly attributed and clearly differentiated
 **Authority Structure**: Service-oriented guidance helping people choose appropriate spiritual approaches
 **Cultural Evolution**: Conscious development serving diverse human spiritual needs
 
-**** Future B: Controlled Tradition Model
+*** Future B: Controlled Tradition Model
 **Preservation Method**: Contemporary institutional preferences replace original sources
 **Development Process**: Editorial theology disguised as authentic transmission
 **Authority Structure**: Control-oriented manipulation determining spiritual choices for others  
@@ -2921,19 +2936,19 @@ When deception becomes normalized in spiritual publishing:
 
 *** The Resolution Pathway
 
-**** The Individual Choice
+*** The Individual Choice
 Every reader now faces a conscious choice:
 - Accept unconscious spiritual programming or demand transparent choice
 - Support institutional control or advocate for authentic preservation  
 - Remain passive about editorial manipulation or actively seek spiritual authenticity
 
-**** The Institutional Choice
+*** The Institutional Choice
 Every spiritual organization now faces a fundamental decision:
 - Serve reader choice or control reader development
 - Acknowledge past deception or continue deceptive practices
 - Build trust through transparency or maintain authority through concealment
 
-**** The Cultural Choice
+*** The Cultural Choice
 Every society now confronts a basic question:
 - Protect spiritual authenticity or normalize editorial manipulation
 - Preserve diverse spiritual approaches or impose institutional uniformity
@@ -2941,19 +2956,19 @@ Every society now confronts a basic question:
 
 *** The Practical Steps Toward Future A
 
-**** Immediate Actions Anyone Can Take
+*** Immediate Actions Anyone Can Take
 - **Investigate textual authenticity** in spiritual literature you read
 - **Demand transparency** from spiritual publishers about editorial changes
 - **Support authentic preservation** by purchasing and promoting original sources
 - **Educate others** about the importance of conscious spiritual choice
 
-**** Institutional Actions Required
+*** Institutional Actions Required
 - **Acknowledge systematic alterations** honestly and completely
 - **Restore original access** through republication and equal availability
 - **Develop transparency standards** for all spiritual publishing
 - **Commit to service** rather than control in spiritual guidance
 
-**** Cultural Actions Needed
+*** Cultural Actions Needed
 - **Establish reader protection** standards in spiritual publishing
 - **Develop academic protocols** for sacred text preservation
 - **Create educational resources** about textual authenticity importance
@@ -2961,13 +2976,13 @@ Every society now confronts a basic question:
 
 *** The Victory Conditions
 
-**** Future A Victory Indicators
+*** Future A Victory Indicators
 - Multiple clearly-identified editions of sacred texts widely available
 - Readers educated about how different versions affect spiritual development
 - Spiritual institutions competing through service quality rather than choice elimination
 - Academic community studying textual authenticity as legitimate scholarly concern
 
-**** Future B Victory Indicators
+*** Future B Victory Indicators
 - Original texts eliminated from circulation or marginalized
 - Readers unconsciously accepting editorial theology as authentic transmission
 - Spiritual institutions maintaining control through concealed manipulation
@@ -3000,6 +3015,7 @@ The two futures await your decision.
 * Chapter 11: The Critical Changes Maya Discovered
 #+LATEX: \chapter*{Chapter 11: The Critical Changes Maya Discovered}
 #+LATEX: \addcontentsline{toc}{chapter}{Chapter 11: The Critical Changes Maya Discovered}
+#+LATEX: \thispagestyle{chapteropening}
 #+LATEX: \markright{The Critical Changes Maya Discovered}
 
 #+LATEX: \vspace{0.3cm}
@@ -3105,6 +3121,7 @@ Maya's investigation revealed that while both consciousness types created sincer
 * Chapter 12: Maya's Final Discovery - The Path Forward
 #+LATEX: \chapter*{Chapter 12: Maya's Final Discovery - The Path Forward}
 #+LATEX: \addcontentsline{toc}{chapter}{Chapter 12: Maya's Final Discovery - The Path Forward}
+#+LATEX: \thispagestyle{chapteropening}
 #+LATEX: \markright{Maya's Final Discovery}
 
 #+LATEX: \vspace{0.3cm}
@@ -3391,9 +3408,16 @@ The preservation of authentic spiritual transmission depends on honest acknowled
 
 The sacred deserves nothing less than complete honesty in its preservation and transmission.
 
-* Bibliography
-#+LATEX: \markright{Bibliography}
-#+LATEX: \thispagestyle{chapterpage}
+#+LATEX: \clearpage
+#+LATEX: \pagestyle{sectionopening}
+#+LATEX: \thispagestyle{sectionopening}
+#+LATEX: \markboth{}{}
+#+LATEX: \markright{}
+#+LATEX: \vspace*{0.25\textheight}
+#+LATEX: \begin{center}
+#+LATEX: {\Huge\bfseries Bibliography}
+#+LATEX: \end{center}
+#+LATEX: \newpage
 
 Barthes, Roland. "The Death of the Author." *Image, Music, Text*. Hill and Wang, 1977.
 
@@ -3489,9 +3513,16 @@ This analysis represents seven years of systematic research (2018-2025) involvin
 
 Every documented change has been verified through multiple sources where possible, with uncertainty levels explicitly noted where source material is incomplete or ambiguous.
 
-* Glossary
-#+LATEX: \thispagestyle{chapterpage}
-#+LATEX: \markright{Glossary}
+#+LATEX: \clearpage
+#+LATEX: \pagestyle{sectionopening}
+#+LATEX: \thispagestyle{sectionopening}
+#+LATEX: \markboth{}{}
+#+LATEX: \markright{}
+#+LATEX: \vspace*{0.25\textheight}
+#+LATEX: \begin{center}
+#+LATEX: {\Huge\bfseries Glossary}
+#+LATEX: \end{center}
+#+LATEX: \newpage
 
 A guide to key terms and concepts for understanding the transformation of sacred texts.
 
@@ -3533,9 +3564,16 @@ A guide to key terms and concepts for understanding the transformation of sacred
 
 **Version Comparison** — The key to discovery: when readers compare editions side-by-side, the transformation becomes undeniable. What institutions hid for forty years, the internet exposed.
 
-* Appendix A: Research Methodology
-#+LATEX: \markright{Appendix A}
-#+LATEX: \thispagestyle{chapterpage}
+#+LATEX: \clearpage
+#+LATEX: \pagestyle{sectionopening}
+#+LATEX: \thispagestyle{sectionopening}
+#+LATEX: \markboth{}{}
+#+LATEX: \markright{}
+#+LATEX: \vspace*{0.25\textheight}
+#+LATEX: \begin{center}
+#+LATEX: {\Huge\bfseries Appendix A: Research Methodology}
+#+LATEX: \end{center}
+#+LATEX: \newpage
 
 This investigation draws upon research from multiple scientific disciplines to validate its conclusions:
 
@@ -3547,9 +3585,16 @@ This investigation draws upon research from multiple scientific disciplines to v
 
 This interdisciplinary approach ensures the findings represent rigorous cross-field validation rather than single-discipline speculation. Each discipline contributes specific methodological tools and validation frameworks that collectively support the investigation's conclusions about consciousness programming through sacred text alteration.
 
-* Appendix B: Major Doctrinal Changes
-#+LATEX: \markright{Appendix B}
-#+LATEX: \thispagestyle{chapterpage}
+#+LATEX: \clearpage
+#+LATEX: \pagestyle{sectionopening}
+#+LATEX: \thispagestyle{sectionopening}
+#+LATEX: \markboth{}{}
+#+LATEX: \markright{}
+#+LATEX: \vspace*{0.25\textheight}
+#+LATEX: \begin{center}
+#+LATEX: {\Huge\bfseries Appendix B: Major Doctrinal Changes}
+#+LATEX: \end{center}
+#+LATEX: \newpage
 
 *** Universal Divine Address Alterations
 - **Pattern**: Every instance of intimate divine speech systematically replaced with formal theological address
@@ -3568,19 +3613,19 @@ This interdisciplinary approach ensures the findings represent rigorous cross-fi
 
 *** Complete Meaning Reversals
 
-**** BG 4.11 - Theological Transformation
+*** BG 4.11 - Theological Transformation
 **Original (1972)**: "As all surrender unto Me, I reward them accordingly"
 **Revised (1983)**: "As they surrender unto Me, I reward them accordingly"
 - **Analysis**: "All" indicates universal divine accessibility; "they" creates exclusivity
 - **Impact**: Universal grace → selective blessing theology
 
-**** BG 9.11 - Incarnation Understanding  
+*** BG 9.11 - Incarnation Understanding  
 **Original (1972)**: "When I descend in the human form, fools deride Me"
 **Revised (1983)**: "When I appear in human form, fools deride Me"
 - **Analysis**: "Descend" implies divine condescension; "appear" suggests manifestation only
 - **Impact**: Personal incarnation → impersonal appearance
 
-**** BG 2.18 - Complete Reversal
+*** BG 2.18 - Complete Reversal
 **Original**: "sacrifice the material body for the cause of religion" 
 **Revised**: "not sacrifice the cause of religion for material considerations"
 - **Analysis**: Same words, opposite meaning through grammatical manipulation
@@ -3607,9 +3652,6 @@ This interdisciplinary approach ensures the findings represent rigorous cross-fi
 
 **Revision result**: "Eternal" removed despite his repeated emphasis on this concept.
 
-* Appendix C: Chapter-by-Chapter Statistical Analysis
-#+LATEX: \markright{Appendix C}
-#+LATEX: \thispagestyle{chapterpage}
 
 *** Overall Alteration Scope
 
@@ -3688,9 +3730,6 @@ This interdisciplinary approach ensures the findings represent rigorous cross-fi
 
 **Critical finding:** Nearly two-thirds of Sanskrit alterations contradict both Prabhupāda's original draft AND the 1972 published edition, representing pure editorial invention.
 
-* Appendix D: Linguistic Quality vs. Spiritual Accessibility Assessment
-#+LATEX: \markright{Appendix D}
-#+LATEX: \thispagestyle{chapterpage}
 
 *** Comprehensive 259-Change Analysis Results
 
@@ -3773,9 +3812,6 @@ While 51.7% of changes improved technical English, 89% reduced spiritual accessi
 
 **Historical Context**: Prabhupāda explicitly prioritized spiritual impact over academic precision, stating: "The purpose is to attract people to Krishna consciousness, not to show scholarship."
 
-* Appendix E: Key Meaning-Altering Changes
-#+LATEX: \markright{Appendix E}
-#+LATEX: \thispagestyle{chapterpage}
 
 *** I. Complete Meaning Reversals
 
@@ -3904,7 +3940,7 @@ This 66% contradiction rate with source materials appears consistently across al
 
 *** VI. Theological Transformation Documentation
 
-**** A. Grace-Dependent to Self-Effort Shift (73 instances)
+*** A. Grace-Dependent to Self-Effort Shift (73 instances)
 
 **Pattern Analysis:**
 - **Divine mercy emphasis reduced**: 73 modifications
@@ -3916,7 +3952,7 @@ This 66% contradiction rate with source materials appears consistently across al
 - **Revision tendency**: Added self-effort qualifications
 - **Cumulative impact**: Fundamental shift in liberation theology
 
-**** B. Personal-to-Impersonal Divine Concept (94 instances)
+*** B. Personal-to-Impersonal Divine Concept (94 instances)
 
 **Documentation Pattern:**
 - **Personal pronouns for Divine reduced**: 67%  
@@ -3982,14 +4018,14 @@ This complete documentation represents the most comprehensive analysis available
 
 *** Systematic Language Pattern Changes
 
-**** Personal Address Elimination (89 instances)
+*** Personal Address Elimination (89 instances)
 - "My dear friend" → eliminated entirely (12 instances)
 - "My dear Arjuna" → "O Arjuna" (23 instances)  
 - "My friend" → "Arjuna" (12 instances)
 - Personal pronouns → formal names (31 instances)
 - Affectionate terms → neutral addresses (11 instances)
 
-**** Emotional Language Reduction (127 instances)
+*** Emotional Language Reduction (127 instances)
 - "Blessed" → "Supreme" (systematic replacement throughout)
 - "Love" → "devotional service" (18 instances)
 - "Lovingly" → "perfectly" (7 instances)
@@ -3999,7 +4035,7 @@ This complete documentation represents the most comprehensive analysis available
 - "Intimately" → "perfectly" (11 instances)
 - "Beloved" → "Personality of Godhead" (31 instances)
 
-**** Theological Terminology Shifts (78 instances)
+*** Theological Terminology Shifts (78 instances)
 - Grace-dependent language → effort-dependent language
 - Mystical experience terms → systematic practice terms
 - Spontaneous devotion → regulated service
@@ -4007,7 +4043,7 @@ This complete documentation represents the most comprehensive analysis available
 
 *** Sanskrit Modifications Without Manuscript Authority
 
-**** Chapter-by-Chapter Sanskrit Alterations
+*** Chapter-by-Chapter Sanskrit Alterations
 **Chapter 1 Analysis (127 total changes):**
 - Legitimate corrections: 29 (21.47%)
 - **Editorial inventions: 89 (65.92%)**  
@@ -4020,7 +4056,7 @@ This complete documentation represents the most comprehensive analysis available
 - Synonyms modified without historical precedent
 - Pronunciation guides altered from Prabhupāda's recorded versions
 
-**** Documented Sanskrit Inconsistencies
+*** Documented Sanskrit Inconsistencies
 - **BG 2.13**: "deha" interpretation changed without authority
 - **BG 4.7**: "dharma" rendering altered from established meaning
 - **BG 9.22**: "yoga-ksema" redefined against Prabhupāda's explanations
@@ -4028,7 +4064,7 @@ This complete documentation represents the most comprehensive analysis available
 
 *** Purport Alterations (Critical Meaning Changes)
 
-**** Philosophical Framework Modifications
+*** Philosophical Framework Modifications
 **BG 2.62-63 Purport Changes:**
 - Meditation methodology altered from original instructions
 - Consciousness development sequence modified  
@@ -4044,7 +4080,7 @@ This complete documentation represents the most comprehensive analysis available
 - Grace emphasis reduced significantly
 - Self-effort emphasis increased systematically
 
-**** Historical Context Removals
+*** Historical Context Removals
 - References to Prabhupāda's personal instructions removed
 - Contemporary spiritual examples eliminated
 - Cultural context explanations reduced
@@ -4086,9 +4122,7 @@ Every instance of intimate divine blessing replaced with institutional theologic
 - Consciousness effect assessment
 - **Heart-accessible → Mind-centered**: Simple phrases replaced with complex formulations
 
-* Appendix B: Class Transcript Evidence of Prabhupāda's Approval
-#+LATEX: \markright{Appendix B}
-#+LATEX: \thispagestyle{chapterpage}
+*** Class Transcript Evidence of Prabhupāda's Approval
 
 *** BG 2.48: "Steadfast in Yoga" Documentation
 **Original read to Prabhupāda**: "Be steadfast in yoga, O Arjuna. Perform your duty and abandon all attachment to success or failure. Such evenness of mind is called yoga."
@@ -4111,9 +4145,6 @@ Every instance of intimate divine blessing replaced with institutional theologic
 
 **Revision result**: "Eternal" removed despite his repeated emphasis on this concept.
 
-* Appendix C: Chapter-by-Chapter Statistical Analysis
-#+LATEX: \markright{Appendix C}
-#+LATEX: \thispagestyle{chapterpage}
 
 *** Overall Alteration Scope
 
@@ -4192,9 +4223,6 @@ Every instance of intimate divine blessing replaced with institutional theologic
 
 **Critical finding:** Nearly two-thirds of Sanskrit alterations contradict both Prabhupāda's original draft AND the 1972 published edition, representing pure editorial invention.
 
-* Appendix D: Linguistic Quality vs. Spiritual Accessibility Assessment
-#+LATEX: \markright{Appendix D}
-#+LATEX: \thispagestyle{chapterpage}
 
 *** Comprehensive 259-Change Analysis Results
 
@@ -4277,9 +4305,6 @@ While 51.7% of changes improved technical English, 89% reduced spiritual accessi
 
 **Historical Context**: Prabhupāda explicitly prioritized spiritual impact over academic precision, stating: "The purpose is to attract people to Krishna consciousness, not to show scholarship."
 
-* Appendix E: Key Meaning-Altering Changes
-#+LATEX: \markright{Appendix E}
-#+LATEX: \thispagestyle{chapterpage}
 
 *** I. Complete Meaning Reversals
 
@@ -4408,7 +4433,7 @@ This 66% contradiction rate with source materials appears consistently across al
 
 *** VI. Theological Transformation Documentation
 
-**** A. Grace-Dependent to Self-Effort Shift (73 instances)
+*** A. Grace-Dependent to Self-Effort Shift (73 instances)
 
 **Pattern Analysis:**
 - **Divine mercy emphasis reduced**: 73 modifications
@@ -4420,7 +4445,7 @@ This 66% contradiction rate with source materials appears consistently across al
 - **Revision tendency**: Added self-effort qualifications
 - **Cumulative impact**: Fundamental shift in liberation theology
 
-**** B. Personal-to-Impersonal Divine Concept (94 instances)
+*** B. Personal-to-Impersonal Divine Concept (94 instances)
 
 **Documentation Pattern:**
 - **Personal pronouns for Divine reduced**: 67%  
@@ -4461,9 +4486,16 @@ This 66% contradiction rate with source materials appears consistently across al
 
 This complete documentation represents the most comprehensive analysis available of systematic alterations to what millions consider sacred scripture, done without explicit authorization from the original author or transparent disclosure to readers.
 
-* Appendix F: Practical Application Guide
-#+LATEX: \markright{Practical Guide}
-#+LATEX: \thispagestyle{chapterpage}
+#+LATEX: \clearpage
+#+LATEX: \pagestyle{sectionopening}
+#+LATEX: \thispagestyle{sectionopening}
+#+LATEX: \markboth{}{}
+#+LATEX: \markright{}
+#+LATEX: \vspace*{0.25\textheight}
+#+LATEX: \begin{center}
+#+LATEX: {\Huge\bfseries Appendix F: Practical Application Guide}
+#+LATEX: \end{center}
+#+LATEX: \newpage
 
 #+LATEX: {\centering\itshape Tools for applying the forensic findings to spiritual practice,\\enabling conscious choice based on documented evidence.\par}
 #+LATEX: \vspace{0.3cm}
@@ -4479,15 +4511,15 @@ This appendix provides practical tools for applying the findings from this foren
 
 *** Section I: Quick Reference Tools
 
-**** Version Identification Checklist
+*** Version Identification Checklist
 
-***** Publication Data Check
+*** Publication Data Check
 - [ ] 1972 Macmillan edition = Original
 - [ ] "Revised and Enlarged" = Current version
 - [ ] Check publisher and date
 - [ ] Look for editorial credits
 
-***** Key Verse Spot Check
+*** Key Verse Spot Check
 - [ ] BG 2.13: "forgotten soul" = Original
 - [ ] BG 2.13: "forgetful soul" = Current
 - [ ] BG 4.11: "As all surrender" = Original  
@@ -4495,23 +4527,23 @@ This appendix provides practical tools for applying the findings from this foren
 - [ ] Divine address: "The Blessed Lord" = Original
 - [ ] Divine address: "The Supreme Personality of Godhead" = Current
 
-**** Situation Response Matrix
+*** Situation Response Matrix
 
-***** If Your Temple Uses Current Version But You Prefer Original:
+*** If Your Temple Uses Current Version But You Prefer Original:
 - [ ] Study both versions privately
 - [ ] Use original for personal practice
 - [ ] Participate fully in temple activities
 - [ ] Share information only when asked
 - [ ] Focus on shared spiritual principles
 
-***** If You're Starting a Study Group:
+*** If You're Starting a Study Group:
 - [ ] Choose which version to use
 - [ ] Be transparent about your choice
 - [ ] Educate participants about differences
 - [ ] Respect diverse preferences
 - [ ] Maintain group harmony
 
-***** If Someone Asks About the Differences:
+*** If Someone Asks About the Differences:
 - [ ] Start with love and compassion
 - [ ] Share factual information
 - [ ] Focus on conscious choice
@@ -4520,7 +4552,7 @@ This appendix provides practical tools for applying the findings from this foren
 
 *** Section II: Personal Assessment Tools
 
-**** Spiritual Temperament Assessment
+*** Spiritual Temperament Assessment
 
 Complete this assessment to understand which approach best serves your spiritual development:
 
@@ -4550,7 +4582,7 @@ Complete this assessment to understand which approach best serves your spiritual
 - 5-7 points: Original version likely better serves your devotional temperament
 - 8-10 points: Current version likely better serves your philosophical temperament
 
-**** Knowledge Check Assessment
+*** Knowledge Check Assessment
 
 Test your understanding of the documented differences:
 
@@ -4583,7 +4615,7 @@ Test your understanding of the documented differences:
 
 *** Section III: Action Plans
 
-**** For Current Version Readers Discovering Original
+*** For Current Version Readers Discovering Original
 
 If you've been reading the current version and want to explore the original:
 
@@ -4605,7 +4637,7 @@ If you've been reading the current version and want to explore the original:
 - [ ] Maintain openness to both approaches
 - [ ] Share experiences appropriately
 
-**** For Original Readers in Revised-Using Communities
+*** For Original Readers in Revised-Using Communities
 
 If you prefer the original but your community uses the revision:
 
@@ -4627,7 +4659,7 @@ If you prefer the original but your community uses the revision:
 - [ ] Create balance between personal and community practice
 - [ ] Remember: Unity in diversity is possible
 
-**** For Teachers and Leaders
+*** For Teachers and Leaders
 
 If you guide others in spiritual study:
 
@@ -4651,7 +4683,7 @@ If you guide others in spiritual study:
 
 *** Section IV: Community Harmony Strategies
 
-**** Discussing Differences Constructively
+*** Discussing Differences Constructively
 
 **DO:**
 - [ ] Present factual information
@@ -4667,7 +4699,7 @@ If you guide others in spiritual study:
 - [ ] Judge others' choices
 - [ ] Spread discord
 
-**** Building Bridges
+*** Building Bridges
 
 **Common Ground Focus:**
 - [ ] Shared devotion to Krishna
@@ -4683,20 +4715,20 @@ If you guide others in spiritual study:
 
 *** Section V: Resources and Support
 
-**** Essential Resources
+*** Essential Resources
 - Original 1972 edition (various publishers)
 - Current BBT editions for comparison
 - This forensic investigation
 - Online comparison tools
 - Discussion forums (use discriminately)
 
-**** Study Suggestions
+*** Study Suggestions
 - Compare specific verses that matter to you
 - Read scholarly analyses from both perspectives
 - Listen to diverse viewpoints
 - Make your own informed choice
 
-**** Support Networks
+*** Support Networks
 - Find others who respect conscious choice
 - Join study groups that honor both versions
 - Connect with teachers who understand the issue
@@ -4704,7 +4736,7 @@ If you guide others in spiritual study:
 
 *** Section VI: Long-term Integration
 
-**** Personal Practice Evolution
+*** Personal Practice Evolution
 
 **Month 1-3:**
 - [ ] Establish version preference
@@ -4724,7 +4756,7 @@ If you guide others in spiritual study:
 - [ ] Model conscious choice
 - [ ] Serve community unity
 
-**** Ongoing Development
+*** Ongoing Development
 
 **Daily Practice:**
 - [ ] Study with awareness
@@ -4763,9 +4795,16 @@ Both versions have created sincere practitioners. Both can serve spiritual devel
 
 *May your practice be blessed with clarity, devotion, and wisdom.*
 
-* Citations for Detailed Information
-#+LATEX: \thispagestyle{chapterpage}
-#+LATEX: \markright{Citations}
+#+LATEX: \clearpage
+#+LATEX: \pagestyle{sectionopening}
+#+LATEX: \thispagestyle{sectionopening}
+#+LATEX: \markboth{}{}
+#+LATEX: \markright{}
+#+LATEX: \vspace*{0.25\textheight}
+#+LATEX: \begin{center}
+#+LATEX: {\Huge\bfseries Citations for Detailed Information}
+#+LATEX: \end{center}
+#+LATEX: \newpage
 
 For readers seeking complete documentation of the claims made in this investigation:
 
@@ -4811,7 +4850,16 @@ For readers seeking complete documentation of the claims made in this investigat
 
 **Various Authors.** Studies on collectivist versus individualist spiritual orientation development through language patterns. /Journal of Cognitive Anthropology/, 2019-2022.
 
-* About the Author
+#+LATEX: \clearpage
+#+LATEX: \pagestyle{sectionopening}
+#+LATEX: \thispagestyle{sectionopening}
+#+LATEX: \markboth{}{}
+#+LATEX: \markright{}
+#+LATEX: \vspace*{0.25\textheight}
+#+LATEX: \begin{center}
+#+LATEX: {\Huge\bfseries About the Author}
+#+LATEX: \end{center}
+#+LATEX: \newpage
 
 **Br. Jagannatha Mishra Dasa** has been studying intensively in various temples around the world since 1981, when he received initiation as a Brahmin, becoming part of the Gaudiya Vaisnava tradition.
 
