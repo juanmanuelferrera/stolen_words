@@ -209,27 +209,36 @@ Published in Spain
 #+LATEX: \thispagestyle{frontmatter}
 
 #+LATEX: \setlength{\parskip}{1pt}
-*I.  The Crisis Revealed*
-- Chapter 1: The Hidden Transformation
-- Chapter 2: The Numbers Don't Lie  
-- Chapter 3: The Smoking Gun Evidence
+*Part I: The Crisis Revealed*
+- 1. The Sacred Gift
+- 2. The Question
+- 3. The Discovery
+- 4. The Monk's Journey
+- 5. Two Different Souls
+- 6. The Pattern Revealed
+- 7. Global Confusion
+- 8. The Cover-Up
+- 9. The Divided House
 #+LATEX: \vspace{0.4cm}
-*II.  The Spiritual Impact*
-- Chapter 4: Two Different Gods
-- Chapter 5: Two Different Souls
-- Chapter 6: The Language of the Heart
+*Part II: The Spiritual Impact*
+- 10. Two Different Gods
+- 11. The Language of the Heart
 #+LATEX: \vspace{0.4cm}
-*III.  The Human Consequences*
-- Chapter 7: Two Paths, Two Souls
-- Chapter 8: The Publishing Deception
+*Part III: The Human Consequences*
+- 12. Two Paths, Two Souls
+- 13. The Publishing Deception
 #+LATEX: \vspace{0.4cm}
-*IV.  The Institutional Response*
-- Chapter 9: The Defenders and Their Strategies
-- Chapter 10: What Prabhupāda Actually Wanted
+*Part IV: The Institutional Response*
+- 14. The Defenders and Their Strategies
+- 15. What Prabhupāda Actually Wanted
 #+LATEX: \vspace{0.4cm}
-*V.  The Path Forward*
-- Chapter 11: The Scholarly Solution
-- Chapter 12: Two Futures
+*Part V: The Path Forward*
+- 16. The Scholarly Solution
+- 17. Two Futures
+#+LATEX: \vspace{0.4cm}
+*Maya's Story*
+- 18. The Critical Changes Maya Discovered
+- 19. Maya's Final Discovery - The Path Forward
 #+LATEX: \setlength{\parskip}{4pt plus 1pt minus 1pt}
 
 #+LATEX: \newpage
@@ -238,13 +247,12 @@ Published in Spain
 *Appendices and References*
 - Appendix A: Research Methodology
 - Appendix B: Major Doctrinal Changes
-- Appendix C: Linguistic Analysis Examples
-- Appendix D: Chapter Statistical Analysis
-- Appendix E: Linguistic Quality vs. Spiritual Accessibility
-- Appendix F: Key Meaning-Altering Changes
-- Appendix G: Practical Guide
+- Appendix C: Chapter-by-Chapter Statistical Analysis
+- Appendix D: Practical Application Guide
 - Bibliography
+- Citations for Detailed Information
 - Glossary
+- About the Author
 
 #+LATEX: \startmainmatter
 #+LATEX: \pagestyle{fancy}
@@ -4493,7 +4501,7 @@ This complete documentation represents the most comprehensive analysis available
 #+LATEX: \markright{}
 #+LATEX: \vspace*{0.25\textheight}
 #+LATEX: \begin{center}
-#+LATEX: {\Huge\bfseries Appendix F: Practical Application Guide}
+#+LATEX: {\Huge\bfseries Appendix D: Practical Application Guide}
 #+LATEX: \end{center}
 #+LATEX: \newpage
 
@@ -4808,9 +4816,6 @@ Both versions have created sincere practitioners. Both can serve spiritual devel
 
 For readers seeking complete documentation of the claims made in this investigation:
 
-**Chen, Sarah.** Stanford University Laboratory study comparing neural pathway development in practitioners reading devotional versus theological language patterns. /Journal of Consciousness Studies/, 2023.
-
-**Chen, Sarah.** Five-year longitudinal study tracking 200 practitioners. /Neuropsychology of Religion/, 2024. Stanford Neuroscience Laboratory archives.
 
 **Chaves, Mark.** /Ordaining Women: Culture and Conflict in Religious Organizations/. Harvard University Press, 1997.
 
@@ -4828,27 +4833,7 @@ For readers seeking complete documentation of the claims made in this investigat
 
 **Mueller, Hans.** Heidelberg University documentation of citation inconsistencies, 2005-2010.
 
-**Various Authors.** "Authority and Authenticity in Spiritual Publishing." /Ethics in Religious Literature/, 2022.
 
-**Various Authors.** "Heart-Centered Spiritual Transmission." /Comparative Religion Studies/, 2023.
-
-**Various Authors.** "Sacred Text Authorization: A Historical Survey." /Journal of Religious History/, 2021.
-
-**Various Authors.** "Sacred Text Integrity: A Forensic Approach." /Religious Publishing Ethics Journal/, 2021.
-
-**Various Authors.** "Sacred Text Publishing Ethics." /Religious Publishing Standards/, 2024.
-
-**Various Authors.** "Textual Integrity in Sacred Literature." /Religious Studies Quarterly/, 2020.
-
-**Various Authors.** Comprehensive studies on hierarchical versus intimate learning environments. /Educational Psychology Review/, 2019-2023.
-
-**Various Authors.** Studies on institutional defensiveness patterns. /Journal of Organizational Behavior/, 2018-2022.
-
-**Various Authors.** Research on prestige dialect adoption in institutional settings. /Language in Society/, 2020.
-
-**Various Authors.** Studies on posthumous textual modification patterns across spiritual traditions. /Journal of Religious History/, 2017-2021.
-
-**Various Authors.** Studies on collectivist versus individualist spiritual orientation development through language patterns. /Journal of Cognitive Anthropology/, 2019-2022.
 
 #+LATEX: \clearpage
 #+LATEX: \pagestyle{sectionopening}
