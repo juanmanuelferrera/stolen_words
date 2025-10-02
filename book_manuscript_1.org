@@ -349,7 +349,7 @@ That morning began an investigation that would reveal one of the most successful
 
 Maya bought both editions and began systematic comparison. Within hours, patterns emerged that made her hands tremble. This wasn't casual editing. This was ideological reconstruction hidden behind identical covers.
 
-The evidence was overwhelming. In the original 1972 edition, whenever Krishna spoke, he was introduced as "the Blessed Lord"—a term of endearment that made readers feel personally blessed. In the 1983 revision, all 245 instances had been replaced with "the Supreme Personality of Godhead"—an institutional title that established theological hierarchy rather than personal connection.
+The evidence was overwhelming. In the original 1972 edition, whenever Krishna spoke, he was introduced as "the Blessed Lord"—a term of endearment that made readers feel personally blessed. In the 1983 revision, all 28 instances had been replaced with "the Supreme Personality of Godhead"—an institutional title that established theological hierarchy rather than personal connection.
 
 Stanford neuroscientist Dr. Sarah Chen's research explained what Maya was experiencing: different language creates different neural pathways, different human beings.
 
@@ -804,7 +804,7 @@ The smoking gun evidence makes this choice unavoidable.
 #+LATEX: \vspace{0.3cm}
 
 #+LATEX: \normalfont\justifying
-The most systematic alteration in the revised Bhagavad-gītā involves every instance of Krishna's voice in the text. 245+ times, "The Blessed Lord said" becomes "The Supreme Personality of Godhead said." Institutional defenders claim this improves theological accuracy. The reality is far more profound: it transforms the reader's fundamental relationship with divinity itself.
+The most systematic alteration in the revised Bhagavad-gītā involves every instance of Krishna's voice in the text. In all 28 instances throughout the text, "The Blessed Lord said" becomes "The Supreme Personality of Godhead said." Institutional defenders claim this improves theological accuracy. The reality is far more profound: it transforms the reader's fundamental relationship with divinity itself.
 
 This isn't academic preference—it's the consciousness programming Maya had documented. Different names for God create different neurological responses, different emotional relationships, and ultimately different human beings. As neuroscientist Dr. Mario Beauregard's research demonstrates, mystical spiritual practices involving intimate divine relationship activate different brain regions than systematic religious study, with mystical practices showing increased activity in areas associated with self-transcendence and emotional integration.
 
@@ -1499,7 +1499,7 @@ Maya's pen flew across the page. "So each layer added their own agenda?"
 
 "I attended those meetings," David said, his coffee now cold. "Each group genuinely believed they were helping."
 
-Maya leaned forward. "Walk me through a typical change. How did 'Blessed Lord' become 'Supreme Personality of Godhead' in 245 places?"
+Maya leaned forward. "Walk me through a typical change. How did 'Blessed Lord' become 'Supreme Personality of Godhead' throughout the text?"
 
 David pulled out actual meeting transcripts from 1981:
 
@@ -3090,7 +3090,7 @@ One neural pathway leads to mystical union; the other to religious understanding
 
 *** The Intimacy Theft: "Blessed Lord" Becomes Institution
 
-Maya's most extensive documentation concerned the 245+ instances where "The Blessed Lord said" became "The Supreme Personality of Godhead said."
+Maya's most extensive documentation concerned the 28 instances where "The Blessed Lord said" became "The Supreme Personality of Godhead said."
 
 Working with Dr. Chen's colleague Dr. Martinez, a specialist in social neuroscience, Maya understood the consciousness programming:
 
