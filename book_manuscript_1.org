@@ -261,7 +261,7 @@ Published in Spain
 #+LATEX: \hbadness=2000
 #+LATEX: \looseness=-1
 
-In 1972, A.C. Bhaktivedanta Swami Prabhupāda gave the world his Bhagavad-gītā As It Is—a devotional translation that would introduce millions to Krishna consciousness. After his passing in 1977, well-meaning disciples decided to "improve" his work. This book documents what happened next.
+In 1972, A.C. Bhaktivedanta Swami Prabhupāda gave the world his Bhagavad-gītā As It Is—a devotional translation that would introduce millions to Krishna consciousness. After his passing in 1977, some disciples decided to "improve" his work. This book documents what happened next.
 
 When we began comparing Prabhupāda's original 1972 edition with the posthumous 1983 revision, we expected minor editorial differences. What emerged was evidence of comprehensive theological transformation: 259 documented alterations that fundamentally restructure how readers encounter the divine, understand transcendent reality, and develop consciousness. These changes were made without Prabhupāda's consent, without informing readers, and continue to shape millions of spiritual lives today.
 
