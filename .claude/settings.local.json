@@ -14,7 +14,9 @@
       "Bash(mv:*)",
       "Bash(rm:*)",
       "Bash(sed:*)",
-      "WebFetch(domain:bookchanges.com)"
+      "WebFetch(domain:bookchanges.com)",
+      "Bash(cat:*)",
+      "WebSearch"
     ],
     "deny": []
   }
