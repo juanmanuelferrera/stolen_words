@@ -263,7 +263,7 @@ Published in Spain
 
 In 1972, A.C. Bhaktivedanta Swami Prabhupāda gave the world his Bhagavad-gītā As It Is—a devotional translation that would introduce millions to Krishna consciousness. After his passing in 1977, some disciples decided to "improve" his work. This book documents what happened next.
 
-When we began comparing Prabhupāda's original 1972 edition with the posthumous 1983 revision, we expected minor editorial differences. What emerged was evidence of comprehensive theological transformation: 259 documented alterations that fundamentally restructure how readers encounter the divine, understand transcendent reality, and develop consciousness. These changes were made without Prabhupāda's consent, without informing readers, and continue to shape millions of spiritual lives today.
+When we began comparing Prabhupāda's original 1972 edition with the posthumous 1983 revision, we expected minor editorial differences. What emerged was evidence of comprehensive theological transformation: systematic alterations that fundamentally restructure how readers encounter the divine, understand transcendent reality, and develop consciousness. These changes were made without Prabhupāda's consent, without informing readers, and continue to shape millions of spiritual lives today.
 
 These are not merely academic concerns. The differences create distinct sacred trajectories. Readers of the original develop intimate devotional consciousness through grace-dependent transformation. Readers of the revision develop methodical religious practice through knowledge-based progression. The evidence presented here will disturb those who prefer sacred matters remain abstract and unexamined. It will challenge institutions that conflate editorial authority with religious authority. It will confront individuals who dismiss textual precision as unimportant to sacred life. This book makes no apologies for that disturbance.
 
@@ -298,11 +298,11 @@ I should begin with the book that does not exist, though millions have read it. 
 
 It was November 14, 1977, in Vrindavana, India—the holy land where Krishna danced five thousand years ago—when A.C. Bhaktivedanta Swami Prabhupāda spoke his last documented words. Not, as legend would later claim, "Hare Krishna," but something far more revealing: "Meri kuch iccha nahin." I have no desires. A strange final statement for a man who had spent the last twelve years of his life possessed by a singular desire: to give the Western world his translation of the Bhagavad-gītā exactly as he understood it.
 
-But to understand the mystery of the book that exists twice, we must first understand what Prabhupāda believed he was creating. The Bhagavad-gītā—literally "Song of God"—unfolds as a battlefield conversation between the warrior Arjuna and his charioteer Krishna, who reveals himself, verse by verse, as the Supreme Divine. Seven hundred verses. Five thousand years of spiritual guidance. And until 1972, a barrier of Sanskrit that kept Western consciousness at bay.
+But to understand the mystery of the book that exists twice, we must first understand what Prabhupāda believed he was creating. The Bhagavad-gītā—literally "Song of God"—unfolds as a battlefield conversation between the warrior Arjuna and his charioteer Krishna, who reveals Himself, verse by verse, as the Supreme Divine. Seven hundred verses. Five thousand years of spiritual guidance. And until 1972, a barrier of Sanskrit that kept Western consciousness at bay.
 
 Here was Prabhupāda's heresy: he claimed no scholarly credentials by Western standards, yet promised something no academic would dare—not a translation of words, but a transmission of consciousness. Where scholars saw philosophy requiring analysis, he offered devotion requiring only surrender. His "Bhagavad-gītā As It Is" bore a title that was simultaneously humble and audacious: as it is. No interpretation. No scholarly mediation. Pure transmission from teacher to student, as practiced for millennia.
 
-The audacity succeeded. From 1972 to 1977—those five years when Prabhupāda still breathed—the book sold steadily across America, Europe, and eventually into languages he could not pronounce. University professors, initially skeptical of a Hindu text by an unknown author, adopted it for courses. Readers reported transformations that academic translations had never triggered. The Macmillan publishing house watched their sales figures climb, though they could not explain why this particular version of an ancient text had struck something resonant in Western consciousness.
+The audacity succeeded. From 1972 to 1977—those five years when Prabhupāda was still among us—the book sold steadily across America, Europe, and eventually into languages we cannot pronounce. University professors, initially skeptical of a Hindu text by an unknown author, adopted it for courses. Readers reported transformations that academic translations had never triggered. The Macmillan publishing house watched their sales figures climb, though they could not explain why this particular version of an ancient text had struck something resonant in Western consciousness.
 
 And Prabhupāda? He spent those final five years traveling, teaching, and—most crucially for our investigation—carefully guarding his books' integrity. Every translation personally reviewed. Every edition personally approved. Every error personally corrected. His disciples remember him saying: "My books will be the law books for the next ten thousand years." His books were his legacy, the gift that would outlive his physical presence.
 
@@ -318,7 +318,7 @@ The mystery begins six years after his death, in 1983, when the Bhaktivedanta Bo
 #+LATEX: \normalfont\justifying
 The year 1983 should have passed unremarkably in the annals of spiritual publishing. Instead, it marks the moment when what we might call the Great Substitution began—though of course, no one called it that at the time. They called it "Revised and Enlarged," as if improvement were possible for a book that claimed to present things exactly as they are.
 
-Picture the scene: six years after Prabhupāda's death, the Bhaktivedanta Book Trust quietly releases this new edition. No fanfare. No explanation to readers. The cover remains identical—same title, same author's name, same promise of authenticity. Inside, however, a transformation had occurred that would fracture spiritual communities across six continents, though it would take twenty years for anyone to notice.
+Picture the scene: six years after Prabhupāda's passing away, the Bhaktivedanta Book Trust quietly releases this new edition. No fanfare. No explanation to readers. The cover remains identical—same title, same author's name, same promise of authenticity. Inside, however, a transformation had occurred that would fracture spiritual communities across six continents, though it would take twenty years for anyone to notice.
 
 The method was elegantly simple: bookstores replaced old stock with new. Libraries shelved revisions where originals had been. New readers encountered what they believed to be the same book that had transformed the previous generation. The perfect crime, if crime it was—and that, dear reader, is the question that torments this investigation.
 
@@ -340,15 +340,15 @@ But I am still getting ahead of myself. The story properly begins not with the c
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: \normalfont\justifying
-Every detective story begins with an anomaly—some small disturbance in the expected order of things that reveals, upon investigation, an entire hidden world. Maya Rodriguez's anomaly was verse 2.47 of the Bhagavad-gītā, which she had been reading every morning for fifteen years. The words had shaped her daily meditation, her approach to work, her understanding of spiritual duty. They were as familiar to her as her own name.
+Every detective story begins with an anomaly—some small disturbance in the expected order of things that reveals, upon investigation, an entire hidden world. Maya Rodriguez's anomaly was verse 4.34 of the Bhagavad-gītā, which she had been reading every morning for fifteen years. The words had shaped her daily meditation, her approach to work, her understanding of spiritual duty. They were as familiar to her as her own name.
 
 On a Tuesday morning in 2023, while visiting her hospitalized grandmother, Maya discovered that her grandmother had been reading different words entirely.
 
 "Can you explain this verse, mija?" the elderly woman asked, her voice weak but urgent. "It doesn't say what I remember anymore."
 
-Maya looked at the familiar verse number—2.47—in her grandmother's worn 1972 edition. But the words on the page were not the words Maya knew. Not slightly different. Not paraphrased. Fundamentally transformed. Same chapter. Same verse number. Same author's name embossed on the cover. Different philosophy entirely.
+Maya looked at the familiar verse number—4.34—in her grandmother's worn 1972 edition. But the words on the page were not the words Maya knew. Not slightly different. Not paraphrased. Fundamentally transformed. Same chapter. Same verse number. Same author's name embossed on the cover. Different philosophy entirely.
 
-Picture the moment: Maya holding two books with identical titles, identical covers, identical author attributions. But inside, as if some cosmic practical joke were being played on the very concept of textual authority, two completely different approaches to the Divine. Her grandmother's book invited surrender to Krishna's "Blessed Lord" consciousness. Maya's book demanded understanding of "the Supreme Personality of Godhead" theology.
+Picture the moment: Maya holding two books with identical titles, identical covers, identical author attributions. But inside, as if some cosmic practical joke were being played on the very concept of textual authority, two completely different approaches to spiritual authority. Her grandmother's book spoke of seeking guidance from "the self-realized soul" (singular). Maya's book directed readers to "the self-realized souls" (plural). Same spiritual instruction, entirely different theological implications about the nature of spiritual authority.
 
 That morning began what I can only call an investigation—though Maya was no detective, merely a granddaughter trying to understand why her spiritual inheritance had been altered without her knowledge. What she would discover would reveal what may be the most successful literary substitution in modern spiritual history. The perfect crime, executed so smoothly that millions of victims remain unaware they have been robbed.
 
@@ -387,13 +387,13 @@ The answer would require archaeological excavation into the layers of spiritual 
 #+LATEX: \normalfont\justifying
 Every mystery contains within it another mystery, nested like Russian dolls. The mystery of how the Bhagavad-gītā came to be rewritten conceals within it the deeper mystery of how it came to be written in the first place—under circumstances so extraordinary that they would later provide both the inspiration and the justification for its transformation.
 
-Picture this: Abhay Charan De, sixty-nine years old, alone on the cargo ship Jaladuta in August 1965, carrying nothing but forty rupees (approximately seven dollars), a trunk of Sanskrit books, and a mission that had haunted him for thirty years. His spiritual master had charged him with the impossible: bring Krishna consciousness to the English-speaking world. Three decades later, with failing health and no prospects, he was finally attempting what younger men would have called suicide.
+Picture this: Abhay Charan De, sixty-nine years old, alone on the cargo ship Jaladuta in August 1965, carrying nothing but forty rupees (approximately seven dollars), a trunk of Sanskrit books, and a mission that had inspired him for thirty years. His spiritual master had charged him with the impossible: bring Krishna consciousness to the English-speaking world. Three decades later, with failing health and no prospects, he was finally attempting what younger men would have called suicide.
 
-The Atlantic Ocean nearly accomplished what age and poverty could not. Two heart attacks struck him mid-voyage, alone in his cabin while the ship rolled through storms. He survived by doing the only thing he knew how to do: chanting Sanskrit verses and writing poetry. "I am coming to America empty-handed," he wrote, "but I have faith in Your Holy Name." The poem reads like a man's final testament, not his arrival announcement.
+The Atlantic Ocean nearly accomplished what age and poverty could not. Two heart attacks struck him mid-voyage, alone in his cabin while the ship rolled through storms. He survived by doing the thing he knew better how to do: chanting Sanskrit verses and writing poetry. "I am coming to America empty-handed," he wrote, "but I have faith in Your Holy Name." The poem reads like a man's final testament, not his arrival announcement.
 
-September 17, 1965: the Jaladuta docks in Boston Harbor. Abhay Charan—now calling himself A.C. Bhaktivedanta Swami Prabhupāda—steps onto American soil. No contacts. No money. English so heavily accented that Americans strained to understand him. But he possessed something that money could not purchase and contacts could not provide: absolute conviction that five-thousand-year-old wisdom could transform the consciousness of a civilization that had never heard of Krishna.
+September 17, 1965: the Jaladuta docks in Boston Harbor. Abhay Charan—now A.C. Bhaktivedanta Swami Prabhupāda—steps onto American soil. No contacts. No money. English so heavily accented that Americans strained to understand him. But he possessed something that money could not purchase and contacts could not provide: absolute conviction that five-thousand-year-old wisdom could transform the consciousness of a civilization that had never heard of Krishna.
 
-What followed reads like urban mythology: an elderly Indian mystic in the Bowery, surrounded by drug addicts and alcoholics, offering four-thousand-year-old mantras to hippies seeking truth through LSD. While American intellectuals debated the death of God, he taught street kids to dance for Krishna. The contrast was so absurd it could only be true.
+What followed reads like urban mythology: an elderly Indian mystic in the Bowery, surrounded by drug addicts and alcoholics, offering five-thousand-year-old mantras to hippies seeking truth through LSD. While American intellectuals debated the death of God, he taught street kids to dance for Krishna. The contrast was so absurd it could only be true.
 
 But the real mystery occurred after midnight. Every night at 12:30 AM, Prabhupāda would begin the work that would later justify both devotion and controversy: translating the Bhagavad-gītā. His method revealed everything about why his books would eventually become the center of a forty-year deception.
 
@@ -419,7 +419,7 @@ The 1972 first edition represented exactly what Prabhupāda envisioned: ancient 
 
 Krishna consistently addressed as "the Blessed Lord"—creating personal relationship rather than theological distance. Technical Sanskrit terminology minimized in favor of English equivalents that conveyed feeling over scholarship. Devotional mood prioritized over philosophical precision. Complex metaphysical concepts explained through practical examples rather than abstract theory.
 
-From 1972 to 1977—those five years when Prabhupāda still breathed—this version touched millions of lives. Letters arrived daily: prisoners discovering rehabilitation, students finding purpose, housewives experiencing mysticism in suburban kitchens. The book was not merely communicating philosophy; it was transmitting the consciousness of its author across linguistic and cultural barriers that had stood for millennia.
+From 1972 to 1977—those five years when Prabhupāda was still among us—this version touched millions of lives. Letters arrived daily: prisoners discovering rehabilitation, students finding purpose, housewives experiencing mysticism in suburban kitchens. The book was not merely communicating philosophy; it was transmitting the consciousness of its author across linguistic and cultural barriers that had stood for millennia.
 
 Then came November 14, 1977, and everything changed.
 
@@ -518,7 +518,7 @@ Maya realized this pattern existed throughout spiritual history. Some traditions
 
 But here was the difference: in healthy spiritual traditions, people chose their approach consciously. They knew whether they were joining a mystical community seeking divine grace or an educational community pursuing systematic development.
 
-In the case of the Bhagavad-gītā, millions of people thought they were reading the same book, following the same path, when they were actually being divided into two fundamentally different spiritual approaches by editors who had made this choice for them.
+In the case of the Bhagavad-gītā As It Is, millions of people thought they were reading the same book, following the same path, when they were actually being divided into two fundamentally different spiritual approaches by editors who had made this choice for them.
 
 Maya closed both books and leaned back in her chair. Her three-month investigation had revealed how a single word change could reshape human consciousness on a global scale, creating division where unity was intended, confusion where clarity was promised.
 
@@ -587,8 +587,8 @@ Each alteration revealed competing metaphysical architectures. Prabhupāda had p
 Maya spent weeks correlating her findings with court documents obtained through academic research requests. The mathematics of deception became undeniable:
 
 - 541 verses altered out of 700 total (77% systematic change)
-- 5,000+ individual word changes documented  
-- 259+ theological modifications affecting core concepts
+- 5,000+ individual changes documented  
+- Extensive theological modifications affecting core concepts
 - 65% of changes contradicting both original manuscripts and published sources
 - Only 100 genuine corrections amid massive ideological revision
 
@@ -850,7 +850,7 @@ The smoking gun evidence makes this choice unavoidable.
 #+LATEX: \vspace{0.3cm}
 
 #+LATEX: \normalfont\justifying
-The pattern in the divine voice that Maya had discovered? Here, finally, we can name it fully. Twenty-one times—at every moment Krishna speaks in the Bhagavad-gītā—the intimate has become institutional. Not occasionally. Not sometimes. Every. Single. Instance. This isn't editing; it's systematic reprogramming of how readers encounter divinity itself.
+What is the pattern in the divine voice that Maya had discovered? Here, finally, we can name it fully. Twenty-one times—at every moment Krishna speaks in the Bhagavad-gītā—the intimate has become institutional. Not occasionally. Not sometimes. Every. Single. Instance. This isn't editing; it's systematic reprogramming of how readers encounter divinity itself.
 
 This isn't academic preference—it's the consciousness programming Maya had documented. Different names for God create different neurological responses, different emotional relationships, and ultimately different human beings. As neuroscientist Dr. Mario Beauregard's research demonstrates, mystical spiritual practices involving intimate divine relationship activate different brain regions than systematic religious study, with mystical practices showing increased activity in areas associated with self-transcendence and emotional integration.
 
@@ -1485,7 +1485,7 @@ The 1972 publication process had been remarkably direct:
 *** Prabhupāda's Personal Involvement
 
 Maya discovered through David's documents that Prabhupāda had:
-- Written translations and purports by hand with specific spiritual intentions
+- Written translations and purports with specific spiritual intentions
 - Made final decisions on all disputed points during editing
 - Approved the finished product after reviewing the complete text
 - Used the published edition for his own lectures from 1972 to 1977
@@ -1621,11 +1621,11 @@ Maya felt sick. "That's not preservation. That's replacement."
 
 David rubbed his face. "We had three main rationalizations that I can see now were just self-deception."
 
-**Authority Transfer**: "We told ourselves we were Prabhupāda's representatives, so our decisions were his decisions. Classic institutional thinking."
+"We told ourselves we were Prabhupāda's representatives, so our decisions were his decisions. Classic institutional thinking."
 
-**Improvement Justification**: "We focused on the genuine improvements and ignored the theological changes. 'We're making it better' became our mantra."
+"We focused on the genuine improvements and ignored the theological changes. 'We're making it better' became our mantra."
 
-**Institutional Group-Think**: "Everyone around me believed systematic revision was superior to Prabhupāda's spontaneous style. When everyone agrees, who questions?"
+"Everyone around me believed systematic revision was superior to Prabhupāda's spontaneous style. When everyone agrees, who questions?"
 
 "When did you realize what you'd done?" Maya asked gently.
 
@@ -1650,11 +1650,11 @@ David rubbed his face. "We had three main rationalizations that I can see now we
 This process reveals how institutional publishing can systematically transform spiritual content:
 
 *** Universal Mechanisms
-1. **Committee Authority Expansion**: Groups make decisions no individual would make
-2. **Incremental Change Accumulation**: Small alterations accumulate into systematic transformation
-3. **Mixed Motivation Confusion**: Good intentions don't guarantee spiritual integrity  
-4. **Technical Expertise Overreach**: Language skills can't substitute for spiritual realization
-5. **Reader Ignorance Exploitation**: People receive altered content unknowingly
+1. Groups make decisions no individual would make
+2. Small alterations accumulate into systematic transformation
+3. Good intentions don't guarantee spiritual integrity  
+4. Language skills can't substitute for spiritual realization
+5. People receive altered content unknowingly
 
 *** Warning Signs in Any Spiritual Publishing
 - Multiple committees reviewing spiritual content
@@ -1689,11 +1689,11 @@ Maya began sketching out what David described:
 
 "First," David said, "we need clear standards that protect both preservation and innovation:"
 
-- **Original Preservation is Sacred**: The author's approved edition must remain available forever, unchanged
-- **New Editions Welcome but Labeled**: Anyone can create study editions, scholarly editions, simplified editions—but clearly marked as such
-- **Complete Alteration Disclosure**: Every edition states clearly what was changed and why
-- **Multiple Versions Coexist**: Like Bible translations (KJV, NIV, NRSV), each serves different needs
-- **Reader Choice Protected**: People must know what they're choosing between
+- The author's approved edition must remain available forever, unchanged
+- Anyone can create study editions, scholarly editions, simplified editions—but clearly marked as such
+- Every edition states clearly what was changed and why
+- Like Bible translations (KJV, NIV, NRSV), each serves different needs
+- People must know what they're choosing between
 
 "Think about it," David continued. "We have the King James Bible, the New International Version, the New Revised Standard—all clearly labeled. No one pretends the NIV is the KJV. Why can't we do the same?"
 
@@ -2797,7 +2797,7 @@ The two versions create different spiritual development paths—incompatible in 
 - **Transparency** about current edition characteristics
 
 *** Short-term Implementation (6 months - 2 years)
-- **Original republication** with technical enhancements only
+- **Original republication**
 - **Clear labeling** of all editions with their characteristics
 - **Educational materials** helping readers understand choices
 - **Distribution equity** ensuring equal availability
@@ -2852,13 +2852,13 @@ This chapter examines these two futures and their implications for spiritual cul
 *** The Cultural Impact
 When readers gain conscious choice about their spiritual development:
 
-**Individual Development**: People select spiritual approaches aligned with their authentic needs rather than committee preferences
+People select spiritual approaches aligned with their authentic needs rather than committee preferences
 
-**Community Formation**: Spiritual communities develop around conscious shared choices rather than unconscious imposed frameworks
+Spiritual communities develop around conscious shared choices rather than unconscious imposed frameworks
 
-**Institutional Evolution**: Spiritual organizations serve reader choice rather than controlling it, building trust through transparency
+Spiritual organizations serve reader choice rather than controlling it, building trust through transparency
 
-**Academic Integration**: Universities study textual authenticity as legitimate scholarly concern, developing protocols for spiritual publishing
+Universities study textual authenticity as legitimate scholarly concern, developing protocols for spiritual publishing
 
 *** The Human Consciousness Result
 **Mystical Devotional Consciousness**: Preserved for those seeking intimate divine relationship through heart-centered transformation
@@ -2881,13 +2881,13 @@ When readers gain conscious choice about their spiritual development:
 *** The Cultural Degradation
 When deception becomes normalized in spiritual publishing:
 
-**Individual Disempowerment**: People receive spiritual programming without consent or awareness of alternatives
+People receive spiritual programming without consent or awareness of alternatives
 
-**Community Manipulation**: Spiritual organizations control member consciousness through concealed editorial decisions
+Spiritual organizations control member consciousness through concealed editorial decisions
 
-**Institutional Corruption**: Spiritual authority becomes editorial authority, substituting committee judgment for authentic transmission
+Spiritual authority becomes editorial authority, substituting committee judgment for authentic transmission
 
-**Academic Compromise**: Universities accept deceptive spiritual publishing as normal, abandoning scholarly integrity
+Universities accept deceptive spiritual publishing as normal, abandoning scholarly integrity
 
 *** The Human Consciousness Result
 **Controlled Spiritual Development**: Human consciousness shaped by institutional preferences rather than authentic spiritual choice
@@ -3075,10 +3075,10 @@ We arrive, finally, at what should be the conclusion of Maya Rodriguez's investi
 The evidence spreads before us like artifacts from an archaeological dig into the nature of consciousness itself:
 
 - Three-quarters of verses systematically altered without reader disclosure (541 of 700—a figure that reduces to 77% if we must speak in the cold mathematics of deception)
-- 259+ theological modifications affecting the fundamental architecture of how souls approach divinity
-- 5,000+ individual word changes that collectively redirect spiritual orientation from mystical surrender to systematic achievement
+- Extensive theological modifications affecting the fundamental architecture of how souls approach divinity
+- 5,000+ individual changes that collectively redirect spiritual orientation from mystical surrender to systematic achievement
 - Class transcript evidence proving Prabhupāda personally approved the very words that would later be systematically eliminated
-- No authorization—none whatsoever—for the posthumous reconstruction of a dead author's theological universe
+- No authorization—none whatsoever—for the posthumous reconstruction of a demised author's theological universe
 
 But here we encounter the first paradox that makes this investigation truly Borgesian: the more evidence Maya accumulated, the deeper the mystery became.
 
@@ -3087,7 +3087,7 @@ But here we encounter the first paradox that makes this investigation truly Borg
 What Maya discovered was not merely textual alteration but something that would have fascinated Borges: a literary artifact that exists in two simultaneous versions, each creating an entirely different universe of spiritual possibility.
 
 **The Original Path: Mystical Dissolution**
-- Creates intimate divine relationship through "Blessed Lord" (appearing 21 times with mathematical precision)
+- Creates intimate divine relationship through "Blessed Lord" (appearing 21 times)
 - Emphasizes grace-dependent transformation via "forgotten soul" consciousness
 - Produces mystically-oriented practitioners whose primary spiritual technology is surrender
 - Preserves what appears to be authentic Vedic devotional culture predating institutional systematization
@@ -3359,7 +3359,7 @@ The rest, as always in matters concerning the relationship between consciousness
 
 *** The Crucial Recognition
 
-These represent equally valid but fundamentally different spiritual approaches. The problem arises when institutional revision is presented as mere improvement rather than acknowledged paradigm shift.
+These represent valid but fundamentally different spiritual approaches. The problem arises when institutional revision is presented as mere improvement rather than acknowledged paradigm shift.
 
 As Maya discovered, when readers purchase "Prabhupāda's Bhagavad-gītā As It Is," they expect mystical devotional transmission. What they receive is systematic religious education masquerading as authentic transmission.
 
@@ -3416,7 +3416,7 @@ Rather than defending past deception or condemning either approach, the solution
 
 *** The Final Assessment
 
-The revised Bhagavad-gītā gains academic respectability, systematic presentation, and institutional compatibility. These benefits serve legitimate needs for certain readers and communities.
+The revised Bhagavad-gītā aims to gain academic respectability (although did not achieve that), systematic presentation, and institutional compatibility. These benefits serve legitimate needs for certain readers and communities.
 
 However, these gains come at the cost of:
 - **Mystical authenticity** replaced with systematic religiosity
@@ -3427,7 +3427,7 @@ However, these gains come at the cost of:
 
 *** The Trade-off Recognition
 
-The devastating reality is that the 12 legitimate scholarly improvements (better citations, improved formatting, enhanced transliteration) could have been applied **without theological alteration.** The technical enhancements are cosmetic formatting upgrades that don't require changing spiritual content.
+The devastating reality is that the legitimate scholarly improvements (better citations, improved formatting, enhanced transliteration) could have been applied **without theological alteration.** The technical enhancements are cosmetic formatting upgrades that don't require changing spiritual content.
 
 Instead, institutional priorities used technical improvement as cover for systematic theological revision—gaining scholarly respectability while losing the soul of bhakti-yoga.
 
@@ -3556,7 +3556,7 @@ This analysis represents seven years of systematic research (2018-2025) involvin
 **Scope and Criteria:**
 - Complete verse-by-verse comparison of all 700 verses
 - Alterations defined as any change in wording, punctuation, or structure between 1972 and 1983 editions
-- Focus on 259 meaning-significant changes that affect spiritual interpretation
+- Focus on meaning-significant changes that affect spiritual interpretation
 - Representative examples provided rather than exhaustive documentation of all 5,000+ total changes
 
 **Methodology:**
@@ -3598,7 +3598,7 @@ Every documented change has been verified through multiple sources where possibl
 
 **ISKCON** — International Society for Krishna Consciousness; the global spiritual movement Prabhupāda founded. The revision controversy has divided this community for forty years.
 
-**Jayadvaita Swami** — Lead editor of the 1983 revision. A sincere disciple who believed he was serving his guru by "perfecting" the texts using original manuscripts.
+**Jayadvaita Swami** — Lead editor of the 1983 revision. A disciple who believed he was serving his guru by "perfecting" the texts using original manuscripts.
 
 **Krishna** — Speaker of the Bhagavad-gītā; the Supreme Divine who reveals spiritual knowledge to his friend Arjuna. How Krishna is presented—as intimate friend or distant theology—shapes reader experience.
 
@@ -3608,7 +3608,7 @@ Every documented change has been verified through multiple sources where possibl
 
 **Original (1972) Edition** — The Bhagavad-gītā As It Is that Prabhupāda personally approved and used for teaching from 1972-1977. Emphasizes accessible devotion and personal divine relationship.
 
-**Prabhupāda** — A.C. Bhaktivedanta Swami (1896-1977); the spiritual master who brought Krishna consciousness to the West. His final instruction: "Don't change" his books.
+**Prabhupāda** — A.C. Bhaktivedanta Swami (1896-1977); the spiritual master who brought Krishna consciousness to the West. His final instruction: "Don't change" my books.
 
 **Revised (1983) Edition** — The posthumously edited version with 541 of 700 verses altered. Emphasizes theological precision and systematic understanding.
 
@@ -3731,7 +3731,7 @@ What Maya discovered in her most detailed analysis were instances where editors 
 **Prabhupāda's response**: "Dehi nityam, eternal. In so many ways, Krishna has explained. Nityam, eternal. Indestructible, immutable... again he says nityam, eternal." (August 31, 1973, London)
 
 **Revision result**: "Eternal" removed despite his repeated emphasis on this concept.
-
+%%%
 
 *** Overall Alteration Scope
 
@@ -3811,7 +3811,7 @@ What Maya discovered in her most detailed analysis were instances where editors 
 **Critical finding:** Nearly two-thirds of Sanskrit alterations contradict both Prabhupāda's original draft AND the 1972 published edition, representing pure editorial invention.
 
 
-*** Comprehensive 259-Change Analysis Results
+*** Comprehensive Change Analysis Results
 
 **Objective Language Quality Assessment:**
 - **Changes improving English**: 134 changes (51.7%)
@@ -4046,7 +4046,7 @@ This 66% contradiction rate with source materials appears consistently across al
 
 *** VII. Complete Statistical Overview
 
-**Total Documented Changes: 259+**
+**Total Documented Changes: Extensive**
 
 **Category Breakdown:**
 1. **Meaning reversals**: 23 cases (8.9%)
@@ -4166,7 +4166,7 @@ This complete documentation represents the most comprehensive analysis available
 - Cultural context explanations reduced
 - Personal realization accounts minimized
 
-*** Complete Documentation of 259+ Changes
+*** Complete Documentation of Changes
 
 **Category 1: Divine Address (Systematic Change)**
 Every instance of intimate divine blessing replaced with institutional theological formulation
@@ -4192,7 +4192,7 @@ Every instance of intimate divine blessing replaced with institutional theologic
 - Interpolations without manuscript authority
 - Systematic impositions of editorial theological preferences
 
-**Total Verified Changes: 259+ major documented alterations**
+**Total Verified Changes: Major documented alterations**
 
 *Each change documented with:*
 - Original 1972 version
@@ -4304,7 +4304,7 @@ Every instance of intimate divine blessing replaced with institutional theologic
 **Critical finding:** Nearly two-thirds of Sanskrit alterations contradict both Prabhupāda's original draft AND the 1972 published edition, representing pure editorial invention.
 
 
-*** Comprehensive 259-Change Analysis Results
+*** Comprehensive Change Analysis Results
 
 **Objective Language Quality Assessment:**
 - **Changes improving English**: 134 changes (51.7%)
@@ -4539,7 +4539,7 @@ This 66% contradiction rate with source materials appears consistently across al
 
 *** VII. Complete Statistical Overview
 
-**Total Documented Changes: 259+**
+**Total Documented Changes: Extensive**
 
 **Category Breakdown:**
 1. **Meaning reversals**: 23 cases (8.9%)
