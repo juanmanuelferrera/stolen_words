@@ -10,30 +10,29 @@
 #+OPTIONS: toc:nil num:t title:nil
 
 # Page Layout Configuration (6x9 inches = 152.4x228.6mm)
-# Amazon KDP balanced margins for professional appearance
 #+LATEX_HEADER: \usepackage[paperwidth=6in,paperheight=9in]{geometry}
 #+LATEX_HEADER: \geometry{
-#+LATEX_HEADER:   inner=19mm,        % Margen interior (gutter) - balanced for binding
-#+LATEX_HEADER:   outer=19mm,        % Margen exterior - symmetric with inner
-#+LATEX_HEADER:   top=19mm,          % Margen superior
-#+LATEX_HEADER:   bottom=22mm,       % Margen inferior - room for page numbers
-#+LATEX_HEADER:   bindingoffset=3mm, % Extra space for binding in center
-#+LATEX_HEADER:   headheight=14pt,   % Space for header
-#+LATEX_HEADER:   headsep=10mm,      % Space between header and text
-#+LATEX_HEADER:   footskip=18mm,     % Space for page numbers
+#+LATEX_HEADER:   inner=17.7mm,      % Margen interior (gutter)
+#+LATEX_HEADER:   outer=11.35mm,     % Margen exterior
+#+LATEX_HEADER:   top=11.35mm,       % Margen superior (as per spec)
+#+LATEX_HEADER:   bottom=20mm,       % Margen inferior (increased to prevent overflow)
+#+LATEX_HEADER:   bindingoffset=0mm, % Offset ya incluido en margen interior
+#+LATEX_HEADER:   headheight=14pt,   % Space for header (minimum 13.6pt required)
+#+LATEX_HEADER:   headsep=8mm,       % Separation between header and text
+#+LATEX_HEADER:   footskip=15mm,     % Space to put page number
 #+LATEX_HEADER:   includehead=true,  % Include header in text area
-#+LATEX_HEADER:   includefoot=true   % Include footer in text area
+#+LATEX_HEADER:   includefoot=true   % Include footer in text area (page number inside)
 #+LATEX_HEADER: }
-#+LATEX_HEADER: \raggedbottom         % Allow flexible page heights
+#+LATEX_HEADER: \raggedbottom         % Allow flexible page heights to prevent overflow
 
-# Typography Configuration - Optimized for print readability
-#+LATEX_HEADER: \usepackage{fontspec}
-#+LATEX_HEADER: \setmainfont{Garamond}
-#+LATEX_HEADER: \usepackage[final,babel=true]{microtype}
+# Typography Configuration
+#+LATEX_HEADER: \usepackage{fontspec} % Use system fonts
+#+LATEX_HEADER: \setmainfont{Garamond} % Standard Garamond typeface
+#+LATEX_HEADER: \usepackage[final,babel=true]{microtype} % Professional typography
 #+LATEX_HEADER: \usepackage{setspace}
-#+LATEX_HEADER: \setstretch{1.15}     % Increased line spacing for better readability
+#+LATEX_HEADER: \setstretch{1.05}
 #+LATEX_HEADER: \setlength{\parindent}{0pt}
-#+LATEX_HEADER: \setlength{\parskip}{6pt plus 2pt minus 1pt}  % More paragraph spacing
+#+LATEX_HEADER: \setlength{\parskip}{4pt plus 1pt minus 1pt}
 #+LATEX_HEADER: \usepackage{ragged2e}
 #+LATEX_HEADER: \justifying
 
@@ -196,7 +195,7 @@
 #+LATEX: \vspace*{0.2\textheight}
 #+LATEX: \begin{center}
 #+LATEX: {\fontfamily{cmr}\fontsize{36}{42}\selectfont\textbf{STOLEN WORDS}}\\[0.4cm]
-#+LATEX: {\large How Editorial Changes Reshape Consciousness}\\[1.5cm]
+#+LATEX: {\large A Forensic Analysis of Bhagavad-g\={\i}t\=a As It Is}\\[1.5cm]
 #+LATEX: \vspace{0.15\textheight}
 #+LATEX: {\Large Br. Jagannatha Mishra Dasa}\\[2cm]
 #+LATEX: \vspace*{\fill}
@@ -207,7 +206,7 @@
 # Copyright page - NO PAGE NUMBER
 #+LATEX: \thispagestyle{frontmatter}
 *STOLEN WORDS*\\
-/How Editorial Changes Reshape Consciousness/
+/A Forensic Analisys of Bhagavad-gītā As It Is/
 
 Copyright © 2025 Br. Jagannatha Mishra Dasa\\
 www.lightofdharma.com
@@ -276,7 +275,7 @@ Specific names are not mentioned extensively because this subject matter is high
 
 The evidence is clear. What it means cannot be ignored. How readers respond is their choice alone.
 
-**Note on Narrative Framework:** This book uses narrative storytelling to present documented evidence. Character names and specific anecdotes are fictionalized to illustrate documented patterns—the data itself is always real and verifiable. Fictional narrative characters include Maya Rodriguez, Dr. Sarah Chen, David Matthews, and temple community members whose experiences are composites drawn from documented testimonies. However, all scientific studies cited are authentic peer-reviewed research from real academics (Pascual-Leone, Beauregard, Paquette, Newberg, d'Aquili, and others). All verse comparisons, chapter statistics, textual changes, and Prabhupāda's recorded class transcripts can be independently verified through publicly available sources including asitis.com (1972 edition), vedabase.io (revised edition), and krishna-books.com documentation.
+**Note on Narrative Framework:** This book uses narrative storytelling to present documented evidence. Character names and specific anecdotes are fictionalized to illustrate documented patterns, but all data is real and verifiable. All scientific studies cited (including work by Pascual-Leone, Beauregard, Paquette, Newberg, d'Aquili, and others) are authentic peer-reviewed research from real academics. All verse comparisons, chapter statistics, textual changes, and Prabhupāda's recorded class transcripts can be independently verified through publicly available sources including asitis.com (1972 edition), vedabase.io (revised edition), and krishna-books.com documentation.
 
 #+LATEX: \clearpage
 #+LATEX: \thispagestyle{empty}
@@ -341,7 +340,7 @@ And the most subtle alteration was the one that would prove most significant: a 
 
 For twenty years, the substitution remained perfect. Then the internet arrived, making comparison possible for the first time, and the discovery began.
 
-But I am still getting ahead of myself. The story properly begins not with the crime but with its detection—and the detective was not a senior scholar but a doctoral student in Religious Studies at Stanford named Maya Rodriguez, who discovered by accident what had been hidden by design. Her background in comparative religion and access to Stanford's research resources would prove essential, though she could never have anticipated that a simple question from her hospitalized grandmother would launch an investigation spanning continents and decades.
+But I am still getting ahead of myself. The story properly begins not with the crime but with its detection—and the detective was not a senior scholar but a graduate student in Religious Studies named Maya Rodriguez, who discovered by accident what had been hidden by design. Her background in comparative religion and access to Stanford's research resources would prove essential, though she could never have anticipated that a simple question from her hospitalized grandmother would launch an investigation spanning continents and decades.
 
 ** 3. The Discovery
 #+LATEX: \thispagestyle{chapterpage}
@@ -509,7 +508,7 @@ That conversation marked the moment Maya grasped the full scope of what had been
 
 She began tracking the real-world effects. Online spiritual forums showed the split clearly: people reading the original sought prayer support and talked about surrendering to God's mercy. People reading the revision shared meditation techniques and discussed systematic spiritual advancement.
 
-Neither group knew. They thought they were having theological disagreements. In reality, they had been programmed by different editions to understand human spiritual condition in fundamentally incompatible ways.
+Neither group knew they were reading different spiritual philosophies. They thought they were having theological disagreements about the same teaching. In reality, they had been programmed by different editions to understand human spiritual condition in fundamentally incompatible ways.
 
 Maya's investigation had revealed something shocking: a single word change had secretly divided an entire spiritual movement, creating two incompatible approaches to spiritual life while everyone believed they were following the same path.
 
@@ -525,7 +524,7 @@ Maya realized this pattern existed throughout spiritual history. Some traditions
 
 But here was the difference: in healthy spiritual traditions, people chose their approach consciously. They knew whether they were joining a mystical community seeking divine grace or an educational community pursuing systematic development.
 
-In the case of the Bhagavad-gītā As It Is, millions of people believed they shared a path. The editors had divided them invisibly, substituting choice with institutional mandate.
+In the case of the Bhagavad-gītā As It Is, millions of people thought they were reading the same book, following the same path, when they were actually being divided into two fundamentally different spiritual approaches by editors who had made this choice for them.
 
 Maya closed both books and leaned back in her chair. Her three-month investigation had revealed how a single word change could reshape human consciousness on a global scale, creating division where unity was intended, confusion where clarity was promised.
 
@@ -556,7 +555,7 @@ But documentation alone couldn't capture what these changes actually did to a re
 
 The neurological explanation came from published research Dr. Chen had shared with Maya over coffee at the Stanford faculty lounge—Chen had a habit of pulling journal articles from her bag like a medieval monk producing relics, each one annotated in three colors of ink representing, as Chen had explained, "initial reading, skeptical re-reading, and resigned acceptance of findings I initially doubted." Devotional language and theological language, the research demonstrated, don't merely communicate differently—they create different forms of spiritual orientation at the level of brain architecture.
 
-Beauregard and Paquette's 2006 fMRI study of Carmelite nuns—fifteen French Canadian sisters who had agreed to lie motionless in a scanner while recalling their most profound spiritual experiences, a methodology Chen described as "either remarkably courageous or methodologically suspect, depending on your epistemological assumptions about whether mystical experience can be 'recalled' on command"—had identified which brain regions activate during mystical contemplation: the caudate nucleus, insula, and limbic regions associated with emotion and personal connection. Combined with research on analytical religious processing, the pattern became clear: devotional and theological language engage fundamentally different neural architecture. Maya had become living proof, her own consciousness split between two spiritual approaches depending on which book she opened each morning.
+Beauregard and Paquette's 2006 fMRI study of Carmelite nuns—fifteen French Canadian sisters who had agreed to lie motionless in a scanner while recalling their most profound spiritual experiences, a methodology Chen described as "either remarkably courageous or methodologically suspect, depending on your epistemological assumptions about whether mystical experience can be 'recalled' on command"—had demonstrated how mystical versus systematic religious practices activate entirely distinct neural networks. Maya had become living proof of the research, her own consciousness split between two spiritual approaches depending on which book she opened each morning.
 
 What Maya discovered next would constitute evidence in any court of law that this was not casual editing but systematic ideological reconstruction. She documented hundreds of examples following three unmistakable patterns, each revealing a different aspect of the consciousness transformation:
 
@@ -682,7 +681,7 @@ The response from ISKCON leadership in India was notably different from response
 
 **The Mathematical Pattern**
 
-Maya created a spreadsheet documenting international incidents. By 2024, after a year of intensive research, she had cataloged 47 separate instances across 23 countries where the textual substitution had created measurable confusion, division, or institutional crisis:
+Maya created a spreadsheet documenting international incidents. By 2018, she had cataloged 47 separate instances across 23 countries where the textual substitution had created measurable confusion, division, or institutional crisis:
 
 - 23 temple communities experiencing unexplained divisions between "old guard" and "new practitioners"
 - 15 academic institutions discovering citation inconsistencies in published scholarship
@@ -910,7 +909,7 @@ The smoking gun evidence makes this choice unavoidable.
 #+LATEX: \normalfont\justifying
 What is the pattern in the divine voice that Maya had discovered? Here, finally, we can name it fully. Twenty-one times—at every moment Krishna speaks in the Bhagavad-gītā—the intimate has become institutional. Not occasionally. Not sometimes. Every. Single. Instance. This isn't editing; it's systematic reprogramming of how readers encounter divinity itself.
 
-This isn't academic preference—it's the consciousness programming Maya had documented. Different names for God create different neurological responses, different emotional relationships, and ultimately different practitioners. Neuroscience research on mystical contemplation—including Mario Beauregard's fMRI studies—shows that intimate, relational spiritual language activates brain regions associated with self-transcendence and emotional integration: the limbic system, caudate nucleus, and insula. Analytical theological language, by contrast, engages prefrontal regions associated with abstract reasoning and hierarchical categorization.
+This isn't academic preference—it's the consciousness programming Maya had documented. Different names for God create different neurological responses, different emotional relationships, and ultimately different practitioners. As neuroscientist Dr. Mario Beauregard's research demonstrates, mystical spiritual practices involving intimate divine relationship activate different brain regions than systematic religious study, with mystical practices showing increased activity in areas associated with self-transcendence and emotional integration.
 
 #+Latex: \vspace{-0.5cm}
 *** The Universal Transformation
@@ -1078,7 +1077,7 @@ The neuroscience Dr. Chen had explained was playing out in Maya's own spiritual 
 
 She began observing how linguistic patterns created different spiritual cultures within the same tradition, conducting what amounted to an informal ethnographic survey through phone interviews and temple visits across North America.
 
-The Midwest temples—where practitioners still treasured their original 1970s editions—had developed intimate fellowships and shared devotional experiences. Maya visited a Sunday feast at a temple in Ohio where the temple president, a former factory worker, told stories about Krishna with tears streaming down his face, encouraging emotional sharing and creating spaces for what he called "heart-opening." Their stated spiritual goals centered on divine love, personal relationship, mystical union with the Beloved. When members faced crisis—and Maya heard about plenty: divorce, illness, financial collapse—the community responded with emotional support, prayer fellowship, and collective grace-seeking. These temples felt like extended families, gatherings where it was perfectly acceptable to weep during kirtan or admit you had no idea what you were doing spiritually but desperately wanted to feel closer to God.
+The Midwest temples—where practitioners still treasured their original 1970s editions—had developed intimate fellowships and shared devotional experiences. Maya visited a Sunday feast at a temple in Ohio where the temple president, a former factory worker named Jagannath Das, told stories about Krishna with tears streaming down his face, encouraging emotional sharing and creating spaces for what he called "heart-opening." Their stated spiritual goals centered on divine love, personal relationship, mystical union with the Beloved. When members faced crisis—and Maya heard about plenty: divorce, illness, financial collapse—the community responded with emotional support, prayer fellowship, and collective grace-seeking. These temples felt like extended families, gatherings where it was perfectly acceptable to weep during kirtan or admit you had no idea what you were doing spiritually but desperately wanted to feel closer to God.
 
 The coastal academic communities—where revised editions dominated the bookshelves—had developed educational fellowships and systematic study groups. Maya attended a Thursday evening class at an East Coast temple where the discussion leader, a PhD candidate in religious studies, led analytical discussions about the philosophical implications of various Sanskrit terms, emphasizing concept mastery with PowerPoint presentations and handouts. Their stated spiritual goals centered on proper understanding, systematic advancement, knowledge attainment. When members faced crisis, the community responded with counseling resources, study intensification, and technique application—one member told Maya she'd been assigned "three additional chapters to study" when she expressed depression. These temples felt like spiritual academies, gatherings where intellectual precision was valued over emotional vulnerability and you were expected to articulate your spiritual struggles in properly theological language.
 
@@ -1511,7 +1510,7 @@ Two paths, two souls, two completely different spiritual destinies—hidden in e
 #+LATEX: \normalfont\justifying
 Maya Rodriguez had spent three months at her kitchen table documenting the textual changes through systematic comparison. Now she needed to understand how it happened. How could a sacred text be systematically transformed without anyone noticing? 
 
-Her investigation led her to a retired BBT employee named David Matthews, who had worked in the publishing department from 1978 to 1985. They met at a quiet café in California.
+Her investigation led her to a retired BBT employee named David Matthews, who had worked in the publishing department from 1978 to 1985. They met at a quiet café in Los Angeles.
 
 "I was young and idealistic," David began, stirring his coffee slowly. "We all believed we were serving a sacred mission—preserving Prabhupāda's books for future generations."
 
@@ -1811,7 +1810,9 @@ Dr. Whitfield employed every minimization tactic:
 
 "Only a small percentage of the text changed," he insisted.
 
-"Small percentage?" Maya countered, her voice steady. "Five hundred and forty-one verses out of seven hundred. The changes don't affect essential meaning?"
+"Small percentage?" Maya countered. "77% of all verses. That's 541 out of 700."
+
+"The changes don't affect essential meaning."
 
 Maya opened to her comparison charts. "Every divine utterance changed from blessing to theological formulation doesn't affect meaning? One creates intimacy, the other hierarchy."
 
@@ -2979,11 +2980,9 @@ Six months into her investigation—having completed her initial textual compari
 
 Chen paused, tapping the page with a pen that had evidently leaked slightly, leaving small blue marks across the margin where she had annotated the methodology section.
 
-"The methodology was somewhat questionable—how does one 'recall' mystical union with God while imprisoned in a magnetic resonance tube listening to machinery that sounds like a deranged washing machine?—but the findings..." Another pause. Maya would remember this pause, the way Chen's finger remained on the page as if anchoring the study to physical reality. "The findings were undeniable. Mystical contemplation—intimate, relational engagement with the divine—activated the caudate nucleus, insula, and what they rather broadly termed 'limbic regions,' though I have questions about their criteria for delineating limbic boundaries."
+"The methodology was somewhat questionable—how does one 'recall' mystical union with God while imprisoned in a magnetic resonance tube listening to machinery that sounds like a deranged washing machine?—but the findings..." Another pause. Maya would remember this pause, the way Chen's finger remained on the page as if anchoring the study to physical reality. "The findings were undeniable. Mystical contemplation—which they defined as intimate, relational prayer, the kind where you address God as beloved rather than sovereign—activated the caudate nucleus, insula, and what they rather broadly termed 'limbic regions,' though I have questions about their criteria for delineating limbic boundaries. But theological reflection—systematic, analytical prayer, the kind where you contemplate divine attributes rather than commune with divine presence—activated entirely different networks: the inferior parietal lobule, portions of the prefrontal cortex, regions associated with abstract reasoning and hierarchical categorization."
 
-Chen pulled out another stack of papers. "Now compare that to studies of analytical religious cognition—theological reasoning, doctrinal analysis, systematic study of divine attributes. Entirely different networks: inferior parietal lobule, prefrontal cortex, regions associated with abstract reasoning and hierarchical categorization."
-
-She looked up at Maya. "Same spiritual tradition. Same sincere practitioners. Same God, presumably, though one might debate whether the God encountered through mystical communion is phenomenologically identical to the God analyzed through theological reflection. But fundamentally different neural activation patterns based solely on the /type/ of spiritual language they engage."
+Chen looked up from the journal. "Same spiritual tradition. Same sincere practitioners. Same God, presumably, though the nuns might debate whether the God encountered through mystical communion is phenomenologically identical to the God analyzed through theological reflection. But fundamentally different neural activation patterns based solely on the /type/ of spiritual language they engaged."
 
 Maya had solved the mystery that began with her grandmother's confusion. But the solution revealed something larger: a choice that extended far beyond any single book or tradition.
 
@@ -3231,7 +3230,7 @@ Barthes, Roland. "The Death of the Author." *Image, Music, Text*. Hill and Wang,
 
 Bassnett, Susan. *Translation Studies*. Routledge, 2002.
 
-Beauregard, Mario, and Vincent Paquette. "Neural correlates of a mystical experience in Carmelite nuns." *Neuroscience Letters* 405, no. 3 (2006): 186-190. [fMRI study identifying neural activation patterns during mystical contemplation: caudate nucleus, insula, and limbic regions]
+Beauregard, Mario, and Vincent Paquette. "Neural correlates of a mystical experience in Carmelite nuns." *Neuroscience Letters* 405, no. 3 (2006): 186-190. [fMRI study demonstrating distinct neural activation patterns during mystical contemplation versus theological reflection]
 
 Brooks, Charles R. *The Hare Krishnas in India*. Princeton University Press, 1989.
 
@@ -3396,7 +3395,7 @@ Every documented change has been verified through multiple sources where possibl
 
 Maya's investigation required the methodological precision of multiple scientific disciplines, each contributing a different lens for examining the same labyrinthine phenomenon. Like medieval scholars debating the nature of universals, we approached the question of textual transformation from every available direction:
 
-**The Neuroscientific Approach**: Published brain imaging studies—particularly Beauregard and Paquette's 2006 fMRI research on Carmelite nuns identifying mystical contemplation's neural signature (limbic regions, caudate nucleus, insula), and Newberg and d'Aquili's work on the neurology of mystical experience—combined with research on analytical religious cognition, revealed how different spiritual languages create measurably different neural architectures. The pattern emerged clearly: devotional, relational language activating limbic regions and emotional centers; theological, systematic language engaging prefrontal analytical processing and hierarchical recognition systems.
+**The Neuroscientific Approach**: Published brain imaging studies—particularly Beauregard and Paquette's 2006 fMRI research on Carmelite nuns, and Newberg and d'Aquili's work on the neurology of mystical experience—revealed how different spiritual languages create measurably different neural architectures. The research documented the neural conditioning mechanism at the neurological level: devotional, relational language activating limbic regions and emotional centers; theological, systematic language engaging prefrontal analytical processing and hierarchical recognition systems.
 
 **The Psycholinguistic Investigation**: Semantic priming studies demonstrated how "forgotten soul" versus "forgetful soul" consciousness creates different expectation patterns in the brain's language processing centers. Educational psychology provided frameworks for understanding how spiritual "mindset" programming occurs through repeated textual exposure.
 
@@ -3505,7 +3504,7 @@ Maya kept returning to one realization: not a single chapter had escaped signifi
 
 The distribution pattern itself revealed intentionality. Changes appeared not randomly but /everywhere/—in foundational teachings and advanced philosophy, in devotional instructions and scholarly explanations, in Krishna's direct speech and in the purports explicating that speech. Whoever had orchestrated this revision had possessed either remarkable thoroughness or remarkable presumption. Possibly both.
 
-The data sources presented their own epistemological puzzle. The statistics came from krishna-books.com's systematic comparison—apparently compiled by devotees troubled enough by the changes to document them verse by verse. Cross-referencing against asitis.com (which claimed to reproduce the 1972 Macmillan edition) and vedabase.io (which presented the current revised version) confirmed the basic patterns, though without access to physical copies of the original 1972 printing—increasingly rare, increasingly expensive, increasingly hoarded by collectors and concerned practitioners—Maya couldn't verify every claim with absolute certainty.
+The data sources presented their own epistemological puzzle. The 77% statistic came from krishna-books.com's systematic comparison—apparently compiled by devotees troubled enough by the changes to document them verse by verse. Cross-referencing against asitis.com (which claimed to reproduce the 1972 Macmillan edition) and vedabase.io (which presented the current revised version) confirmed the basic patterns, though without access to physical copies of the original 1972 printing—increasingly rare, increasingly expensive, increasingly hoarded by collectors and concerned practitioners—Maya couldn't verify every claim with absolute certainty.
 
 Some verification remained incomplete. Prabhupāda's original manuscript drafts from 1968-1971, if they still existed, were not publicly accessible. The ISKCON archives, as Maya had discovered, maintained a complex hierarchy of availability—some materials freely distributed, some available to scholars upon request, some apparently restricted to institutional authorities. The line between preservation and suppression, she had learned, often depends on who controls access to evidence.
 

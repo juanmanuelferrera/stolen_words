@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stolen Words - A Forensic Analysis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background-color: #ffffff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        .header {
+            background: #ffffff;
+            padding: 2rem 0;
+            text-align: center;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .title {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: #6b7280;
+            font-weight: 400;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 4rem 0;
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 400px 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .book-cover {
+            position: relative;
+        }
+
+        .cover-image {
+            width: 100%;
+            max-width: 350px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .cover-image:hover {
+            transform: translateY(-5px);
+        }
+
+        .cover-placeholder {
+            width: 350px;
+            height: 500px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            position: relative;
+        }
+
+        .cover-placeholder::after {
+            content: '';
+            position: absolute;
+            top: 8px;
+            right: -8px;
+            width: 20px;
+            height: calc(100% - 16px);
+            background: linear-gradient(to right, 
+                        rgba(0, 0, 0, 0.3) 0%, 
+                        rgba(0, 0, 0, 0.1) 50%, 
+                        transparent 100%);
+            border-radius: 0 8px 8px 0;
+            z-index: -1;
+        }
+
+        .cover-placeholder:hover {
+            transform: translateY(-5px) rotateY(-5deg);
+        }
+
+        .cover-placeholder:hover::after {
+            width: 25px;
+            right: -12px;
+            background: linear-gradient(to right, 
+                        rgba(0, 0, 0, 0.4) 0%, 
+                        rgba(0, 0, 0, 0.15) 50%, 
+                        transparent 100%);
+        }
+
+        .cover-placeholder::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: -3px;
+            width: 3px;
+            height: 100%;
+            background: linear-gradient(to bottom, 
+                        rgba(0, 0, 0, 0.1) 0%, 
+                        rgba(0, 0, 0, 0.2) 50%, 
+                        rgba(0, 0, 0, 0.1) 100%);
+            border-radius: 0 8px 8px 0;
+        }
+
+        .hero-content h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+
+        .hero-description {
+            font-size: 1.1rem;
+            color: #4b5563;
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #dc2626;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: #6b7280;
+            margin-top: 0.5rem;
+        }
+
+        /* Download Section */
+        .download-section {
+            background: #1f2937;
+            padding: 2rem;
+            border-radius: 12px;
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .download-title {
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .download-options {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+        }
+
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            padding: 0.875rem 2rem;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .download-btn.primary {
+            background: #dc2626;
+            color: white;
+        }
+
+        .download-btn.primary:hover {
+            background: #b91c1c;
+            transform: translateY(-1px);
+        }
+
+        .download-btn.secondary {
+            background: #f3f4f6;
+            color: #374151;
+            border: 1px solid #d1d5db;
+        }
+
+        .download-btn.secondary:hover {
+            background: #e5e7eb;
+            transform: translateY(-1px);
+        }
+
+        @media (min-width: 640px) {
+            .download-options {
+                flex-direction: row;
+                justify-content: center;
+            }
+            
+            .download-btn {
+                width: auto;
+                flex: 1;
+                max-width: 200px;
+            }
+        }
+
+        .password-form {
+            margin-top: 1rem;
+            display: none;
+        }
+
+        .password-form input {
+            padding: 0.75rem;
+            margin-right: 0.5rem;
+            border: 1px solid #d1d5db;
+            border-radius: 6px;
+            width: 150px;
+        }
+
+        .password-form button {
+            padding: 0.75rem 1.5rem;
+            background: #059669;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+        }
+
+        /* Media Section */
+        .media-section {
+            padding: 4rem 0;
+            background: white;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 3rem;
+        }
+
+        .video-featured {
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        .video-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+        }
+
+        .video-player {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+            border-radius: 12px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            margin: 0 auto;
+        }
+
+        .video-description {
+            font-size: 1rem;
+            color: #6b7280;
+            margin-top: 1rem;
+        }
+
+        .audio-section {
+            background: #f8fafc;
+            padding: 2rem;
+            border-radius: 12px;
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .audio-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+        }
+
+        .audio-player {
+            width: 100%;
+            margin: 1rem 0;
+        }
+
+        .audio-description {
+            font-size: 0.9rem;
+            color: #6b7280;
+        }
+
+        /* Footer */
+        .footer {
+            background: #1f2937;
+            color: #9ca3af;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .footer-content {
+            font-size: 0.9rem;
+        }
+
+        .footer-highlight {
+            color: white;
+            font-weight: 500;
+        }
+
+        .footer-note {
+            margin-top: 1rem;
+            font-style: italic;
+            opacity: 0.8;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                text-align: center;
+            }
+
+            .title {
+                font-size: 2.5rem;
+            }
+
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cover-placeholder {
+                width: 280px;
+                height: 400px;
+                margin: 0 auto;
+            }
+
+            .video-player {
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">STOLEN WORDS</h1>
+            <p class="subtitle">A Forensic Analysis of Bhagavad-gītā As It Is</p>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="book-cover">
+                    <div class="cover-placeholder" onclick="uploadCover()" style="background-image: url('mockup.jpeg');">
+                    </div>
+                </div>
+
+                <div class="hero-content">
+                    <h1>Sacred Texts Secretly Rewritten</h1>
+                    
+                    <p class="hero-description">
+                        An investigation that began with a grandmother's confusion reveals how verses in one of the world's most influential spiritual texts have been secretly altered, transforming divine grace into human effort, mystical devotion into institutional control.
+                    </p>
+
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">77%</span>
+                            <div class="stat-label">Verses Altered</div>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">5,000</span>
+                            <div class="stat-label">Systematic Changes</div>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">Investigative</span>
+                            <div class="stat-label">Novel Style</div>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">Oct 2025</span>
+                            <div class="stat-label">First Edition</div>
+                        </div>
+                    </div>
+
+                    <div class="download-section">
+                        <div class="download-title">📥 Download Options</div>
+                        <div style="color: #fbbf24; font-weight: 500; margin-bottom: 1.5rem;">
+                            💰 Price: Soon to be released
+                        </div>
+                        
+                        <div class="download-options">
+                            <button class="download-btn primary" onclick="showPasswordForm()">
+                                📖 Download PDF
+                            </button>
+                            <button class="download-btn secondary" onclick="downloadSample()">
+                                📄 Free Sample Chapters
+                            </button>
+                            <button class="download-btn secondary" onclick="downloadAudio()">
+                                🎧 Audio Files (M4A)
+                            </button>
+                        </div>
+                        
+                        <div class="password-form" id="passwordForm">
+                            <input type="password" id="passwordInput" placeholder="Enter password">
+                            <button onclick="checkPassword()">Access Full Book</button>
+                            <div style="color: #9ca3af; font-size: 0.8rem; margin-top: 0.5rem;">
+                                Contact <a href="mailto:jaganat@mail.com" style="color: #dc2626; text-decoration: none;">author</a> for password access
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="media-section">
+        <div class="container">
+            <div class="video-featured">
+                <h2 class="section-title">🎬 Watch the Investigation</h2>
+                <video controls class="video-player">
+                    <source src="Stolen_Words.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p class="video-description">Complete visual breakdown of the forensic analysis and key discoveries</p>
+            </div>
+
+            <div class="audio-section">
+                <h3 class="audio-title">🎧 Listen to the Podcast Discussion</h3>
+                <audio controls class="audio-player">
+                    <source src="stolen_words_web.m4a" type="audio/mp4">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="audio-description">Full investigation audio discussion (3.9MB)</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div><span class="footer-highlight">CENTROS DE BHAKTI YOGA</span> | Research Team | CIF G-76660679</div>
+                <div>Licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0</div>
+                <div class="footer-note">
+                    "Dedicated to authentic spiritual transmission over institutional convenience"
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function showPasswordForm() {
+            const form = document.getElementById('passwordForm');
+            form.style.display = form.style.display === 'none' ? 'block' : 'none';
+        }
+
+        function checkPassword() {
+            const password = document.getElementById('passwordInput').value;
+            const correctPassword = 'forensic2025';
+            
+            if (password === correctPassword) {
+                const link = document.createElement('a');
+                link.href = 'manuscript.pdf';
+                link.download = 'Stolen_Words_Forensic_Analysis.pdf';
+                link.click();
+                alert('Download started!');
+            } else {
+                alert('Incorrect password. Contact author for access.');
+            }
+        }
+
+        function downloadSample() {
+            // Direct download of sample chapters
+            const link = document.createElement('a');
+            link.href = 'StolenWordsSample.pdf';
+            link.download = 'StolenWordsSample.pdf';
+            link.click();
+        }
+
+        function downloadAudio() {
+            // Direct download of the compressed audio file
+            const link = document.createElement('a');
+            link.href = 'stolen_words_web.m4a';
+            link.download = 'Stolen_Words_Podcast.m4a';
+            link.click();
+        }
+
+        function uploadCover() {
+            const input = document.createElement('input');
+            input.type = 'file';
+            input.accept = 'image/*';
+            input.onchange = function(e) {
+                const file = e.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        const placeholder = document.querySelector('.cover-placeholder');
+                        placeholder.style.backgroundImage = `url(${e.target.result})`;
+                        placeholder.style.backgroundSize = 'cover';
+                        placeholder.style.backgroundPosition = 'center';
+                        placeholder.innerHTML = '';
+                    };
+                    reader.readAsDataURL(file);
+                }
+            };
+            input.click();
+        }
+    </script>
+</body>
+</html>
