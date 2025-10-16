@@ -771,135 +771,160 @@ But as Maya was discovering, the cost of this silence extended far beyond publis
 #+LATEX: \thispagestyle{chapterpage}
 #+LATEX: \markright{The Divided House}
 
+#+LATEX: {\centering\itshape In which the evidence becomes too specific\\to dismiss as interpretation,\\and approval turns into accusation.\par}
+#+LATEX: \vspace{0.3cm}
+
 #+LATEX: \normalfont\justifying
 The revelation of systematic changes didn't just affect individual readers—it tore apart the global spiritual community that had been built on shared sacred texts.
 
 Maya discovered this when she began investigating the legal battles that erupted once the internet made comparisons impossible to suppress. What she found was a movement at war with itself, fighting over the very books that were supposed to unite them in spiritual purpose.
 
-#+LATEX: \vspace{-0.3cm}
-*** Example 1: Bhagavad-gītā 2.48
-"Steadfast in Yoga" vs. "Equipoised"
+But the division wasn't the most disturbing discovery. What truly shook Maya—what kept her awake at 3 AM staring at audio transcripts and verse comparisons until the words blurred—was finding documented proof that Prabhupāda had explicitly approved translations that were later changed without his authorization.
 
-**Original Translation (1972)**: "Be steadfast in yoga, O Arjuna. Perform your duty and abandon all attachment to success or failure. Such evenness of mind is called yoga."
+*** The Smoking Guns
 
-**Revised Translation (1983)**: "Perform your duty equipoised, O Arjuna, abandoning all attachment to success or failure. Such equanimity is called yoga."
+It was a Wednesday afternoon in late October when Maya stumbled upon what criminal prosecutors would call "smoking gun evidence"—documentation so specific it eliminated all ambiguity about authorization.
 
-**Prabhupāda's Documented Response** when the original was read to him:
-"This is the explanation of yoga, evenness of mind. Yoga-samatvam ucyate... If you work for Krishna, then there is no cause of lamentation or jubilation." (December 16, 1968, Los Angeles)
+She had been combing through the Vedabase archives—thousands of hours of Prabhupāda's recorded classes, painstakingly transcribed by devotees over decades—when she noticed something that made her hand freeze on the mouse. In a class from December 16, 1968, in Los Angeles, someone had read verse 2.48 aloud to Prabhupāda from the newly published edition:
 
-**The Smoking Gun**: Jayadvaita completely deleted "steadfast in yoga" and "evenness of mind"—the very concepts Prabhupāda emphasized when hearing this verse. Where did Jayadvaita get the authority to remove what Prabhupāda specifically highlighted as important?
+"Be steadfast in yoga, O Arjuna. Perform your duty and abandon all attachment to success or failure. Such evenness of mind is called yoga."
 
-#+LATEX: \vspace{-0.3cm}
-*** Example 2: Bhagavad-gītā 2.51
-Documented Approval of Later-Changed Translation
+Maya held her breath as she read Prabhupāda's immediate response: "This is the explanation of yoga, evenness of mind. Yoga-samatvam ucyate... If you work for Krishna, then there is no cause of lamentation or jubilation."
 
-**Original Translation**: "The wise, engaged in devotional service, take refuge in the Lord and free themselves from the cycle of birth and death by renouncing the fruits of action in the material world. In this way they can attain that state beyond all miseries."
+He had emphasized the exact concepts—steadfast in yoga, evenness of mind—that appeared in the published translation. Not suggested changes. Not corrections. Explicit approval and expansion of those specific words.
 
-**Revised**: "By thus engaging in devotional service to the Lord, great sages or devotees free themselves from the results of work in the material world. In this way they become free from the cycle of birth and death and attain the state beyond all miseries [by going back to Godhead]".
+Maya opened her 1983 revised edition with trembling hands: "Perform your duty equipoised, O Arjuna, abandoning all attachment to success or failure. Such equanimity is called yoga."
 
-**Class Transcript Evidence**: When Tamala Krishna read this exact translation to Prabhupāda, his response was immediate approval:
+The phrase "steadfast in yoga" had been deleted. "Evenness of mind" had been replaced with "equanimity." The very concepts Prabhupāda had highlighted when hearing this verse—the concepts he had built his explanation around—had been systematically removed by editors who believed they knew better than the author what the translation should say.
 
-"Yes. There is purport?" Then he had it read again and said, "How easy it is. You take to Krishna consciousness, you act in Krishna consciousness, you overcome the cycle of birth and death."
+Where did Jayadvaita get the authority to delete what Prabhupāda had specifically approved and taught from?
 
-**Result**: Despite Prabhupāda's documented approval, this translation was later altered in the revision. The clear instruction to "renounce the fruits of action" was obscured, and the emphasis on "devotional service" was modified.
+Maya sat back in her chair, the weight of what she'd discovered pressing down on her chest. This wasn't about Sanskrit accuracy or English improvement. This was about editors second-guessing their spiritual teacher's explicit approval.
 
-#+LATEX: \vspace{-0.3cm}
-*** Example 3: Bhagavad-gītā 2.30
-Deleting "Eternal Soul" Despite Class Emphasis
+*** The Pattern Emerges
 
-**Original Translation**: "O descendant of Bharata, he who dwells in the body is eternal and can never be slain."
+Over the following weeks, Maya discovered this wasn't an isolated incident. The pattern repeated with disturbing consistency across multiple verses, each documented approval followed by posthumous alteration.
 
-**Revised Translation**: "O descendant of Bharata, he who dwells in the body can never be slain."
+She found verse 2.51 next. The class transcript from December 16, 1968—the same day as the yoga verse—showed Tamala Krishna reading the original translation aloud to Prabhupāda: "The wise, engaged in devotional service, take refuge in the Lord and free themselves from the cycle of birth and death by renouncing the fruits of action in the material world. In this way they can attain that state beyond all miseries."
 
-**Prabhupāda's Class Response** when the original was read:
-"Dehi nityam, eternal. In so many ways, Krishna has explained. Nityam, eternal. Indestructible, immutable... again he says nityam, eternal." (August 19, 1973, London)
+Prabhupāda's response had been immediate and enthusiastic: "Yes. There is purport?" Then he had Tamala read it again, following with his own explanation: "How easy it is. You take to Krishna consciousness, you act in Krishna consciousness, you overcome the cycle of birth and death."
 
-**The Evidence**: The word "eternal" was removed from the revision despite Prabhupāda's explicit emphasis on this very point when hearing the verse. His teaching focused on the eternal nature of the soul—exactly what the revisers deleted.
+Maya checked the revision. Despite Prabhupāda's documented approval—despite his asking to hear it twice—the editors had changed it: "By thus engaging in devotional service to the Lord, great sages or devotees free themselves from the results of work in the material world. In this way they become free from the cycle of birth and death and attain the state beyond all miseries [by going back to Godhead]."
 
-#+LATEX: \vspace{-0.3cm}
-*** Example 4: Bhagavad-gītā 3.32
-Prabhupāda Quoted the Original Verbatim
+The clear, simple instruction to "renounce the fruits of action" had been obscured into "free themselves from the results of work"—more vague, less direct. The editors had added clarifications Prabhupāda never requested.
 
-**Original Translation**: "But those who, out of envy, disregard these teachings and do not practice them regularly, are to be considered bereft of all knowledge, befooled, and doomed to ignorance and bondage."
+Then came verse 2.30, which Maya found through a 1973 London class recording. The reader's voice came through clearly on the audio: "O descendant of Bharata, he who dwells in the body is eternal and can never be slain."
 
-**Revised**: But those who, out of envy, disregard these teachings and do not follow them regularly are to be considered bereft of all knowledge, befooled, and ruined in their endeavors for perfection.
+Prabhupāda's response rang with emphasis: "Dehi nityam, eternal. In so many ways, Krishna has explained. Nityam, eternal. Indestructible, immutable... again he says nityam, eternal."
 
-**Class Evidence**: When this verse was read to Prabhupāda, he not only accepted it but quoted it verbatim in his explanation, emphasizing the exact words that were later changed. There is no hint anywhere that he wanted alterations.
+Maya's highlighter moved across the page as she counted: four times in one breath Prabhupāda had emphasized "eternal"—the word that appeared in the translation he was hearing. She opened the revision with a sense of inevitability.
 
-*** The Authority Question Exposed
+"O descendant of Bharata, he who dwells in the body can never be slain."
 
-Historical analysis raises the fundamental issue: "Srila Prabhupada completely approved of his original Bhagavad-gita As It Is, he read it himself daily and gave his classes from it. He certainly did not give ANYONE the AUTHORITY to 'revise and enlarge' it."
+The word "eternal" had been deleted. Removed. Erased from existence despite—or perhaps because of—Prabhupāda's explicit emphasis on this precise concept when hearing this exact verse.
 
-The documented evidence proves:
-1. Prabhupāda heard the original translations in his classes
-2. He explicitly approved and expanded upon them
-3. He emphasized concepts that were later deleted
-4. He never authorized anyone to "revise and enlarge" his completed work
-5. Changes were made posthumously without his consent
+*** The Verbatim Quotation
 
+The most damning evidence came from verse 3.32. Maya found multiple class transcripts where Prabhupāda not only approved the original translation but quoted it word-for-word in his own explanations, making the published text part of his teaching vocabulary.
 
-Historical documentation includes Prabhupāda's prophetic warning about exactly this type of editorial presumption:
+"But those who, out of envy, disregard these teachings and do not practice them regularly, are to be considered bereft of all knowledge, befooled, and doomed to ignorance and bondage."
+
+He had internalized these exact words, repeated them in classes, built explanations around them. The translation had become inseparable from his teaching.
+
+The revisers changed it anyway: "But those who, out of envy, disregard these teachings and do not follow them regularly are to be considered bereft of all knowledge, befooled, and ruined in their endeavors for perfection."
+
+"Practice" became "follow"—a subtle shift from active engagement to passive obedience. "Doomed to ignorance and bondage" became "ruined in their endeavors for perfection"—from spiritual tragedy to failed effort.
+
+*** The Prophet's Warning
+
+Maya sat in her apartment surrounded by printouts of class transcripts, verse comparisons, and highlighted passages, trying to understand how this had happened. How could disciples who had devoted their lives to following Prabhupāda's teachings convince themselves they had the authority to systematically alter his approved work?
+
+The answer came from Prabhupāda himself—a warning he'd given years before his death that now read like prophecy:
 
 "...a little learning is dangerous, especially for the Westerners. I am practically seeing that as soon as they begin to learn a little Sanskrit immediately they feel that they have become more than their guru and then the policy is kill guru and be killed himself."
 
-The very editors who revised Prabhupāda's Bhagavad-gītā had "begun to learn a little Sanskrit" and, exactly as he warned, felt qualified to correct their spiritual teacher's work. As one note in the revised edition states: "the Sanskrit editors were by now accomplished scholars. And now they were able to see their way through perplexities in the manuscript by consulting the same Sanskrit commentaries Srila Prabhupada consulted when writing Bhagavad-gita As It Is."
+Maya read the sentence again, her hands trembling slightly. The editors who revised the Bhagavad-gītā had studied Sanskrit. They had consulted commentaries. They had developed scholarly credentials. And exactly as Prabhupāda warned, they had concluded their learning qualified them to correct their teacher.
 
-The editors believed their Sanskrit studies made them qualified to "see through perplexities" in Prabhupāda's work and improve upon it—exactly the mentality he warned against.
+She found the smoking gun in the revised edition's own introduction, where the editors justified their work: "the Sanskrit editors were by now accomplished scholars. And now they were able to see their way through perplexities in the manuscript by consulting the same Sanskrit commentaries Srila Prabhupada consulted when writing Bhagavad-gita As It Is."
+
+The editors believed their Sanskrit studies—their consultation of the "same commentaries"—made them qualified to identify and fix "perplexities" in Prabhupāda's completed, published, and teaching-approved work. They had become, in their own estimation, more qualified than their guru.
+
+Maya created a summary document of what the evidence proved beyond reasonable doubt:
+
+First: Prabhupāda had heard the original translations read aloud in his classes, sometimes asking to hear them multiple times.
+
+Second: He had explicitly approved and expanded upon them, building entire explanations around specific word choices.
+
+Third: He had emphasized concepts—"eternal," "steadfast in yoga," "evenness of mind"—that were later deleted by editors.
+
+Fourth: He had used the published text for teaching from 1972 until his death in 1977, never once requesting the systematic alterations that would later be implemented.
+
+Fifth: No documentation existed of him authorizing anyone to "revise and enlarge" his completed work after his death.
+
+The conclusion was inescapable: comprehensive unauthorized alteration had occurred. The class transcripts provided the kind of evidence that, in a court of law, would end the case.
 
 
-The research reveals systematic patterns of editorial invention that go far beyond correcting Prabhupāda's work:
+*** Beyond Correction: Editorial Invention
 
-**Bhagavad-gītā 2.18 Purport**:
-- **1972 Purport Emphasis**: "Arjuna was advised to fight and to sacrifice the material body for the cause of religion"
-- **1983 Purport Emphasis**: "Arjuna was advised to fight and not sacrifice the cause of religion for material, bodily considerations"
+But the evidence of unauthorized changes to approved translations was only part of Maya's discovery. As she dug deeper, she found something that disturbed her even more: systematic patterns of editorial invention that went far beyond claiming to restore Prabhupāda's original intent.
 
-**Analysis**: The verse translation remains identical in both editions. The purport shifts emphasis from willingness to sacrifice one's body for religious principles to warning against compromising religious principles for bodily concerns. This represents a reframing of the teaching rather than a complete reversal, though the practical implications differ significantly.
+She was cross-referencing purports—the explanatory commentaries beneath each verse—when she noticed something odd about verse 2.18. The verse translation itself remained identical in both editions, but the purport emphasis had shifted dramatically.
 
-**Bhagavad-gītā 9.5**:
-- **Sanskrit**: "na ca bhūta-sthaḥ" = "not dwelling in" / "not situated in" (the beings)
-- **Both 1972 and 1983 editions**: "I am not a part of this cosmic manifestation, for My Self is the very source of creation"
+The 1972 purport emphasized: "Arjuna was advised to fight and to sacrifice the material body for the cause of religion."
 
-**Analysis**: The phrase "part of" does not literally translate the Sanskrit compound "bhūta-sthaḥ" (situated in/dwelling in). The Sanskrit contains no word for "part" (amśa, bhāga, khaṇḍa). This represents an interpretive philosophical rendering rather than literal translation, present in both editions from Prabhupāda's original work.
+The 1983 purport emphasized: "Arjuna was advised to fight and not sacrifice the cause of religion for material, bodily considerations."
 
-**Bhagavad-gītā 4.11**:
-- **Both Draft and Original**: "All of them—as they surrender unto Me—I reward accordingly"
-- **1983 Revision**: "As all surrender unto Me, I reward them accordingly"
+Maya read both versions three times, trying to understand how they could both be commentaries on the same verse. The first emphasized willingness to sacrifice one's body for religious principles—martyrdom, if necessary. The second warned against compromising religious principles for bodily concerns—don't abandon your faith to save your skin.
 
-**Prabhupāda's Response When Original Was Read**: "So the original verse says that 'All of them as they surrender unto Me, I reward accordingly. Everyone follows my path in all respects.'" (Bhagavad-gītā 4.11-18, Los Angeles, January 8, 1969)
+Technically both perspectives addressed the same situation, but they created opposite psychological effects. One said "be willing to die for truth." The other said "don't compromise truth to avoid death." Similar territory, fundamentally different emphasis—and readers would never know the shift had occurred.
 
-**Documentation**: Words were rearranged despite Prabhupāda's documented acceptance of the original phrasing.
+Then she found verse 4.11, where Prabhupāda's documented response made the editorial presumption undeniable. The class transcript from January 8, 1969, showed Prabhupāda explicitly quoting the original translation: "So the original verse says that 'All of them as they surrender unto Me, I reward accordingly. Everyone follows my path in all respects.'"
 
-*** The Pattern of Unauthorized Editorial Invention
+He had called it "the original verse." He had quoted it verbatim with approval.
 
-These examples reveal a systematic pattern:
-1. **Both draft and published versions ignored** to create third alternatives
-2. **Changes implemented even when Prabhupāda explicitly approved the original**
-3. **Theological meanings shift consistently toward institutional precision** over devotional accessibility
-4. **No documentation exists** of Prabhupāda requesting these specific changes
-5. **Editorial presumption operates under the guise of scholarly improvement**
+The revisers changed it anyway: "As all surrender unto Me, I reward them accordingly."
 
-When researchers conclude "It's a COMPLETELY DIFFERENT BOOK," the evidence supports this assessment:
+The meaning remained essentially the same, but the emphasis shifted—from God rewarding each person according to their individual surrender ("all of them") to a more general statement ("as all surrender"). A small change, perhaps, but made despite Prabhupāda's explicit acceptance of the specific wording.
 
-- Original readers encounter devotional intimacy through "Blessed Lord"
-- Revised readers encounter institutional formality through "Supreme Personality of Godhead"
-- Original readers learn they are "forgotten souls" requiring grace
-- Revised readers learn they are "forgetful souls" needing better memory
-- Original readers are taught to "rid themselves of fruitive activities"
-- Revised readers receive diluted instructions about "abominable activities"
+The pattern Maya documented revealed:
 
-The class transcript evidence provides definitive historical judgment: Prabhupāda approved translations that were later changed without his authorization. This isn't interpretation or speculation—it's documented historical fact.
+Editors created third alternatives that appeared in neither draft manuscripts nor published originals. Changes were implemented even when Prabhupāda had explicitly approved the original in recorded classes. Theological meanings shifted consistently toward institutional precision and away from devotional accessibility. No documentation existed of Prabhupāda requesting these specific alterations. Editorial presumption operated under the guise of scholarly improvement while directly contradicting documented approval.
 
-The editors proceeded with systematic revision despite:
-- Clear historical evidence of Prabhupāda's approval of originals
-- No documentation of requested changes
-- Explicit warnings about disciples presuming to correct their teacher
-- Five years of Prabhupāda using the published edition without requesting alterations
+*** Two Different Books
 
-This evidence proves beyond reasonable doubt that comprehensive unauthorized alteration occurred. The class transcripts provide the "smoking gun" that no amount of institutional defense can explain away.
+Maya sat at her kitchen table one evening in late November, her laptop displaying two PDF files side-by-side—the 1972 and 1983 editions. She had been comparing them for six months now, and the conclusion she had resisted finally became unavoidable.
 
-The question facing every reader is stark: When you read the Bhagavad-gītā, do you want Prabhupāda's approved translations or committee "improvements" implemented against his documented wishes?
+These weren't two editions of the same book. They were two different books wearing the same title.
 
-The smoking gun evidence makes this choice unavoidable.
+Original readers encountered devotional intimacy through "Blessed Lord"—an invitation to intimate relationship. Revised readers encountered institutional formality through "Supreme Personality of Godhead"—a demand for theological precision.
+
+Original readers learned they were "forgotten souls" requiring divine grace to remember who they were. Revised readers learned they were "forgetful souls" who simply needed to try harder to remember.
+
+Original readers were taught to "be steadfast in yoga" with "evenness of mind." Revised readers were instructed to be "equipoised" with "equanimity"—technically similar, emotionally miles apart.
+
+The class transcript evidence provided definitive historical judgment that no amount of institutional spin could obscure: Prabhupāda had approved translations that were later changed without his authorization. This wasn't interpretation. This wasn't academic debate about Sanskrit nuances. This was documented historical fact preserved in audio recordings and transcribed by devotees who had no idea their careful work would one day become evidence in a case against editorial authority.
+
+Maya compiled the timeline that made editorial authorization impossible to defend:
+
+1972-1977: Prabhupāda used the published edition for daily teaching without requesting alterations
+
+1977: Prabhupāda died, having never authorized systematic revision
+
+1983: Editors published comprehensive revision based on their own Sanskrit studies
+
+Decades later: Audio evidence proved Prabhupāda had explicitly approved what was later changed
+
+The editors had proceeded despite clear historical evidence of Prabhupāda's approval of the originals. Despite no documentation of requested changes. Despite his explicit warnings about disciples presuming to correct their teacher. Despite five years of him using the published edition without suggesting the alterations that would later be implemented posthumously.
+
+*** The Unavoidable Question
+
+The evidence made one question unavoidable—the question that had kept Maya awake for months, the question that would divide communities and challenge institutional authority:
+
+When you read the Bhagavad-gītā As It Is, do you want Prabhupāda's approved translations that he taught from for five years, or committee "improvements" implemented against his documented wishes by editors who believed their Sanskrit studies made them more qualified than their guru?
+
+The smoking gun evidence—preserved in thousands of hours of audio recordings, transcribed by faithful devotees, and now impossible to suppress in the internet age—made this choice unavoidable.
+
+The house had been divided. Not by those who raised questions about the changes, but by those who made the changes and then tried to hide them.
 
 #+LATEX: \cleardoublepage
 #+LATEX: \thispagestyle{empty}
