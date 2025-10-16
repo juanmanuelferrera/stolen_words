@@ -3429,9 +3429,11 @@ Beauregard, Mario, and Vincent Paquette. "Neural correlates of a mystical experi
 
 Brooks, Charles R. *The Hare Krishnas in India*. Princeton University Press, 1989.
 
-Schjoedt, Uffe, et al. "Highly religious participants recruit areas of social cognition in personal prayer." *Social Cognitive and Affective Neuroscience* 4, no. 2 (2009): 199-207. [Shows that perceived intimacy with divine figures correlates with specific brain activation patterns distinct from formal prayer]
+Chaves, Mark. *Ordaining Women: Culture and Conflict in Religious Organizations*. Harvard University Press, 1997.
 
 Doniger, Wendy. *The Implied Spider: Politics and Theology in Myth*. New York: Columbia University Press, 1998. [Analysis of how sacred text transmission shifts from charismatic to bureaucratic language across traditions]
+
+Schjoedt, Uffe, et al. "Highly religious participants recruit areas of social cognition in personal prayer." *Social Cognitive and Affective Neuroscience* 4, no. 2 (2009): 199-207. [Shows that perceived intimacy with divine figures correlates with specific brain activation patterns distinct from formal prayer]
 
 Dweck, Carol S. *Mindset: The New Psychology of Success*. New York: Random House, 2006. [Research on fixed versus growth mindset and linguistic framing effects on learning orientation]
 
@@ -3446,6 +3448,8 @@ Hockey, Susan. "The History of Humanities Computing: An Overview." In *Digital H
 Judah, J. Stillson. *Hare Krishna and the Counterculture*. John Wiley & Sons, 1974.
 
 Knott, Kim. *My Sweet Lord: The Hare Krishna Movement*. Aquarian Press, 1986.
+
+Legal Research Archives. BBT deposition records, copyright dispute filings. "Bhaktivedanta Book Trust vs. Multiple Plaintiffs," 2005.
 
 Mahmood, Saba. *Politics of Piety: The Islamic Revival and the Feminist Subject*. Princeton: Princeton University Press, 2005. [Ethnographic research showing how formal versus intimate divine address creates different social behaviors in religious communities]
 
@@ -4017,34 +4021,6 @@ The purpose of conscious choice is not division but authentic spiritual developm
 Both versions have created sincere practitioners. Both can serve spiritual development. The key is making a conscious choice that serves your unique spiritual journey while maintaining harmony in the broader spiritual community.
 
 *May your practice be blessed with clarity, devotion, and wisdom.*
-
-#+LATEX: \clearpage
-#+LATEX: \pagestyle{sectionopening}
-#+LATEX: \thispagestyle{sectionopening}
-#+LATEX: \markboth{}{}
-#+LATEX: \markright{}
-#+LATEX: \vspace*{0.25\textheight}
-#+LATEX: \begin{center}
-#+LATEX: {\Huge\bfseries Citations for Detailed Information}
-#+LATEX: \end{center}
-#+LATEX: \newpage
-
-For readers seeking complete documentation of the claims made in this investigation:
-
-
-**Chaves, Mark.** /Ordaining Women: Culture and Conflict in Religious Organizations/. Harvard University Press, 1997.
-
-**Doniger, Wendy.** /The Implied Spider: Politics and Theology in Myth/. Columbia University Press, 1998.
-
-**Dweck, Carol.** /Mindset: The New Psychology of Success/. Random House, 2006.
-
-**Legal Research Archives.** BBT deposition records, copyright dispute filings. "Bhaktivedanta Book Trust vs. Multiple Plaintiffs," 2005.
-
-**Mahmood, Saba.** /The Politics of Piety: The Islamic Revival and the Feminist Subject/. Princeton University Press, 2005.
-
-**Mueller, Hans.** Heidelberg University documentation of citation inconsistencies, 2005-2010.
-
-
 
 #+LATEX: \clearpage
 #+LATEX: \pagestyle{sectionopening}
