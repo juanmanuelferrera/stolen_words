@@ -1045,7 +1045,7 @@ God remains who God is. But how readers approach and experience divine reality d
 #+LATEX: \vspace{0.3cm}
 
 #+LATEX: \normalfont\justifying
-Maya's investigation had revealed the systematic nature of consciousness programming through word substitution. But as she delved deeper into the patterns, she discovered something even more sophisticated: beyond the major theological alterations lay a subtler but equally profound transformation.
+Maya's investigation had revealed the systematic nature of consciousness shaping through word substitution. But as she delved deeper into the patterns, she discovered something even more sophisticated: beyond the major theological alterations lay a subtler but equally profound transformation.
 
 The editors hadn't simply changed individual concepts—they had orchestrated the systematic elimination of intimate, heart-centered language in favor of formal, institutional terminology (documented in detail in Chapter 10). This represented more than stylistic preference; it embodied fundamentally different understandings of how human spiritual transformation occurs.
 
@@ -2403,7 +2403,7 @@ The defense mechanisms end when the service begins.
 #+LATEX: \vspace{0.3cm}
 
 #+LATEX: \normalfont\justifying
-Maya Rodriguez's investigation had uncovered institutional admissions of deliberate consciousness programming. Now she needed to answer the most crucial question: what did Prabhupāda actually want for his Bhagavad-gītā?
+Maya Rodriguez's investigation had uncovered institutional admissions of deliberate textual transformation. Now she needed to answer the most crucial question: what did Prabhupāda actually want for his Bhagavad-gītā?
 
 The persistent institutional defense claims that Prabhupāda privately wanted the systematic changes implemented after his departure. This chapter examines the historical record to determine what Prabhupāda actually intended and how we can know his authentic wishes.
 
@@ -3079,7 +3079,7 @@ Types of Changes:
 - Restored passages claimed to be from original manuscripts
 
 
-By her investigation's end, Maya had documented how specific word thefts created specific consciousness programming:
+By her investigation's end, Maya had documented how specific word thefts created specific spiritual orientations:
 
 **"Unchangeable" theft** → Stole ontological security consciousness
 **"Forgotten" theft** → Stole grace-dependent consciousness  
@@ -3192,7 +3192,7 @@ Maya's investigation revealed patterns extending beyond spiritual texts to all c
 **Therapeutic Approaches:** Which healing modalities program which psychological development?
 **Media Consumption:** How do algorithmic choices shape collective consciousness?
 
-"Once you see stolen words in sacred texts," Maya realized, "you start seeing consciousness programming everywhere."
+"Once you see stolen words in sacred texts," Maya realized, "you start seeing linguistic manipulation everywhere."
 
 Six months later, Maya met again with BBT representative Dr. Whitfield. This time, she came with solutions rather than accusations.
 
@@ -3200,7 +3200,7 @@ Six months later, Maya met again with BBT representative Dr. Whitfield. This tim
 
 "What do you propose?" Whitfield asked.
 
-"Honest choice architecture. Publish both versions clearly identified. Let readers consciously choose which consciousness programming they prefer. Some need mystical devotion; others need systematic education. Both are valuable. Neither should be eliminated or disguised."
+"Honest choice architecture. Publish both versions clearly identified. Let readers consciously choose which spiritual orientation they prefer. Some need mystical devotion; others need systematic education. Both are valuable. Neither should be eliminated or disguised."
 
 Whitfield was quiet for a long moment. "You're asking us to admit we fundamentally changed the spiritual message."
 
@@ -3216,7 +3216,7 @@ In her final investigation notes, Maya drafted a letter to future readers:
 
 *What shouldn't remain is the practice of making this choice for you without your knowledge.*
 
-*We pass to you the responsibility of preserving conscious choice in spiritual transmission. Not because one approach is right and another wrong, but because authenticity requires honesty about what you're choosing and what consciousness programming you're receiving.*
+*We pass to you the responsibility of preserving conscious choice in spiritual transmission. Not because one approach is right and another wrong, but because authenticity requires honesty about what you're choosing and what kind of practitioner you're becoming.*
 
 *Choose consciously. The future of human spiritual development depends on it.*
 
@@ -3319,9 +3319,9 @@ The choice between mystical devotion and systematic religion is legitimate and s
 
 When someone changes the spiritual book that guides your life, they change your spiritual destiny. When they do this without your knowledge or consent, they steal not just words—they steal your right to conscious spiritual development.
 
-Both versions of the Bhagavad-gītā create sincere spiritual practitioners. But they create different kinds of practitioners through different consciousness programming.
+Both versions of the Bhagavad-gītā create sincere spiritual practitioners. But they create different kinds of practitioners through different linguistic frameworks.
 
-Every reader deserves to know which kind of spiritual development they're choosing and which consciousness programming they're receiving.
+Every reader deserves to know which kind of spiritual development they're choosing and which orientation they're receiving.
 
 Recognition, not condemnation. Understanding, not accusation. Conscious choice, not unconscious acceptance.
 
@@ -3330,6 +3330,57 @@ The preservation of authentic spiritual transmission depends on honest acknowled
 \textit{Same book, different souls}—the choice of which soul to become should belong to each reader, not to editorial committees operating in secret.
 
 The sacred deserves nothing less than complete honesty in its preservation and transmission.
+
+Every documented change has been verified through multiple sources where possible, with uncertainty levels explicitly noted where source material is incomplete or ambiguous.
+
+#+LATEX: \clearpage
+#+LATEX: \pagestyle{sectionopening}
+#+LATEX: \thispagestyle{sectionopening}
+#+LATEX: \markboth{}{}
+#+LATEX: \markright{}
+#+LATEX: \vspace*{0.25\textheight}
+#+LATEX: \begin{center}
+#+LATEX: {\Huge\bfseries Glossary}
+#+LATEX: \end{center}
+#+LATEX: \newpage
+
+**Bhagavad-gītā** — Literally "Song of God"; the 700-verse Sanskrit dialogue between Prince Arjuna and his charioteer Krishna on the battlefield of Kurukshetra. The text at the center of our investigation, though whether it remains the same text after systematic revision is precisely the question that torments this inquiry.
+
+**BBT** — Bhaktivedanta Book Trust; the publishing house Prabhupāda established to preserve and distribute his books with perfect fidelity. After his death in 1977, it became the institution that authorized what it called "improvements" but Maya discovered to be systematic theological reorientation.
+
+**Consciousness Programming** — The mechanism by which repeated exposure to specific language patterns literally rewires neural architecture. Devotional language activates emotional and receptivity centers; theological language activates analytical and systematic processing regions. Maya's investigation revealed this as the hidden method by which editorial choices create different types of human beings.
+
+**Divine Address Change** — The twenty-two systematic alterations transforming Krishna's voice from intimate ("Blessed Lord") to institutional ("Supreme Personality of Godhead")—the mathematical pattern that first revealed to Maya the scope of theological revision disguised as editorial improvement.
+
+**Editorial Authority** — The labyrinthine question at the center of this investigation: Who possesses the right to alter a spiritual master's words after his death? The editors believed they inherited this authority through institutional succession; millions of readers never knew the question existed.
+
+**ISKCON** — International Society for Krishna Consciousness; the global spiritual movement Prabhupāda founded. The revision controversy has divided this community for four decades.
+
+**Jayadvaita Swami** — Lead editor of the 1983 revision. A sincere disciple who believed he was serving his guru by "perfecting" the texts using original manuscripts.
+
+**Krishna** — Speaker of the Bhagavad-gītā; the Supreme Divine who reveals spiritual knowledge to his friend Arjuna. How Krishna is presented—as intimate friend or distant theology—shapes reader experience.
+
+**Maya Rodriguez** — The everywoman narrator of this investigation; represents millions of readers who discovered by accident that their sacred text had been transformed.
+
+**Neuroscience Evidence** — Published neuroscience research compiled by Dr. Sarah Chen proving that different translations create measurably different types of spiritual practitioners through distinct neural development.
+
+**Original (1972) Edition** — The Bhagavad-gītā As It Is that Prabhupāda personally approved and used for teaching from 1972-1977. Emphasizes accessible devotion and personal divine relationship.
+
+**Prabhupāda** — A.C. Bhaktivedanta Swami (1896-1977); the spiritual master who brought Krishna consciousness to the West. His final instruction: "Don't change" his books.
+
+**Revised (1983) Edition** — The posthumously edited version with 541 of 700 verses altered. Emphasizes theological precision and systematic understanding.
+
+**Sacred Text Transparency** — The simple solution proposed: clearly label different versions so readers can choose consciously. Model: Bible translations (KJV, NIV, etc.) are distinguished, not hidden.
+
+**Secretarial Errors** — The editors' justification for changes: early typists misheard Prabhupāda's accent. Critics note that Prabhupāda approved the "errors" in hundreds of classes.
+
+**Alteration** — The documented scope of changes: 541 verses out of 700 were modified without informing readers. This isn't copy editing but consciousness transformation.
+
+**Two Paths** — What the investigation reveals: the original creates mystics through heart connection; the revision creates theologians through intellectual understanding. Both valid, but readers deserve to know which they're choosing.
+
+**Underground Resistance** — Networks of devotees who preserved and distributed original editions when institutions tried to suppress them. Their work made this investigation possible.
+
+**Version Comparison** — The key to discovery: when readers compare editions side-by-side, the transformation becomes undeniable. What institutions hid for four decades, the internet exposed.
 
 #+LATEX: \clearpage
 #+LATEX: \thispagestyle{empty}
@@ -3450,57 +3501,6 @@ This analysis represents intensive research conducted during 2023-2024 involving
 - Community feedback analysis from readers of both editions
 - International editions comparison across 89 languages
 - Cross-reference with original manuscripts and class transcripts
-
-Every documented change has been verified through multiple sources where possible, with uncertainty levels explicitly noted where source material is incomplete or ambiguous.
-
-#+LATEX: \clearpage
-#+LATEX: \pagestyle{sectionopening}
-#+LATEX: \thispagestyle{sectionopening}
-#+LATEX: \markboth{}{}
-#+LATEX: \markright{}
-#+LATEX: \vspace*{0.25\textheight}
-#+LATEX: \begin{center}
-#+LATEX: {\Huge\bfseries Glossary}
-#+LATEX: \end{center}
-#+LATEX: \newpage
-
-**Bhagavad-gītā** — Literally "Song of God"; the 700-verse Sanskrit dialogue between Prince Arjuna and his charioteer Krishna on the battlefield of Kurukshetra. The text at the center of our investigation, though whether it remains the same text after systematic revision is precisely the question that torments this inquiry.
-
-**BBT** — Bhaktivedanta Book Trust; the publishing house Prabhupāda established to preserve and distribute his books with perfect fidelity. After his death in 1977, it became the institution that authorized what it called "improvements" but Maya discovered to be systematic theological reorientation.
-
-**Consciousness Programming** — The mechanism by which repeated exposure to specific language patterns literally rewires neural architecture. Devotional language activates emotional and receptivity centers; theological language activates analytical and systematic processing regions. Maya's investigation revealed this as the hidden method by which editorial choices create different types of human beings.
-
-**Divine Address Change** — The twenty-two systematic alterations transforming Krishna's voice from intimate ("Blessed Lord") to institutional ("Supreme Personality of Godhead")—the mathematical pattern that first revealed to Maya the scope of theological revision disguised as editorial improvement.
-
-**Editorial Authority** — The labyrinthine question at the center of this investigation: Who possesses the right to alter a spiritual master's words after his death? The editors believed they inherited this authority through institutional succession; millions of readers never knew the question existed.
-
-**ISKCON** — International Society for Krishna Consciousness; the global spiritual movement Prabhupāda founded. The revision controversy has divided this community for four decades.
-
-**Jayadvaita Swami** — Lead editor of the 1983 revision. A sincere disciple who believed he was serving his guru by "perfecting" the texts using original manuscripts.
-
-**Krishna** — Speaker of the Bhagavad-gītā; the Supreme Divine who reveals spiritual knowledge to his friend Arjuna. How Krishna is presented—as intimate friend or distant theology—shapes reader experience.
-
-**Maya Rodriguez** — The everywoman narrator of this investigation; represents millions of readers who discovered by accident that their sacred text had been transformed.
-
-**Neuroscience Evidence** — Published neuroscience research compiled by Dr. Sarah Chen proving that different translations create measurably different types of spiritual practitioners through distinct neural development.
-
-**Original (1972) Edition** — The Bhagavad-gītā As It Is that Prabhupāda personally approved and used for teaching from 1972-1977. Emphasizes accessible devotion and personal divine relationship.
-
-**Prabhupāda** — A.C. Bhaktivedanta Swami (1896-1977); the spiritual master who brought Krishna consciousness to the West. His final instruction: "Don't change" his books.
-
-**Revised (1983) Edition** — The posthumously edited version with 541 of 700 verses altered. Emphasizes theological precision and systematic understanding.
-
-**Sacred Text Transparency** — The simple solution proposed: clearly label different versions so readers can choose consciously. Model: Bible translations (KJV, NIV, etc.) are distinguished, not hidden.
-
-**Secretarial Errors** — The editors' justification for changes: early typists misheard Prabhupāda's accent. Critics note that Prabhupāda approved the "errors" in hundreds of classes.
-
-**Alteration** — The documented scope of changes: 541 verses out of 700 were modified without informing readers. This isn't copy editing but consciousness transformation.
-
-**Two Paths** — What the investigation reveals: the original creates mystics through heart connection; the revision creates theologians through intellectual understanding. Both valid, but readers deserve to know which they're choosing.
-
-**Underground Resistance** — Networks of devotees who preserved and distributed original editions when institutions tried to suppress them. Their work made this investigation possible.
-
-**Version Comparison** — The key to discovery: when readers compare editions side-by-side, the transformation becomes undeniable. What institutions hid for four decades, the internet exposed.
 
 #+LATEX: \clearpage
 #+LATEX: \thispagestyle{empty}
