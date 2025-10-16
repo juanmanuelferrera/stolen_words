@@ -158,6 +158,10 @@
 #+LATEX_HEADER:   }%
 #+LATEX_HEADER:   \thispagestyle{plain}%
 #+LATEX_HEADER: }
+#+LATEX_HEADER: % Prevent section-level headings (Parts) from setting marks
+#+LATEX_HEADER: \renewcommand{\sectionmark}[1]{}
+#+LATEX_HEADER: % Make subsection-level headings (Chapters) set rightmark only
+#+LATEX_HEADER: \renewcommand{\subsectionmark}[1]{\markright{#1}}
 #+LATEX_HEADER: % Override LaTeX's automatic plain style for chapters
 #+LATEX_HEADER: \renewcommand{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi\thispagestyle{plain}\global\@topnum\z@\@afterindentfalse\secdef\@chapter\@schapter}
 #+LATEX_HEADER: % Reduce section and subsection spacing for tighter layout
@@ -426,7 +430,6 @@ The answer would require archaeological excavation into the layers of spiritual 
 
 ** 4. The Monk's Journey
 #+LATEX: \thispagestyle{chapterpage}
-#+LATEX: \markright{The Monk's Journey}
 
 #+LATEX: \normalfont\justifying
 Every mystery contains within it another mystery, nested like Russian dolls. The mystery of how the Bhagavad-gītā came to be rewritten conceals within it the deeper mystery of how it came to be written in the first place—under circumstances so extraordinary that they would later provide both the inspiration and the justification for its transformation.
@@ -477,7 +480,6 @@ The stage was set for the most successful literary substitution in modern spirit
 
 ** 5. Two Different Souls
 #+LATEX: \thispagestyle{chapterpage}
-#+LATEX: \markright{Two Different Souls}
 
 #+LATEX: \normalfont\justifying
 Now we arrive at the heart of the labyrinth, where Maya's investigation encountered what can only be called the philosophical crime of the century. Understanding Prabhupāda's obsessive devotion to his books made her next discovery not merely shocking but vertiginous. Here was a man who personally reviewed every translation, approved every edition, corrected every error with the precision of a medieval monk illuminating manuscripts. His books were his legacy—exactly as he wanted them.
@@ -564,7 +566,6 @@ Tomorrow, she would begin documenting the global pattern she had discovered. But
 
 ** 6. The Pattern Revealed
 #+LATEX: \thispagestyle{chapterpage}
-#+LATEX: \markright{The Pattern Revealed}
 
 #+LATEX: \normalfont\justifying
 The arithmetic of deception reveals itself slowly, then all at once. What began as a simple comparison to reassure her grandmother became the kind of obsession that consumes doctoral students and medieval monks—the conviction that behind one altered verse lay an entire architecture of transformation, if only one had eyes trained to see it.
@@ -589,7 +590,6 @@ The question that haunted her was no longer *what* had been done, but *why*—an
 
 ** 7. Global Confusion
 #+LATEX: \thispagestyle{chapterpage}
-#+LATEX: \markright{Global Confusion}
 
 #+LATEX: \vspace{0.3cm}
 
@@ -688,7 +688,6 @@ The crisis had become global, systematic, and undeniable. Yet institutional auth
 
 ** 8. The Cover-Up
 #+LATEX: \thispagestyle{chapterpage}
-#+LATEX: \markright{The Cover-Up}
 
 #+LATEX: \normalfont\justifying
 Maya's investigation had documented how systematic alteration created global confusion, but the question that consumed her nights was more vertiginous still: how had such massive deception succeeded for four decades? How do you hide the systematic transformation of a sacred text from millions of readers across six continents? The answer she discovered was both simpler and more chilling than any elaborate conspiracy theory.
@@ -741,7 +740,6 @@ But as Maya was discovering, the cost of this silence extended far beyond publis
 
 ** 9. The Divided House
 #+LATEX: \thispagestyle{chapterpage}
-#+LATEX: \markright{The Divided House}
 
 #+LATEX: {\centering\itshape In which the evidence becomes too specific\\to dismiss as interpretation,\\and approval turns into accusation.\par}
 #+LATEX: \vspace{0.3cm}
@@ -929,7 +927,6 @@ The house had been divided. Not by those who raised questions about the changes,
 :END:
 
 ** 10. Two Different Gods
-#+LATEX: \markright{Two Different Gods}
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: {\centering\itshape Changing divine address from intimate to institutional\\doesn't improve translation—it transforms how readers\\experience the sacred relationship.\par}
@@ -1042,7 +1039,6 @@ God remains who God is. But how readers approach and experience divine reality d
 
 
 ** 11. The Language of the Heart
-#+LATEX: \markright{The Language of the Heart}
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: {\centering\itshape Sacred language doesn't just communicate spiritual concepts—\\it programs the heart's approach to divine reality.\par}
@@ -1131,7 +1127,6 @@ The language of the heart speaks differently than the language of the mind. Spir
 When editors systematically alter heart-language into mind-language without disclosure, they steal not just words—they steal the reader's access to heart-centered spiritual transformation.
 
 ** 12. The Unexpected Interlocutor
-#+LATEX: \markright{The Unexpected Interlocutor}
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: {\centering\itshape In which a conversation occurs across digital mediums\\and the architecture of authority\\reveals itself through silence.\par}
@@ -1365,7 +1360,6 @@ Some questions, she had learned, do not have answers. They have only further que
 :END:
 
 ** 13. Two Paths, Two Souls
-#+LATEX: \markright{Two Paths, Two Souls}
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: {\centering\itshape Two versions create two different kinds of human beings—\\one seeking intimate love with the divine, the other pursuing\\systematic religious advancement.\par}
@@ -1487,7 +1481,6 @@ Would these two children, raised on different editions of the "same" book, even 
 The version determines the spiritual trajectory. The text shapes the soul. And buyers of "Bhagavad-gītā As It Is" deserved to know which path they were actually purchasing.
 
 ** 14. The Publishing Deception
-#+LATEX: \markright{The Publishing Deception}
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: {\centering\itshape The most disturbing aspect of this process:\\readers were never informed that systematic\\theological alteration was occurring.\par}
@@ -1762,7 +1755,6 @@ As Maya left the café, she knew her next step: confronting the defenders of the
 :END:
 
 ** 15. The Defenders and Their Strategies
-#+LATEX: \markright{The Defenders and Their Strategies}
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: {\centering\itshape When institutions say 'these are minor improvements,'\\they're asking you to trust their judgment\\over your own spiritual experience.\par}
@@ -2012,7 +2004,6 @@ As Maya drove home, she thought about the millions of readers worldwide, unknowi
 The answer wouldn't come from institutions acknowledging what they'd done. It would come from readers making conscious, informed choices about their own spiritual development.
 
 ** 16. What Prabhupāda Actually Wanted
-#+LATEX: \markright{What Prabhupāda Actually Wanted}
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: {\centering\itshape Prabhupāda chose intimate divine language to open hearts,\\not theological terminology\\to establish institutional authority.\par}
@@ -2158,7 +2149,6 @@ Prabhupāda wanted his Bhagavad-gītā preserved "As It Is"—exactly as he publ
 :END:
 
 ** Epilogue
-#+LATEX: \markright{Epilogue}
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: \normalfont\justifying
@@ -2246,7 +2236,6 @@ Maya's choice, in the end, was simply to give them back the choice itself.
 #+LATEX: \pagestyle{sectionopening}
 #+LATEX: \thispagestyle{sectionopening}
 #+LATEX: \markboth{}{}
-#+LATEX: \markright{}
 #+LATEX: \vspace*{0.25\textheight}
 #+LATEX: \begin{center}
 #+LATEX: {\Huge\bfseries Glossary}
@@ -2298,7 +2287,6 @@ Maya's choice, in the end, was simply to give them back the choice itself.
 #+LATEX: \pagestyle{sectionopening}
 #+LATEX: \thispagestyle{sectionopening}
 #+LATEX: \markboth{}{}
-#+LATEX: \markright{}
 #+LATEX: \vspace*{0.25\textheight}
 #+LATEX: \begin{center}
 #+LATEX: {\Huge\bfseries Bibliography}
@@ -2400,7 +2388,6 @@ Zaehner, R.C. *The Bhagavad-Gita*. Oxford University Press, 1969.
 #+LATEX: \pagestyle{sectionopening}
 #+LATEX: \thispagestyle{sectionopening}
 #+LATEX: \markboth{}{}
-#+LATEX: \markright{}
 #+LATEX: \vspace*{0.25\textheight}
 #+LATEX: \begin{center}
 #+LATEX: {\Huge\bfseries Appendix A: Research Methodology}
@@ -2449,7 +2436,6 @@ This analysis represents intensive research conducted during 2023-2024 involving
 #+LATEX: \pagestyle{sectionopening}
 #+LATEX: \thispagestyle{sectionopening}
 #+LATEX: \markboth{}{}
-#+LATEX: \markright{}
 #+LATEX: \vspace*{0.25\textheight}
 #+LATEX: \begin{center}
 #+LATEX: {\Huge\bfseries About the Author}
