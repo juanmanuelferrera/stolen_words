@@ -225,7 +225,7 @@ You are free to share this material in any medium or format for non-commercial p
 
 #+LATEX: \vspace*{\fill}
 
-First Edition: 2026\\
+First Edition: 2025\\
 ISBN: 9798298020817\\
 Published in Spain
 
