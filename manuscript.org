@@ -308,6 +308,14 @@ The evidence is clear. What it means cannot be ignored. How readers respond is t
 #+LATEX: {\Large The Crisis Revealed}
 #+LATEX: \end{center}
 #+LATEX: \clearpage
+#+LATEX: \thispagestyle{empty}
+#+LATEX: \mbox{}
+#+LATEX: \newpage
+
+* Part I: The Crisis Revealed
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
 
 ** 1. The Sacred Gift
 #+LATEX: \thispagestyle{chapterpage}
@@ -911,6 +919,14 @@ The house had been divided. Not by those who raised questions about the changes,
 #+LATEX: {\Large The Spiritual Impact}
 #+LATEX: \end{center}
 #+LATEX: \clearpage
+#+LATEX: \thispagestyle{empty}
+#+LATEX: \mbox{}
+#+LATEX: \newpage
+
+* Part II: The Spiritual Impact
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
 
 ** 10. Two Different Gods
 #+LATEX: \markright{Two Different Gods}
@@ -1339,6 +1355,14 @@ Some questions, she had learned, do not have answers. They have only further que
 #+LATEX: {\Large The Human Consequences}
 #+LATEX: \end{center}
 #+LATEX: \clearpage
+#+LATEX: \thispagestyle{empty}
+#+LATEX: \mbox{}
+#+LATEX: \newpage
+
+* Part III: The Human Consequences
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
 
 ** 13. Two Paths, Two Souls
 #+LATEX: \markright{Two Paths, Two Souls}
@@ -1732,6 +1756,11 @@ As Maya left the café, she knew her next step: confronting the defenders of the
 #+LATEX: \mbox{}
 #+LATEX: \newpage
 
+* Part IV: The Institutional Response
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+
 ** 15. The Defenders and Their Strategies
 #+LATEX: \markright{The Defenders and Their Strategies}
 #+LATEX: \thispagestyle{chapterpage}
@@ -2119,6 +2148,14 @@ Prabhupāda wanted his Bhagavad-gītā preserved "As It Is"—exactly as he publ
 #+LATEX: \end{center}
 #+LATEX: \vspace*{\fill}
 #+LATEX: \clearpage
+#+LATEX: \thispagestyle{empty}
+#+LATEX: \mbox{}
+#+LATEX: \newpage
+
+* Part V: The Path Forward
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
 
 ** Epilogue
 #+LATEX: \markright{Epilogue}
