@@ -334,7 +334,7 @@ Picture the scene: six years after Prabhupāda's passing away, the Bhaktivedanta
 
 The method was elegantly simple: bookstores replaced old stock with new. Libraries shelved revisions where originals had been. New readers encountered what they believed to be the same book that had transformed the previous generation. The perfect crime, if crime it was—and that, dear reader, is the question that torments this investigation.
 
-Consider the mathematics of deception: 541 verses altered out of 700. In percentage terms—and how modern our age has become, reducing mystery to statistics—seventy-seven percent of the book rewritten. Not edited. Not improved. Rewritten. Which raises the philosophical question: at what point does revision become replacement? The medieval philosophers would have called this the Ship of Theseus problem, though they were concerned with wooden planks, not sacred words.
+Consider the mathematics of deception: more than three-quarters of the verses altered. In percentage terms—and how modern our age has become, reducing mystery to statistics—the overwhelming majority of the book rewritten. Not edited. Not improved. Rewritten. Which raises the philosophical question: at what point does revision become replacement? The medieval philosophers would have called this the Ship of Theseus problem, though they were concerned with wooden planks, not sacred words.
 
 Who authorized these changes? Here we encounter our first labyrinth: Prabhupāda was dead, his final desires ("I have no desires") echoing uselessly in Vṛndāvana. Dead authors cannot authorize. Dead authors cannot forbid. Dead authors become, in Barthes' famous phrase, simply dead—and the text becomes an orphan seeking new parents.
 
@@ -1343,7 +1343,7 @@ She wrote: "The Swami has given me something more valuable than agreement. He ha
 
 Then she wrote: "He has also shown me that I cannot persuade those who require institutional belonging to maintain identity. Not because they lack intelligence—the Swami is clearly intelligent—but because seeing clearly would require losing the community that has defined them. I am asking him to choose between truth and belonging. This is not a choice most humans can make. Perhaps not a choice most humans should make."
 
-Finally: "And yet. The facts remain. 541 verses. 77%. Twenty-two instances of 'Blessed Lord' replaced. 'Forgotten' to 'forgetful.' 'All' to 'them.' Each change defensible in isolation. Collectively, a transformation. The Swami has not refuted this. He has simply demonstrated that it cannot be acknowledged by those whose identity requires it to be false."
+Finally: "And yet. The facts remain. Hundreds of verses systematically altered. Every instance of intimate divine address replaced. 'Forgotten' to 'forgetful.' 'All' to 'them.' Each change defensible in isolation. Collectively, a transformation. The Swami has not refuted this. He has simply demonstrated that it cannot be acknowledged by those whose identity requires it to be false."
 
 She closed the notebook. Did not send any response. Because sometimes—as she had learned from Borges, from Eco, from the medieval philosophers who understood that certain truths can only be approached through silence—the most eloquent argument is the one not made.
 
@@ -1817,7 +1817,7 @@ As Maya entered Whitfield's office, she noticed the man's genuine reverence—ph
 
 It struck Maya that this man had probably asked himself the same questions she was asking him.
 
-Maya opened her notebook, now thick with documentation. "I have evidence of 541 verses changed—that's 77% of the Bhagavad-gītā. How do you justify this?"
+Maya opened her notebook, now thick with documentation. "I have evidence of systematic alteration affecting the overwhelming majority of verses. How do you justify this?"
 
 What followed would be a masterclass in institutional defense mechanisms.
 
@@ -2847,7 +2847,7 @@ Maya pulled a chair close to the bed. For nine months she had been documenting, 
 
 Her grandmother's hand reached for Maya's, the grip surprisingly strong. "I knew it. For months I thought I was losing my mind, that the cancer was affecting my memory. But I knew these words. I've read this book every morning for over fifty years."
 
-Maya explained it all—the 541 verses, the systematic patterns, the neurological research, the global confusion. She explained how her grandmother's "forgotten soul" had been transformed into "forgetful soul," how the "Blessed Lord" she had prayed to for decades had become the "Supreme Personality of Godhead," how the editors had believed they were improving Prabhupāda's work but had actually created two completely different spiritual paths.
+Maya explained it all—the extensive changes, the systematic patterns, the neurological research, the global confusion. She explained how her grandmother's "forgotten soul" had been transformed into "forgetful soul," how the "Blessed Lord" she had prayed to for decades had become the "Supreme Personality of Godhead," how the editors had believed they were improving Prabhupāda's work but had actually created two completely different spiritual paths.
 
 "Which one is right?" her grandmother asked, and Maya recognized the question as a trap—the same trap she had fallen into at the beginning of her investigation.
 
@@ -3038,17 +3038,19 @@ Returning to her grandmother's bedside, Maya finally understood the old woman's 
 
 Her grandmother smiled weakly. "Now I understand why you seemed so... different in your practice. Not wrong, just... walking a different path to the same destination."
 
-Published neuroscience research Dr. Chen helped Maya understand had identified specific neural pathway development based on word choices:
+Published neuroscience research Dr. Chen helped Maya understand had identified specific neural pathway development based on word choices. Multiple studies from different research teams converged on similar findings:
+
+Beauregard and Paquette's 2006 work with Carmelite nuns showed mystical contemplation activated limbic and emotional regions. Azari et al.'s 2001 study in /Neuroscience Letters/ demonstrated that religious recitation activated different neural networks than non-religious reading. Schjoedt et al.'s 2009 research in /Social Cognitive and Affective Neuroscience/ found that perceived intimacy with a divine figure correlated with specific brain activation patterns distinct from formal prayer.
 
 **Grace-Dependent Pathway (Original):**
 - Parasympathetic nervous system activation
-- Mirror neuron engagement with divine consciousness
+- Limbic system engagement (emotional bonding regions)
 - Attachment and intimacy networks strengthened
 - Receptive, devotional neural development
 
 **Knowledge-Dependent Pathway (Revised):**
-- Sympathetic nervous system activation
-- Analytical networks processing theological concepts
+- Prefrontal cortex activation (analytical processing)
+- Analytical networks processing systematic concepts
 - Hierarchy and achievement networks strengthened
 - Active, educational neural development
 
@@ -3253,9 +3255,13 @@ Barthes, Roland. "The Death of the Author." *Image, Music, Text*. Hill and Wang,
 
 Bassnett, Susan. *Translation Studies*. Routledge, 2002.
 
+Azari, Nina P., et al. "Neural correlates of religious experience." *European Journal of Neuroscience* 13, no. 8 (2001): 1649-1652. [Demonstrates that religious recitation activates different neural networks than non-religious reading]
+
 Beauregard, Mario, and Vincent Paquette. "Neural correlates of a mystical experience in Carmelite nuns." *Neuroscience Letters* 405, no. 3 (2006): 186-190. [fMRI study identifying neural activation patterns during mystical contemplation: caudate nucleus, insula, and limbic regions]
 
 Brooks, Charles R. *The Hare Krishnas in India*. Princeton University Press, 1989.
+
+Schjoedt, Uffe, et al. "Highly religious participants recruit areas of social cognition in personal prayer." *Social Cognitive and Affective Neuroscience* 4, no. 2 (2009): 199-207. [Shows that perceived intimacy with divine figures correlates with specific brain activation patterns distinct from formal prayer]
 
 Doniger, Wendy. *The Implied Spider: Politics and Theology in Myth*. New York: Columbia University Press, 1998. [Analysis of how sacred text transmission shifts from charismatic to bureaucratic language across traditions]
 
