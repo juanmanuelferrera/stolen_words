@@ -519,7 +519,7 @@ The weight of her discovery demanded consultation with someone who could explain
 
 "Sarah," Maya said, struggling to articulate what seemed impossible, "what would happen if someone secretly changed the Bible to say 'workers who forget to pray' instead of 'lost sheep'?"
 
-Dr. Chen's response came without hesitation: "There would be riots. But more than that—you'd be changing the entire neurological foundation of how believers understand human spiritual condition. Neuroscience research on linguistic framing suggests that language describing external causation—'lost sheep,' 'forgotten soul'—likely activates different neural networks than language describing internal agency—'straying sheep,' 'forgetful soul.' Research indicates that one type would tend to activate receptivity and relationship networks in the limbic system. The other would likely activate self-regulation and planning networks in the prefrontal cortex. Over time, you'd effectively be programming different types of consciousness."
+Dr. Chen's response came without hesitation: "There would be riots. But more than that—you'd be changing the entire neurological foundation of how believers understand human spiritual condition. Beauregard and Paquette's 2006 fMRI study suggests that different types of spiritual language activate different neural networks. Schjoedt et al.'s 2009 research found that perceived intimacy with divine figures correlates with specific brain activation patterns—language describing external causation like 'lost sheep' or 'forgotten soul' likely activates receptivity and relationship networks in the limbic system. Language describing internal agency like 'straying sheep' or 'forgetful soul' would likely activate self-regulation and planning networks in the prefrontal cortex. Over time, according to Pascual-Leone's work on neural plasticity, you'd effectively be programming different types of consciousness."
 
 That conversation marked the moment Maya grasped the full scope of what had been accomplished. The change from "forgotten" to "forgetful" had not merely altered text—it had likely shaped millions of readers toward self-improvement consciousness rather than grace-seeking, potentially influencing their neural patterns for approaching the Divine over time.
 
@@ -2212,7 +2212,7 @@ She continued: "You say you're completing unfinished work. But he /did/ finish i
 
 "The translation evolution argument is interesting, but it actually supports my position. The Bible /does/ have multiple English translations—but they're labeled. King James Version. New International Version. English Standard Version. Readers know what they're choosing. You're not offering the 'BBT Translation' alongside the 'Prabhupāda Translation'—you're replacing his work and calling it his."
 
-Maya's voice gained confidence: "Your reader sophistication argument assumes modern readers want academic formality. But Dr. Chen's research shows the opposite—people are hungry for direct spiritual experience, not more theology textbooks. You're not adapting to your audience. You're creating a different audience."
+Maya's voice gained confidence: "Your reader sophistication argument assumes modern readers want academic formality. But published neuroscience research on religious experience shows the opposite—people are hungry for direct spiritual experience, not more theology textbooks. You're not adapting to your audience. You're creating a different audience."
 
 "The unified teaching argument makes sense for spelling corrections and obvious errors. But you're not standardizing typos—you're systematically transforming theological language. You're ensuring teachers and students are on the same page, yes—but it's a different page than the one Prabhupāda published."
 
@@ -3130,7 +3130,7 @@ Returning to her grandmother's bedside, Maya finally understood the old woman's 
 
 Her grandmother smiled weakly. "Now I understand why you seemed so... different in your practice. Not wrong, just... walking a different path to the same destination."
 
-Published neuroscience research Dr. Chen helped Maya understand had identified specific neural pathway development based on word choices. Multiple studies from different research teams converged on similar findings:
+Published neuroscience research had identified specific neural pathway development based on word choices. Multiple studies from different research teams converged on similar findings:
 
 Beauregard and Paquette's 2006 work with Carmelite nuns showed mystical contemplation activated limbic and emotional regions. Azari et al.'s 2001 study in /Neuroscience Letters/ demonstrated that religious recitation activated different neural networks than non-religious reading. Schjoedt et al.'s 2009 research in /Social Cognitive and Affective Neuroscience/ found that perceived intimacy with a divine figure correlated with specific brain activation patterns distinct from formal prayer.
 
