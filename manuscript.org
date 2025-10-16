@@ -2437,7 +2437,7 @@ When Prabhupāda wanted textual changes, his approach was immediate and explicit
 
 The most devastating evidence against posthumous revision claims comes from class transcripts where Prabhupāda explicitly approved original formulations that were later changed without his authorization.
 
-The pattern repeats across multiple verses (as discussed in Chapter 16): In BG 2.48, Prabhupāda emphasized "steadfast in yoga" and "evenness of mind"—both concepts later deleted. In BG 2.51, he responded "How easy it is" when hearing the translation emphasizing "renouncing the fruits of action"—subsequently altered to obscure this emphasis.
+The pattern repeats across multiple verses (as documented earlier in this chapter): In BG 2.48, Prabhupāda emphasized "steadfast in yoga" and "evenness of mind"—both concepts later deleted. In BG 2.51, he responded "How easy it is" when hearing the translation emphasizing "renouncing the fruits of action"—subsequently altered to obscure this emphasis.
 
 **When the original was read**: "One who is not in transcendental consciousness can have neither a controlled mind nor steady intelligence"
 
@@ -4118,35 +4118,3 @@ The BBT's stated position is that the revisions "more faithfully represent Śrī
 
 **Analysis:** The BBT frames the changes as corrections and improvements to better reflect Prabhupāda's intentions, based on manuscript evidence and Sanskrit fidelity. This represents a fundamentally different editorial philosophy than textual preservation of the author's published work.
 
-* Appendix: Sources Used
-
-** Primary Sources
-- asitis.com (claimed 1972 edition)
-- vedabase.io (1983+ revised edition)
-- krishna-books.com/77-of-bg-verses-is-changed.html
-
-** Secondary Sources
-- bookchanges.com (documentation project)
-- arsaprayoga.com (change analysis)
-- ISKCON News articles on BBT editorial process
-- Multiple traditional Sanskrit commentaries (Śaṅkara, Rāmānuja, etc.)
-
-** Methodology
-Each claim was cross-referenced against at minimum two independent sources. Where sources conflicted, all perspectives were noted. Statistical claims were verified against published comparative analyses.
-
-* Final Assessment
-
-The manuscript presents a compelling case that deserves serious scholarly attention, but contains factual errors and inflated statistics that undermine its credibility. A corrected version would strengthen its arguments considerably.
-
-**Overall Rating:**
-- **Factual Accuracy:** 65%
-- **Core Thesis Validity:** 85%
-- **Documentation Quality:** 70%
-- **Scholarly Rigor:** 60%
-
-The controversy is real. The changes are substantial. The lack of disclosure is problematic. But precise accuracy in documenting the changes is essential for the argument to be taken seriously by scholars and institutions.
-
-#+LATEX: \vfill
-#+LATEX: \begin{center}
-#+LATEX: ---END OF VERIFICATION REPORT---
-#+LATEX: \end{center}
