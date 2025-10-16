@@ -28,7 +28,7 @@
 
 # Typography Configuration - Optimized for print readability
 #+LATEX_HEADER: \usepackage{fontspec}
-#+LATEX_HEADER: \setmainfont{EB Garamond}[BoldFont={EB Garamond 12},BoldFeatures={FakeBold=1.2}]
+#+LATEX_HEADER: \setmainfont{Libertinus Serif}
 #+LATEX_HEADER: \usepackage[final,babel=true]{microtype}
 #+LATEX_HEADER: \usepackage{setspace}
 #+LATEX_HEADER: \setstretch{1.15}     % Increased line spacing for better readability
@@ -845,7 +845,7 @@ The answer came from Prabhupāda himself—a warning he'd given years before his
 
 Maya read the sentence again, her hands trembling slightly. The editors who revised the Bhagavad-gītā had studied Sanskrit. They had consulted commentaries. They had developed scholarly credentials. And exactly as Prabhupāda warned, they had concluded their learning qualified them to correct their teacher.
 
-She found the smoking gun in the revised edition's own introduction, where the editors justified their work: "the Sanskrit editors were by now accomplished scholars. And now they were able to see their way through perplexities in the manuscript by consulting the same Sanskrit commentaries Srila Prabhupada consulted when writing Bhagavad-gita As It Is."
+She found the smoking gun in the revised edition's own introduction, where the editors justified their work: "the Sanskrit editors were by now accomplished scholars. And now they were able to see their way through perplexities in the manuscript by consulting the same Sanskrit commentaries Srila Prabhupada consulted when writing Bhagavad-gītā As It Is."
 
 The editors believed their Sanskrit studies—their consultation of the "same commentaries"—made them qualified to identify and fix "perplexities" in Prabhupāda's completed, published, and teaching-approved work. They had become, in their own estimation, more qualified than their guru.
 
@@ -1733,15 +1733,9 @@ This process reveals how institutional publishing can systematically transform s
 - Institutional needs determining editorial choices
 - Reader choice elimination in favor of "better" versions
 
-- Do readers have the right to know when spiritual content has been systematically altered?
-- Should institutional needs override authentic transmission preservation?
-- Can technical improvements justify theological revision?
-- What consent is required for systematic spiritual content modification?
+Maya found herself wrestling with questions that kept her awake long after David had left. Do readers have the right to know when spiritual content has been systematically altered? The question seemed obvious until she considered its implications—should institutional needs ever override preservation of authentic transmission? Could technical improvements possibly justify theological revision? And what consent, exactly, was required when systematically modifying spiritual content that would shape millions of lives?
 
-- Should spiritual seekers understand how editorial decisions affect their development?
-- Do different versions creating different spiritual trajectories require disclosure?
-- Is unconscious spiritual path selection acceptable in sacred text publishing?
-- What responsibility do readers have to investigate textual authenticity?
+The deeper questions emerged as Maya reviewed her interview notes. Should spiritual seekers understand how editorial decisions literally affect their consciousness development? When different versions create fundamentally different spiritual trajectories, doesn't that require disclosure? Is unconscious spiritual path selection—choosing without knowing you're choosing—acceptable in sacred text publishing? And what responsibility, Maya wondered, staring at her evidence-covered walls, do readers themselves bear to investigate the authenticity of texts they trust with their spiritual lives?
 
 "So what's the solution?" Maya asked. "How do we prevent this from happening again?"
 
@@ -2357,21 +2351,15 @@ This argument claims legitimacy through time passage and widespread acceptance.
 - **Established status**: "It's become the standard version"
 - **Academic integration**: "Universities use this edition"
 
-- **Time doesn't validate deception** - forty years of unconscious choice doesn't create conscious consent
-- **Widespread adoption occurred without informed consent** - readers didn't know they were receiving systematically altered content
-- **Established status emerged through elimination of alternatives** - original versions were systematically removed from circulation
-- **Academic integration serves institutional goals**, not reader spiritual authenticity
+Maya leaned forward, her voice quiet but firm. "Dr. Whitfield, time doesn't validate deception. Forty years of unconscious choice doesn't magically create conscious consent." She pulled out her documentation. "Widespread adoption occurred without informed consent—readers didn't know they were receiving systematically altered content. Your established status emerged through elimination of alternatives, systematically removing original versions from circulation. And this academic integration you're so proud of? It serves institutional goals, not reader spiritual authenticity."
 
 ### The Pattern Across All Defenses
 
 Every institutional defense avoids the fundamental question: ***Should readers know when spiritual content has been systematically altered and understand how different versions affect their spiritual development?***
 
-- **Reader agency denial**: Assumption that institutions should make spiritual choices for readers
-- **Deception justification**: Claims that withholding alteration information serves readers better
-- **Authority displacement**: Institutional judgment substituted for individual spiritual choice
-- **Outcome prioritization**: Results matter more than informed consent
+Maya recognized the underlying pattern that ran through every defense Dr. Whitfield had offered—reader agency denial, the assumption that institutions should make spiritual choices for readers. Then came deception justification, claims that withholding alteration information somehow served readers better. Authority displacement followed naturally: institutional judgment substituted for individual spiritual choice. And finally, outcome prioritization—the belief that results matter more than informed consent.
 
-These defense patterns reveal institutional psychological needs confirmed by multiple research disciplines:
+These defense patterns, Maya discovered through her research, revealed institutional psychological needs confirmed by multiple research disciplines:
 
 Dr. Mark Chaves's research documents how religious organizations prioritize institutional survival over theological authenticity when facing legitimacy challenges. Sacred text modification follows predictable patterns aimed at increasing academic respectability.
 
@@ -3206,14 +3194,9 @@ But the crucial element—the element that transforms consumption into conscious
 
 This was perhaps the deepest insight of Maya's investigation: the problem was never the existence of different approaches to spiritual life, but the concealment of those differences from the people whose consciousness was being programmed by them.
 
-Maya's investigation revealed patterns extending beyond spiritual texts to all consciousness-programming content:
+Maya's investigation had cracked open something far larger than sacred texts. Late one night, staring at her research wall covered with evidence, she saw the pattern replicating everywhere: Educational materials invisibly instilling values through word choice. Cultural narratives altering societal consciousness through subtle story changes. Therapeutic approaches programming different psychological development through their linguistic frameworks. Even media consumption—algorithmic choices shaping collective consciousness without users ever realizing their thoughts were being guided.
 
-**Educational Materials:** Which values do textbooks invisibly instill?
-**Cultural Narratives:** How do story changes alter societal consciousness?
-**Therapeutic Approaches:** Which healing modalities program which psychological development?
-**Media Consumption:** How do algorithmic choices shape collective consciousness?
-
-"Once you see stolen words in sacred texts," Maya realized, "you start seeing linguistic manipulation everywhere."
+"Once you see stolen words in sacred texts," Maya realized, hands trembling as she stood before her evidence wall, "you start seeing linguistic manipulation everywhere."
 
 Six months later, Maya met again with BBT representative Dr. Whitfield. This time, she came with solutions rather than accusations.
 
