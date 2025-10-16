@@ -3505,28 +3505,6 @@ Venuti, Lawrence. *The Translator's Invisibility*. Routledge, 1995.
 
 Zaehner, R.C. *The Bhagavad-Gita*. Oxford University Press, 1969.
 
-*** Research Methodology
-
-This analysis represents intensive research conducted during 2023-2024 involving:
-
-**Scope and Criteria:**
-- Complete verse-by-verse comparison of all 700 verses
-- Alterations defined as any change in wording, punctuation, or structure between 1972 and 1983 editions
-- Focus on meaning-significant changes that affect spiritual interpretation
-- Representative examples provided rather than exhaustive documentation of all 5,000+ total changes
-
-**Methodology:**
-- Statistical modeling of alteration patterns across 18 chapters
-- Sanskrit modification database with 1,247 catalogued changes
-- Linguistic quality assessment using semantic analysis frameworks
-- Digital humanities and computer-assisted textual analysis
-
-**Verification Process:**
-- Collaboration with Sanskrit scholars, textual critics, and religious studies academics
-- Community feedback analysis from readers of both editions
-- International editions comparison across 89 languages
-- Cross-reference with original manuscripts and class transcripts
-
 #+LATEX: \clearpage
 #+LATEX: \thispagestyle{empty}
 #+LATEX: \mbox{}
@@ -3556,6 +3534,28 @@ Maya's investigation required the methodological precision of multiple scientifi
 This methodological pluralism ensured that our findings represent convergent validation across disciplines rather than single-field speculation. Each approach contributed evidence for the same conclusion: systematic editorial choices can reprogram human consciousness at scales their creators never intended and in ways their subjects never recognize.
 
 Yet even this methodological rigor raises the deeper epistemological question: How does one investigate institutional deception when the institutions control access to evidence? Maya's answer was characteristically recursive: by becoming the evidence oneself.
+
+*** Technical Specifications
+
+This analysis represents intensive research conducted during 2023-2024 involving:
+
+**Scope and Criteria:**
+- Complete verse-by-verse comparison of all 700 verses
+- Alterations defined as any change in wording, punctuation, or structure between 1972 and 1983 editions
+- Focus on meaning-significant changes that affect spiritual interpretation
+- Representative examples provided rather than exhaustive documentation of all 5,000+ total changes
+
+**Methodology:**
+- Statistical modeling of alteration patterns across 18 chapters
+- Sanskrit modification database with 1,247 catalogued changes
+- Linguistic quality assessment using semantic analysis frameworks
+- Digital humanities and computer-assisted textual analysis
+
+**Verification Process:**
+- Collaboration with Sanskrit scholars, textual critics, and religious studies academics
+- Community feedback analysis from readers of both editions
+- International editions comparison across 89 languages
+- Cross-reference with original manuscripts and class transcripts
 
 #+LATEX: \clearpage
 #+LATEX: \pagestyle{sectionopening}
