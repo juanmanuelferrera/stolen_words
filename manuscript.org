@@ -322,7 +322,7 @@ He left behind 10,000 disciples, 108 temples spanning six continents, and—most
 
 Or so everyone believed.
 
-The mystery begins six years after his death, in 1983, when the Bhaktivedanta Book Trust published what they called an "improved" edition of the Bhagavad-gītā As It Is. The word "improved" should have been the first signal that something was amiss. How does one improve a book that claimed to present things "as they are"? But I am getting ahead of the story again.
+The mystery begins six years after his death, in 1983, when the Bhaktivedanta Book Trust published what they called a "revised and enlarged" edition of the Bhagavad-gītā As It Is. The phrase "revised and enlarged" should have been the first signal that something was amiss. How does one revise a book that claimed to present things "as they are"? But I am getting ahead of the story again.
 
 ** 2. The Question
 #+LATEX: \thispagestyle{chapterpage}
@@ -735,7 +735,7 @@ The silence was not accidental. It was institutional policy, refined over decade
 
 Maya's archaeological excavation of institutional policy revealed a three-pronged strategy that emerged in the 1980s with mathematical precision:
 
-**Prong One**: Never announce changes. Let "improved" editions speak for themselves. Prevent confusion among readers satisfied with their current spiritual understanding.
+**Prong One**: Never announce changes. Let "revised and enlarged" editions speak for themselves. Prevent confusion among readers satisfied with their current spiritual understanding.
 
 **Prong Two**: When questioned directly about differences, emphasize scholarly improvements rather than acknowledge theological alterations. Rely on the reasonable assumption that most readers lack sufficient time or expertise to investigate deeply enough to become genuinely concerned.
 
