@@ -3365,43 +3365,43 @@ Every documented change has been verified through multiple sources where possibl
 #+LATEX: \end{center}
 #+LATEX: \newpage
 
-**Bhagavad-gītā** — Literally "Song of God"; the 700-verse Sanskrit dialogue between Prince Arjuna and his charioteer Krishna on the battlefield of Kurukshetra. The text at the center of our investigation, though whether it remains the same text after systematic revision is precisely the question that torments this inquiry.
+#+LATEX: \textbf{Bhagavad-gītā} — Literally "Song of God"; the 700-verse Sanskrit dialogue between Prince Arjuna and his charioteer Krishna on the battlefield of Kurukshetra. The text at the center of our investigation, though whether it remains the same text after systematic revision is precisely the question that torments this inquiry.
 
-**BBT** — Bhaktivedanta Book Trust; the publishing house Prabhupāda established to preserve and distribute his books with perfect fidelity. After his death in 1977, it became the institution that authorized what it called "improvements" but Maya discovered to be systematic theological reorientation.
+#+LATEX: \textbf{BBT} — Bhaktivedanta Book Trust; the publishing house Prabhupāda established to preserve and distribute his books with perfect fidelity. After his death in 1977, it became the institution that authorized what it called "improvements" but Maya discovered to be systematic theological reorientation.
 
-**Consciousness Programming** — The mechanism by which repeated exposure to specific language patterns literally rewires neural architecture. Devotional language activates emotional and receptivity centers; theological language activates analytical and systematic processing regions. Maya's investigation revealed this as the hidden method by which editorial choices create different types of human beings.
+#+LATEX: \textbf{Consciousness Programming} — The mechanism by which repeated exposure to specific language patterns literally rewires neural architecture. Devotional language activates emotional and receptivity centers; theological language activates analytical and systematic processing regions. Maya's investigation revealed this as the hidden method by which editorial choices create different types of human beings.
 
-**Divine Address Change** — The twenty-two systematic alterations transforming Krishna's voice from intimate ("Blessed Lord") to institutional ("Supreme Personality of Godhead")—the mathematical pattern that first revealed to Maya the scope of theological revision disguised as editorial improvement.
+#+LATEX: \textbf{Divine Address Change} — The twenty-two systematic alterations transforming Krishna's voice from intimate ("Blessed Lord") to institutional ("Supreme Personality of Godhead")—the mathematical pattern that first revealed to Maya the scope of theological revision disguised as editorial improvement.
 
-**Editorial Authority** — The labyrinthine question at the center of this investigation: Who possesses the right to alter a spiritual master's words after his death? The editors believed they inherited this authority through institutional succession; millions of readers never knew the question existed.
+#+LATEX: \textbf{Editorial Authority} — The labyrinthine question at the center of this investigation: Who possesses the right to alter a spiritual master's words after his death? The editors believed they inherited this authority through institutional succession; millions of readers never knew the question existed.
 
-**ISKCON** — International Society for Krishna Consciousness; the global spiritual movement Prabhupāda founded. The revision controversy has divided this community for four decades.
+#+LATEX: \textbf{ISKCON} — International Society for Krishna Consciousness; the global spiritual movement Prabhupāda founded. The revision controversy has divided this community for four decades.
 
-**Jayadvaita Swami** — Lead editor of the 1983 revision. A sincere disciple who believed he was serving his guru by "perfecting" the texts using original manuscripts.
+#+LATEX: \textbf{Jayadvaita Swami} — Lead editor of the 1983 revision. A sincere disciple who believed he was serving his guru by "perfecting" the texts using original manuscripts.
 
-**Krishna** — Speaker of the Bhagavad-gītā; the Supreme Divine who reveals spiritual knowledge to his friend Arjuna. How Krishna is presented—as intimate friend or distant theology—shapes reader experience.
+#+LATEX: \textbf{Krishna} — Speaker of the Bhagavad-gītā; the Supreme Divine who reveals spiritual knowledge to his friend Arjuna. How Krishna is presented—as intimate friend or distant theology—shapes reader experience.
 
-**Maya Rodriguez** — The everywoman narrator of this investigation; represents millions of readers who discovered by accident that their sacred text had been transformed.
+#+LATEX: \textbf{Maya Rodriguez} — The everywoman narrator of this investigation; represents millions of readers who discovered by accident that their sacred text had been transformed.
 
-**Neuroscience Evidence** — Published neuroscience research from Beauregard, Pascual-Leone, Newberg, and other researchers demonstrating that different types of spiritual language (intimate vs. formal, devotional vs. analytical) create measurably different neural patterns—findings that suggest different translations could shape different types of spiritual practitioners.
+#+LATEX: \textbf{Neuroscience Evidence} — Published neuroscience research from Beauregard, Pascual-Leone, Newberg, and other researchers demonstrating that different types of spiritual language (intimate vs. formal, devotional vs. analytical) create measurably different neural patterns—findings that suggest different translations could shape different types of spiritual practitioners.
 
-**Original (1972) Edition** — The Bhagavad-gītā As It Is that Prabhupāda personally approved and used for teaching from 1972-1977. Emphasizes accessible devotion and personal divine relationship.
+#+LATEX: \textbf{Original (1972) Edition} — The Bhagavad-gītā As It Is that Prabhupāda personally approved and used for teaching from 1972-1977. Emphasizes accessible devotion and personal divine relationship.
 
-**Prabhupāda** — A.C. Bhaktivedanta Swami (1896-1977); the spiritual master who brought Krishna consciousness to the West. His final instruction: "Don't change" his books.
+#+LATEX: \textbf{Prabhupāda} — A.C. Bhaktivedanta Swami (1896-1977); the spiritual master who brought Krishna consciousness to the West. His final instruction: "Don't change" his books.
 
-**Revised (1983) Edition** — The posthumously edited version with 541 of 700 verses altered. Emphasizes theological precision and systematic understanding.
+#+LATEX: \textbf{Revised (1983) Edition} — The posthumously edited version with 541 of 700 verses altered. Emphasizes theological precision and systematic understanding.
 
-**Sacred Text Transparency** — The simple solution proposed: clearly label different versions so readers can choose consciously. Model: Bible translations (KJV, NIV, etc.) are distinguished, not hidden.
+#+LATEX: \textbf{Sacred Text Transparency} — The simple solution proposed: clearly label different versions so readers can choose consciously. Model: Bible translations (KJV, NIV, etc.) are distinguished, not hidden.
 
-**Secretarial Errors** — The editors' justification for changes: early typists misheard Prabhupāda's accent. Critics note that Prabhupāda approved the "errors" in hundreds of classes.
+#+LATEX: \textbf{Secretarial Errors} — The editors' justification for changes: early typists misheard Prabhupāda's accent. Critics note that Prabhupāda approved the "errors" in hundreds of classes.
 
-**Alteration** — The documented scope of changes: 541 verses out of 700 were modified without informing readers. This isn't copy editing but consciousness transformation.
+#+LATEX: \textbf{Alteration} — The documented scope of changes: 541 verses out of 700 were modified without informing readers. This isn't copy editing but consciousness transformation.
 
-**Two Paths** — What the investigation reveals: the original creates mystics through heart connection; the revision creates theologians through intellectual understanding. Both valid, but readers deserve to know which they're choosing.
+#+LATEX: \textbf{Two Paths} — What the investigation reveals: the original creates mystics through heart connection; the revision creates theologians through intellectual understanding. Both valid, but readers deserve to know which they're choosing.
 
-**Underground Resistance** — Networks of devotees who preserved and distributed original editions when institutions tried to suppress them. Their work made this investigation possible.
+#+LATEX: \textbf{Underground Resistance} — Networks of devotees who preserved and distributed original editions when institutions tried to suppress them. Their work made this investigation possible.
 
-**Version Comparison** — The key to discovery: when readers compare editions side-by-side, the transformation becomes undeniable. What institutions hid for four decades, the internet exposed.
+#+LATEX: \textbf{Version Comparison} — The key to discovery: when readers compare editions side-by-side, the transformation becomes undeniable. What institutions hid for four decades, the internet exposed.
 
 #+LATEX: \clearpage
 #+LATEX: \thispagestyle{empty}
