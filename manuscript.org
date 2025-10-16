@@ -334,7 +334,7 @@ Picture the scene: six years after Prabhupāda's passing away, the Bhaktivedanta
 
 The method was elegantly simple: bookstores replaced old stock with new. Libraries shelved revisions where originals had been. New readers encountered what they believed to be the same book that had transformed the previous generation. The perfect crime, if crime it was—and that, dear reader, is the question that torments this investigation.
 
-Consider the mathematics of deception: more than three-quarters of the verses altered. In percentage terms—and how modern our age has become, reducing mystery to statistics—the overwhelming majority of the book rewritten. Not edited. Not improved. Rewritten. Which raises the philosophical question: at what point does revision become replacement? The medieval philosophers would have called this the Ship of Theseus problem, though they were concerned with wooden planks, not sacred words.
+Consider the mathematics of deception: more than three-quarters of the verses altered. In percentage terms—and how modern our age has become, reducing mystery to statistics—77% of verses modified. Not edited. Not improved. Altered. Which raises the philosophical question: at what point does revision become replacement? The medieval philosophers would have called this the Ship of Theseus problem, though they were concerned with wooden planks, not sacred words.
 
 Who authorized these changes? Here we encounter our first labyrinth: Prabhupāda was dead, his final desires ("I have no desires") echoing uselessly in Vṛndāvana. Dead authors cannot authorize. Dead authors cannot forbid. Dead authors become, in Barthes' famous phrase, simply dead—and the text becomes an orphan seeking new parents.
 
@@ -344,7 +344,7 @@ Why make these changes? Here the story becomes not complex but vertiginous. The 
 
 And the most subtle alteration was the one that would prove most significant: a pattern in the divine voice itself, alterations so delicate that only the most careful reader would notice how Krishna's words were introduced differently, how the original's invitation to personal devotion became the revision's demand for systematic understanding.
 
-For twenty years, the substitution remained perfect. Then the internet arrived, making comparison possible for the first time, and the discovery began.
+For twenty years, the substitution remained undetected. Then the internet arrived, making comparison possible for the first time, and the discovery began.
 
 But I am still getting ahead of myself. The story properly begins not with the crime but with its detection—and the detective was not a senior scholar but a doctoral candidate in Religious Studies at Stanford named Maya Rodriguez. She had completed her coursework and passed her qualifying exams—achieving ABD (All But Dissertation) status—and was in the early stages of her dissertation research when she discovered by accident what had been hidden by design. Her background in comparative religion, her academic training in textual analysis, and her access to Stanford's research resources would prove essential, though she could never have anticipated that a simple question from her hospitalized grandmother would launch an investigation that would ultimately replace her planned dissertation entirely.
 
@@ -363,7 +363,7 @@ Maya took both books—her grandmother's original and the temple's recent printi
 /buddhiyukto jahātīha ubhe sukṛta-duṣkṛte/
 /tasmād yogāya yujyasva yogaḥ karmasu kauśalam/
 
-But the English translations below were not merely different—they were restructured, reordered, fundamentally transformed. Same author's name embossed on the cover. Different philosophy entirely.
+But the English translations below were not merely different—they were restructured, reordered, fundamentally transformed. Same author's name embossed on the cover. Significantly different theological emphasis.
 
 Her grandmother's 1972 edition read:
 
@@ -377,7 +377,7 @@ Picture that moment: Maya holding two books with identical titles, identical cov
 
 Same Sanskrit. Same verse number. Fundamentally different instruction.
 
-That morning began what I can only call an investigation—though Maya was no detective, merely a granddaughter trying to understand why her spiritual inheritance had been altered without her knowledge. What she would discover would reveal what may be the most successful literary substitution in modern spiritual history. The perfect crime, executed so smoothly that millions of victims remain unaware they have been robbed.
+That morning began what I can only call an investigation—though Maya was no detective, merely a granddaughter trying to understand why her spiritual inheritance had been altered without her knowledge. What she would discover would reveal what may be the most successful literary substitution in modern spiritual history. A silent transformation, executed so smoothly that millions of readers remain unaware they have been given different books.
 
 That same afternoon, sitting in her grandmother's hospital room with both books spread before her, Maya began what she naively thought would be a simple comparison to reassure her grandmother—perhaps the temple had made a printing error, perhaps there was some rational explanation. Within hours, she found herself in a labyrinth that would have impressed Borges himself. Patterns emerged that made her hands tremble, not from fear but from the vertigo of discovering that what she had believed to be solid ground was actually an elaborate construction.
 
@@ -403,7 +403,7 @@ The changes followed three systematic patterns, each revealing a different aspec
 
 **The Pattern of Conditional Insertion**: Most subtly, descriptions of eternal spiritual relationships gained qualifications that transformed unconditional connection into conditional achievement. The soul was no longer simply God's "eternal fragmental part" but "eternal fragmental part, although struggling hard with the mind and senses." Grace became effort. Gift became attainment. Love became laboratory.
 
-What Maya discovered next was perhaps more disturbing than the alterations themselves: the perfect conspiracy of silence. No edition indicated revision. No introduction explained alterations. Libraries cataloged them identically. Bookstores sold them as the same work. The institutional machinery had conspired to make comparison impossible, ensuring that new readers would never know they were choosing between two fundamentally different spiritual universes.
+What Maya discovered next was perhaps more disturbing than the alterations themselves: an effective institutional silence. No edition indicated revision. No introduction explained alterations. Libraries cataloged them identically. Bookstores sold them as the same work. The institutional machinery had made comparison nearly impossible, ensuring that new readers would never know they were choosing between two fundamentally different spiritual universes.
 
 The question haunting Maya was deceptively simple: Who decided to rewrite a dead author's work, and why did they hide it for four decades?
 
@@ -424,7 +424,7 @@ September 17, 1965: the Jaladuta docks in Boston Harbor. Abhay Charan—now A.C.
 
 What followed reads like urban mythology: an elderly Indian mystic in the Bowery, surrounded by drug addicts and alcoholics, offering five-thousand-year-old mantras to hippies seeking truth through LSD. While American intellectuals debated the death of God, he taught street kids to dance for Krishna. The contrast was so absurd it could only be true.
 
-But the real mystery occurred after midnight. Every night at 12:30 AM, Prabhupāda would begin the work that would later justify both devotion and controversy: translating the Bhagavad-gītā. His method revealed everything about why his books would eventually become the center of a forty-year deception.
+But the real mystery occurred after midnight. Every night at 12:30 AM, Prabhupāda would begin the work that would later justify both devotion and controversy: translating the Bhagavad-gītā. His method revealed much about why his books would eventually become the center of a forty-year controversy.
 
 The process was ritualistic, almost alchemical. First, he would chant each Sanskrit verse repeatedly until its rhythm entered his consciousness—not memorization but embodiment. Then came the Roman transliteration, followed by word-for-word meanings. Only after this did he create the English translation, treating it not as linguistic exercise but as devotional meditation. Finally, his purports—elaborate commentaries that often exceeded the verses themselves in length and certainly in passion.
 
@@ -529,7 +529,7 @@ That conversation marked the moment Maya grasped the full scope of what had been
 
 She began tracking the real-world effects. Online spiritual forums showed the split clearly: people reading the original sought prayer support and talked about surrendering to God's mercy. People reading the revision shared meditation techniques and discussed systematic spiritual advancement.
 
-Neither group knew. They thought they were having doctrinal disagreements. In reality, they had been programmed by different editions to understand human spiritual condition in fundamentally incompatible ways.
+Neither group knew. They thought they were having doctrinal disagreements. In reality, they had been shaped by different editions to understand human spiritual condition in fundamentally incompatible ways.
 
 Maya's investigation had revealed something shocking: this word change—one among hundreds of alterations—had contributed to secretly dividing an entire spiritual movement, helping create two incompatible approaches to spiritual life while everyone believed they were following the same path.
 
