@@ -28,7 +28,7 @@
 
 # Typography Configuration - Optimized for print readability
 #+LATEX_HEADER: \usepackage{fontspec}
-#+LATEX_HEADER: \setmainfont{Palatino}
+#+LATEX_HEADER: \setmainfont{EB Garamond}[BoldFont={EB Garamond 12},BoldFeatures={FakeBold=1.2}]
 #+LATEX_HEADER: \usepackage[final,babel=true]{microtype}
 #+LATEX_HEADER: \usepackage{setspace}
 #+LATEX_HEADER: \setstretch{1.15}     % Increased line spacing for better readability
