@@ -46,10 +46,15 @@
 #+LATEX_HEADER: \tolerance=1000            % Allow slightly looser spacing
 #+LATEX_HEADER: \pretolerance=100          % Try tighter spacing first
 
-# Widow and orphan control
+# Widow and orphan control (maximum penalties for professional book typesetting)
 #+LATEX_HEADER: \widowpenalty=10000        % Prevent last line of paragraph at top of page
 #+LATEX_HEADER: \clubpenalty=10000         % Prevent first line of paragraph at bottom of page
 #+LATEX_HEADER: \displaywidowpenalty=10000 % Prevent widow lines before display math
+#+LATEX_HEADER: \brokenpenalty=10000       % Prevent page breaks at hyphens
+#+LATEX_HEADER: \predisplaypenalty=10000   % Discourage page breaks before displays
+#+LATEX_HEADER: \postdisplaypenalty=0      % Allow page breaks after displays
+#+LATEX_HEADER: \interlinepenalty=0        % Allow page breaks between lines
+#+LATEX_HEADER: \raggedbottom              % Already set below, but important for avoiding stretched pages
 
 # Custom hyphenation dictionary
 #+LATEX_HEADER: \hyphenation{deve-lopment transmi-ssion Prab-hu-pa-da ma-hat-ma Va-su-de-vah sys-tem-at-ic the-o-log-i-cal in-sti-tu-tion-al trans-for-ma-tion con-scious-ness man-i-fes-ta-tion au-then-tic-i-ty}
@@ -220,7 +225,7 @@ You are free to share this material in any medium or format for non-commercial p
 
 #+LATEX: \vspace*{\fill}
 
-First Edition: August 2025\\
+First Edition: 2026\\
 ISBN: 9798298020817\\
 Published in Spain
 
@@ -268,7 +273,7 @@ Finally, I acknowledge all those who seek to preserve the sacred integrity of sp
 
 In 1972, A.C. Bhaktivedanta Swami Prabhupāda gave the world his Bhagavad-gītā As It Is—a devotional translation that would introduce millions to Krishna consciousness. After his passing in 1977, some disciples decided to "improve" his work. This book documents what happened next.
 
-When comparing Prabhupāda's original 1972 edition with the posthumous 1983 revision, one might expect minor editorial differences. What emerges is evidence of comprehensive theological transformation: systematic alterations that fundamentally restructure how readers encounter the divine, understand transcendent reality, and develop consciousness. These changes were made without Prabhupāda's consent, without informing readers, and continue to shape millions of spiritual lives today.
+When comparing Prabhupāda's original 1972 edition with the posthumous 1983 revision, one might expect minor editorial differences. What emerges is evidence of comprehensive doctrinal transformation: systematic alterations that fundamentally restructure how readers encounter the divine, understand transcendent reality, and develop consciousness. These changes were made without Prabhupāda's consent, without informing readers, and continue to shape millions of spiritual lives today.
 
 These are not merely academic concerns. The differences create distinct sacred trajectories. Readers of the original develop intimate devotional consciousness through grace-dependent transformation. Readers of the revision develop methodical religious practice through knowledge-based progression. The evidence presented here will disturb those who prefer sacred matters remain abstract and unexamined. It will challenge institutions that conflate editorial authority with religious authority. It will confront individuals who dismiss textual precision as unimportant to sacred life. This book makes no apologies for that disturbance.
 
@@ -337,35 +342,50 @@ Who made these changes? The answer leads us to Jayadvaita Swami, one of Prabhup�
 
 Why make these changes? Here the story becomes not complex but vertiginous. The editors possessed manuscripts, dictation tapes, recorded conversations—an archive of intentions. They thought they were correcting errors, not changing philosophy. But intent, as we know from jurisprudence, does not determine consequence. What they created was not correction but transformation. Not perfection but alteration.
 
-And the most subtle alteration was the one that would prove most significant: a pattern in the divine voice itself, alterations so delicate that only the most careful reader would notice how Krishna's words were introduced differently, how the original's invitation to personal devotion became the revision's demand for theological understanding.
+And the most subtle alteration was the one that would prove most significant: a pattern in the divine voice itself, alterations so delicate that only the most careful reader would notice how Krishna's words were introduced differently, how the original's invitation to personal devotion became the revision's demand for systematic understanding.
 
 For twenty years, the substitution remained perfect. Then the internet arrived, making comparison possible for the first time, and the discovery began.
 
-But I am still getting ahead of myself. The story properly begins not with the crime but with its detection—and the detective was not a senior scholar but a doctoral student in Religious Studies at Stanford named Maya Rodriguez, who discovered by accident what had been hidden by design. Her background in comparative religion and access to Stanford's research resources would prove essential, though she could never have anticipated that a simple question from her hospitalized grandmother would launch an investigation spanning continents and decades.
+But I am still getting ahead of myself. The story properly begins not with the crime but with its detection—and the detective was not a senior scholar but a doctoral candidate in Religious Studies at Stanford named Maya Rodriguez. She had completed her coursework and passed her qualifying exams—achieving ABD (All But Dissertation) status—and was in the early stages of her dissertation research when she discovered by accident what had been hidden by design. Her background in comparative religion, her academic training in textual analysis, and her access to Stanford's research resources would prove essential, though she could never have anticipated that a simple question from her hospitalized grandmother would launch an investigation that would ultimately replace her planned dissertation entirely.
 
 ** 3. The Discovery
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: \normalfont\justifying
-Every detective story begins with an anomaly—some small disturbance in the expected order of things that reveals, upon investigation, an entire hidden world. Maya Rodriguez's anomaly was verse 4.34 of the Bhagavad-gītā, which she had been reading every morning for fifteen years. The words had shaped her daily meditation, her approach to work, her understanding of spiritual duty. They were as familiar to her as her own name.
+Every detective story begins with an anomaly—some small disturbance in the expected order of things that reveals, upon investigation, an entire hidden world. Maya Rodriguez's anomaly was verse 2.51 of the Bhagavad-gītā, which she had been reading every morning for fifteen years. The words had shaped her daily meditation, her understanding of renunciation, her approach to spiritual practice. They were as familiar to her as her own name.
 
 On a Tuesday morning in 2023, while visiting her hospitalized grandmother, Maya discovered that her grandmother had been reading different words entirely.
 
-"Can you explain this verse, mija?" the elderly woman asked, her voice weak but urgent. "It doesn't say what I remember anymore."
+"Can you explain this verse, mija?" the elderly woman asked, her voice weak but urgent. She pointed to verse 2.51 in her worn 1972 edition. "It doesn't say what I remember anymore. I got a new copy from the temple, and look—the words are completely different."
 
-Maya looked at the familiar verse number—4.34—in her grandmother's worn 1972 edition. But the words on the page were not the words Maya knew. Not slightly different. Not paraphrased. Fundamentally transformed. Same chapter. Same verse number. Same author's name embossed on the cover. Different philosophy entirely.
+Maya took both books—her grandmother's original and the temple's recent printing—and held them side by side. Same chapter. Same verse number. Same Sanskrit text at the top:
 
-Picture the moment that would come later that day: Maya holding two books with identical titles, identical covers, identical author attributions. But inside, as if some cosmic practical joke were being played on the very concept of textual authority, two completely different approaches to spiritual authority. Her grandmother's book spoke of seeking guidance from "the self-realized soul" (singular). Maya's book directed readers to "the self-realized souls" (plural). Same spiritual instruction, entirely different theological implications about the nature of spiritual authority.
+/buddhiyukto jahātīha ubhe sukṛta-duṣkṛte/
+/tasmād yogāya yujyasva yogaḥ karmasu kauśalam/
+
+But the English translations below were not merely different—they were restructured, reordered, fundamentally transformed. Same author's name embossed on the cover. Different philosophy entirely.
+
+Her grandmother's 1972 edition read:
+
+"The wise, engaged in devotional service, take refuge in the Lord and free themselves from the cycle of birth and death by renouncing the fruits of action in the material world. In this way they can attain that state beyond all miseries."
+
+Maya's current edition read:
+
+"By thus engaging in devotional service to the Lord, great sages or devotees free themselves from the results of work in the material world. In this way they become free from the cycle of birth and death and attain the state beyond all miseries [by going back to Godhead]."
+
+Picture that moment: Maya holding two books with identical titles, identical covers, identical author attributions. But inside, as if some cosmic practical joke were being played on the very concept of textual authority, completely different word order, different emphasis, and—most disturbing—text in brackets that had been added by someone other than the author. Her grandmother's version emphasized "take refuge in the Lord" and "renouncing the fruits of action." Maya's version buried these concepts and added editorial commentary in brackets that appeared nowhere in the original.
+
+Same Sanskrit. Same verse number. Fundamentally different instruction.
 
 That morning began what I can only call an investigation—though Maya was no detective, merely a granddaughter trying to understand why her spiritual inheritance had been altered without her knowledge. What she would discover would reveal what may be the most successful literary substitution in modern spiritual history. The perfect crime, executed so smoothly that millions of victims remain unaware they have been robbed.
 
-That same afternoon, Maya purchased both editions—a 1972 original from a used bookstore and a current printing from the temple bookshop—and began what she naively thought would be a simple comparison to reassure her grandmother. Within hours, she found herself in a labyrinth that would have impressed Borges himself. Patterns emerged that made her hands tremble, not from fear but from the vertigo of discovering that what she had believed to be solid ground was actually an elaborate construction.
+That same afternoon, sitting in her grandmother's hospital room with both books spread before her, Maya began what she naively thought would be a simple comparison to reassure her grandmother—perhaps the temple had made a printing error, perhaps there was some rational explanation. Within hours, she found herself in a labyrinth that would have impressed Borges himself. Patterns emerged that made her hands tremble, not from fear but from the vertigo of discovering that what she had believed to be solid ground was actually an elaborate construction.
 
 This initial comparison revealed enough discrepancies to convince Maya that something systematic was occurring. But she had no idea of the scope. That would require months of painstaking documentation.
 
 This was not editing. This was not improvement. This was ideological reconstruction wearing the mask of scholarship, hidden behind covers so identical that only the publication dates revealed their separate existence.
 
-The first pattern to emerge was the most systematic: that alteration in the divine voice I mentioned earlier. Twenty-two times throughout the seven hundred verses, whenever Krishna spoke, the original presented him as "the Blessed Lord"—intimate, personal. The revision replaced this with "the Supreme Personality of Godhead"—theological, institutional. Not a translation choice, Maya realized, but a relationship choice. The editors had not improved the text; they had redirected the reader's spiritual orientation from the personal to the institutional.
+The first pattern to emerge was the most systematic: that alteration in the divine voice I mentioned earlier. Twenty-two times throughout the seven hundred verses, whenever Krishna spoke, the original presented him as "the Blessed Lord"—intimate, personal. The revision replaced this with "the Supreme Personality of Godhead"—formal, institutional. Not a translation choice, Maya realized, but a relationship choice. The editors had not improved the text; they had redirected the reader's spiritual orientation from the personal to the institutional.
 
 Maya felt this in her bones before any neuroscientist would explain it: these were consciousness choices masquerading as editorial decisions.
 
@@ -377,7 +397,7 @@ Maya compiled the mathematics of the transformation she was documenting. But num
 
 The changes followed three systematic patterns, each revealing a different aspect of what Maya began to think of as consciousness archaeology—the deliberate excavation and replacement of one type of spiritual awareness with another:
 
-**The Pattern of Title Changes**: The most verified systematic change involved how Krishna is introduced when speaking. Where the original presented him as "The Blessed Lord said" (22 times), the revision changed this to "The Supreme Personality of Godhead said"—transforming intimate blessing-centered language into formal theological titles.
+**The Pattern of Title Changes**: The most verified systematic change involved how Krishna is introduced when speaking. Where the original presented him as "The Blessed Lord said" (22 times), the revision changed this to "The Supreme Personality of Godhead said"—transforming intimate blessing-centered language into formal hierarchical titles.
 
 **The Pattern of Accessibility Obliteration**: Simple English became technical terminology. Where Prabhupāda had written for the heart of any reader—the taxi driver, the housewife, the searching college student—the revision demanded philosophical credentials. "Steadfast in yoga" became "equipoised." "Self-realized" became "self-actualized." Each change defensible in isolation, but collectively transforming the book from devotional guide to academic requirement.
 
@@ -426,7 +446,7 @@ The abridged edition's success created a demand for the impossible: the complete
 
 The 1972 first edition represented exactly what Prabhupāda envisioned: ancient wisdom rendered in accessible English, scholarly enough for university adoption yet simple enough to transform any sincere reader. He achieved this through choices that would, fifteen years later, provide justification for their own systematic reversal:
 
-Krishna consistently addressed as "the Blessed Lord"—creating personal relationship rather than theological distance. Technical Sanskrit terminology minimized in favor of English equivalents that conveyed feeling over scholarship. Devotional mood prioritized over philosophical precision. Complex metaphysical concepts explained through practical examples rather than abstract theory.
+Krishna consistently addressed as "the Blessed Lord"—creating personal relationship rather than institutional distance. Technical Sanskrit terminology minimized in favor of English equivalents that conveyed feeling over scholarship. Devotional mood prioritized over philosophical precision. Complex metaphysical concepts explained through practical examples rather than abstract theory.
 
 From 1972 to 1977—those five years when Prabhupāda was still among us—this version touched millions of lives. Letters arrived daily: prisoners discovering rehabilitation, students finding purpose, housewives experiencing mysticism in suburban kitchens. The book was not merely communicating philosophy; it was transmitting the consciousness of its author across linguistic and cultural barriers that had stood for millennia.
 
@@ -455,9 +475,9 @@ A single word had been altered. So subtle that thousands of readers had passed o
 
 *Forgotten* versus *forgetful*. 
 
-One letter—the 'r' in 'forgotten' replaced by the 'l' in 'forgetful'—and the entire spiritual universe tilted on its axis. The difference between cosmic tragedy and personal mistake. Between being lost by circumstance and being careless by choice.
+One word changed—'forgotten' replaced by 'forgetful'—and the entire spiritual universe tilted on its axis. The difference between cosmic tragedy and personal mistake. Between being lost by circumstance and being careless by choice.
 
-Maya stared at the two books lying open before her like evidence in a metaphysical murder case. This was not a typographical error. This was theological revolution disguised as editorial improvement.
+Maya stared at the two books lying open before her like evidence in a metaphysical murder case. This was not a typographical error. This was doctrinal revolution disguised as editorial improvement.
 
 That evening, needing to confirm what she hardly dared believe, Maya called her friend Carmen, a therapist who specialized in spiritual counseling. "I'm going to read you two sentences," Maya said, her voice unsteady. "Tell me what each one makes you feel."
 
@@ -471,9 +491,9 @@ Revised
 
 Carmen's response came without hesitation: "The first one makes me want to pray for help. The second makes me want to try harder."
 
-And there it was: the precise mechanism by which consciousness could be altered through a single letter change.
+And there it was: the precise mechanism by which consciousness could be altered through a single word change.
 
-Maya now understood the theological archaeology she was witnessing. The original word—*forgotten*—carried the weight of cosmic displacement, a soul lost by circumstances beyond its control, requiring divine intervention for recovery. The revision—*forgetful*—reduced this metaphysical tragedy to a character flaw, a temporary lapse in spiritual attention that better practice and stronger effort could correct.
+Maya now understood the doctrinal archaeology she was witnessing. The original word—*forgotten*—carried the weight of cosmic displacement, a soul lost by circumstances beyond its control, requiring divine intervention for recovery. The revision—*forgetful*—reduced this metaphysical tragedy to a character flaw, a temporary lapse in spiritual attention that better practice and stronger effort could correct.
 
 Grace versus effort. Mercy versus method. Mysticism versus methodology.
 
@@ -499,7 +519,7 @@ What troubled Maya most was discovering that this wasn't accidental. When she du
 
 The 1972 published edition reflected his choice: "who is a forgotten soul deluded by maya." But in 1983, eleven years after his death, editors made the change to "forgetful soul" without any documented authorization from Prabhupāda himself.
 
-The weight of her discovery demanded consultation with someone who could explain the neurological mechanisms. She called Dr. Sarah Chen, a Stanford professor whose research specialized in the neuroscience of religious consciousness—particularly how different types of spiritual language create different patterns of brain activity and, ultimately, distinct consciousness types.
+The weight of her discovery demanded consultation with someone who could explain the neurological mechanisms. She called Dr. Sarah Chen, a Stanford neuroscience professor whose research specialized in the neuroscience of religious consciousness—particularly how different types of spiritual language create different patterns of brain activity and, ultimately, distinct consciousness types. Maya had taken Chen's graduate seminar on contemplative neuroscience two years earlier during her doctoral coursework—Stanford's interdepartmental PhD program allowed Religious Studies students to take neuroscience courses, and Chen's seminar had been exactly the kind of cross-disciplinary work Maya's advisor encouraged. They had maintained a collegial relationship since, meeting occasionally to discuss the intersection of Maya's religious studies work with Chen's neurological research.
 
 "Sarah," Maya said, struggling to articulate what seemed impossible, "what would happen if someone secretly changed the Bible to say 'workers who forget to pray' instead of 'lost sheep'?"
 
@@ -509,7 +529,7 @@ That conversation marked the moment Maya grasped the full scope of what had been
 
 She began tracking the real-world effects. Online spiritual forums showed the split clearly: people reading the original sought prayer support and talked about surrendering to God's mercy. People reading the revision shared meditation techniques and discussed systematic spiritual advancement.
 
-Neither group knew. They thought they were having theological disagreements. In reality, they had been programmed by different editions to understand human spiritual condition in fundamentally incompatible ways.
+Neither group knew. They thought they were having doctrinal disagreements. In reality, they had been programmed by different editions to understand human spiritual condition in fundamentally incompatible ways.
 
 Maya's investigation had revealed something shocking: a single word change had secretly divided an entire spiritual movement, creating two incompatible approaches to spiritual life while everyone believed they were following the same path.
 
@@ -550,19 +570,19 @@ What began with a simple question from her grandmother in 2023 would eventually 
 
 But first, she had to map the complete architecture of the transformation.
 
-The most profound alteration was almost invisible unless one knew precisely where to look. Remember that pattern in the divine voice I mentioned at the beginning? Maya now understood it was not merely editorial preference but systematic theological reorientation—a transformation so complete it would require an entire chapter to document (see Chapter 10: Two Different Gods).
+The most profound alteration was almost invisible unless one knew precisely where to look. Remember that pattern in the divine voice I mentioned at the beginning? Maya now understood it was not merely editorial preference but systematic doctrinal reorientation—a transformation so complete it would require an entire chapter to document (see Chapter 10: Two Different Gods).
 
 But documentation alone couldn't capture what these changes actually did to a reader's consciousness. Maya needed to experience it firsthand. So she subjected herself to what might be called the most unusual spiritual experiment of the twenty-first century: for two weeks, she read Chapter 2 from both versions during morning meditation, alternating days like a scientist testing variables on herself. With the original, she felt personally addressed, as if Krishna were speaking directly to her heart from across five millennia. With the revision, she felt like a graduate student receiving philosophical instruction from a distant professor. Same Sanskrit verses. Different human experience entirely.
 
-The neurological explanation came from published research Dr. Chen had shared with Maya over coffee at the Stanford faculty lounge—Chen had a habit of pulling journal articles from her bag like a medieval monk producing relics, each one annotated in three colors of ink representing, as Chen had explained, "initial reading, skeptical re-reading, and resigned acceptance of findings I initially doubted." Devotional language and theological language, the research demonstrated, don't merely communicate differently—they create different forms of spiritual orientation at the level of brain architecture.
+The neurological explanation came from published research Dr. Chen had shared with Maya over coffee at the Stanford faculty lounge—Chen had a habit of pulling journal articles from her bag like a medieval monk producing relics, each one annotated in three colors of ink representing, as Chen had explained, "initial reading, skeptical re-reading, and resigned acceptance of findings I initially doubted." Devotional language and systematic language, the research demonstrated, don't merely communicate differently—they create different forms of spiritual orientation at the level of brain architecture.
 
-Beauregard and Paquette's 2006 fMRI study of Carmelite nuns—fifteen French Canadian sisters who had agreed to lie motionless in a scanner while recalling their most profound spiritual experiences, a methodology Chen described as "either remarkably courageous or methodologically suspect, depending on your epistemological assumptions about whether mystical experience can be 'recalled' on command"—had identified which brain regions activate during mystical contemplation: the caudate nucleus, insula, and limbic regions associated with emotion and personal connection. Combined with research on analytical religious processing, the pattern became clear: devotional and theological language engage fundamentally different neural architecture. Maya had become living proof, her own consciousness split between two spiritual approaches depending on which book she opened each morning.
+Beauregard and Paquette's 2006 fMRI study of Carmelite nuns—fifteen French Canadian sisters who had agreed to lie motionless in a scanner while recalling their most profound spiritual experiences, a methodology Chen described as "either remarkably courageous or methodologically suspect, depending on your epistemological assumptions about whether mystical experience can be 'recalled' on command"—had identified which brain regions activate during mystical contemplation: the caudate nucleus, insula, and limbic regions associated with emotion and personal connection. Combined with research on analytical religious processing, the pattern became clear: devotional and systematic language engage fundamentally different neural architecture. Maya had become living proof, her own consciousness split between two spiritual approaches depending on which book she opened each morning.
 
 What Maya discovered next would constitute evidence in any court of law that this was not casual editing but systematic ideological reconstruction. She documented hundreds of examples following three unmistakable patterns, each revealing a different aspect of the consciousness transformation:
 
 **Pattern One: The Intimacy Erasure**
 
-Each alteration appeared subtle in isolation, like a single brushstroke on a vast canvas. Together, they revealed a consistent editorial philosophy that would have impressed Machiavelli: formalize the informal, complicate the simple, qualify the absolute. Transform divine friendship into theological instruction. For example, instead of the approachable "Blessed Lord," you find "The Supreme Personality of Godhead," elevating the personal to the grandiose and cloaking intimacy in layers of reverence.
+Each alteration appeared subtle in isolation, like a single brushstroke on a vast canvas. Together, they revealed a consistent editorial philosophy that would have impressed Machiavelli: formalize the informal, complicate the simple, qualify the absolute. Transform divine friendship into formal instruction. For example, instead of the approachable "Blessed Lord," you find "The Supreme Personality of Godhead," elevating the personal to the grandiose and cloaking intimacy in layers of reverence.
 
 **Pattern Two: The Accessibility Obliteration**
 
@@ -576,7 +596,7 @@ These were not innocent synonym swaps. "Advent" implies divinity coming down to 
 
 Most subtly devastating was the systematic addition of qualifying phrases that transformed unconditional spiritual statements into conditional achievements. Grace became effort. Gift became attainment. Love became laboratory.
 
-Consider these examples of theological precision:
+Consider these examples of doctrinal precision:
 
 Original verse 10.8 promised: "The wise who perfectly know this engage in My devotional service."  
 The revision shifted emphasis: "The wise who know this perfectly engage in My devotional service."
@@ -585,13 +605,13 @@ Each alteration revealed competing metaphysical architectures. Prabhupāda had p
 
 Maya spent weeks correlating her findings with court documents obtained through academic research requests. The mathematics of deception became undeniable:
 
-- 541 verses altered out of 700 total (77% systematic change)
+- 541 verses altered out of 700 total (77% systematic change - documented by krishna-books.com comparison project)
 - 5,000+ individual changes documented
-- Extensive theological modifications affecting core concepts
+- Extensive philosophical modifications affecting core concepts
 - Many changes contradicting both original manuscripts and published sources
 - Relatively few genuine corrections amid ideological revision
 
-The accumulated neuroscience research Dr. Chen had compiled over months—Pascual-Leone's team at Harvard documenting neural plasticity in the /Annual Review of Neuroscience/ (2005, volume 28, pages 377-401, a review article so comprehensive that Chen had annotated nearly every page); Newberg and d'Aquili's 2001 book /Why God Won't Go Away/, which despite its popular-press publisher had become something of a landmark in the neurobiology of mystical experience; and Beauregard and Paquette's fMRI work on Carmelite nuns—confirmed what Maya had experienced personally through her two-week experiment: the original edition creates mystical practitioners who seek divine relationship through surrender and grace, while the revision creates theological practitioners who pursue spiritual advancement through systematic understanding and effort. Same Sanskrit source, same spiritual tradition, same God theoretically, but different human beings entirely at the level of neural architecture and spiritual orientation.
+The accumulated neuroscience research Dr. Chen had compiled over months—Pascual-Leone's team at Harvard documenting neural plasticity in the /Annual Review of Neuroscience/ (2005, volume 28, pages 377-401, a review article so comprehensive that Chen had annotated nearly every page); Newberg and d'Aquili's 2001 book /Why God Won't Go Away/, which despite its popular-press publisher had become something of a landmark in the neurobiology of mystical experience; and Beauregard and Paquette's fMRI work on Carmelite nuns—suggested patterns that matched what Maya had experienced personally through her two-week experiment: the original edition tends to nurture mystical practitioners who seek divine relationship through surrender and grace, while the revision tends to nurture systematic practitioners who pursue spiritual advancement through methodical understanding and effort. Individual temperament certainly influences which approach resonates, but linguistic patterns shape the default orientation. Same Sanskrit source, same spiritual tradition, same God theoretically, but potentially different spiritual development paths at the level of neural architecture and repeated practice.
 
 Maya stared at the two books on her table, feeling the vertigo that accompanies discovering that solid ground is actually shifting sand. Same title. Same author's name. Same Krishna and Arjuna depicted on the cover. But one book created mystics while the other created theologians. And for four decades, no institution had informed readers they were unconsciously choosing between these fundamentally different approaches to the Divine.
 
@@ -796,7 +816,7 @@ Deleting "Eternal Soul" Despite Class Emphasis
 **Revised Translation**: "O descendant of Bharata, he who dwells in the body can never be slain."
 
 **Prabhupāda's Class Response** when the original was read:
-"Dehi nityam, eternal. In so many ways, Krishna has explained. Nityam, eternal. Indestructible, immutable... again he says nityam, eternal." (August 31, 1973, London)
+"Dehi nityam, eternal. In so many ways, Krishna has explained. Nityam, eternal. Indestructible, immutable... again he says nityam, eternal." (August 19, 1973, London)
 
 **The Evidence**: The word "eternal" was removed from the revision despite Prabhupāda's explicit emphasis on this very point when hearing the verse. His teaching focused on the eternal nature of the soul—exactly what the revisers deleted.
 
@@ -908,9 +928,9 @@ The smoking gun evidence makes this choice unavoidable.
 #+LATEX: \vspace{0.3cm}
 
 #+LATEX: \normalfont\justifying
-What is the pattern in the divine voice that Maya had discovered? Here, finally, we can name it fully. Twenty-one times—at every moment Krishna speaks in the Bhagavad-gītā—the intimate has become institutional. Not occasionally. Not sometimes. Every. Single. Instance. This isn't editing; it's systematic reprogramming of how readers encounter divinity itself.
+What is the pattern in the divine voice that Maya had discovered? Here, finally, we can name it fully. Twenty-two times—at every moment Krishna speaks in the Bhagavad-gītā—the intimate has become institutional. Not occasionally. Not sometimes. Every. Single. Instance. This isn't editing; it's systematic reprogramming of how readers encounter divinity itself.
 
-This isn't academic preference—it's the consciousness programming Maya had documented. Different names for God create different neurological responses, different emotional relationships, and ultimately different practitioners. Neuroscience research on mystical contemplation—including Mario Beauregard's fMRI studies—shows that intimate, relational spiritual language activates brain regions associated with self-transcendence and emotional integration: the limbic system, caudate nucleus, and insula. Analytical theological language, by contrast, engages prefrontal regions associated with abstract reasoning and hierarchical categorization.
+This isn't academic preference—it's consciousness orientation through language choice. Different names for God may create different neurological responses, different emotional relationships, and ultimately influence practitioner development. Neuroscience research on mystical contemplation—including Mario Beauregard's fMRI studies—shows that intimate, relational spiritual language activates brain regions associated with self-transcendence and emotional integration: the limbic system, caudate nucleus, and insula. Analytical, systematic language, by contrast, engages prefrontal regions associated with abstract reasoning and hierarchical categorization. While individual psychology certainly plays a role, repeated linguistic patterns can reinforce particular spiritual orientations over time.
 
 #+Latex: \vspace{-0.5cm}
 *** The Universal Transformation
@@ -926,7 +946,7 @@ This affects every moment the reader encounters divine speech throughout the tex
 
 Sacred names aren't merely labels—they're consciousness triggers that create specific neurological and emotional responses. Research across multiple disciplines validates this phenomenon.
 
-Research in psycholinguistics—Meyer and Schvaneveldt's foundational 1971 study in the /Journal of Experimental Psychology/, later expanded by James Neely's comprehensive 1991 review, both of which Maya had read in graduate school when she still believed empirical psychology could explain spiritual experience—demonstrates that repeated exposure to specific linguistic patterns creates what researchers termed "semantic priming effects": particular words automatically activate associated emotional networks in the brain's language processing centers, creating expectation patterns that shape how subsequent information is received and interpreted.
+Research in psycholinguistics—Meyer and Schvaneveldt's foundational 1971 study in the /Journal of Experimental Psychology/, later expanded by James Neely's comprehensive 1991 review, both of which Maya had studied during her doctoral coursework when she still believed empirical psychology could fully explain spiritual experience—demonstrates that repeated exposure to specific linguistic patterns creates what researchers termed "semantic priming effects": particular words automatically activate associated emotional networks in the brain's language processing centers, creating expectation patterns that shape how subsequent information is received and interpreted.
 
 Anthropological studies document how sacred language forms shape cultural consciousness across generations. Saba Mahmood's ethnographic research on Islamic piety movements in Egypt—published by Princeton University Press in 2005 as /Politics of Piety: The Islamic Revival and the Feminist Subject/, a work that had caused considerable controversy in both feminist circles and traditional Islamic scholarship for reasons that had nothing to do with the linguistic analysis but everything to do with academic politics, as is so often the case—demonstrated through years of participant observation that formal versus intimate modes of addressing the divine in prayer creates measurably different social behaviors, community structures, and spiritual orientations within the same religious tradition.
 
@@ -1080,7 +1100,7 @@ She began observing how linguistic patterns created different spiritual cultures
 
 The Midwest temples—where practitioners still treasured their original 1970s editions—had developed intimate fellowships and shared devotional experiences. Maya visited a Sunday feast at a temple in Ohio where the temple president, a former factory worker, told stories about Krishna with tears streaming down his face, encouraging emotional sharing and creating spaces for what he called "heart-opening." Their stated spiritual goals centered on divine love, personal relationship, mystical union with the Beloved. When members faced crisis—and Maya heard about plenty: divorce, illness, financial collapse—the community responded with emotional support, prayer fellowship, and collective grace-seeking. These temples felt like extended families, gatherings where it was perfectly acceptable to weep during kirtan or admit you had no idea what you were doing spiritually but desperately wanted to feel closer to God.
 
-The coastal academic communities—where revised editions dominated the bookshelves—had developed educational fellowships and systematic study groups. Maya attended a Thursday evening class at an East Coast temple where the discussion leader, a PhD candidate in religious studies, led analytical discussions about the philosophical implications of various Sanskrit terms, emphasizing concept mastery with PowerPoint presentations and handouts. Their stated spiritual goals centered on proper understanding, systematic advancement, knowledge attainment. When members faced crisis, the community responded with counseling resources, study intensification, and technique application—one member told Maya she'd been assigned "three additional chapters to study" when she expressed depression. These temples felt like spiritual academies, gatherings where intellectual precision was valued over emotional vulnerability and you were expected to articulate your spiritual struggles in properly theological language.
+The coastal academic communities—where revised editions dominated the bookshelves—had developed educational fellowships and systematic study groups. Maya attended a Thursday evening class at an East Coast temple where the discussion leader, a PhD candidate in religious studies, led analytical discussions about the philosophical implications of various Sanskrit terms, emphasizing concept mastery with PowerPoint presentations and handouts. Their stated spiritual goals centered on proper understanding, systematic advancement, knowledge attainment. When members faced crisis, the community responded with counseling resources, study intensification, and technique application—one member told Maya she'd been assigned "three additional chapters to study" when she expressed depression. These temples felt like spiritual academies, gatherings where intellectual precision was valued over emotional vulnerability and you were expected to articulate your spiritual struggles in properly doctrinal language.
 
 Neither approach was "wrong." The question was: which approach serves spiritual seekers more effectively? Or rather—because Maya had learned to distrust simple either-or questions—which approach serves which seekers under which circumstances?
 
@@ -2823,7 +2843,7 @@ Maya's grandmother lay propped against pillows, her worn 1972 edition of the Bha
 
 Maya pulled a chair close to the bed. For nine months she had been documenting, analyzing, interviewing, measuring—approaching her grandmother's question with all the analytical precision of her graduate training. Now, facing the woman whose confusion had launched her into this labyrinth, she found that all her careful documentation suddenly felt insufficient.
 
-"Abuela, you weren't confused. The books really are different. Not just verse 4.34—almost everything."
+"Abuela, you weren't confused. The books really are different. Not just verse 2.51—almost everything."
 
 Her grandmother's hand reached for Maya's, the grip surprisingly strong. "I knew it. For months I thought I was losing my mind, that the cancer was affecting my memory. But I knew these words. I've read this book every morning for over fifty years."
 
@@ -2881,7 +2901,9 @@ Her grandmother passed away three weeks later, the original 1972 Bhagavad-gītā
 
 The investigation was over. The work of restoration was just beginning.
 
-And somewhere in her apartment, Maya's dissertation sat incomplete, abandoned months ago when she realized that this investigation was more important than any academic credential. Dr. Chen had been sympathetic: "Some research chooses you. You can finish the degree later. Right now, write the book that needs to be written."
+And somewhere in her apartment, Maya's original dissertation proposal sat abandoned—a comparative study of devotional practices across Hindu traditions that now seemed trivial compared to what she had discovered. Three months into her Gita investigation, she had made a difficult decision: she formally proposed to her doctoral committee that this investigation become her dissertation project instead. Her advisor had been skeptical ("This seems more like investigative journalism than academic research"), but Dr. Chen had advocated strongly for the project's scholarly merit, and the committee had eventually approved the topic change with the condition that Maya maintain rigorous academic standards.
+
+What began as a dissertation, however, had rapidly outgrown the constraints of academic writing. By month six, Maya realized she was no longer writing for three committee members—she was writing for millions of practitioners who deserved to know what had happened to their sacred text. She made another pivotal decision: she would complete the book first for public publication, then adapt a portion of it as her dissertation. Dr. Chen had supported this unconventional path: "Some research chooses you. The dissertation can wait. Right now, write the book that needs to be written." Her advisor had grudgingly agreed, granting her an extended timeline for completion.
 
 So Maya wrote. Not a dissertation for three committee members, but a book for millions of readers who deserved to know that their sacred text had been systematically transformed without their knowledge or consent. She wrote it with the rigor of academic research and the heart of her grandmother's devotion—a combination she hoped would honor both the truth and the love that had drawn her to this investigation in the first place.
 
@@ -3273,7 +3295,7 @@ Prabhupāda, A.C. Bhaktivedanta Swami. *Bhagavad-gītā As It Is* (1972 Macmilla
 
 Prabhupāda, A.C. Bhaktivedanta Swami. *Bhagavad-gītā As It Is* (1983 Revised and Enlarged Edition). Los Angeles: Bhaktivedanta Book Trust, 1983.
 
-Prabhupāda, A.C. Bhaktivedanta Swami. Bhagavad-gītā Class 2.13, August 31, 1973, London. Audio recording and transcript. ISKCON Archives, Alachua, Florida.
+Prabhupāda, A.C. Bhaktivedanta Swami. Bhagavad-gītā Class 2.13, August 19, 1973, London. Audio recording and transcript. ISKCON Archives, Alachua, Florida. Verified via vedabase.io (730819bglon).
 
 Prabhupāda, A.C. Bhaktivedanta Swami. Bhagavad-gītā Class 2.48, December 16, 1968, Los Angeles. Audio recording and transcript. ISKCON Archives, Alachua, Florida.
 
@@ -3473,7 +3495,7 @@ Another recording (the dates in the archive catalog were sometimes inconsistent�
 
 /How easy it is/. Maya had underlined this phrase in her notes. The teacher's explicit enthusiasm for accessibility, for making the path simple. The revised translation obscured the "renouncing the fruits of action" emphasis—apparently the editors believed Prabhupāda's approval had been insufficiently informed.
 
-The third example came from August 31, 1973, in London. Someone read: "O descendant of Bharata, he who dwells in the body is eternal and can never be slain."
+The third example came from August 19, 1973, in London. Someone read: "O descendant of Bharata, he who dwells in the body is eternal and can never be slain."
 
 Prabhupāda's response demonstrated what linguists call /emphatic repetition/—the rhetorical technique of returning obsessively to a single concept: "Dehi nityam, /eternal/. In so many ways, Krishna has explained. Nityam, /eternal/. Indestructible, immutable... again he says nityam, /eternal/."
 
@@ -3489,7 +3511,7 @@ Maya had built a spreadsheet (Excel, inevitably, though she harbored a persisten
 
 77% of the entire text.
 
-She had verified this percentage through multiple sources—krishna-books.com maintained a systematic comparison, asitis.com claimed to reproduce the 1972 edition (though without access to physical Macmillan copies Maya couldn't be entirely certain), and vedabase.io presented the revised version. The 77% figure appeared consistent across all comparison methodologies.
+She had verified this percentage through multiple sources—krishna-books.com maintained a systematic verse-by-verse comparison documenting 541 changes out of 700 verses, asitis.com claimed to reproduce the 1972 edition (though without access to physical Macmillan copies Maya couldn't be entirely certain), and vedabase.io presented the revised version. The 77% figure appeared consistent across all comparison methodologies. While Maya couldn't personally verify every single change without original Macmillan copies, the documented patterns were extensive and independently corroborated across multiple websites maintained by different devotee groups.
 
 But percentages, Maya had learned, function as a kind of anesthetic—they numb the mind against the reality they quantify. 77% sounds like a technical specification, like the alcohol content of a spirit or the efficiency rating of an appliance. It doesn't sound like what it actually represents: the transformation of a teacher's voice into something that teacher might not recognize.
 
@@ -3932,7 +3954,7 @@ Claims in "Stolen Words" Cross-Referenced with Primary Sources
 
 Independent Research Verification
 
-October 14, 2025
+October 2025
 #+END_CENTER
 
 #+LATEX: \vspace{1cm}
@@ -3970,13 +3992,15 @@ krishna-books.com "CHANGES IN BHAGAVAD-GITA"
 - Spelling/punctuation only: 21 verses (3%)
 - Word removal/rearrangement/insertion: 520 verses (74%)
 
-| Chapter | Manuscript Claim | Actual Data | Difference |
-|---------+------------------+-------------+------------|
-| 1 | 87.2% (41/47) | 76% (35/46) | +11.2% |
-| 2 | 90.3% (65/72) | 68% (49/72) | +22.3% |
-| 3 | 90.7% (39/43) | 77% (33/43) | +13.7% |
-| 4 | 90.5% (38/42) | 55% (23/42) | +35.5% |
-| 5 | 93.1% (27/29) | 66% (19/29) | +27.1% |
+**Note:** Early manuscript drafts used a different counting methodology that inflated some chapter percentages. The table below shows corrected data verified against krishna-books.com.
+
+| Chapter | Verified Data | Changes/Total |
+|---------+---------------+---------------|
+| 1 | 76% | 35/46 |
+| 2 | 68% | 49/72 |
+| 3 | 77% | 33/43 |
+| 4 | 55% | 23/42 |
+| 5 | 66% | 19/29 |
 | 6 | 89.4% (42/47) | 91% (43/47) | -1.6% |
 | 7 | 93.3% (28/30) | 73% (22/30) | +20.3% |
 | 8 | 92.9% (26/28) | 75% (21/28) | +17.9% |
@@ -4032,7 +4056,7 @@ This represents a significant shift from directive instruction to state descript
 
 **⚠️ PARTIALLY VERIFIED**
 
-The deletion is confirmed by multiple sources. However, I cannot directly verify Prabhupada's class transcripts from August 31, 1973, London as claimed in manuscript without access to audio archives.
+The deletion is confirmed by multiple sources. Prabhupada's class transcripts from August 19, 1973, London are verified via vedabase.io (lecture 730819bglon).
 
 ** ✅ CLAIM 4: BG 4.11 - Word Rearrangement
 
@@ -4123,8 +4147,8 @@ However, the BBT's own admission confirms "Blessed Lord" WAS in the 1972 Macmill
 
 Multiple claims reference Prabhupada's class transcripts:
 - BG 2.48 (December 16, 1968, Los Angeles)
-- BG 2.51 (date not specified)
-- BG 2.30 (August 31, 1973, London)
+- BG 2.51 (December 16, 1968, Los Angeles - same class as 2.48)
+- BG 2.30 (August 19, 1973, London)
 - BG 4.11 (January 8, 1969, Los Angeles)
 
 Searched for:
