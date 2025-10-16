@@ -300,7 +300,14 @@ The evidence is clear. What it means cannot be ignored. How readers respond is t
 #+LATEX: \mbox{}
 #+LATEX: \newpage
 
-# Part I: The Crisis Revealed
+#+LATEX: \clearpage
+#+LATEX: \pagestyle{empty}
+#+LATEX: \vspace*{0.25\textheight}
+#+LATEX: \begin{center}
+#+LATEX: {\Huge\bfseries Part I}\\[0.5cm]
+#+LATEX: {\Large The Crisis Revealed}
+#+LATEX: \end{center}
+#+LATEX: \clearpage
 
 ** 1. The Sacred Gift
 #+LATEX: \thispagestyle{chapterpage}
@@ -896,7 +903,14 @@ The house had been divided. Not by those who raised questions about the changes,
 #+LATEX: \mbox{}
 #+LATEX: \newpage
 
-# Part II: The Spiritual Impact
+#+LATEX: \clearpage
+#+LATEX: \pagestyle{empty}
+#+LATEX: \vspace*{0.25\textheight}
+#+LATEX: \begin{center}
+#+LATEX: {\Huge\bfseries Part II}\\[0.5cm]
+#+LATEX: {\Large The Spiritual Impact}
+#+LATEX: \end{center}
+#+LATEX: \clearpage
 
 ** 10. Two Different Gods
 #+LATEX: \markright{Two Different Gods}
@@ -1317,7 +1331,14 @@ Some questions, she had learned, do not have answers. They have only further que
 #+LATEX: \mbox{}
 #+LATEX: \newpage
 
-# Part III: The Human Consequences
+#+LATEX: \clearpage
+#+LATEX: \pagestyle{empty}
+#+LATEX: \vspace*{0.25\textheight}
+#+LATEX: \begin{center}
+#+LATEX: {\Huge\bfseries Part III}\\[0.5cm]
+#+LATEX: {\Large The Human Consequences}
+#+LATEX: \end{center}
+#+LATEX: \clearpage
 
 ** 13. Two Paths, Two Souls
 #+LATEX: \markright{Two Paths, Two Souls}
@@ -1711,8 +1732,6 @@ As Maya left the café, she knew her next step: confronting the defenders of the
 #+LATEX: \mbox{}
 #+LATEX: \newpage
 
-# Part IV: The Institutional Response
-
 ** 15. The Defenders and Their Strategies
 #+LATEX: \markright{The Defenders and Their Strategies}
 #+LATEX: \thispagestyle{chapterpage}
@@ -2101,8 +2120,6 @@ Prabhupāda wanted his Bhagavad-gītā preserved "As It Is"—exactly as he publ
 #+LATEX: \vspace*{\fill}
 #+LATEX: \clearpage
 
-# Part V: The Path Forward
-
 ** Epilogue
 #+LATEX: \markright{Epilogue}
 #+LATEX: \thispagestyle{chapterpage}
@@ -2187,6 +2204,14 @@ Somewhere, another grandmother is reading her Bhagavad-gītā, noticing that the
 The words that shape souls deserve to be chosen consciously, not stolen quietly. That's the only certainty nine months of investigation revealed. Everything else—which version is "better," which path is "right," which future is "authentic"—remains, as it should, a choice each reader must make for themselves.
 
 Maya's choice, in the end, was simply to give them back the choice itself.
+
+#+LATEX: \clearpage
+#+LATEX: \pagestyle{sectionopening}
+#+LATEX: \thispagestyle{sectionopening}
+#+LATEX: \markboth{}{}
+#+LATEX: \markright{}
+#+LATEX: \vspace*{0.25\textheight}
+#+LATEX: \begin{center}
 #+LATEX: {\Huge\bfseries Glossary}
 #+LATEX: \end{center}
 #+LATEX: \newpage
