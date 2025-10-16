@@ -354,7 +354,7 @@ But I am still getting ahead of myself. The story properly begins not with the c
 #+LATEX: \normalfont\justifying
 Every detective story begins with an anomaly—some small disturbance in the expected order of things that reveals, upon investigation, an entire hidden world. Maya Rodriguez's anomaly was verse 2.51 of the Bhagavad-gītā, which she had been reading every morning for fifteen years. The words had shaped her daily meditation, her understanding of renunciation, her approach to spiritual practice. They were as familiar to her as her own name.
 
-On a Tuesday morning in 2023, while visiting her hospitalized grandmother, Maya discovered that her grandmother had been reading different words entirely.
+On a Tuesday morning in early 2023, while visiting her grandmother—recently hospitalized for what doctors said was a treatable condition—Maya discovered that her grandmother had been reading different words entirely.
 
 "Can you explain this verse, mija?" the elderly woman asked, her voice weak but urgent. She pointed to verse 2.51 in her worn 1972 edition. "It doesn't say what I remember anymore. I got a new copy from the temple, and look—the words are completely different."
 
@@ -1458,6 +1458,8 @@ West Coast temple members (revised readers) described internal processes like "I
 
 Both had recovered. Both had grown. But they had become fundamentally different types of spiritual practitioners—and neither realized they were reading different books.
 
+Whether the editions shaped the communities or different communities naturally gravitated toward editions matching their existing orientations remained an open question. Maya suspected both forces were at work: textual influence and selective affinity reinforcing each other over time. What remained undeniable was the correlation itself—wherever original editions predominated, heart-centered communities emerged; wherever revisions predominated, knowledge-centered communities developed.
+
 Maya's research extended to interfaith contexts when she attended a series of dialogues between Hindu, Christian, and Buddhist practitioners organized by Stanford's Religious Studies department.
 
 The speaker representing Krishna consciousness from the Midwest temple brought her worn original edition and spoke in heart-centered sharing and devotional testimony, finding mystical commonality with the Sufi Muslim speaker who quoted Rumi and the Catholic contemplative who referenced Teresa of Avila. They discovered shared divine love emphasis, universal heart-connection, grace traditions that transcended theological differences. The dialogue method emphasized emotional authenticity, spiritual experience sharing, heart-level connection—all three speakers crying at one point while describing their encounters with the Divine. The Krishna devotee's "conversion approach," if it could be called that, worked through inspirational sharing, devotional attraction, heart-opening invitation. She invited people to "come experience the love of God" without requiring them to understand Vedic philosophy first.
@@ -1531,7 +1533,7 @@ Two paths, two souls, two completely different spiritual destinies—hidden in e
 #+LATEX: \normalfont\justifying
 Maya Rodriguez had spent three months at her kitchen table documenting the textual changes through systematic comparison. Now she needed to understand how it happened. How could a sacred text be systematically transformed without anyone noticing? 
 
-Her investigation led her to a retired BBT employee named David Matthews, who had worked in the publishing department from 1978 to 1985. They met at a quiet café in California.
+Her investigation led her to David Matthews, a former BBT employee who had resigned from the publishing department in 1985 after discovering the scope of the changes. They met at a quiet café in California.
 
 "I was young and idealistic," David began, stirring his coffee slowly. "We all believed we were serving a sacred mission—preserving Prabhupāda's books for future generations."
 
@@ -2835,7 +2837,9 @@ The two futures await your decision.
 
 #+LATEX: \normalfont\justifying
 
-The hospital room looked exactly as it had nine months earlier, when Maya's investigation had begun with a simple question. Same beige walls, same antiseptic smell barely masked by the flowers Maya had brought weekly, same mechanical sounds of monitors tracking the slow persistence of life. But everything else had changed.
+The hospital room looked different this time—starker, more clinical. Her grandmother had been discharged after that first hospitalization in the spring, had spent three months at home continuing her daily readings. But the cancer had returned with unexpected aggression in the fall, and now she was back, and this time the doctors offered no reassurances about treatable conditions.
+
+Nine months since that first conversation about verse 2.51. Nine months of Maya's investigation while her grandmother read both books at home, marking passages, writing marginal notes, waiting for answers.
 
 Maya's grandmother lay propped against pillows, her worn 1972 edition of the Bhagavad-gītā resting on the blanket beside her. The book's spine was cracked, its pages soft from decades of handling, corners dog-eared to mark verses that had sustained her through her husband's death, her daughter's rebellion, her own long illness. Next to it, almost obscenely pristine by comparison, sat Maya's 2023 printing—the book that had sparked this entire investigation.
 
