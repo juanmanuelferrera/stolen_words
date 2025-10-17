@@ -7,7 +7,7 @@
 #+LATEX_CLASS: book
 #+LATEX_CLASS_OPTIONS: [12pt,twoside]
 #+LATEX_COMPILER: xelatex
-#+OPTIONS: toc:nil num:t title:nil H:2
+#+OPTIONS: toc:nil num:t title:nil
 
 # Page Layout Configuration (6x9 inches = 152.4x228.6mm)
 # Amazon KDP balanced margins for professional appearance
@@ -160,8 +160,8 @@
 #+LATEX_HEADER: }
 #+LATEX_HEADER: % Prevent section-level headings (Parts) from setting marks
 #+LATEX_HEADER: \renewcommand{\sectionmark}[1]{}
-#+LATEX_HEADER: % Disable subsection marks to prevent *** headings from appearing in headers
-#+LATEX_HEADER: \renewcommand{\subsectionmark}[1]{}
+#+LATEX_HEADER: % Make subsection-level headings (Chapters) set rightmark only
+#+LATEX_HEADER: \renewcommand{\subsectionmark}[1]{\markright{#1}}
 #+LATEX_HEADER: % Override LaTeX's automatic plain style for chapters
 #+LATEX_HEADER: \renewcommand{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi\thispagestyle{plain}\global\@topnum\z@\@afterindentfalse\secdef\@chapter\@schapter}
 #+LATEX_HEADER: % Reduce section and subsection spacing for tighter layout
@@ -181,6 +181,7 @@
 
 # Optimize indentation and spacing for professional compact layout
 #+LATEX_HEADER: \setcounter{secnumdepth}{0} % Remove section numbering
+#+LATEX_HEADER: \setcounter{tocdepth}{0} % Limit TOC depth
 #+LATEX_HEADER: \setlength{\leftmargini}{1.2em} % Reduce first level indent
 #+LATEX_HEADER: \setlength{\leftmarginii}{1.0em} % Reduce second level indent
 #+LATEX_HEADER: \setlength{\leftmarginiii}{0.8em} % Reduce third level indent
@@ -241,8 +242,10 @@ Published in Spain
 #+LATEX: \clearpage
 
 # Acknowledgements page (after TOC, before Preface - professional standard)
-#+LATEX: \section*{Acknowledgements}
-#+LATEX: \addcontentsline{toc}{section}{Acknowledgements}
+** Acknowledgements
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
 #+LATEX: \thispagestyle{frontmatter}
 
 This work would not have been possible without the grace and guidance of my spiritual masters, whose teachings continue to illuminate the path of devotion and scholarship.
@@ -265,8 +268,7 @@ Finally, I acknowledge all those who seek to preserve the sacred integrity of sp
 #+LATEX: \startmainmatter
 #+LATEX: \pagestyle{fancy}
 
-#+LATEX: \section*{Preface}
-#+LATEX: \addcontentsline{toc}{section}{Preface}
+** Preface
 #+LATEX: \thispagestyle{plain}
 #+LATEX: \setlength{\parskip}{3pt plus 1pt minus 1pt}
 #+LATEX: \emergencystretch=3em
@@ -286,18 +288,33 @@ The evidence is clear. What it means cannot be ignored. How readers respond is t
 **Note on Narrative Framework:** This book uses narrative storytelling to present documented evidence. Character names and specific anecdotes are fictionalized to illustrate documented patterns—the data itself is always real and verifiable. Fictional narrative characters include Maya Rodriguez, Dr. Sarah Chen, David Matthews, and temple community members whose experiences are composites drawn from documented testimonies. However, all scientific studies cited are authentic peer-reviewed research from real academics (Pascual-Leone, Beauregard, Paquette, Newberg, d'Aquili, and others). All verse comparisons, chapter statistics, textual changes, and Prabhupāda's recorded class transcripts can be independently verified through publicly available sources including asitis.com (1972 edition), vedabase.io (revised edition), and krishna-books.com documentation.
 
 #+LATEX: \clearpage
+#+LATEX: \thispagestyle{empty}
+#+LATEX: \mbox{}
+
+#+LATEX: \cleardoublepage
+#+LATEX: \thispagestyle{empty}
+#+LATEX: \vspace*{0.25\textheight}
+#+LATEX: \begin{center}
+#+LATEX: {\Huge\bfseries\MakeUppercase{\textbf{I}}}\\[0.5cm]
+#+LATEX: {\huge\bfseries THE CRISIS REVEALED}
+#+LATEX: \end{center}
+#+LATEX: \vspace*{\fill}
+#+LATEX: \clearpage
+#+LATEX: \thispagestyle{empty} % Hide page number on blank page after part divider
+#+LATEX: \mbox{}
+#+LATEX: \newpage
+
+#+LATEX: \clearpage
 #+LATEX: \pagestyle{empty}
 #+LATEX: \vspace*{0.25\textheight}
 #+LATEX: \begin{center}
 #+LATEX: {\Huge\bfseries Part I}\\[0.5cm]
 #+LATEX: {\Large The Crisis Revealed}
 #+LATEX: \end{center}
-#+LATEX: \addcontentsline{toc}{part}{Part I: The Crisis Revealed}
 #+LATEX: \vspace*{\fill}
 #+LATEX: \clearpage
 #+LATEX: \pagestyle{fancy}
-#+LATEX: \section*{1. The Sacred Gift}
-#+LATEX: \addcontentsline{toc}{section}{1. The Sacred Gift}
+#+LATEX: \section{1. The Sacred Gift}
 #+LATEX: \markright{The Sacred Gift}
 #+LATEX: \thispagestyle{chapterpage}
 
@@ -321,8 +338,7 @@ Or so everyone believed.
 The mystery begins six years after his death, in 1983, when the Bhaktivedanta Book Trust published what they called a "revised and enlarged" edition of the Bhagavad-gītā As It Is. The phrase "revised and enlarged" should have been the first signal that something was amiss. How does one revise a book that claimed to present things "as they are"? But I am getting ahead of the story again.
 
 #+LATEX: \clearpage
-#+LATEX: \section*{2. The Question}
-#+LATEX: \addcontentsline{toc}{section}{2. The Question}
+#+LATEX: \section{2. The Question}
 #+LATEX: \markright{The Question}
 #+LATEX: \thispagestyle{chapterpage}
 
@@ -347,10 +363,7 @@ For twenty years, the substitution remained undetected. Then the internet arrive
 
 But I am still getting ahead of myself. The story properly begins not with the crime but with its detection—and the detective was not a senior scholar but a doctoral candidate in Religious Studies at Stanford named Maya Rodriguez. She had completed her coursework and passed her qualifying exams—achieving ABD (All But Dissertation) status—and was in the early stages of her dissertation research when she discovered by accident what had been hidden by design. Her background in comparative religion, her academic training in textual analysis, and her access to Stanford's research resources would prove essential, though she could never have anticipated that a simple question from her hospitalized grandmother would launch an investigation that would ultimately replace her planned dissertation entirely.
 
-#+LATEX: \clearpage
-#+LATEX: \section*{3. The Discovery}
-#+LATEX: \addcontentsline{toc}{section}{3. The Discovery}
-#+LATEX: \markright{The Discovery}
+* 3. The Discovery
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: \normalfont\justifying
@@ -411,10 +424,7 @@ The question haunting Maya was deceptively simple: Who decided to rewrite a dead
 
 The answer would require archaeological excavation into the layers of spiritual authority, editorial ethics, and the metaphysical power of words to shape human consciousness. But to understand how sacred text could be transformed in secret, Maya realized, she first had to understand the extraordinary circumstances under which it was originally created.
 
-#+LATEX: \clearpage
-#+LATEX: \section*{4. The Monk's Journey}
-#+LATEX: \addcontentsline{toc}{section}{4. The Monk's Journey}
-#+LATEX: \markright{The Monk's Journey}
+* 4. The Monk's Journey
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: \normalfont\justifying
@@ -464,10 +474,7 @@ November 14, 1977, Vṛndāvana, India: Prabhupāda spoke his final words—"I h
 
 The stage was set for the most successful literary substitution in modern spiritual history.
 
-#+LATEX: \clearpage
-#+LATEX: \section*{5. Two Different Souls}
-#+LATEX: \addcontentsline{toc}{section}{5. Two Different Souls}
-#+LATEX: \markright{Two Different Souls}
+* 5. Two Different Souls
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: \normalfont\justifying
@@ -553,10 +560,7 @@ Maya closed both books and leaned back in her chair. Her three-month investigati
 
 Tomorrow, she would begin documenting the global pattern she had discovered. But tonight, she sat quietly, understanding that she had witnessed something unprecedented: the secret transformation of a sacred text that had programmed millions of minds without their knowledge.
 
-#+LATEX: \clearpage
-#+LATEX: \section*{6. The Pattern Revealed}
-#+LATEX: \addcontentsline{toc}{section}{6. The Pattern Revealed}
-#+LATEX: \markright{The Pattern Revealed}
+* 6. The Pattern Revealed
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: \normalfont\justifying
@@ -580,10 +584,7 @@ Maya stared at the two books on her table. Same title. Same author's name. Same 
 
 The question that haunted her was no longer *what* had been done, but *why*—and whether sincere disciples could have systematically transformed their deceased guru's work without realizing they were stealing the very thing he had most carefully protected: the reader's heart-connection to the Divine.
 
-#+LATEX: \clearpage
-#+LATEX: \section*{7. Global Confusion}
-#+LATEX: \addcontentsline{toc}{section}{7. Global Confusion}
-#+LATEX: \markright{Global Confusion}
+* 7. Global Confusion
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: \vspace{0.3cm}
@@ -603,11 +604,7 @@ The room erupted in confusion—sincere souls trying to understand the most fund
 
 Within months, the Moscow temple had effectively schismatized into two congregations—those committed to what they called the "original" transmission and those trusting what they believed to be the "improved" version. Sunday classes became theological battlegrounds where the very nature of divine reality was debated through conflicting quotations from books that claimed identical authority.
 
-
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Pattern Repeats Globally}@@
-#+LATEX: \vspace{0.2cm}
-
+*** The Pattern Repeats Globally
 
 What happened in Moscow was not an isolated incident. As Maya dug deeper into international ISKCON communications—temple newsletters archived online, academic conference proceedings, digital forums where devotees discussed their practices—she discovered that the same confusion had erupted independently across every continent where the Bhagavad-gītā had been translated and studied.
 
@@ -685,10 +682,7 @@ Maya realized she had stumbled upon something far more significant than textual 
 
 The crisis had become global, systematic, and undeniable. Yet institutional authorities worldwide continued implementing the very strategy that had created the problem: refusing to acknowledge the extent of alterations while characterizing concerned readers as lacking sufficient faith to appreciate editorial improvements.
 
-#+LATEX: \clearpage
-#+LATEX: \section*{8. The Cover-Up}
-#+LATEX: \addcontentsline{toc}{section}{8. The Cover-Up}
-#+LATEX: \markright{The Cover-Up}
+* 8. The Cover-Up
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: \normalfont\justifying
@@ -740,10 +734,7 @@ The cover-up had lasted forty years because it served everyone's immediate inter
 
 But as Maya was discovering, the cost of this silence extended far beyond publishing ethics. It had fractured communities, confused sincere seekers, and created a crisis of trust that threatened the very transmission the original book was meant to preserve.
 
-#+LATEX: \clearpage
-#+LATEX: \section*{9. The Divided House}
-#+LATEX: \addcontentsline{toc}{section}{9. The Divided House}
-#+LATEX: \markright{The Divided House}
+* 9. The Divided House
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: {\centering\itshape In which the evidence becomes too specific\\to dismiss as interpretation,\\and approval turns into accusation.\par}
@@ -756,11 +747,7 @@ Maya discovered this when she began investigating the legal battles that erupted
 
 But the division wasn't the most disturbing discovery. What truly shook Maya—what kept her awake at 3 AM staring at audio transcripts and verse comparisons until the words blurred—was finding documented proof that Prabhupāda had explicitly approved translations that were later changed without his authorization.
 
-
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Smoking Guns}@@
-#+LATEX: \vspace{0.2cm}
-
+*** The Smoking Guns
 
 It was a Wednesday afternoon in late October when Maya stumbled upon what criminal prosecutors would call "smoking gun evidence"—documentation so specific it eliminated all ambiguity about authorization.
 
@@ -780,11 +767,7 @@ Where did Jayadvaita get the authority to delete what Prabhupāda had specifical
 
 Maya sat back in her chair, the weight of what she'd discovered pressing down on her chest. This wasn't about Sanskrit accuracy or English improvement. This was about editors second-guessing their spiritual teacher's explicit approval.
 
-
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Pattern Emerges}@@
-#+LATEX: \vspace{0.2cm}
-
+*** The Pattern Emerges
 
 Over the following weeks, Maya discovered this wasn't an isolated incident. The pattern repeated with disturbing consistency across multiple verses, each documented approval followed by posthumous alteration.
 
@@ -806,11 +789,7 @@ Maya's highlighter moved across the page as she counted: four times in one breat
 
 The word "eternal" had been deleted. Removed. Erased from existence despite—or perhaps because of—Prabhupāda's explicit emphasis on this precise concept when hearing this exact verse.
 
-
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Verbatim Quotation}@@
-#+LATEX: \vspace{0.2cm}
-
+*** The Verbatim Quotation
 
 The most damning evidence came from verse 3.32. Maya found multiple class transcripts where Prabhupāda not only approved the original translation but quoted it word-for-word in his own explanations, making the published text part of his teaching vocabulary.
 
@@ -822,11 +801,7 @@ The revisers changed it anyway: "But those who, out of envy, disregard these tea
 
 "Practice" became "follow"—a subtle shift from active engagement to passive obedience. "Doomed to ignorance and bondage" became "ruined in their endeavors for perfection"—from spiritual tragedy to failed effort.
 
-
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Prophet's Warning}@@
-#+LATEX: \vspace{0.2cm}
-
+*** The Prophet's Warning
 
 Maya sat in her apartment surrounded by printouts of class transcripts, verse comparisons, and highlighted passages, trying to understand how this had happened. How could disciples who had devoted their lives to following Prabhupāda's teachings convince themselves they had the authority to systematically alter his approved work?
 
@@ -855,11 +830,7 @@ Fifth: No documentation existed of him authorizing anyone to "revise and enlarge
 The conclusion was inescapable: comprehensive unauthorized alteration had occurred. The class transcripts provided the kind of evidence that, in a court of law, would end the case.
 
 
-
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{Beyond Correction: Editorial Invention}@@
-#+LATEX: \vspace{0.2cm}
-
+*** Beyond Correction: Editorial Invention
 
 But the evidence of unauthorized changes to approved translations was only part of Maya's discovery. As she dug deeper, she found something that disturbed her even more: systematic patterns of editorial invention that went far beyond claiming to restore Prabhupāda's original intent.
 
@@ -885,11 +856,7 @@ The pattern Maya documented revealed:
 
 Editors created third alternatives that appeared in neither draft manuscripts nor published originals. Changes were implemented even when Prabhupāda had explicitly approved the original in recorded classes. Theological meanings shifted consistently toward institutional precision and away from devotional accessibility. No documentation existed of Prabhupāda requesting these specific alterations. Editorial presumption operated under the guise of scholarly improvement while directly contradicting documented approval.
 
-
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{Two Different Books}@@
-#+LATEX: \vspace{0.2cm}
-
+*** Two Different Books
 
 Maya sat at her kitchen table one evening in late November, her laptop displaying two PDF files side-by-side—the 1972 and 1983 editions. She had been comparing them for six months now, and the conclusion she had resisted finally became unavoidable.
 
@@ -915,11 +882,7 @@ Decades later: Audio evidence proved Prabhupāda had explicitly approved what wa
 
 The editors had proceeded despite clear historical evidence of Prabhupāda's approval of the originals. Despite no documentation of requested changes. Despite his explicit warnings about disciples presuming to correct their teacher. Despite five years of him using the published edition without suggesting the alterations that would later be implemented posthumously.
 
-
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Unavoidable Question}@@
-#+LATEX: \vspace{0.2cm}
-
+*** The Unavoidable Question
 
 The evidence made one question unavoidable—the question that had kept Maya awake for months, the question that would divide communities and challenge institutional authority:
 
@@ -929,6 +892,19 @@ The smoking gun evidence—preserved in thousands of hours of audio recordings, 
 
 The house had been divided. Not by those who raised questions about the changes, but by those who made the changes and then tried to hide them.
 
+#+LATEX: \cleardoublepage
+#+LATEX: \thispagestyle{empty}
+#+LATEX: \vspace*{0.25\textheight}
+#+LATEX: \begin{center}
+#+LATEX: {\Huge\bfseries\MakeUppercase{\textbf{II}}}\\[0.5cm]
+#+LATEX: {\huge\bfseries THE SPIRITUAL IMPACT}
+#+LATEX: \end{center}
+#+LATEX: \vspace*{\fill}
+#+LATEX: \clearpage
+#+LATEX: \thispagestyle{empty} % Hide page number on blank page after part divider
+#+LATEX: \mbox{}
+#+LATEX: \newpage
+
 #+LATEX: \clearpage
 #+LATEX: \pagestyle{empty}
 #+LATEX: \vspace*{0.25\textheight}
@@ -936,12 +912,12 @@ The house had been divided. Not by those who raised questions about the changes,
 #+LATEX: {\Huge\bfseries Part II}\\[0.5cm]
 #+LATEX: {\Large The Spiritual Impact}
 #+LATEX: \end{center}
-#+LATEX: \addcontentsline{toc}{part}{Part II: The Spiritual Impact}
-#+LATEX: \vspace*{\fill}
 #+LATEX: \clearpage
-#+LATEX: \section*{10. Two Different Gods}
-#+LATEX: \addcontentsline{toc}{section}{10. Two Different Gods}
-#+LATEX: \markright{Two Different Gods}
+#+LATEX: \thispagestyle{empty}
+#+LATEX: \mbox{}
+#+LATEX: \newpage
+
+* 10. Two Different Gods
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: {\centering\itshape Changing divine address from intimate to institutional\\doesn't improve translation—it transforms how readers\\experience the sacred relationship.\par}
@@ -959,11 +935,7 @@ But hierarchical titles—"Supreme Personality of Godhead"—engaged prefrontal 
 "They're not just changing words," Maya whispered. "They're rewiring consciousness."
 
 #+Latex: \vspace{-0.5cm}
-
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Universal Transformation}@@
-#+LATEX: \vspace{0.2cm}
-
+*** The Universal Transformation
 
 Every divine utterance in the Bhagavad-gītā has been systematically altered:
 
@@ -1046,11 +1018,7 @@ The question each reader must answer: Do you want intimate relationship with div
 Both are legitimate spiritual approaches. But you deserve to know which one you're getting.
 
 
-
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Restoration Principle}@@
-#+LATEX: \vspace{0.2cm}
-
+*** The Restoration Principle
 
 The solution isn't eliminating systematic approaches but preserving choice. Readers seeking mystical devotion deserve access to the original intimate address. Readers preferring systematic theology can choose the formal theological version.
 
@@ -1061,10 +1029,7 @@ The divine reality transcends all names and forms. But human consciousness devel
 God remains who God is. But how readers approach and experience divine reality depends entirely on the type of spiritual training they receive through sacred text encounter. These systematic alterations don't improve the text—they transform the reader's spiritual trajectory entirely.
 
 
-#+LATEX: \clearpage
-#+LATEX: \section*{11. The Language of the Heart}
-#+LATEX: \addcontentsline{toc}{section}{11. The Language of the Heart}
-#+LATEX: \markright{The Language of the Heart}
+* 11. The Language of the Heart
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: {\centering\itshape Sacred language doesn't just communicate spiritual concepts—\\it programs the heart's approach to divine reality.\par}
@@ -1152,10 +1117,7 @@ The language of the heart speaks differently than the language of the mind. Spir
 
 When editors systematically alter heart-language into mind-language without disclosure, they steal not just words—they steal the reader's access to heart-centered spiritual transformation.
 
-#+LATEX: \clearpage
-#+LATEX: \section*{12. The Unexpected Interlocutor}
-#+LATEX: \addcontentsline{toc}{section}{12. The Unexpected Interlocutor}
-#+LATEX: \markright{The Unexpected Interlocutor}
+* 12. The Unexpected Interlocutor
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: {\centering\itshape In which a conversation occurs across digital mediums\\and the architecture of authority\\reveals itself through silence.\par}
@@ -1359,6 +1321,18 @@ The laptop's clock read 6:23 AM. Maya noted the time, closed her files, and sat 
 Some questions, she had learned, do not have answers. They have only further questions. And sometimes that is enough.
 
 #+LATEX: \cleardoublepage
+#+LATEX: \thispagestyle{empty}
+#+LATEX: \vspace*{0.25\textheight}
+#+LATEX: \begin{center}
+#+LATEX: {\Huge\bfseries\MakeUppercase{\textbf{III}}}\\[0.5cm]
+#+LATEX: {\huge\bfseries THE HUMAN CONSEQUENCES}
+#+LATEX: \end{center}
+#+LATEX: \vspace*{\fill}
+#+LATEX: \clearpage
+#+LATEX: \thispagestyle{empty} % Hide page number on blank page after part divider
+#+LATEX: \mbox{}
+#+LATEX: \newpage
+
 #+LATEX: \clearpage
 #+LATEX: \pagestyle{empty}
 #+LATEX: \vspace*{0.25\textheight}
@@ -1366,12 +1340,12 @@ Some questions, she had learned, do not have answers. They have only further que
 #+LATEX: {\Huge\bfseries Part III}\\[0.5cm]
 #+LATEX: {\Large The Human Consequences}
 #+LATEX: \end{center}
-#+LATEX: \addcontentsline{toc}{part}{Part III: The Human Consequences}
-#+LATEX: \vspace*{\fill}
 #+LATEX: \clearpage
-#+LATEX: \section*{13. Two Paths, Two Souls}
-#+LATEX: \addcontentsline{toc}{section}{13. Two Paths, Two Souls}
-#+LATEX: \markright{Two Paths, Two Souls}
+#+LATEX: \thispagestyle{empty}
+#+LATEX: \mbox{}
+#+LATEX: \newpage
+
+* 13. Two Paths, Two Souls
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: {\centering\itshape Two versions create two different kinds of human beings—\\one seeking intimate love with the divine, the other pursuing\\systematic religious advancement.\par}
@@ -1492,10 +1466,7 @@ Would these two children, raised on different editions of the "same" book, even 
 
 The version determines the spiritual trajectory. The text shapes the soul. And buyers of "Bhagavad-gītā As It Is" deserved to know which path they were actually purchasing.
 
-#+LATEX: \clearpage
-#+LATEX: \section*{14. The Publishing Deception}
-#+LATEX: \addcontentsline{toc}{section}{14. The Publishing Deception}
-#+LATEX: \markright{The Publishing Deception}
+* 14. The Publishing Deception
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: {\centering\itshape The most disturbing aspect of this process:\\readers were never informed that systematic\\theological alteration was occurring.\par}
@@ -1514,11 +1485,7 @@ David sighed. "It started with good intentions. Always does. Let me explain how 
 
 What David revealed over the next three hours would expose the mechanisms through which well-intentioned institutional processes had fundamentally altered sacred content without readers ever realizing what had happened.
 
-
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Original Publication Model (1972)}@@
-#+LATEX: \vspace{0.2cm}
-
+*** The Original Publication Model (1972)
 
 "In 1972," David explained, pulling out a folder of old documents, "the process was beautifully simple. Prabhupāda would dictate, his secretary would type, and he would review everything personally."
 
@@ -1542,11 +1509,7 @@ Maya discovered through David's documents that Prabhupāda had:
 
 "He carried that 1972 edition everywhere," David recalled. "It was his authorized version, the one he quoted from memory in hundreds of lectures."
 
-
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Institutional Revision Process (Post-1977)}@@
-#+LATEX: \vspace{0.2cm}
-
+*** The Institutional Revision Process (Post-1977)
 
 "Everything changed on November 14, 1977," David's voice dropped. "When Prabhupāda passed away, we lost the one person who could definitively say what should or shouldn't be in his books."
 
@@ -1772,10 +1735,7 @@ As Maya left the café, she knew her next step: confronting the defenders of the
 #+LATEX: \mbox{}
 #+LATEX: \newpage
 
-#+LATEX: \clearpage
-#+LATEX: \section*{15. The Defenders and Their Strategies}
-#+LATEX: \addcontentsline{toc}{section}{15. The Defenders and Their Strategies}
-#+LATEX: \markright{The Defenders and Their Strategies}
+* 15. The Defenders and Their Strategies
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: {\centering\itshape When institutions say 'these are minor improvements,'\\they're asking you to trust their judgment\\over your own spiritual experience.\par}
@@ -1796,11 +1756,7 @@ Maya opened her notebook, now thick with documentation. "I have evidence of syst
 
 What followed would be a masterclass in institutional defense mechanisms.
 
-
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Defense}@@
-#+LATEX: \vspace{0.2cm}
-
+*** The Defense
 
 The first hour was predictable institutional deflection. Dr. Whitfield employed every standard defense:
 
@@ -1818,11 +1774,7 @@ Maya pulled out a photograph of Prabhupāda. "This man had spiritual realization
 
 Dr. Whitfield's jaw tightened. But Maya saw something shift in his eyes—not surrender, but recognition that she had done her homework.
 
-
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{Defense Strategy 4: The "Prabhupāda Wanted Revisions" Defense}@@
-#+LATEX: \vspace{0.2cm}
-
+*** Defense Strategy 4: The "Prabhupāda Wanted Revisions" Defense
 
 Dr. Whitfield played his strongest card: "Prabhupāda wanted these changes but didn't have time to implement them."
 
@@ -1952,11 +1904,7 @@ Maya realized she was seeing the human cost of institutional positions—not jus
 
 This would lead Maya to her most important discovery yet.
 
-
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Final Assault}@@
-#+LATEX: \vspace{0.2cm}
-
+*** The Final Assault
 
 Dr. Whitfield tried one more approach, leaning forward with genuine conviction. "Ms. Rodriguez, you're looking at this through an idealized lens. Let me give you context."
 
@@ -2036,10 +1984,7 @@ As Maya drove home, she thought about the millions of readers worldwide, unknowi
 
 The answer wouldn't come from institutions acknowledging what they'd done. It would come from readers making conscious, informed choices about their own spiritual development.
 
-#+LATEX: \clearpage
-#+LATEX: \section*{16. What Prabhupāda Actually Wanted}
-#+LATEX: \addcontentsline{toc}{section}{16. What Prabhupāda Actually Wanted}
-#+LATEX: \markright{What Prabhupāda Actually Wanted}
+* 16. What Prabhupāda Actually Wanted
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: {\centering\itshape Prabhupāda chose intimate divine language to open hearts,\\not theological terminology\\to establish institutional authority.\par}
@@ -2076,11 +2021,7 @@ When Prabhupāda wanted textual changes, his approach was immediate and explicit
 
 **This pattern of immediate, specific, verifiable change requests is completely absent regarding any systematic theological alterations.**
 
-
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Class Transcript Evidence: Documented Approval of Later-Changed Content}@@
-#+LATEX: \vspace{0.2cm}
-
+*** The Class Transcript Evidence: Documented Approval of Later-Changed Content
 
 The most devastating evidence against posthumous revision claims comes from class transcripts where Prabhupāda explicitly approved original formulations that were later changed without his authorization.
 
@@ -2183,10 +2124,7 @@ Prabhupāda wanted his Bhagavad-gītā preserved "As It Is"—exactly as he publ
 #+LATEX: \mbox{}
 #+LATEX: \newpage
 
-#+LATEX: \clearpage
-#+LATEX: \section*{Epilogue}
-#+LATEX: \addcontentsline{toc}{section}{Epilogue}
-#+LATEX: \markright{Epilogue}
+* Epilogue
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: \normalfont\justifying
@@ -2258,9 +2196,7 @@ Her grandmother passed away three weeks later, the original 1972 Bhagavad-gītā
 
 The investigation was over. The work of restoration was just beginning.
 
-#+LATEX: \begin{center}
-#+LATEX: * * *
-#+LATEX: \end{center}
+* * *
 
 Perhaps the most Borgesian aspect of this entire investigation is that it ends, as all labyrinths must, exactly where it began: with a grandmother in a hospital bed asking about a single verse. Except now, nine months and hundreds of pages later, we understand that the question "Can you explain this verse?" was never really a question at all—it was an invitation into a labyrinth where every answer revealed seven new corridors, where every discovery doubled back on itself, where the map and the territory could not be distinguished because the map had systematically replaced the territory while claiming to represent it.
 
@@ -2273,10 +2209,14 @@ The words that shape souls deserve to be chosen consciously, not stolen quietly.
 Maya's choice, in the end, was simply to give them back the choice itself.
 
 #+LATEX: \clearpage
-#+LATEX: \section*{Glossary}
-#+LATEX: \addcontentsline{toc}{section}{Glossary}
-#+LATEX: \markright{Glossary}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \pagestyle{sectionopening}
+#+LATEX: \thispagestyle{sectionopening}
+#+LATEX: \markboth{}{}
+#+LATEX: \vspace*{0.25\textheight}
+#+LATEX: \begin{center}
+#+LATEX: {\Huge\bfseries Glossary}
+#+LATEX: \end{center}
+#+LATEX: \newpage
 
 @@latex:\textbf{@@Bhagavad-gītā@@latex:}@@ — Literally "Song of God"; the 700-verse Sanskrit dialogue between Prince Arjuna and his charioteer Krishna on the battlefield of Kurukshetra. The text at the center of our investigation, though whether it remains the same text after systematic revision is precisely the question that torments this inquiry.
 
@@ -2317,10 +2257,19 @@ Maya's choice, in the end, was simply to give them back the choice itself.
 @@latex:\textbf{@@Version Comparison@@latex:}@@ — The key to discovery: when readers compare editions side-by-side, the transformation becomes undeniable. What institutions hid for four decades, the internet exposed.
 
 #+LATEX: \clearpage
-#+LATEX: \section*{Bibliography}
-#+LATEX: \addcontentsline{toc}{section}{Bibliography}
-#+LATEX: \markright{Bibliography}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{empty}
+#+LATEX: \mbox{}
+#+LATEX: \newpage
+#+LATEX: \pagestyle{sectionopening}
+#+LATEX: \thispagestyle{sectionopening}
+#+LATEX: \markboth{}{}
+#+LATEX: \vspace*{0.25\textheight}
+#+LATEX: \begin{center}
+#+LATEX: {\Huge\bfseries Bibliography}
+#+LATEX: \end{center}
+#+LATEX: \newpage
+#+LATEX: \pagestyle{sectionopening}
+#+LATEX: \thispagestyle{sectionopening}
 
 Barthes, Roland. "The Death of the Author." *Image, Music, Text*. Hill and Wang, 1977.
 
@@ -2437,7 +2386,7 @@ This methodological pluralism ensured that our findings represent convergent val
 
 Yet even this methodological rigor raises the deeper epistemological question: How does one investigate institutional deception when the institutions control access to evidence? Maya's answer was characteristically recursive: by becoming the evidence oneself.
 
-@@latex:\textbf{@@Technical Specifications@@latex:}@@
+*** Technical Specifications
 
 This analysis represents intensive research conducted during 2023-2024 involving:
 
