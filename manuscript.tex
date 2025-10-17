@@ -1,4 +1,4 @@
-% Created 2025-10-17 vie. 09:22
+% Created 2025-10-17 Fri 12:18
 % Intended LaTeX compiler: xelatex
 \documentclass[12pt,twoside]{book}
 \usepackage{graphicx}
@@ -12,12 +12,12 @@
 \geometry{
 inner=19mm,        % Margen interior (gutter) - balanced for binding
 outer=19mm,        % Margen exterior - symmetric with inner
-top=19mm,          % Margen superior
-bottom=22mm,       % Margen inferior - room for page numbers
+top=12mm,          % Minimal top margin
+bottom=12mm,       % Minimal bottom margin
 bindingoffset=3mm, % Extra space for binding in center
-headheight=14pt,   % Space for header
-headsep=10mm,      % Space between header and text
-footskip=18mm,     % Space for page numbers
+headheight=12pt,   % Reduced header space
+headsep=7mm,       % Minimal space between header and text
+footskip=10mm,     % Minimal space for page numbers
 includehead=true,  % Include header in text area
 includefoot=true   % Include footer in text area
 }
@@ -26,9 +26,9 @@ includefoot=true   % Include footer in text area
 \setmainfont{Libertinus Serif}
 \usepackage[final,babel=true]{microtype}
 \usepackage{setspace}
-\setstretch{1.15}     % Increased line spacing for better readability
+\setstretch{1.08}     % Tighter line spacing while maintaining readability
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}  % More paragraph spacing
+\setlength{\parskip}{4pt plus 2pt minus 1pt}  % Reduced paragraph spacing
 \usepackage{ragged2e}
 \justifying
 \hyphenpenalty=50          % Penalty for hyphenation
@@ -88,8 +88,9 @@ includefoot=true   % Include footer in text area
 \renewcommand{\headrulewidth}{0pt}%
 \renewcommand{\footrulewidth}{0pt}%
 }
-\fancypagestyle{sectionopening}{% Section opening pages - no headers, no page numbers
+\fancypagestyle{sectionopening}{% Section opening pages - no headers, page numbers only
 \fancyhf{}%
+\fancyfoot[C]{\thepage}%
 \renewcommand{\headrulewidth}{0pt}%
 \renewcommand{\footrulewidth}{0pt}%
 }
@@ -115,7 +116,7 @@ includefoot=true   % Include footer in text area
 \def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else\hbox{}\thispagestyle{empty}\newpage\if@twocolumn\hbox{}\newpage\fi\fi\fi}
 \renewcommand\LARGE{\@setfontsize\LARGE{18}{22}}
 \renewcommand{\@makechapterhead}[1]{%
-\vspace*{12\p@}%
+\vspace*{0.20\textheight}%
 {\parindent \z@ \raggedright \normalfont
 \LARGE \bfseries #1\par\nobreak
 \vskip 8\p@
@@ -123,7 +124,7 @@ includefoot=true   % Include footer in text area
 \thispagestyle{plain}%
 }
 \renewcommand{\@makeschapterhead}[1]{%
-\vspace*{12\p@}%
+\vspace*{0.20\textheight}%
 {\parindent \z@ \raggedright \normalfont
 \LARGE \bfseries #1\par\nobreak
 \vskip 8\p@
@@ -136,14 +137,14 @@ includefoot=true   % Include footer in text area
 \renewcommand{\subsectionmark}[1]{}
 % Override LaTeX's automatic plain style for chapters
 \renewcommand{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi\thispagestyle{plain}\global\@topnum\z@\@afterindentfalse\secdef\@chapter\@schapter}
-% Reduce section and subsection spacing for tighter layout
+% Professional section and subsection spacing
 \renewcommand\section{\@startsection{section}{1}{\z@}%
-{-2.5ex \@plus -1ex \@minus -.2ex}%
-{1.3ex \@plus.2ex}%
+{-2ex \@plus -1ex \@minus -.2ex}%
+{2.3ex \@plus.2ex}%
 {\normalfont\Large\bfseries}}
 \renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
-{-2.25ex \@plus -1ex \@minus -.2ex}%
-{1ex \@plus .2ex}%
+{-2ex \@plus -1ex \@minus -.2ex}%
+{0.8ex \@plus .2ex}%
 {\normalfont\large\bfseries}}
 \renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
 {-2ex \@plus -1ex \@minus -.2ex}%
@@ -168,7 +169,7 @@ includefoot=true   % Include footer in text area
 \begin{document}
 
 \thispagestyle{frontmatter}
-\vspace*{0.25\textheight}
+\vspace*{0.20\textheight}
 \begin{center}
 {\fontfamily{cmr}\fontsize{48}{58}\selectfont\textbf{STOLEN WORDS}}
 \end{center}
@@ -180,11 +181,11 @@ includefoot=true   % Include footer in text area
 \newpage
 
 \thispagestyle{frontmatter}
-\vspace*{0.2\textheight}
+\vspace*{0.33\textheight}
 \begin{center}
 {\fontfamily{cmr}\fontsize{36}{42}\selectfont\textbf{STOLEN WORDS}}\\[0.4cm]
 {\large How Editorial Changes Reshape Consciousness}\\[1.5cm]
-\vspace{0.15\textheight}
+\vspace{0.12\textheight}
 {\Large Br. Jagannatha Mishra Dasa}\\[2cm]
 \vspace*{\fill}
 {\normalsize 2025 - Version 2.0}
@@ -210,7 +211,7 @@ Published in Spain
 
 \clearpage
 
-\thispagestyle{frontmatter}
+\thispagestyle{empty}
 {\let\clearpage\relax\tableofcontents}
 
 \clearpage
@@ -240,7 +241,7 @@ Finally, I acknowledge all those who seek to preserve the sacred integrity of sp
 
 \section*{Preface}
 \addcontentsline{toc}{section}{Preface}
-\thispagestyle{plain}
+\thispagestyle{sectionopening}
 \setlength{\parskip}{3pt plus 1pt minus 1pt}
 \emergencystretch=3em
 \tolerance=2000
@@ -260,15 +261,16 @@ The evidence is clear. What it means cannot be ignored. How readers respond is t
 
 \clearpage
 \pagestyle{empty}
-\vspace*{0.25\textheight}
+\vspace*{0.20\textheight}
 \begin{center}
 {\Huge\bfseries Part I}\\[0.5cm]
 {\Large The Crisis Revealed}
 \end{center}
 \addcontentsline{toc}{part}{Part I: The Crisis Revealed}
 \vspace*{\fill}
-\clearpage
+\cleardoublepage
 \pagestyle{fancy}
+\vspace*{0.20\textheight}
 \section*{1. The Sacred Gift}
 \addcontentsline{toc}{section}{1. The Sacred Gift}
 \markright{The Sacred Gift}
@@ -293,7 +295,8 @@ Or so everyone believed.
 
 The mystery begins six years after his death, in 1983, when the Bhaktivedanta Book Trust published what they called a "revised and enlarged" edition of the Bhagavad-gītā As It Is. The phrase "revised and enlarged" should have been the first signal that something was amiss. How does one revise a book that claimed to present things "as they are"? But I am getting ahead of the story again.
 
-\clearpage
+\cleardoublepage
+\vspace*{0.20\textheight}
 \section*{2. The Question}
 \addcontentsline{toc}{section}{2. The Question}
 \markright{The Question}
@@ -320,7 +323,8 @@ For twenty years, the substitution remained undetected. Then the internet arrive
 
 But I am still getting ahead of myself. The story properly begins not with the crime but with its detection—and the detective was not a senior scholar but a doctoral candidate in Religious Studies at Stanford named Maya Rodriguez. She had completed her coursework and passed her qualifying exams—achieving ABD (All But Dissertation) status—and was in the early stages of her dissertation research when she discovered by accident what had been hidden by design. Her background in comparative religion, her academic training in textual analysis, and her access to Stanford's research resources would prove essential, though she could never have anticipated that a simple question from her hospitalized grandmother would launch an investigation that would ultimately replace her planned dissertation entirely.
 
-\clearpage
+\cleardoublepage
+\vspace*{0.20\textheight}
 \section*{3. The Discovery}
 \addcontentsline{toc}{section}{3. The Discovery}
 \markright{The Discovery}
@@ -384,7 +388,8 @@ The question haunting Maya was deceptively simple: Who decided to rewrite a dead
 
 The answer would require archaeological excavation into the layers of spiritual authority, editorial ethics, and the metaphysical power of words to shape human consciousness. But to understand how sacred text could be transformed in secret, Maya realized, she first had to understand the extraordinary circumstances under which it was originally created.
 
-\clearpage
+\cleardoublepage
+\vspace*{0.20\textheight}
 \section*{4. The Monk's Journey}
 \addcontentsline{toc}{section}{4. The Monk's Journey}
 \markright{The Monk's Journey}
@@ -437,7 +442,8 @@ November 14, 1977, Vṛndāvana, India: Prabhupāda spoke his final words—"I h
 
 The stage was set for the most successful literary substitution in modern spiritual history.
 
-\clearpage
+\cleardoublepage
+\vspace*{0.20\textheight}
 \section*{5. Two Different Souls}
 \addcontentsline{toc}{section}{5. Two Different Souls}
 \markright{Two Different Souls}
@@ -526,7 +532,8 @@ Maya closed both books and leaned back in her chair. Her three-month investigati
 
 Tomorrow, she would begin documenting the global pattern she had discovered. But tonight, she sat quietly, understanding that she had witnessed something unprecedented: the secret transformation of a sacred text that had programmed millions of minds without their knowledge.
 
-\clearpage
+\cleardoublepage
+\vspace*{0.20\textheight}
 \section*{6. The Pattern Revealed}
 \addcontentsline{toc}{section}{6. The Pattern Revealed}
 \markright{The Pattern Revealed}
@@ -553,7 +560,8 @@ Maya stared at the two books on her table. Same title. Same author's name. Same 
 
 The question that haunted her was no longer \textbf{what} had been done, but *why*—and whether sincere disciples could have systematically transformed their deceased guru's work without realizing they were stealing the very thing he had most carefully protected: the reader's heart-connection to the Divine.
 
-\clearpage
+\cleardoublepage
+\vspace*{0.20\textheight}
 \section*{7. Global Confusion}
 \addcontentsline{toc}{section}{7. Global Confusion}
 \markright{Global Confusion}
@@ -660,7 +668,8 @@ Maya realized she had stumbled upon something far more significant than textual 
 
 The crisis had become global, systematic, and undeniable. Yet institutional authorities worldwide continued implementing the very strategy that had created the problem: refusing to acknowledge the extent of alterations while characterizing concerned readers as lacking sufficient faith to appreciate editorial improvements.
 
-\clearpage
+\cleardoublepage
+\vspace*{0.20\textheight}
 \section*{8. The Cover-Up}
 \addcontentsline{toc}{section}{8. The Cover-Up}
 \markright{The Cover-Up}
@@ -715,7 +724,8 @@ The cover-up had lasted forty years because it served everyone's immediate inter
 
 But as Maya was discovering, the cost of this silence extended far beyond publishing ethics. It had fractured communities, confused sincere seekers, and created a crisis of trust that threatened the very transmission the original book was meant to preserve.
 
-\clearpage
+\cleardoublepage
+\vspace*{0.20\textheight}
 \section*{9. The Divided House}
 \addcontentsline{toc}{section}{9. The Divided House}
 \markright{The Divided House}
@@ -904,16 +914,20 @@ The smoking gun evidence—preserved in thousands of hours of audio recordings, 
 
 The house had been divided. Not by those who raised questions about the changes, but by those who made the changes and then tried to hide them.
 
+But understanding what happened was only the beginning. The real question—the one that would keep Maya awake for months—was what these changes were doing to people's souls.
+
 \clearpage
 \pagestyle{empty}
-\vspace*{0.25\textheight}
+\vspace*{0.20\textheight}
 \begin{center}
 {\Huge\bfseries Part II}\\[0.5cm]
 {\Large The Spiritual Impact}
 \end{center}
 \addcontentsline{toc}{part}{Part II: The Spiritual Impact}
 \vspace*{\fill}
-\clearpage
+\cleardoublepage
+\pagestyle{fancy}
+\vspace*{0.20\textheight}
 \section*{10. Two Different Gods}
 \addcontentsline{toc}{section}{10. Two Different Gods}
 \markright{Two Different Gods}
@@ -1042,7 +1056,8 @@ The divine reality transcends all names and forms. But human consciousness devel
 God remains who God is. But how readers approach and experience divine reality depends entirely on the type of spiritual training they receive through sacred text encounter. These systematic alterations don't improve the text—they transform the reader's spiritual trajectory entirely.
 
 
-\clearpage
+\cleardoublepage
+\vspace*{0.20\textheight}
 \section*{11. The Language of the Heart}
 \addcontentsline{toc}{section}{11. The Language of the Heart}
 \markright{The Language of the Heart}
@@ -1135,7 +1150,8 @@ The language of the heart speaks differently than the language of the mind. Spir
 
 When editors systematically alter heart-language into mind-language without disclosure, they steal not just words—they steal the reader's access to heart-centered spiritual transformation.
 
-\clearpage
+\cleardoublepage
+\vspace*{0.20\textheight}
 \section*{12. The Unexpected Interlocutor}
 \addcontentsline{toc}{section}{12. The Unexpected Interlocutor}
 \markright{The Unexpected Interlocutor}
@@ -1345,17 +1361,21 @@ The laptop's clock read 6:23 AM. Maya noted the time, closed her files, and sat 
 
 Some questions, she had learned, do not have answers. They have only further questions. And sometimes that is enough.
 
+The neuroscience had revealed how consciousness changes. But Maya's investigation was about to reveal something more disturbing: who would pay the price.
+
 \cleardoublepage
 \clearpage
 \pagestyle{empty}
-\vspace*{0.25\textheight}
+\vspace*{0.20\textheight}
 \begin{center}
 {\Huge\bfseries Part III}\\[0.5cm]
 {\Large The Human Consequences}
 \end{center}
 \addcontentsline{toc}{part}{Part III: The Human Consequences}
 \vspace*{\fill}
-\clearpage
+\cleardoublepage
+\pagestyle{fancy}
+\vspace*{0.20\textheight}
 \section*{13. Two Paths, Two Souls}
 \addcontentsline{toc}{section}{13. Two Paths, Two Souls}
 \markright{Two Paths, Two Souls}
@@ -1483,7 +1503,8 @@ Would these two children, raised on different editions of the "same" book, even 
 
 The version determines the spiritual trajectory. The text shapes the soul. And buyers of "Bhagavad-gītā As It Is" deserved to know which path they were actually purchasing.
 
-\clearpage
+\cleardoublepage
+\vspace*{0.20\textheight}
 \section*{14. The Publishing Deception}
 \addcontentsline{toc}{section}{14. The Publishing Deception}
 \markright{The Publishing Deception}
@@ -1773,7 +1794,7 @@ As Maya left the café, she knew her next step: confronting the defenders of the
 
 \cleardoublepage
 \thispagestyle{empty}
-\vspace*{0.25\textheight}
+\vspace*{0.20\textheight}
 \begin{center}
 {\Huge\bfseries\MakeUppercase{\textbf{IV}}}\\[0.5cm]
 {\huge\bfseries THE INSTITUTIONAL}\\[0.5cm]
@@ -1785,7 +1806,8 @@ As Maya left the café, she knew her next step: confronting the defenders of the
 \mbox{}
 \newpage
 
-\clearpage
+\cleardoublepage
+\vspace*{0.20\textheight}
 \section*{15. The Defenders and Their Strategies}
 \addcontentsline{toc}{section}{15. The Defenders and Their Strategies}
 \markright{The Defenders and Their Strategies}
@@ -2057,7 +2079,8 @@ As Maya drove home, she thought about the millions of readers worldwide, unknowi
 
 The answer wouldn't come from institutions acknowledging what they'd done. It would come from readers making conscious, informed choices about their own spiritual development.
 
-\clearpage
+\cleardoublepage
+\vspace*{0.20\textheight}
 \section*{16. What Prabhupāda Actually Wanted}
 \addcontentsline{toc}{section}{16. What Prabhupāda Actually Wanted}
 \markright{What Prabhupāda Actually Wanted}
@@ -2198,23 +2221,10 @@ The solution honors both approaches: preserve the original for those seeking aut
 
 Prabhupāda wanted his Bhagavad-gītā preserved "As It Is"—exactly as he published it after five years of satisfied use and documented approval.
 
-\clearpage
-\thispagestyle{empty}
-\mbox{}
-\newpage
-\thispagestyle{empty}
-\vspace*{0.25\textheight}
-\begin{center}
-{\Huge\bfseries\MakeUppercase{\textbf{V}}}\\[0.5cm]
-{\huge\bfseries THE PATH FORWARD}
-\end{center}
-\vspace*{\fill}
-\clearpage
-\thispagestyle{empty}
-\mbox{}
-\newpage
+The evidence was complete. The case was closed. But for Maya, the story had one final chapter—the one that mattered most.
 
 \clearpage
+\addtocontents{toc}{\vspace{0.5em}}
 \section*{Epilogue}
 \addcontentsline{toc}{section}{Epilogue}
 \markright{Epilogue}
@@ -2303,11 +2313,11 @@ The words that shape souls deserve to be chosen consciously, not stolen quietly.
 
 Maya's choice, in the end, was simply to give them back the choice itself.
 
-\clearpage
+\cleardoublepage
 \section*{Glossary}
 \addcontentsline{toc}{section}{Glossary}
 \markright{Glossary}
-\thispagestyle{plain}
+\thispagestyle{sectionopening}
 
 \textbf{Bhagavad-gītā} — Literally "Song of God"; the 700-verse Sanskrit dialogue between Prince Arjuna and his charioteer Krishna on the battlefield of Kurukshetra. The text at the center of our investigation, though whether it remains the same text after systematic revision is precisely the question that torments this inquiry.
 
@@ -2347,11 +2357,11 @@ Maya's choice, in the end, was simply to give them back the choice itself.
 
 \textbf{Version Comparison} — The key to discovery: when readers compare editions side-by-side, the transformation becomes undeniable. What institutions hid for four decades, the internet exposed.
 
-\clearpage
+\cleardoublepage
 \section*{Bibliography}
 \addcontentsline{toc}{section}{Bibliography}
 \markright{Bibliography}
-\thispagestyle{plain}
+\thispagestyle{sectionopening}
 
 Barthes, Roland. "The Death of the Author." \textbf{Image, Music, Text}. Hill and Wang, 1977.
 
@@ -2439,18 +2449,11 @@ Venuti, Lawrence. \textbf{The Translator's Invisibility}. Routledge, 1995.
 
 Zaehner, R.C. \textbf{The Bhagavad-Gita}. Oxford University Press, 1969.
 
-\clearpage
-\thispagestyle{empty}
-\mbox{}
-\newpage
-\pagestyle{sectionopening}
+\cleardoublepage
+\section*{Research Methodology}
+\addcontentsline{toc}{section}{Research Methodology}
+\markright{Research Methodology}
 \thispagestyle{sectionopening}
-\markboth{}{}
-\vspace*{0.25\textheight}
-\begin{center}
-{\Huge\bfseries Appendix A: Research Methodology}
-\end{center}
-\newpage
 
 \textbf{On the archaeology of evidence and the epistemology of detection—or, how one discovers what institutions prefer remain hidden.}
 
@@ -2497,14 +2500,10 @@ This analysis represents intensive research conducted during 2023-2024 involving
 \end{itemize}
 
 \clearpage
-\pagestyle{sectionopening}
+\section*{About the Author}
+\addcontentsline{toc}{section}{About the Author}
+\markright{About the Author}
 \thispagestyle{sectionopening}
-\markboth{}{}
-\vspace*{0.25\textheight}
-\begin{center}
-{\Huge\bfseries About the Author}
-\end{center}
-\newpage
 
 \textbf{\textbf{Br. Jagannatha Mishra Dasa}} has been studying intensively in various temples around the world since 1981, when he received initiation as a Brahmin, becoming part of the Gaudiya Vaisnava tradition.
 

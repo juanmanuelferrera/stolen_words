@@ -15,12 +15,12 @@
 #+LATEX_HEADER: \geometry{
 #+LATEX_HEADER:   inner=19mm,        % Margen interior (gutter) - balanced for binding
 #+LATEX_HEADER:   outer=19mm,        % Margen exterior - symmetric with inner
-#+LATEX_HEADER:   top=19mm,          % Margen superior
-#+LATEX_HEADER:   bottom=22mm,       % Margen inferior - room for page numbers
+#+LATEX_HEADER:   top=12mm,          % Minimal top margin
+#+LATEX_HEADER:   bottom=12mm,       % Minimal bottom margin
 #+LATEX_HEADER:   bindingoffset=3mm, % Extra space for binding in center
-#+LATEX_HEADER:   headheight=14pt,   % Space for header
-#+LATEX_HEADER:   headsep=10mm,      % Space between header and text
-#+LATEX_HEADER:   footskip=18mm,     % Space for page numbers
+#+LATEX_HEADER:   headheight=12pt,   % Reduced header space
+#+LATEX_HEADER:   headsep=7mm,       % Minimal space between header and text
+#+LATEX_HEADER:   footskip=10mm,     % Minimal space for page numbers
 #+LATEX_HEADER:   includehead=true,  % Include header in text area
 #+LATEX_HEADER:   includefoot=true   % Include footer in text area
 #+LATEX_HEADER: }
@@ -31,9 +31,9 @@
 #+LATEX_HEADER: \setmainfont{Libertinus Serif}
 #+LATEX_HEADER: \usepackage[final,babel=true]{microtype}
 #+LATEX_HEADER: \usepackage{setspace}
-#+LATEX_HEADER: \setstretch{1.15}     % Increased line spacing for better readability
+#+LATEX_HEADER: \setstretch{1.08}     % Tighter line spacing while maintaining readability
 #+LATEX_HEADER: \setlength{\parindent}{0pt}
-#+LATEX_HEADER: \setlength{\parskip}{6pt plus 2pt minus 1pt}  % More paragraph spacing
+#+LATEX_HEADER: \setlength{\parskip}{4pt plus 2pt minus 1pt}  % Reduced paragraph spacing
 #+LATEX_HEADER: \usepackage{ragged2e}
 #+LATEX_HEADER: \justifying
 
@@ -103,8 +103,9 @@
 #+LATEX_HEADER:   \renewcommand{\headrulewidth}{0pt}%
 #+LATEX_HEADER:   \renewcommand{\footrulewidth}{0pt}%
 #+LATEX_HEADER: }
-#+LATEX_HEADER: \fancypagestyle{sectionopening}{% Section opening pages - no headers, no page numbers
+#+LATEX_HEADER: \fancypagestyle{sectionopening}{% Section opening pages - no headers, page numbers only
 #+LATEX_HEADER:   \fancyhf{}%
+#+LATEX_HEADER:   \fancyfoot[C]{\thepage}%
 #+LATEX_HEADER:   \renewcommand{\headrulewidth}{0pt}%
 #+LATEX_HEADER:   \renewcommand{\footrulewidth}{0pt}%
 #+LATEX_HEADER: }
@@ -143,7 +144,7 @@
 #+LATEX_HEADER: \def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else\hbox{}\thispagestyle{empty}\newpage\if@twocolumn\hbox{}\newpage\fi\fi\fi}
 #+LATEX_HEADER: \renewcommand\LARGE{\@setfontsize\LARGE{18}{22}}
 #+LATEX_HEADER: \renewcommand{\@makechapterhead}[1]{%
-#+LATEX_HEADER:   \vspace*{12\p@}%
+#+LATEX_HEADER:   \vspace*{0.20\textheight}%
 #+LATEX_HEADER:   {\parindent \z@ \raggedright \normalfont
 #+LATEX_HEADER:     \LARGE \bfseries #1\par\nobreak
 #+LATEX_HEADER:     \vskip 8\p@
@@ -151,7 +152,7 @@
 #+LATEX_HEADER:   \thispagestyle{plain}%
 #+LATEX_HEADER: }
 #+LATEX_HEADER: \renewcommand{\@makeschapterhead}[1]{%
-#+LATEX_HEADER:   \vspace*{12\p@}%
+#+LATEX_HEADER:   \vspace*{0.20\textheight}%
 #+LATEX_HEADER:   {\parindent \z@ \raggedright \normalfont
 #+LATEX_HEADER:     \LARGE \bfseries #1\par\nobreak
 #+LATEX_HEADER:     \vskip 8\p@
@@ -164,14 +165,14 @@
 #+LATEX_HEADER: \renewcommand{\subsectionmark}[1]{}
 #+LATEX_HEADER: % Override LaTeX's automatic plain style for chapters
 #+LATEX_HEADER: \renewcommand{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi\thispagestyle{plain}\global\@topnum\z@\@afterindentfalse\secdef\@chapter\@schapter}
-#+LATEX_HEADER: % Reduce section and subsection spacing for tighter layout
+#+LATEX_HEADER: % Professional section and subsection spacing
 #+LATEX_HEADER: \renewcommand\section{\@startsection{section}{1}{\z@}%
-#+LATEX_HEADER:   {-2.5ex \@plus -1ex \@minus -.2ex}%
-#+LATEX_HEADER:   {1.3ex \@plus.2ex}%
+#+LATEX_HEADER:   {-2ex \@plus -1ex \@minus -.2ex}%
+#+LATEX_HEADER:   {2.3ex \@plus.2ex}%
 #+LATEX_HEADER:   {\normalfont\Large\bfseries}}
 #+LATEX_HEADER: \renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
-#+LATEX_HEADER:   {-2.25ex \@plus -1ex \@minus -.2ex}%
-#+LATEX_HEADER:   {1ex \@plus .2ex}%
+#+LATEX_HEADER:   {-2ex \@plus -1ex \@minus -.2ex}%
+#+LATEX_HEADER:   {0.8ex \@plus .2ex}%
 #+LATEX_HEADER:   {\normalfont\large\bfseries}}
 #+LATEX_HEADER: \renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
 #+LATEX_HEADER:   {-2ex \@plus -1ex \@minus -.2ex}%
@@ -187,7 +188,7 @@
 
 # Half-title page comes first (professional standard) - NO PAGE NUMBER
 #+LATEX: \thispagestyle{frontmatter}
-#+LATEX: \vspace*{0.25\textheight}
+#+LATEX: \vspace*{0.20\textheight}
 #+LATEX: \begin{center}
 #+LATEX: {\fontfamily{cmr}\fontsize{48}{58}\selectfont\textbf{STOLEN WORDS}}
 #+LATEX: \end{center}
@@ -201,11 +202,11 @@
 
 # Full title page (professional layout) - NO PAGE NUMBER
 #+LATEX: \thispagestyle{frontmatter}
-#+LATEX: \vspace*{0.2\textheight}
+#+LATEX: \vspace*{0.33\textheight}
 #+LATEX: \begin{center}
 #+LATEX: {\fontfamily{cmr}\fontsize{36}{42}\selectfont\textbf{STOLEN WORDS}}\\[0.4cm]
 #+LATEX: {\large How Editorial Changes Reshape Consciousness}\\[1.5cm]
-#+LATEX: \vspace{0.15\textheight}
+#+LATEX: \vspace{0.12\textheight}
 #+LATEX: {\Large Br. Jagannatha Mishra Dasa}\\[2cm]
 #+LATEX: \vspace*{\fill}
 #+LATEX: {\normalsize 2025 - Version 2.0}
@@ -235,7 +236,7 @@ Published in Spain
 #+LATEX: \clearpage
 
 # Table of Contents starts on page 5 (recto/right)
-#+LATEX: \thispagestyle{frontmatter}
+#+LATEX: \thispagestyle{empty}
 #+LATEX: {\let\clearpage\relax\tableofcontents}
 
 #+LATEX: \clearpage
@@ -267,7 +268,7 @@ Finally, I acknowledge all those who seek to preserve the sacred integrity of sp
 
 #+LATEX: \section*{Preface}
 #+LATEX: \addcontentsline{toc}{section}{Preface}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{sectionopening}
 #+LATEX: \setlength{\parskip}{3pt plus 1pt minus 1pt}
 #+LATEX: \emergencystretch=3em
 #+LATEX: \tolerance=2000
@@ -287,15 +288,16 @@ The evidence is clear. What it means cannot be ignored. How readers respond is t
 
 #+LATEX: \clearpage
 #+LATEX: \pagestyle{empty}
-#+LATEX: \vspace*{0.25\textheight}
+#+LATEX: \vspace*{0.20\textheight}
 #+LATEX: \begin{center}
 #+LATEX: {\Huge\bfseries Part I}\\[0.5cm]
 #+LATEX: {\Large The Crisis Revealed}
 #+LATEX: \end{center}
 #+LATEX: \addcontentsline{toc}{part}{Part I: The Crisis Revealed}
 #+LATEX: \vspace*{\fill}
-#+LATEX: \clearpage
+#+LATEX: \cleardoublepage
 #+LATEX: \pagestyle{fancy}
+#+LATEX: \vspace*{0.20\textheight}
 #+LATEX: \section*{1. The Sacred Gift}
 #+LATEX: \addcontentsline{toc}{section}{1. The Sacred Gift}
 #+LATEX: \markright{The Sacred Gift}
@@ -314,13 +316,14 @@ The audacity succeeded. From 1972 to 1977—those five years when Prabhupāda wa
 
 And Prabhupāda? He spent those final five years traveling, teaching, and—most crucially for our investigation—carefully guarding his books' integrity. Every translation personally reviewed. Every edition personally approved. Every error personally corrected. His disciples remember him saying: "My books will be the law books for the next ten thousand years." His books were his legacy, the gift that would outlive his physical presence.
 
-He left behind 10,000 disciples, 108 temples spanning six continents, and—most importantly—his books. Exactly as he wanted them. Preserved for millennia. Untouchable.
+He left behind 5,000 disciples, 108 temples spanning six continents, and—most importantly—his books. Exactly as he wanted them. Preserved for millennia. Untouchable.
 
 Or so everyone believed.
 
 The mystery begins six years after his death, in 1983, when the Bhaktivedanta Book Trust published what they called a "revised and enlarged" edition of the Bhagavad-gītā As It Is. The phrase "revised and enlarged" should have been the first signal that something was amiss. How does one revise a book that claimed to present things "as they are"? But I am getting ahead of the story again.
 
-#+LATEX: \clearpage
+#+LATEX: \cleardoublepage
+#+LATEX: \vspace*{0.20\textheight}
 #+LATEX: \section*{2. The Question}
 #+LATEX: \addcontentsline{toc}{section}{2. The Question}
 #+LATEX: \markright{The Question}
@@ -347,7 +350,8 @@ For twenty years, the substitution remained undetected. Then the internet arrive
 
 But I am still getting ahead of myself. The story properly begins not with the crime but with its detection—and the detective was not a senior scholar but a doctoral candidate in Religious Studies at Stanford named Maya Rodriguez. She had completed her coursework and passed her qualifying exams—achieving ABD (All But Dissertation) status—and was in the early stages of her dissertation research when she discovered by accident what had been hidden by design. Her background in comparative religion, her academic training in textual analysis, and her access to Stanford's research resources would prove essential, though she could never have anticipated that a simple question from her hospitalized grandmother would launch an investigation that would ultimately replace her planned dissertation entirely.
 
-#+LATEX: \clearpage
+#+LATEX: \cleardoublepage
+#+LATEX: \vspace*{0.20\textheight}
 #+LATEX: \section*{3. The Discovery}
 #+LATEX: \addcontentsline{toc}{section}{3. The Discovery}
 #+LATEX: \markright{The Discovery}
@@ -411,7 +415,8 @@ The question haunting Maya was deceptively simple: Who decided to rewrite a dead
 
 The answer would require archaeological excavation into the layers of spiritual authority, editorial ethics, and the metaphysical power of words to shape human consciousness. But to understand how sacred text could be transformed in secret, Maya realized, she first had to understand the extraordinary circumstances under which it was originally created.
 
-#+LATEX: \clearpage
+#+LATEX: \cleardoublepage
+#+LATEX: \vspace*{0.20\textheight}
 #+LATEX: \section*{4. The Monk's Journey}
 #+LATEX: \addcontentsline{toc}{section}{4. The Monk's Journey}
 #+LATEX: \markright{The Monk's Journey}
@@ -464,7 +469,8 @@ November 14, 1977, Vṛndāvana, India: Prabhupāda spoke his final words—"I h
 
 The stage was set for the most successful literary substitution in modern spiritual history.
 
-#+LATEX: \clearpage
+#+LATEX: \cleardoublepage
+#+LATEX: \vspace*{0.20\textheight}
 #+LATEX: \section*{5. Two Different Souls}
 #+LATEX: \addcontentsline{toc}{section}{5. Two Different Souls}
 #+LATEX: \markright{Two Different Souls}
@@ -553,7 +559,8 @@ Maya closed both books and leaned back in her chair. Her three-month investigati
 
 Tomorrow, she would begin documenting the global pattern she had discovered. But tonight, she sat quietly, understanding that she had witnessed something unprecedented: the secret transformation of a sacred text that had programmed millions of minds without their knowledge.
 
-#+LATEX: \clearpage
+#+LATEX: \cleardoublepage
+#+LATEX: \vspace*{0.20\textheight}
 #+LATEX: \section*{6. The Pattern Revealed}
 #+LATEX: \addcontentsline{toc}{section}{6. The Pattern Revealed}
 #+LATEX: \markright{The Pattern Revealed}
@@ -580,7 +587,8 @@ Maya stared at the two books on her table. Same title. Same author's name. Same 
 
 The question that haunted her was no longer *what* had been done, but *why*—and whether sincere disciples could have systematically transformed their deceased guru's work without realizing they were stealing the very thing he had most carefully protected: the reader's heart-connection to the Divine.
 
-#+LATEX: \clearpage
+#+LATEX: \cleardoublepage
+#+LATEX: \vspace*{0.20\textheight}
 #+LATEX: \section*{7. Global Confusion}
 #+LATEX: \addcontentsline{toc}{section}{7. Global Confusion}
 #+LATEX: \markright{Global Confusion}
@@ -685,7 +693,8 @@ Maya realized she had stumbled upon something far more significant than textual 
 
 The crisis had become global, systematic, and undeniable. Yet institutional authorities worldwide continued implementing the very strategy that had created the problem: refusing to acknowledge the extent of alterations while characterizing concerned readers as lacking sufficient faith to appreciate editorial improvements.
 
-#+LATEX: \clearpage
+#+LATEX: \cleardoublepage
+#+LATEX: \vspace*{0.20\textheight}
 #+LATEX: \section*{8. The Cover-Up}
 #+LATEX: \addcontentsline{toc}{section}{8. The Cover-Up}
 #+LATEX: \markright{The Cover-Up}
@@ -740,7 +749,8 @@ The cover-up had lasted forty years because it served everyone's immediate inter
 
 But as Maya was discovering, the cost of this silence extended far beyond publishing ethics. It had fractured communities, confused sincere seekers, and created a crisis of trust that threatened the very transmission the original book was meant to preserve.
 
-#+LATEX: \clearpage
+#+LATEX: \cleardoublepage
+#+LATEX: \vspace*{0.20\textheight}
 #+LATEX: \section*{9. The Divided House}
 #+LATEX: \addcontentsline{toc}{section}{9. The Divided House}
 #+LATEX: \markright{The Divided House}
@@ -929,16 +939,20 @@ The smoking gun evidence—preserved in thousands of hours of audio recordings, 
 
 The house had been divided. Not by those who raised questions about the changes, but by those who made the changes and then tried to hide them.
 
+But understanding what happened was only the beginning. The real question—the one that would keep Maya awake for months—was what these changes were doing to people's souls.
+
 #+LATEX: \clearpage
 #+LATEX: \pagestyle{empty}
-#+LATEX: \vspace*{0.25\textheight}
+#+LATEX: \vspace*{0.20\textheight}
 #+LATEX: \begin{center}
 #+LATEX: {\Huge\bfseries Part II}\\[0.5cm]
 #+LATEX: {\Large The Spiritual Impact}
 #+LATEX: \end{center}
 #+LATEX: \addcontentsline{toc}{part}{Part II: The Spiritual Impact}
 #+LATEX: \vspace*{\fill}
-#+LATEX: \clearpage
+#+LATEX: \cleardoublepage
+#+LATEX: \pagestyle{fancy}
+#+LATEX: \vspace*{0.20\textheight}
 #+LATEX: \section*{10. Two Different Gods}
 #+LATEX: \addcontentsline{toc}{section}{10. Two Different Gods}
 #+LATEX: \markright{Two Different Gods}
@@ -1061,7 +1075,8 @@ The divine reality transcends all names and forms. But human consciousness devel
 God remains who God is. But how readers approach and experience divine reality depends entirely on the type of spiritual training they receive through sacred text encounter. These systematic alterations don't improve the text—they transform the reader's spiritual trajectory entirely.
 
 
-#+LATEX: \clearpage
+#+LATEX: \cleardoublepage
+#+LATEX: \vspace*{0.20\textheight}
 #+LATEX: \section*{11. The Language of the Heart}
 #+LATEX: \addcontentsline{toc}{section}{11. The Language of the Heart}
 #+LATEX: \markright{The Language of the Heart}
@@ -1152,7 +1167,8 @@ The language of the heart speaks differently than the language of the mind. Spir
 
 When editors systematically alter heart-language into mind-language without disclosure, they steal not just words—they steal the reader's access to heart-centered spiritual transformation.
 
-#+LATEX: \clearpage
+#+LATEX: \cleardoublepage
+#+LATEX: \vspace*{0.20\textheight}
 #+LATEX: \section*{12. The Unexpected Interlocutor}
 #+LATEX: \addcontentsline{toc}{section}{12. The Unexpected Interlocutor}
 #+LATEX: \markright{The Unexpected Interlocutor}
@@ -1358,17 +1374,21 @@ The laptop's clock read 6:23 AM. Maya noted the time, closed her files, and sat 
 
 Some questions, she had learned, do not have answers. They have only further questions. And sometimes that is enough.
 
+The neuroscience had revealed how consciousness changes. But Maya's investigation was about to reveal something more disturbing: who would pay the price.
+
 #+LATEX: \cleardoublepage
 #+LATEX: \clearpage
 #+LATEX: \pagestyle{empty}
-#+LATEX: \vspace*{0.25\textheight}
+#+LATEX: \vspace*{0.20\textheight}
 #+LATEX: \begin{center}
 #+LATEX: {\Huge\bfseries Part III}\\[0.5cm]
 #+LATEX: {\Large The Human Consequences}
 #+LATEX: \end{center}
 #+LATEX: \addcontentsline{toc}{part}{Part III: The Human Consequences}
 #+LATEX: \vspace*{\fill}
-#+LATEX: \clearpage
+#+LATEX: \cleardoublepage
+#+LATEX: \pagestyle{fancy}
+#+LATEX: \vspace*{0.20\textheight}
 #+LATEX: \section*{13. Two Paths, Two Souls}
 #+LATEX: \addcontentsline{toc}{section}{13. Two Paths, Two Souls}
 #+LATEX: \markright{Two Paths, Two Souls}
@@ -1492,7 +1512,8 @@ Would these two children, raised on different editions of the "same" book, even 
 
 The version determines the spiritual trajectory. The text shapes the soul. And buyers of "Bhagavad-gītā As It Is" deserved to know which path they were actually purchasing.
 
-#+LATEX: \clearpage
+#+LATEX: \cleardoublepage
+#+LATEX: \vspace*{0.20\textheight}
 #+LATEX: \section*{14. The Publishing Deception}
 #+LATEX: \addcontentsline{toc}{section}{14. The Publishing Deception}
 #+LATEX: \markright{The Publishing Deception}
@@ -1760,7 +1781,7 @@ As Maya left the café, she knew her next step: confronting the defenders of the
 
 #+LATEX: \cleardoublepage
 #+LATEX: \thispagestyle{empty}
-#+LATEX: \vspace*{0.25\textheight}
+#+LATEX: \vspace*{0.20\textheight}
 #+LATEX: \begin{center}
 #+LATEX: {\Huge\bfseries\MakeUppercase{\textbf{IV}}}\\[0.5cm]
 #+LATEX: {\huge\bfseries THE INSTITUTIONAL}\\[0.5cm]
@@ -1772,7 +1793,8 @@ As Maya left the café, she knew her next step: confronting the defenders of the
 #+LATEX: \mbox{}
 #+LATEX: \newpage
 
-#+LATEX: \clearpage
+#+LATEX: \cleardoublepage
+#+LATEX: \vspace*{0.20\textheight}
 #+LATEX: \section*{15. The Defenders and Their Strategies}
 #+LATEX: \addcontentsline{toc}{section}{15. The Defenders and Their Strategies}
 #+LATEX: \markright{The Defenders and Their Strategies}
@@ -2036,7 +2058,8 @@ As Maya drove home, she thought about the millions of readers worldwide, unknowi
 
 The answer wouldn't come from institutions acknowledging what they'd done. It would come from readers making conscious, informed choices about their own spiritual development.
 
-#+LATEX: \clearpage
+#+LATEX: \cleardoublepage
+#+LATEX: \vspace*{0.20\textheight}
 #+LATEX: \section*{16. What Prabhupāda Actually Wanted}
 #+LATEX: \addcontentsline{toc}{section}{16. What Prabhupāda Actually Wanted}
 #+LATEX: \markright{What Prabhupāda Actually Wanted}
@@ -2167,23 +2190,10 @@ The solution honors both approaches: preserve the original for those seeking aut
 
 Prabhupāda wanted his Bhagavad-gītā preserved "As It Is"—exactly as he published it after five years of satisfied use and documented approval.
 
-#+LATEX: \clearpage
-#+LATEX: \thispagestyle{empty}
-#+LATEX: \mbox{}
-#+LATEX: \newpage
-#+LATEX: \thispagestyle{empty}
-#+LATEX: \vspace*{0.25\textheight}
-#+LATEX: \begin{center}
-#+LATEX: {\Huge\bfseries\MakeUppercase{\textbf{V}}}\\[0.5cm]
-#+LATEX: {\huge\bfseries THE PATH FORWARD}
-#+LATEX: \end{center}
-#+LATEX: \vspace*{\fill}
-#+LATEX: \clearpage
-#+LATEX: \thispagestyle{empty}
-#+LATEX: \mbox{}
-#+LATEX: \newpage
+The evidence was complete. The case was closed. But for Maya, the story had one final chapter—the one that mattered most.
 
 #+LATEX: \clearpage
+#+LATEX: \addtocontents{toc}{\vspace{0.5em}}
 #+LATEX: \section*{Epilogue}
 #+LATEX: \addcontentsline{toc}{section}{Epilogue}
 #+LATEX: \markright{Epilogue}
@@ -2272,11 +2282,11 @@ The words that shape souls deserve to be chosen consciously, not stolen quietly.
 
 Maya's choice, in the end, was simply to give them back the choice itself.
 
-#+LATEX: \clearpage
+#+LATEX: \cleardoublepage
 #+LATEX: \section*{Glossary}
 #+LATEX: \addcontentsline{toc}{section}{Glossary}
 #+LATEX: \markright{Glossary}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{sectionopening}
 
 @@latex:\textbf{@@Bhagavad-gītā@@latex:}@@ — Literally "Song of God"; the 700-verse Sanskrit dialogue between Prince Arjuna and his charioteer Krishna on the battlefield of Kurukshetra. The text at the center of our investigation, though whether it remains the same text after systematic revision is precisely the question that torments this inquiry.
 
@@ -2316,11 +2326,11 @@ Maya's choice, in the end, was simply to give them back the choice itself.
 
 @@latex:\textbf{@@Version Comparison@@latex:}@@ — The key to discovery: when readers compare editions side-by-side, the transformation becomes undeniable. What institutions hid for four decades, the internet exposed.
 
-#+LATEX: \clearpage
+#+LATEX: \cleardoublepage
 #+LATEX: \section*{Bibliography}
 #+LATEX: \addcontentsline{toc}{section}{Bibliography}
 #+LATEX: \markright{Bibliography}
-#+LATEX: \thispagestyle{plain}
+#+LATEX: \thispagestyle{sectionopening}
 
 Barthes, Roland. "The Death of the Author." *Image, Music, Text*. Hill and Wang, 1977.
 
@@ -2408,18 +2418,11 @@ Venuti, Lawrence. *The Translator's Invisibility*. Routledge, 1995.
 
 Zaehner, R.C. *The Bhagavad-Gita*. Oxford University Press, 1969.
 
-#+LATEX: \clearpage
-#+LATEX: \thispagestyle{empty}
-#+LATEX: \mbox{}
-#+LATEX: \newpage
-#+LATEX: \pagestyle{sectionopening}
+#+LATEX: \cleardoublepage
+#+LATEX: \section*{Research Methodology}
+#+LATEX: \addcontentsline{toc}{section}{Research Methodology}
+#+LATEX: \markright{Research Methodology}
 #+LATEX: \thispagestyle{sectionopening}
-#+LATEX: \markboth{}{}
-#+LATEX: \vspace*{0.25\textheight}
-#+LATEX: \begin{center}
-#+LATEX: {\Huge\bfseries Appendix A: Research Methodology}
-#+LATEX: \end{center}
-#+LATEX: \newpage
 
 *On the archaeology of evidence and the epistemology of detection—or, how one discovers what institutions prefer remain hidden.*
 
@@ -2460,14 +2463,10 @@ This analysis represents intensive research conducted during 2023-2024 involving
 - Cross-reference with original manuscripts and class transcripts
 
 #+LATEX: \clearpage
-#+LATEX: \pagestyle{sectionopening}
+#+LATEX: \section*{About the Author}
+#+LATEX: \addcontentsline{toc}{section}{About the Author}
+#+LATEX: \markright{About the Author}
 #+LATEX: \thispagestyle{sectionopening}
-#+LATEX: \markboth{}{}
-#+LATEX: \vspace*{0.25\textheight}
-#+LATEX: \begin{center}
-#+LATEX: {\Huge\bfseries About the Author}
-#+LATEX: \end{center}
-#+LATEX: \newpage
 
 **Br. Jagannatha Mishra Dasa** has been studying intensively in various temples around the world since 1981, when he received initiation as a Brahmin, becoming part of the Gaudiya Vaisnava tradition.
 
