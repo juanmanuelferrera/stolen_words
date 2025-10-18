@@ -1,4 +1,4 @@
-#+TITLE: STOLEN WORDS
++TITLE: STOLEN WORDS
 #+SUBTITLE: How Editorial Changes Reshape Consciousness
 #+Author: Br. Jagannatha Mishra Dasa
 #+DATE: 2025 - Version 2.0
@@ -1391,7 +1391,7 @@ The neuroscience had revealed how consciousness changes. But Maya's investigatio
 #+LATEX: \normalfont\justifying
 The documented alterations don't merely affect abstract theology—they reshape actual human spiritual development. Readers of different versions develop fundamentally different spiritual consciousness, different approaches to divine reality, and ultimately become different kinds of human beings.
 
-This chapter analyzes what readers actually gain and lose through different textual encounters and how editorial decisions determine spiritual trajectories.
+Maya's textual analysis predicted two completely different spiritual trajectories. What she found in actual Krishna communities was worse: the split was real, systematic, and neither side knew it was happening.
 
 **Original Version (1972) Reader Development**
 
@@ -1405,9 +1405,7 @@ This chapter analyzes what readers actually gain and lose through different text
 - **Transformation Expectation**: Grace-dependent awakening
 - **Spiritual Goals**: Divine love, personal relationship, mystical union
 
-**Psychological Profile**: Grace-dependent, heart-centered, mystically oriented
-**Spiritual Strengths**: Deep devotion, emotional authenticity, divine intimacy
-**Potential Challenges**: May struggle with systematic application, intellectual analysis
+This reader develops as grace-dependent, heart-centered, and mystically oriented—with deep devotion and emotional authenticity as core strengths, though potentially struggling with systematic application and intellectual analysis.
 
 **Revised Version (1983) Reader Development**
 
@@ -1421,9 +1419,7 @@ This chapter analyzes what readers actually gain and lose through different text
 - **Transformation Expectation**: Knowledge-dependent progression
 - **Spiritual Goals**: Proper understanding, systematic advancement, educational mastery
 
-**Psychological Profile**: Knowledge-dependent, mind-centered, systematically oriented
-**Spiritual Strengths**: Systematic development, intellectual clarity, methodological precision
-**Potential Challenges**: May struggle with devotional authenticity, emotional openness
+This reader develops as knowledge-dependent, mind-centered, and systematically oriented—with intellectual clarity and methodological precision as core strengths, though potentially struggling with devotional authenticity and emotional openness.
 
 **Path A: Mystical Devotional Development (Original)**
 **Year 1**: Heart-opening through intimate divine language, emotional connection with "Blessed Lord"
@@ -1438,6 +1434,8 @@ This chapter analyzes what readers actually gain and lose through different text
 **Year 3**: Comprehensive spiritual framework through systematic approach, proper understanding development
 **Year 5**: Mature religious consciousness, stable systematic advancement, knowledge-dependent wisdom
 **Long-term**: Systematically-oriented spiritual practitioner with mind-centered consciousness
+
+But were these merely theoretical distinctions? Maya was about to discover how terrifyingly concrete these divergent paths actually were.
 
 After completing her initial textual analysis, Maya spent an additional six months conducting what she called "participant ethnography"—visiting ISKCON temples across the country, attending Sunday feasts, sitting in on study groups, observing how communities actually functioned. What she discovered confirmed her textual analysis with uncomfortable precision: different versions were creating different types of spiritual communities.
 
