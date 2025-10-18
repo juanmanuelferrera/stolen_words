@@ -1,7 +1,7 @@
-+TITLE: STOLEN WORDS
+#+TITLE: STOLEN WORDS
 #+SUBTITLE: How Editorial Changes Reshape Consciousness
 #+Author: Br. Jagannatha Mishra Dasa
-#+DATE: 2025 - Version 2.0
+#+DATE: First Edition, 2025
 
 # LaTeX Configuration for 6x9 inch book format
 #+LATEX_CLASS: book
@@ -188,9 +188,9 @@
 
 # Half-title page comes first (professional standard) - NO PAGE NUMBER
 #+LATEX: \thispagestyle{frontmatter}
-#+LATEX: \vspace*{0.20\textheight}
+#+LATEX: \vspace*{0.40\textheight}
 #+LATEX: \begin{center}
-#+LATEX: {\fontfamily{cmr}\fontsize{48}{58}\selectfont\textbf{STOLEN WORDS}}
+#+LATEX: {\fontfamily{cmr}\fontsize{42}{50}\selectfont\textbf{STOLEN WORDS}}
 #+LATEX: \end{center}
 #+LATEX: \vspace*{\fill}
 #+LATEX: \clearpage
@@ -202,14 +202,15 @@
 
 # Full title page (professional layout) - NO PAGE NUMBER
 #+LATEX: \thispagestyle{frontmatter}
-#+LATEX: \vspace*{0.33\textheight}
+#+LATEX: \vspace*{0.35\textheight}
 #+LATEX: \begin{center}
-#+LATEX: {\fontfamily{cmr}\fontsize{36}{42}\selectfont\textbf{STOLEN WORDS}}\\[0.4cm]
-#+LATEX: {\large How Editorial Changes Reshape Consciousness}\\[1.5cm]
-#+LATEX: \vspace{0.12\textheight}
-#+LATEX: {\Large Br. Jagannatha Mishra Dasa}\\[2cm]
+#+LATEX: {\fontfamily{cmr}\fontsize{36}{42}\selectfont\textbf{STOLEN WORDS}}\\[0.5cm]
+#+LATEX: {\large How Editorial Changes Reshape Consciousness}
+#+LATEX: \vspace{0.25\textheight}
+#+LATEX: {\Large Br. Jagannatha Mishra Dasa}
 #+LATEX: \vspace*{\fill}
-#+LATEX: {\normalsize 2025 - Version 2.0}
+#+LATEX: {\normalsize First Edition}\\[0.3cm]
+#+LATEX: {\normalsize 2025}\\[1cm]
 #+LATEX: \end{center}
 #+LATEX: \clearpage
 
