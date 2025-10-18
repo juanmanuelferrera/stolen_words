@@ -1526,9 +1526,6 @@ Her investigation led her to David Matthews, a former BBT employee who had resig
 
 David sighed. "It started with good intentions. Always does. Let me explain how the publishing process worked—first under Prabhupāda, then after."
 
-What David revealed over the next three hours would expose the mechanisms through which well-intentioned institutional processes had fundamentally altered sacred content without readers ever realizing what had happened.
-
-
 #+LATEX: \vspace{0.5cm}
 @@latex:\textbf{The Original Publication Model (1972)}@@
 #+LATEX: \vspace{0.2cm}
