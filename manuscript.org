@@ -276,15 +276,15 @@ Finally, I acknowledge all those who seek to preserve the sacred integrity of sp
 
 In 1972, A.C. Bhaktivedanta Swami Prabhupāda gave the world his Bhagavad-gītā As It Is—a devotional translation that would introduce millions to Krishna consciousness. After his passing in 1977, some disciples decided to "improve" his work. This book documents what happened next.
 
-When comparing Prabhupāda's original 1972 edition with the posthumous 1983 revision, one might expect minor editorial differences. What emerges is evidence of comprehensive doctrinal transformation: systematic alterations that fundamentally restructure how readers encounter the divine, understand transcendent reality, and develop consciousness. These changes were made without Prabhupāda's consent, without informing readers, and continue to shape millions of spiritual lives today.
+When comparing Prabhupāda's original 1972 edition with the posthumous 1983 revision, one might expect minor editorial differences. What emerges is evidence of comprehensive doctrinal transformation: systematic alterations that fundamentally restructure how readers encounter the divine, understand transcendent reality, and develop consciousness. Since Prabhupāda had passed away in 1977, he could not consent to these changes. Readers were never informed, and these alterations continue to shape millions of spiritual lives today.
 
-These are not merely academic concerns. The differences create distinct sacred trajectories. Readers of the original develop intimate devotional consciousness through grace-dependent transformation. Readers of the revision develop methodical religious practice through knowledge-based progression. The evidence presented here will disturb those who prefer sacred matters remain abstract and unexamined. It will challenge institutions that conflate editorial authority with religious authority. It will confront individuals who dismiss textual precision as unimportant to sacred life. This book makes no apologies for that disturbance.
+These are not merely academic concerns. The differences create distinct sacred trajectories. Readers of the original develop intimate devotional consciousness through grace-dependent transformation. Readers of the revision develop methodical religious practice through knowledge-based progression. The evidence presented here will disturb those who prefer sacred matters remain abstract and unexamined. It will challenge institutions that conflate religious authority with editorial authority. It will confront individuals who dismiss textual precision as unimportant to sacred life. This book makes no apologies for that disturbance.
 
-Specific names are not mentioned extensively because this subject matter is highly inflammable, with two distinct camps holding strong positions. However, all documented changes and claims can be quickly substantiated through internet searches—this data is publicly available throughout the web for independent verification. When sacred texts undergo wholesale alteration, the consequences extend far beyond publishing decisions. They reshape human consciousness itself.
+Specific names are not mentioned because this subject matter is highly inflammable, with two distinct camps holding strong positions. However, all documented changes and claims can be quickly substantiated through internet searches—this data is publicly available throughout the web for independent verification. When sacred texts undergo wholesale alteration, the consequences extend far beyond publishing decisions. They reshape human consciousness itself.
 
-The evidence is clear. What it means cannot be ignored. How readers respond is their choice alone.
+The evidence is clear. The implications of these changes cannot be ignored. How readers respond is their choice alone.
 
-**Note on Narrative Framework:** This book uses narrative storytelling to present documented evidence. Character names and specific anecdotes are fictionalized to illustrate documented patterns—the data itself is always real and verifiable. Fictional narrative characters include Maya Rodriguez, Dr. Sarah Chen, David Matthews, and temple community members whose experiences are composites drawn from documented testimonies. However, all scientific studies cited are authentic peer-reviewed research from real academics (Pascual-Leone, Beauregard, Paquette, Newberg, d'Aquili, and others). All verse comparisons, chapter statistics, textual changes, and Prabhupāda's recorded class transcripts can be independently verified through publicly available sources including asitis.com (1972 edition), vedabase.io (revised edition), and krishna-books.com documentation.
+**Note on Narrative Framework:** This book uses narrative storytelling to present documented evidence. Character names and specific anecdotes are fictionalized to illustrate documented patterns, but the data is factual and verifiable. Fictional narrative characters include Maya Rodriguez, Dr. Sarah Chen, David Matthews, and temple community members whose experiences are composites drawn from documented testimonies. However, all scientific studies cited are authentic peer-reviewed research from real academics (Pascual-Leone, Beauregard, Paquette, Newberg, d'Aquili, and others). All verse comparisons, chapter statistics, textual changes, and Prabhupāda's recorded class transcripts can be independently verified through publicly available sources including asitis.com (1972 edition), vedabase.io (revised edition), and krishna-books.com documentation.
 
 #+LATEX: \clearpage
 #+LATEX: \pagestyle{empty}
@@ -304,13 +304,13 @@ The evidence is clear. What it means cannot be ignored. How readers respond is t
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: \normalfont\justifying
-I should begin with the book that does not exist, though millions have read it. Or perhaps I should say: the book that exists twice, wearing the same name like a medieval forgery that has replaced its original so completely that scholars debate which came first. But I am getting ahead of myself, as one does when the end of a story makes nonsense of its beginning.
+I should begin with the book that does not exist, though millions have read it. Or perhaps I should say the book that exists twice, wearing the same name like a medieval forgery that has replaced its original, so completely that scholars debate which edition came first. But I am getting ahead of myself, as one does when the end of a story makes nonsense of its beginning.
 
 It was November 14, 1977, in Vṛndāvana, India—the holy land where Krishna danced five thousand years ago—when A.C. Bhaktivedanta Swami Prabhupāda spoke his last documented words. Not, as legend would later claim, "Hare Krishna," but something far more revealing: "Meri kuch iccha nahin." I have no desires. A strange final statement for a man who had spent the last twelve years of his life possessed by a singular desire: to give the Western world his translation of the Bhagavad-gītā exactly as he understood it.
 
-But to understand the mystery of the book that exists twice, we must first understand what Prabhupāda believed he was creating. The Bhagavad-gītā—literally "Song of God"—unfolds as a battlefield conversation between the warrior Arjuna and his charioteer Krishna, who reveals Himself, verse by verse, as the Supreme Divine. Seven hundred verses. Five thousand years of spiritual guidance. And until 1972, a barrier of Sanskrit that kept Western consciousness at bay.
+But to understand the mystery of the book that exists twice, we must first understand what Prabhupāda believed he was creating. The Bhagavad-gītā—literally "Song of God"—unfolds as a battlefield conversation between the warrior Arjuna and his charioteer Krishna, who reveals Himself, verse by verse, as the Supreme Divine. Seven hundred verses. Five thousand years of spiritual guidance. And until 1972, a barrier of Sanskrit that kept Western understanding at bay.
 
-Here was Prabhupāda's heresy: he claimed no scholarly credentials by Western standards, yet promised something no academic would dare—not a translation of words, but a transmission of consciousness. Where scholars saw philosophy requiring analysis, he offered devotion requiring only surrender. His "Bhagavad-gītā As It Is" bore a title that was simultaneously humble and audacious: as it is. No interpretation. No scholarly mediation. Pure transmission from teacher to student, as practiced for millennia.
+Here was Prabhupāda's radical departure: he claimed no scholarly credentials by Western standards, yet promised something no academic would dare—not a translation of words, but a transmission of consciousness. Where scholars saw philosophy requiring analysis, he offered devotion requiring only surrender. His "Bhagavad-gītā As It Is" bore a title that was simultaneously humble and audacious: as it is. No interpretation. No scholarly mediation. Pure transmission from teacher to student, as practiced for millennia.
 
 The audacity succeeded. From 1972 to 1977—those five years when Prabhupāda was still among us—the book sold steadily across America, Europe, and eventually into languages we cannot pronounce. University professors, initially skeptical of a Hindu text by an unknown author, adopted it for courses. Readers reported transformations that academic translations had never triggered. The Macmillan publishing house watched their sales figures climb, though they could not explain why this particular version of an ancient text had struck something resonant in Western consciousness.
 
@@ -330,7 +330,7 @@ The mystery begins six years after his death, in 1983, when the Bhaktivedanta Bo
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: \normalfont\justifying
-The year 1983 should have passed unremarkably in the annals of spiritual publishing. Instead, it marks the moment when what we might call the Great Substitution began—though of course, no one called it that at the time. They called it "Revised and Enlarged," as if improvement were possible for a book that claimed to present things exactly as they are.
+The year 1983 should have passed unremarkably in the annals of spiritual publishing. Instead, it marks the moment when what we might call the Great Substitution began—though of course, no one called it that at the time.
 
 Picture the scene: six years after Prabhupāda's passing away, the Bhaktivedanta Book Trust quietly releases this new edition. No fanfare. No explanation to readers. The cover remains identical—same title, same author's name, same promise of authenticity. Inside, however, a transformation had occurred that would fracture spiritual communities across six continents, though it would take twenty years for anyone to notice.
 
@@ -338,11 +338,11 @@ The method was elegantly simple: bookstores replaced old stock with new. Librari
 
 Consider the mathematics of deception: more than three-quarters of the verses altered. In percentage terms—and how modern our age has become, reducing mystery to statistics—77% of verses modified. Not edited. Not improved. Altered. Which raises the philosophical question: at what point does revision become replacement? The medieval philosophers would have called this the Ship of Theseus problem, though they were concerned with wooden planks, not sacred words.
 
-Who authorized these changes? Here we encounter our first puzzle: Prabhupāda was dead, his final desires ("I have no desires") echoing uselessly in Vṛndāvana. Dead authors cannot authorize. Dead authors cannot forbid. Dead authors become, in Barthes' famous phrase, simply dead—and the text becomes an orphan seeking new parents.
+Who authorized these changes? Here we encounter our first puzzle: Prabhupāda was dead, his final desires ("I have no desires") fading like incense smoke in Vṛndāvana. Dead authors cannot authorize. Dead authors cannot forbid. Dead authors become, in Barthes' famous phrase, simply dead—and the text becomes an orphan seeking new parents.
 
 Who made these changes? The answer leads us to Jayadvaita Swami, one of Prabhupāda's original disciples, a man who had helped produce the very books he would later transform. The irony is almost medieval: the guardian becomes the changer, the preserver becomes the innovator. But to call Jayadvaita a villain would miss the intricate complexity of his position. He believed—sincerely, we must assume—that he was serving his guru by perfecting what had been left imperfect.
 
-Why make these changes? Here the story becomes not complex but vertiginous. The editors possessed manuscripts, dictation tapes, recorded conversations—an archive of intentions. They thought they were correcting errors, not changing philosophy. But intent, as we know from jurisprudence, does not determine consequence. What they created was not correction but transformation. Not perfection but alteration.
+Why make these changes? Here the story becomes not complex but byzantine. The editors possessed manuscripts, dictation tapes, recorded conversations—an archive of intentions. They thought they were correcting errors, not changing philosophy. But intent, as we know from jurisprudence, does not determine consequence. What they created was not correction but transformation. Not perfection but alteration.
 
 And the most subtle alteration was the one that would prove most significant: a pattern in the divine voice itself, alterations so delicate that only the most careful reader would notice how Krishna's words were introduced differently, how the original's invitation to personal devotion became the revision's demand for methodical understanding.
 
@@ -1146,7 +1146,7 @@ Now she understood: they were reading different books. Not different editions of
 
 The issue wasn't that both approaches existed. The issue was that readers received mind-language when they expected heart-language, systematic theology when they sought mystical devotion—and were never told that a choice had been made on their behalf.
 
-Someone purchasing "Prabhupāda's Bhagavad-gītā As It Is" expects Prabhupāda's heart-centered linguistic approach. What they receive is committee mind-language masquerading as authentic transmission.
+Someone purchasing "Prabhupāda's Bhagavad-gītā As It Is" expects Prabhupāda's heart-centered linguistic approach. What they receive is committee mind-language posing as authentic transmission.
 
 Sacred language shapes sacred consciousness. When that language is systematically altered without disclosure, the result is spiritual deception rather than authentic choice.
 
@@ -1255,7 +1255,7 @@ Shastri had left ISKCON in 1991—not dramatically, not through purge or excommu
 
 Maya had never met him. She knew him only through his articles—dense, digressive, often brilliant. Footnotes that multiplied like cells. A single claim about Sanskrit grammar might spawn seventeen tangents from medieval disputatio to Kerala coffee merchants. His mind couldn't encounter a topic without exploring every winding side path, every etymological dead-end, every parallel that might illuminate or confuse or both.
 
-She sent him everything: her initial email to the Swami, the two audio responses, her own annotated transcriptions. No cover letter. Just the materials and a single question: "What am I hearing?"
+She sent him everything: her email to the Swami, the audio response, her own annotated transcriptions. No cover letter. Just the materials and a single question: "What am I hearing?"
 
 The response arrived four days later. Not as audio. Not as email. As a PDF titled—and Maya would remember this title for the rest of her investigation—"De Natura Argumentorum Institutionalium: A Forensic Meditation on the Rhetorical Architecture of Self-Preservation, with Tangential Observations on the Relationship Between Coffee Preparation and Epistemological Certainty" (27 pages, 12-point Garamond, footnotes in 9-point, margins annotated in what appeared to be three different sessions of handwriting).
 
@@ -2458,6 +2458,11 @@ This analysis represents intensive research conducted during 2023-2024 involving
 #+LATEX: \addcontentsline{toc}{section}{About the Author}
 #+LATEX: \markright{About the Author}
 #+LATEX: \thispagestyle{sectionopening}
+
+#+LATEX: \begin{center}
+#+LATEX: \includegraphics[width=2.5in]{jaganat_2k.jpg}
+#+LATEX: \end{center}
+#+LATEX: \vspace{0.5cm}
 
 **Br. Jagannatha Mishra Dasa** has been studying intensively in various temples around the world since 1981, when he received initiation as a Brahmin, becoming part of the Gaudiya Vaisnava tradition.
 
