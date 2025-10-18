@@ -360,7 +360,7 @@ But I am still getting ahead of myself. The story properly begins not with the c
 #+LATEX: \normalfont\justifying
 Every detective story begins with an anomaly—some small disturbance in the expected order of things that reveals, upon investigation, an entire hidden world. Maya Rodriguez's anomaly was verse 6.31 of the Bhagavad-gītā, which she had been reading every morning for fifteen years. The words had shaped her daily meditation, her understanding of divine relationship, her approach to spiritual practice. They were as familiar to her as her own name.
 
-On a Tuesday morning in early 2023, while visiting her grandmother—recently hospitalized for what doctors said was a treatable condition—Maya discovered that her grandmother had been reading different words entirely.
+On a Tuesday morning in the spring of 2023, while visiting her grandmother—recently hospitalized for what doctors said was a treatable condition—Maya discovered that her grandmother had been reading different words entirely.
 
 "Can you explain this verse, mija?" the elderly woman asked, her voice weak but urgent. She pointed to verse 6.31 in her worn 1972 edition. "It doesn't say what I remember anymore. I got a new copy from the temple, and look—the words are completely different."
 
@@ -429,7 +429,7 @@ Picture this: Abhay Charan De, sixty-nine years old, alone on the cargo ship Jal
 
 The Atlantic Ocean nearly accomplished what age and poverty could not. Two heart attacks struck him mid-voyage, alone in his cabin while the ship rolled through storms. He survived by doing the thing he knew better how to do: chanting Sanskrit verses and writing poetry. "I am coming to America empty-handed," he wrote, "but I have faith in Your Holy Name." The poem reads like a man's final testament, not his arrival announcement.
 
-September 17, 1965: the Jaladuta docks in Boston Harbor. Abhay Charan—now A.C. Bhaktivedanta Swami Prabhupāda—steps onto American soil. He later recalled: "When I landed in Boston, I wrote one Bengali poetry to Krishna that I do not know why You have brought me to such a distant place where everything is opposite number." No destination, no clear plan of where to live or sleep. He travels to Butler, Pennsylvania, to stay with his sponsors Gopal and Sally Agarwal—a businessman and his American wife who had offered their home as his first foreign sanctuary. Little money. English so heavily accented that Americans strained to understand him. But he possessed something that money could not purchase: absolute conviction that five-thousand-year-old wisdom could transform the consciousness of a civilization that had never heard of Krishna.
+September 19, 1965: the Jaladuta docks at a Brooklyn pier in New York. Abhay Charan—now A.C. Bhaktivedanta Swami Prabhupāda—steps onto American soil. He later recalled walking off the ship onto the pier: "I did not know whether to turn left or right." No destination, no clear plan, utterly alone in a foreign city. He travels to Butler, Pennsylvania, to stay with his sponsors Gopal and Sally Agarwal—a businessman and his American wife who had offered their home as his first foreign sanctuary. Little money. English so heavily accented that Americans strained to understand him. But he possessed something that money could not purchase: absolute conviction that five-thousand-year-old wisdom could transform the consciousness of a civilization that had never heard of Krishna.
 
 What followed reads like urban mythology: an elderly Indian mystic in the Bowery, surrounded by drug addicts and alcoholics, offering five-thousand-year-old mantras to hippies seeking truth through LSD. While American intellectuals debated the death of God, he taught street kids to dance for Krishna. The contrast was so absurd it could only be true.
 
@@ -555,7 +555,7 @@ But here was the difference: in healthy spiritual traditions, people chose their
 
 In the case of the Bhagavad-gītā As It Is, millions of people believed they shared a path. The editors had divided them invisibly, substituting choice with institutional mandate.
 
-Maya closed both books and leaned back in her chair. Her three-month investigation had revealed how deliberate word changes could reshape human consciousness on a global scale, creating division where unity was intended, confusion where clarity was promised.
+Maya closed both books and leaned back in her chair. Her nine-month investigation had revealed how deliberate word changes could reshape human consciousness on a global scale, creating division where unity was intended, confusion where clarity was promised.
 
 Tomorrow, she would begin documenting the global pattern she had discovered. But tonight, she sat quietly, understanding that she had witnessed something unprecedented: the secret transformation of a sacred text that had programmed millions of minds without their knowledge.
 
@@ -569,7 +569,7 @@ Tomorrow, she would begin documenting the global pattern she had discovered. But
 #+LATEX: \normalfont\justifying
 The arithmetic of deception reveals itself slowly, then all at once. What began as a simple comparison to reassure her grandmother became the kind of obsession that consumes doctoral students and medieval monks—the conviction that behind one altered verse lay an entire architecture of transformation, if only one had eyes trained to see it.
 
-Maya Rodriguez now sat at her kitchen table surrounded by what had become the archaeology of a crime: both editions of the Bhagavad-gītā, colored sticky notes marking alterations like evidence flags at a crime scene, notebooks filled with documentation that no one would believe without seeing. Three months had passed since that hospital conversation. Three months during which friends at the temple had begun treating her questions about "editorial improvements" as symptoms of spiritual weakness. Three months during which her own meditation practice fractured—how does one surrender to verses when one no longer knows which version contains authentic guidance?
+Maya Rodriguez now sat at her kitchen table surrounded by what had become the archaeology of a crime: both editions of the Bhagavad-gītā, colored sticky notes marking alterations like evidence flags at a crime scene, notebooks filled with documentation that no one would believe without seeing. Months had passed since that hospital conversation. Months during which friends at the temple had begun treating her questions about "editorial improvements" as symptoms of spiritual weakness. Months during which her own meditation practice fractured—how does one surrender to verses when one no longer knows which version contains authentic guidance?
 
 But she could no longer stop. The pattern was undeniable. This was not random editing. This was systematic transformation accomplished through editorial precision that would have impressed the medieval forgers who created the Donation of Constantine.
 
@@ -763,6 +763,8 @@ But as Maya was discovering, the cost of this silence extended far beyond publis
 The revelation of systematic changes didn't just affect individual readers—it tore apart the global spiritual community that had been built on shared sacred texts.
 
 Maya discovered this when she began investigating the legal battles that erupted once the internet made comparisons impossible to suppress. What she found was a movement at war with itself, fighting over the very books that were supposed to unite them in spiritual purpose.
+
+This would lead Maya to her most important discovery yet.
 
 But the division wasn't the most disturbing discovery. What truly shook Maya—what kept her awake at 3 AM staring at audio transcripts and verse comparisons until the words blurred—was finding documented proof that Prabhupāda had explicitly approved translations that were later changed without his authorization.
 
@@ -1845,17 +1847,19 @@ Dr. Whitfield pulled out his final argument: "Modern drafts reveal Prabhupāda's
 
 Maya had researched this claim thoroughly.
 
-**The Institutional Claims**
+"Let me understand your position," Maya said. "Unpublished drafts override published books?"
 
-"Let me understand," Maya said. "Your position is:"
+She leaned forward. "You know better than Prabhupāda what he meant?"
 
-- **Draft supremacy**: "Unpublished drafts override published books?"
-- **Theological correction**: "You know better than Prabhupāda what he meant?"
-- **Posthumous approval**: "He would approve changes he never requested?"
-- **Hidden preferences**: "Secret drafts reveal secret intentions?"
-- **Perfectionist projection**: "He wanted changes but never said so?"
+Whitfield's fingers tightened on his papers.
 
-Dr. Whitfield nodded. "The manuscripts show—"
+"He would approve changes he never requested?"
+
+"Secret drafts reveal secret intentions?"
+
+"He wanted changes but never said so?"
+
+A long silence. When Whitfield finally spoke, his voice had lost its earlier confidence. "The manuscripts show—"
 
 **The Primary Source Contradiction**
 
@@ -1924,9 +1928,9 @@ Maya realized she was seeing the human cost of institutional positions—not jus
 
 "Which is?"
 
-"We're not destroying Prabhupāda's work. We're creating two different paths for two different kinds of seekers. The question is: which future do you want?"
+"We're not destroying Prabhupāda's work. We're fulfilling it. The revision represents his mature theological vision—what he would have wanted if he'd had time."
 
-This would lead Maya to her most important discovery yet.
+Maya recognized the core presumption at the heart of the entire controversy. But Whitfield wasn't finished defending his position.
 
 
 #+LATEX: \vspace{0.5cm}
@@ -1940,25 +1944,25 @@ He spoke of Prabhupāda's final years—illness, institutional pressures, thousa
 
 He showed her photographs of manuscript pages with Prabhupāda's handwriting. "These aren't drafts. These are late-stage proofs. Every writer refines their work. We preserved his later refinements."
 
-"But those are Bible translations labeled King James, NIV, ESV," Maya countered. "Readers know what they're choosing. You didn't offer 'BBT Translation' alongside 'Prabhupāda Translation'—you replaced his work and kept his name."
+"Did he ask you to replace the published edition with these manuscripts?" Maya asked quietly. "Did he say, 'After I die, use these instead of what I approved'?"
+
+Whitfield hesitated.
+
+"That's what I thought," Maya said. "You made that decision for him."
 
 Dr. Whitfield pulled out his final card: "With all due respect, you're not initiated. You're an outside academic. Do you think you understand Prabhupāda's intentions better than his direct disciples?" He gestured to a photo showing himself as a young man with Prabhupāda. "I was there. I heard him speak about exact Sanskrit translation, about trusting editors to perfect his English. You've read transcripts. We lived it."
 
-**Maya's Moment of Uncertainty**
+Maya recognized the move—an appeal to authority, the classic fallacy when evidence runs thin.
 
-For the first time, Maya paused. These weren't dismissals—they were genuine perspectives from someone who believed he was serving his teacher.
+"Dr. Whitfield," she said quietly, "you're right. I'm not initiated. I didn't know Prabhupāda personally. But that's exactly why we need objective evidence."
 
-"Dr. Whitfield," she said slowly, "those are substantial arguments."
+She leaned forward. "If his direct disciples disagree about what he wanted—and they clearly do, given the lawsuits—then the only neutral arbiter is what he actually published and used for five years. Not what you remember him saying. Not what you think he meant. What he approved in print and taught from repeatedly."
 
-She gathered her materials. "But you're claiming crossed-out phrases in drafts override five years of him teaching from the published version. Publication represents final author intent. If he wanted to change 'Blessed Lord,' he had 1,825 days and hundreds of classes to request it. He didn't."
+"I can't interpret his spiritual realizations. But I can read. He chose 'Blessed Lord.' He chose 'My dear Arjuna.' He taught from those choices for five years. Never once did he request them changed."
 
-"You say modern readers want academic rigor. But neuroscience research shows people are hungry for direct spiritual experience, not theology textbooks. You're not adapting to your audience—you're creating a different audience."
+Maya met his eyes. "Here's my question: if your justifications are so strong, why not publish both versions, side by side, and let readers choose? Why not include an introduction explaining your reasoning?"
 
-"And regarding spiritual authority—you're right. I'm not initiated. I don't claim to understand his spiritual realizations. But I can read. He chose 'Blessed Lord.' He chose 'My dear Arjuna.' He taught from those choices for five years."
-
-Maya met his eyes. "Here's my question: if these justifications are so strong, why not publish both versions, side by side, and let readers choose? Why not include an introduction explaining your reasoning?"
-
-"You genuinely believe you're serving his mission. But what if serving his mission means preserving his words, not improving them?"
+"You genuinely believe you're serving his mission. I respect that. But what if serving his mission means preserving his words, not improving them?"
 
 **The Return to Institutional Defense**
 
@@ -2023,35 +2027,22 @@ The answer wouldn't come from institutions acknowledging what they'd done. It wo
 #+LATEX: \vspace{0.3cm}
 
 #+LATEX: \normalfont\justifying
-Maya Rodriguez's investigation had uncovered institutional admissions of deliberate textual transformation. Now she needed to answer the most crucial question: what did Prabhupāda actually want for his Bhagavad-gītā?
+Maya Rodriguez had documented systematic textual transformation. Now she needed to answer the most crucial question: what did Prabhupāda actually want for his Bhagavad-gītā?
 
-The persistent institutional defense claims that Prabhupāda privately wanted the systematic changes implemented after his departure. This chapter examines the historical record to determine what Prabhupāda actually intended and how we can know his authentic wishes.
+The institutional defense claims that Prabhupāda privately wanted the systematic changes implemented after his departure. This chapter examines the historical record to determine what Prabhupāda actually intended and how we can know his authentic wishes.
 
 The evidence is comprehensive, documented, and decisive.
 
 
-From 1972 until his departure in 1977, Prabhupāda used his published Bhagavad-gītā As It Is for **1,825 consecutive days** without requesting any of the systematic changes implemented posthumously.
+From 1972 until his departure in 1977, Prabhupāda used his published Bhagavad-gītā As It Is for 1,825 consecutive days without requesting any of the systematic changes implemented posthumously.
 
-During this period, he:
-- **Gave hundreds of lectures** directly reading from the published edition
-- **Heard devotees read verses aloud thousands of times** in exactly the form later changed
-- **Referenced specific verses and page numbers** from the published text in correspondence
-- **Cited the published edition** as his authorized spiritual presentation
-- **Used it for his personal daily reading** and spiritual reference
+Think about what this means practically. For five years, he gave hundreds of lectures directly reading from the published edition. He heard devotees read verses aloud thousands of times in exactly the form later changed. He referenced specific verses and page numbers from the published text in correspondence, cited it as his authorized spiritual presentation, used it for his personal daily reading and spiritual reference.
 
-**If he had wanted systematic divine address changes, he had 1,825 days and countless opportunities to request them.**
+If he had wanted systematic divine address changes, he had 1,825 days and countless opportunities to request them.
 
-When Prabhupāda wanted textual changes, his approach was immediate and explicit:
+More tellingly, when Prabhupāda wanted textual changes, his approach was immediate and explicit. A 1970 letter demonstrates the pattern: "I have gone through the blueprint and I am also sending the necessary Sanskrit corrections to Pradyumna. So when these corrections are made then you can print immediately." Changes were implemented within days or weeks. He identified exactly what needed modification and how. He followed up to verify that requested changes were properly implemented.
 
-**Direct Communication Example**:"I have gone through the blueprint and I am also sending the necessary Sanskrit corrections to Pradyumna. So when these corrections are made then you can print immediately (1970 letter).
-
-**Immediate Implementation**: Changes were implemented within days or weeks of his requests
-
-**Clear Specification**: He identified exactly what needed modification and how
-
-**Follow-up Verification**: He checked that requested changes were properly implemented
-
-**This pattern of immediate, specific, verifiable change requests is completely absent regarding any systematic theological alterations.**
+This pattern of immediate, specific, verifiable change requests is completely absent regarding any systematic theological alterations.
 
 
 #+LATEX: \vspace{0.5cm}
@@ -2059,92 +2050,63 @@ When Prabhupāda wanted textual changes, his approach was immediate and explicit
 #+LATEX: \vspace{0.2cm}
 
 
-The most devastating evidence against posthumous revision claims comes from class transcripts where Prabhupāda explicitly approved original formulations that were later changed without his authorization.
+The most devastating evidence arrived on a Tuesday afternoon, delivered not through institutional documents but through the patient work of devotees who had spent years digitizing Prabhupāda's recorded lectures. Maya had requested access to class transcripts from 1972 to 1977—the five years when Prabhupāda taught using his published Bhagavad-gītā. What she discovered in those transcripts would make posthumous revision claims impossible to sustain.
 
-The pattern repeats across multiple verses (as documented earlier in this chapter): In BG 2.48, Prabhupāda emphasized "steadfast in yoga" and "evenness of mind"—both concepts later deleted. In BG 6.31, he explicitly emphasized "worships Me" and "direct worship of Krishna"—subsequently redirected to impersonal "worshipful service of the Supersoul."
+Picture the scene she reconstructed from audio recordings: morning classes in temples across the world, Prabhupāda seated before his students, a devotee reading aloud from the published book while the teacher listened, eyes closed, absorbing not just words but the spiritual transmission they carried. These weren't casual readings. These were formal instruction, recorded and preserved, creating an inadvertent archive of approval.
 
-**When the original was read**: "One who is not in transcendental consciousness can have neither a controlled mind nor steady intelligence"
+The pattern Maya found repeated across dozens of verses. In verse 2.48, a devotee read: "Be steadfast in yoga... perform your duty with evenness of mind." Prabhupāda's commentary expanded on precisely those concepts—steadfastness, evenness—the very words later deleted in revision. In verse 6.31, when the reader proclaimed "worships Me" and "direct worship of Krishna," Prabhupāda built his entire explanation around personal devotion to the Divine, never suggesting the impersonal "worshipful service of the Supersoul" that would replace it posthumously.
 
-**Prabhupāda's response**: "Everyone in this material world, they are after peace, but they don't want to control the senses... We do not know how to control the senses. We do not know the real yogic principle of controlling the senses."
+One transcript particularly haunted Maya's investigation. A 1974 class on verse 2.67, the reader's voice clear on the recording: "One who is not in transcendental consciousness can have neither a controlled mind nor steady intelligence."
 
-**Historical fact**: The revision removed "controlled mind" despite Prabhupāda's explicit emphasis on sense control when hearing this verse.
+Prabhupāda's response came immediately, emphatic: "Everyone in this material world, they are after peace, but they don't want to control the senses... We do not know how to control the senses. We do not know the real yogic principle of controlling the senses."
 
-These examples establish a clear pattern: **Prabhupāda consistently approved original translations that were later changed without his authorization.**
+Maya checked the revised edition. The phrase "controlled mind" had been removed—the very concept Prabhupāda had emphasized when hearing this verse read aloud from the published text he had personally approved.
 
-The class transcripts prove:
-1. **He heard original translations in his lectures**
-2. **He explicitly approved them through verbal affirmation**
-3. **He often emphasized the very concepts later deleted in revisions**
-4. **He never requested the systematic changes implemented posthumously**
-5. **He taught from and expanded upon the exact formulations later "corrected"**
+She began cataloging these instances, and the evidence accumulated into a devastating indictment. Prabhupāda had heard the original translations in hundreds of lectures. He had explicitly approved them through his teaching commentary. He had often emphasized the very concepts later deleted in revision. He had never—not once in five years and thousands of teaching hours—requested the systematic changes implemented after his death. He taught from and expanded upon the exact formulations later "corrected" by editors who claimed to be serving his intentions.
 
+The archive yielded another category of evidence that made Maya pause mid-research, forcing her to step away from her laptop and simply sit with what she had found. These were Prabhupāda's explicit warnings about posthumous changes to his work.
 
-**Direct quote**: "So you cannot change anything"
+"So you cannot change anything." The quote appeared in a 1976 discussion about maintaining his books exactly as published. The context was unambiguous: his disciples were to preserve, not improve.
 
-**Context**: Discussion about maintaining his books exactly as published
+A 1975 letter to his editors carried equal clarity: "These things should be corrected by editorial revision, but the sense should remain the same." He authorized correction of technical errors—grammar, spelling, perhaps awkward phrasing—but explicitly required maintaining "the sense." This was precisely what systematic theological revision violated. You could fix a typo. You could not redirect readers from personal devotion to impersonal philosophy and claim you were maintaining "the sense."
 
-**Letter to editors**: "These things should be corrected by editorial revision, but the sense should remain the same" (1975)
+But the most prophetic warning appeared in a letter dated September 18, 1976—fourteen months before his death—to a disciple named Dixit das. Maya read it three times, each reading making the hair on her arms rise:
 
-**Analysis**: He authorized correction of technical errors but explicitly required maintaining "the sense"—exactly what systematic theological revision violates.
+"...a little learning is dangerous, especially for the Westerners. I am practically seeing that as soon as they begin to learn a little Sanskrit immediately they feel that they have become more than their guru and then the policy is kill guru and be killed himself."
 
-**Letter to Dixit das, September 18, 1976**: "...a little learning is dangerous, especially for the Westerners. I am practically seeing that as soon as they begin to learn a little Sanskrit immediately they feel that they have become more than their guru and then the policy is kill guru and be killed himself."
+Kill guru. The phrase seemed melodramatic until Maya considered what it meant to systematically alter a spiritual teacher's completed work based on the presumption that one's Sanskrit knowledge revealed what he "really meant" better than his own published books. Was that not, in a very real sense, killing the guru—replacing his spiritual vision with one's own scholarly interpretation?
 
-**Prophetic accuracy**: This describes exactly what occurred in the posthumous revision process—editors with "little learning" in Sanskrit presuming to correct their spiritual teacher's completed work.
+This described exactly what occurred in the posthumous revision process. Editors with Sanskrit knowledge—real but limited—presuming to correct their teacher's theological presentation in a work he had reviewed, approved, and used for five years without requesting such changes. The warning proved prophetic.
 
+Maya found herself thinking about the book's title: "Bhagavad-gītā As It Is." Not "As Scholars Think It Should Be." Not "As Committees Improved It." As it is—meaning as the text actually presents spiritual truth, direct and unfiltered by institutional improvement processes.
 
-The title itself reveals his intention: "Bhagavad-gītā As It Is"—meaning as the text actually presents spiritual truth, not as committees think it should be improved.
+Everything in Prabhupāda's documented behavior pointed toward this interpretation. His consistent choice of intimate, accessible language over formal theological precision reflected conscious spiritual methodology, not linguistic limitation. His life's work focused on making authentic spiritual knowledge accessible to sincere seekers through clear, heart-opening presentation. His warnings about disciples becoming "more than their guru" indicated clear concern about precisely the kind of posthumous editorial presumption that eventually occurred.
 
-His consistent choice of intimate, accessible language over formal theological precision reflects conscious spiritual methodology, not linguistic limitation.
+Maya created what she privately called "the documentary absence test"—searching the historical record for evidence that would support posthumous revision claims. If Prabhupāda had wanted systematic theological revision, the archive should contain letters requesting terminology changes, classes where he corrected published formulations, meetings where he authorized systematic alterations, written instructions about preferred alternative wordings.
 
-His life's work focused on making authentic spiritual knowledge accessible to sincere seekers through clear, heart-opening presentation.
+The historical record was silent. No such documentation existed.
 
-His warnings about disciples becoming "more than their guru" indicate clear concern about posthumous editorial presumption.
+If he had been dissatisfied with his published theological presentation, the archive should show complaints about it, requests for fundamental reconceptualization, expressions of regret about publication decisions, instructions to delay further printing until revisions could be completed.
 
+Again, silence. No evidence of dissatisfaction with published theological content.
 
-If Prabhupāda had wanted systematic theological revision, we would expect documentation of:
+If he had intended posthumous editorial revision, there should be instructions giving specific people authority to revise his completed work, guidelines for posthumous editorial decision-making, approval of committee-based theological processes, permission for systematic alteration of spiritual content.
 
-- Letters requesting theological terminology changes
-- Classes where he corrected published formulations
-- Meetings where he authorized systematic alterations
-- Written instructions about preferred alternative wordings
+Once more, nothing. While Prabhupāda authorized specific changes when he was present and could personally review them, he never granted permission for comprehensive posthumous editorial revision of completed works.
 
-**Historical record**: **None of this documentation exists.**
+Maya found herself conducting a thought experiment that felt morbid but necessary. Based on his documented positions and behavior patterns, how would Prabhupāda have reacted to discovering posthumous systematic revision of his Bhagavad-gītā? His pattern throughout his life was direct, immediate response to unauthorized changes to his work—the fury that shocked his disciples three months before his death when he discovered alterations to another publication demonstrated this clearly. He would have identified exactly which changes violated his spiritual intentions and required restoration. He would have clarified the difference between correcting technical errors and altering spiritual content. His life's work emphasized giving people authentic spiritual choice, not committee-filtered alternatives.
 
-- Complaints about theological presentation
-- Requests for fundamental reconceptualization
-- Expressions of regret about original publication decisions
-- Instructions to delay further printing until revisions completed
+The historical evidence provided clear judgment: Prabhupāda approved his published Bhagavad-gītā As It Is as complete. He authorized it for widespread distribution without systematic theological revision. He used it successfully for five years. He explicitly warned against the kind of posthumous "improvement" that eventually occurred.
 
-**Historical record**: **No evidence of dissatisfaction with published theological content.**
+The institutional defense collapsed under this weight of documentation. Five years of satisfied use. Hundreds of classes teaching from the published edition. Explicit preservation warnings. No authorization for systematic revision. The claim that he "privately wanted" comprehensive changes but somehow never mentioned them in thousands of hours of recorded teaching, hundreds of letters to editors, or five years of daily use became impossible to sustain.
 
-- Instructions giving specific people authority to revise his completed work
-- Guidelines for posthumous editorial decision-making
-- Approval of committee-based theological revision processes
-- Permission for systematic alteration of spiritual content
+Maya understood what the evidence revealed: Prabhupāda wanted authentic preservation, not theological replacement. His heart-accessible methodology—intimate divine language, grace-dependent spiritual anthropology, emotional accessibility—represented conscious spiritual design, not limitation requiring scholarly correction.
 
-**Historical record**: **No authorization for posthumous systematic revision exists.** While Prabhupāda authorized specific changes when he was present and could personally review them, he never granted permission for comprehensive posthumous editorial revision of completed works.
-
-Based on documented positions and behavior patterns, Prabhupāda's probable reaction to posthumous systematic revision would be:
-
-Immediate Opposition. His pattern was direct, immediate response to unauthorized changes to his work.
-
-He would have identified exactly which changes violated his spiritual intentions and required restoration.
-
-He would have clarified the difference between correcting technical errors and altering spiritual content.
-
-His life work emphasized giving people authentic spiritual choice, not committee-filtered alternatives.
-
-The historical evidence provides clear judgment: **Prabhupāda approved his published Bhagavad-gītā As It Is as complete and authorized it for widespread distribution without systematic theological revision.**
-
-The historical evidence contradicts posthumous change claims: five years of satisfied use, documented approval, explicit preservation warnings, no authorization for systematic revision.
-
-Prabhupāda wanted authentic preservation, not theological replacement. His heart-accessible methodology—intimate divine language, grace-dependent anthropology, emotional accessibility—was conscious spiritual design, not limitation.
-
-The solution honors both approaches: preserve the original for those seeking authentic methodology, offer revisions for systematic preferences, ensure clear identification and conscious choice.
+The solution seemed obvious to Maya, though apparently it had eluded institutional authorities for four decades. Preserve the original for those seeking Prabhupāda's authentic methodology. Offer the revision for those preferring systematic theological precision. Ensure clear identification of both versions. Enable conscious choice rather than institutional substitution.
 
 Prabhupāda wanted his Bhagavad-gītā preserved "As It Is"—exactly as he published it after five years of satisfied use and documented approval.
 
-The evidence was complete. The case was closed. But for Maya, the story had one final chapter—the one that mattered most.
+The evidence was complete. The case, Maya realized as she compiled her final documentation, was closed. But for her personally, the story had one final chapter—the one that mattered most.
 
 #+LATEX: \clearpage
 #+LATEX: \addtocontents{toc}{\vspace{0.5em}}
@@ -2186,7 +2148,7 @@ Maya looked at the notebooks and printouts she had brought—nine months of inve
 
 "Probably. Some already are. But Abuela, someone has to say it. Millions of people are reading these books, building their spiritual lives around them, never knowing that what they're receiving was systematically altered forty years ago. That's not right. Not for you, not for them, not for Prabhupāda's memory."
 
-Her grandmother smiled, and for a moment Maya saw past the illness to the woman who had introduced her to Krishna consciousness three decades earlier—fierce, loving, uncompromising in her devotion. "Your grandfather would be proud. He always said truth matters more than comfort."
+Her grandmother smiled, and for a moment Maya glimpsed the woman beneath the illness—the one who had introduced her to Krishna consciousness two decades earlier, fierce, loving, uncompromising in her devotion. "Your grandfather would be proud. He always said truth matters more than comfort."
 
 They sat in companionable silence as afternoon light slanted through the hospital window. Maya noticed her grandmother had marked a verse—2.25 in the original edition, the verse about the unchangeable soul that had been systematically stripped of that very quality in the revision. Her grandmother had written in the margin, in her careful hand: "Krishna promises I am eternal. This gives me courage."
 
