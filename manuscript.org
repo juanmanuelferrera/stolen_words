@@ -1531,11 +1531,11 @@ David sighed. "It started with good intentions. Always does. Let me explain how 
 #+LATEX: \vspace{0.2cm}
 
 
-"In 1972," David explained, pulling out a folder of old documents, "the process was beautifully simple. Prabhupāda would dictate, his secretary would type, and he would review everything personally."
+"In 1972," David explained, "the process was beautifully simple. Prabhupāda would dictate, his secretary would type, and he would review everything personally."
 
-Maya examined the photocopied pages—handwritten notes in margins, crossed-out words, Prabhupāda's distinctive signature approving final drafts.
+Maya had seen photocopies from the Bhaktivedanta Archives—handwritten notes in margins, crossed-out words, Prabhupāda's distinctive signature approving final drafts. The documentary evidence showed direct authorial involvement.
 
-"Look at this," David pointed to a memo from 1972. "When Macmillan wanted to formalize the divine address, Prabhupāda refused. He said, 'My readers should feel blessed, not intimidated.'"
+"The 1972 edition preserved his intimate language," David observed. "Look at the published text—'Blessed Lord' throughout. Warm, personal, devotional. That was clearly Prabhupāda's choice."
 
 The 1972 publication process had been remarkably direct:
 - **Author writes manuscript** with clear spiritual intention
@@ -1545,7 +1545,7 @@ The 1972 publication process had been remarkably direct:
 
 "This created what I call 'transmission integrity,'" David said. "Minimal filtration between Prabhupāda's realization and the reader's reception. He was involved in every decision."
 
-Maya discovered through David's documents that Prabhupāda had:
+The documented record showed that Prabhupāda had:
 - Written translations and purports with specific spiritual intentions
 - Made final decisions on all disputed points during editing
 - Approved the finished product after reviewing the complete text
@@ -1567,9 +1567,9 @@ Maya watched David's face tighten with old tensions. "That's when the committees
 
 "Within six months of his passing, we had editorial committees, review boards, Sanskrit consultants—everyone suddenly knew better than the published version what Prabhupāda 'really meant.'"
 
-David pulled out another document—meeting minutes from March 1978. Maya read with growing alarm:
+"What was the justification?" Maya asked.
 
-*"The BBT Editorial Board concludes that extensive revision is necessary to bring Śrīla Prabhupāda's books to acceptable academic standards..."*
+"Improvement," David said bitterly. "Making the books more academically respectable, more systematically precise. The BBT began extensive revisions in 1978."
 
 After Prabhupāda's departure, fundamental dynamics had shifted:
 - The living author who could explain intentions was gone
@@ -1607,17 +1607,9 @@ Maya's pen flew across the page. "So each layer added their own agenda?"
 
 Maya leaned forward. "Walk me through a typical change. How did 'Blessed Lord' become 'Supreme Personality of Godhead' throughout the text?"
 
-David pulled out actual meeting transcripts from 1981:
+"The pattern was consistent," David explained. "Hypothetically, it would go something like this—an editorial committee member might suggest that 'Blessed Lord' sounded too Christian, recommending proper Vaiṣṇava terminology. A Sanskrit consultant might note that 'Bhagavān' carries more philosophical weight than 'Blessed.' The review board would decide that 'Supreme Personality of Godhead' establishes proper theological understanding. Finally, the publisher would approve it, thinking more scholarly terminology would help university adoption."
 
-**Editorial Committee Meeting, April 1981**: "Brother suggests 'Blessed Lord' sounds too Christian. We should use proper Vaiṣṇava terminology."
-
-**Sanskrit Consultant's Note**: "'Bhagavān' has more philosophical weight than 'Blessed.' Academic translation should reflect this."
-
-**Review Board Decision**: "'Supreme Personality of Godhead' establishes proper theological understanding. Motion passed."
-
-**Publisher's Approval**: "More scholarly terminology will help university adoption. Approved."
-
-"See?" David spread the papers out. "No single party intended to fundamentally alter the theology. But look at the cumulative effect."
+"See the pattern?" David continued. "No single party intended to fundamentally alter the theology. But look at the cumulative effect."
 
 Maya studied the cascade of decisions. Each group's "improvement":
 - **Editorial Committee**: "We can make this more grammatically correct"
@@ -1630,20 +1622,17 @@ Maya studied the cascade of decisions. Each group's "improvement":
 Maya found herself thinking of all the questions only Prabhupāda could answer:
 
 - Why intimate divine address instead of theological titles?
-
-"I found the answer in a lecture," David said, pulling out another transcript. "Prabhupāda said: 'When Krishna speaks, the reader should feel blessed. This intimacy opens the heart. Formal titles create distance.'"
-
 - Why simple language over sophisticated terminology?
 
-"I found lectures and conversations from the mid-1970s that echo this theme of intimacy and direct feeling in Krishna devotion—where the heart is opened by Krishna’s presence and blessings
+"I heard recordings of Prabhupāda's lectures," David said. "He emphasized intimacy and direct feeling in Krishna devotion—how the heart is opened by Krishna's presence and blessings."
 
 Maya's notes were filling rapidly. "The committees couldn't know these intentions."
 
 "Exactly. These emerged from spiritual realization, not academic training."
 
-David opened a spreadsheet on his laptop. "I categorized all the changes when I left the BBT. Look at this pattern."
+"When I left the BBT, I tried to make sense of all the changes," David said. "They fell into a clear pattern."
 
-Maya studied the data:
+He outlined the categories:
 - **Category 1**: About 100 genuine typo corrections—everyone agrees these were needed
 - **Category 2**: Thousands of style changes disguised as "improvements"—subjective preferences
 - **Category 3**: Systematic theological revisions—unauthorized transformation of meaning
