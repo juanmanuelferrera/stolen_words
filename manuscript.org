@@ -1702,7 +1702,7 @@ Maya wrote down David's practical framework:
 
 Without clear principles protecting spiritual integrity, each generation of editors can justify further alterations based on contemporary needs and preferences. This is how authentic transmission gradually disappears—not through dramatic censorship but through incremental "improvement" by well-intentioned committees.
 
-The solution isn't eliminating institutional publishing but establishing safeguards that preserve authentic choice alongside systematic improvement.
+The solution isn't eliminating institutional publishing but establishing safeguards that preserve the primary source alongside scholarly annotation and contextual support.
 
 "Can this be fixed?" Maya asked. "After forty years of deception?"
 
@@ -1710,20 +1710,15 @@ David smiled for the first time. "Absolutely. The internet changed everything. P
 
 He outlined the recovery path:
 
-**Step 1: Acknowledgment**
-"The BBT needs to publicly acknowledge the scope of changes. Not minimize, not defend—just honestly state what was done."
+"First, acknowledgment. The BBT needs to publicly acknowledge the scope of changes. Not minimize, not defend—just honestly state what was done.
 
-**Step 2: Restoration**
-"Make the 1972 original freely available again. Let people choose. The original is Prabhupāda's gift to the world—it belongs to everyone."
+"Second, restoration. Make the 1972 original freely available again. Let people choose. The original is Prabhupāda's gift to the world—it belongs to everyone.
 
-**Step 3: Transparency**
-"Label everything clearly. '1972 Original Edition.' '1983 Revised Edition.' Let readers make informed choices."
+"Third, transparency. Label everything clearly. '1972 Original Edition.' '1983 Revised Edition.' Let readers make informed choices.
 
-**Step 4: Reader Empowerment**
-"Educate people about the differences. Not to create conflict, but to enable conscious choice."
+"Fourth, reader empowerment. Educate people about the differences. Not to create conflict, but to enable conscious choice.
 
-**Step 5: Institutional Accountability**
-"Future editorial boards must understand: You're stewards, not owners. The original stays intact. Create new editions if you want, but be honest about it."
+"And finally, institutional accountability. Future editorial boards must understand: You're stewards, not owners. The original stays intact. Create new editions if you want, but be honest about it."
 
 As Maya packed up her notes, David offered one final insight:
 
@@ -1764,7 +1759,7 @@ As Maya left the café, she knew her next step: confronting the defenders of the
 #+LATEX: \normalfont\justifying
 Maya Rodriguez knew her investigation would eventually lead here—to the defenders of the revision. After David Matthews revealed the publishing deception, she needed to understand how institutions justified what had been done.
 
-She arranged a meeting with Dr. Richard Whitfield, a senior BBT representative who had publicly defended the revisions for two decades. They met at the BBT offices in Los Angeles, a modern building filled with Sanskrit texts and photographs of Prabhupāda.
+She arranged a meeting with Dr. Richard Whitfield (Ritambhara Dasa), a senior BBT representative who had publicly defended the revisions for two decades. They met at the BBT offices in Los Angeles, a modern building filled with Sanskrit texts and photographs of Prabhupāda.
 
 As Maya entered Whitfield's office, she noticed the man's genuine reverence—photos of him with various spiritual teachers, Sanskrit dictionaries worn from use, devotional texts in multiple languages. This wasn't a corporate executive; this was someone who had dedicated his life to spiritual service.
 
