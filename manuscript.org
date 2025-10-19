@@ -188,9 +188,10 @@
 
 # Half-title page comes first (professional standard) - NO PAGE NUMBER
 #+LATEX: \thispagestyle{frontmatter}
-#+LATEX: \vspace*{0.40\textheight}
+#+LATEX: \vspace*{0.38\textheight}
 #+LATEX: \begin{center}
-#+LATEX: {\fontfamily{cmr}\fontsize{42}{50}\selectfont\textbf{STOLEN WORDS}}
+#+LATEX: {\fontfamily{cmr}\fontsize{40}{48}\selectfont\textbf{STOLEN}}\\[0.6cm]
+#+LATEX: {\fontfamily{cmr}\fontsize{40}{48}\selectfont\textbf{WORDS}}
 #+LATEX: \end{center}
 #+LATEX: \vspace*{\fill}
 #+LATEX: \clearpage
@@ -205,9 +206,9 @@
 #+LATEX: \vspace*{0.35\textheight}
 #+LATEX: \begin{center}
 #+LATEX: {\fontfamily{cmr}\fontsize{36}{42}\selectfont\textbf{STOLEN WORDS}}\\[0.5cm]
-#+LATEX: {\large How Editorial Changes Reshape Consciousness}
+#+LATEX: {\large How Editorial Changes Reshape Consciousness}\\
 #+LATEX: \vspace{0.25\textheight}
-#+LATEX: {\Large Br. Jagannatha Mishra Dasa}
+#+LATEX: {\Large Br. Jagannatha Mishra Dasa}\\
 #+LATEX: \vspace*{\fill}
 #+LATEX: {\normalsize First Edition}\\[0.3cm]
 #+LATEX: {\normalsize 2025}\\[1cm]
