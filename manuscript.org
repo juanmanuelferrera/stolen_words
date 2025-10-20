@@ -2014,7 +2014,7 @@ There was silence on the line.
 
 "Do you have enough evidence?"
 
-"I have nine months of documentation, temple ethnography, your neuroscience research, class transcripts, statistical analysis. I have everything except a confession—and apparently that's not how institutions work."
+"I have nine months of documentation, temple ethnography, the neuroscience research, class transcripts, statistical analysis. I have everything except a confession—and apparently that's not how institutions work."
 
 "Then write it," Chen said. "Make the case. Let readers decide."
 
@@ -2253,6 +2253,10 @@ Maya's choice, in the end, was simply to give them back the choice itself.
 #+LATEX: \addcontentsline{toc}{section}{Bibliography}
 #+LATEX: \markright{Bibliography}
 #+LATEX: \thispagestyle{sectionopening}
+
+This section provides detailed source documentation for readers who wish to independently verify the claims made throughout this book. All verse comparisons, audio recordings, and textual changes can be verified through publicly available online sources.
+
+#+LATEX: \vspace{0.5cm}
 
 **Primary Textual Sources**
 
