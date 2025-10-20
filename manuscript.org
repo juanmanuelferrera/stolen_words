@@ -445,7 +445,7 @@ Here was the first crack in what would later become a chasm. Young American disc
 
 These "errors" would later become ammunition.
 
-Here was Prabhupāda's heretical insight: his priority was not academic precision but consciousness transmission. When disciples suggested more scholarly language to gain university credibility, he refused with characteristic bluntness: "We are not after Nobel Prize. We are after noble life. Let the scholars criticize. If one boy is saved from material life, our mission is successful."
+Here was Prabhupāda's radical insight: his priority was not academic precision but consciousness transmission. When disciples suggested more scholarly language to gain university credibility, he dismissed the idea with characteristic bluntness: "Where is the difficulty to understand? By misinterpretation they'll write volumes of books and spoil the whole thing." He had witnessed decades of scholars obscuring the Gītā's message in academic complexity. His mission was different: if even one sincere reader could be transformed, he considered his labor successful.
 
 This philosophy would later become the battlefield. Every translation choice reflected it: where Sanskrit offered multiple English possibilities, Prabhupāda consistently chose the heart over the head, accessibility over accuracy. "Bhagavān" could be rendered as "Supreme Being," "Divine Lord," "God," or dozens of scholarly alternatives. He chose "the Blessed Lord" for one reason: it made readers feel blessed. "Yoga" etymologically meant "linking with the Supreme," but he simplified it to "devotional service" because service was something Americans could understand.
 
@@ -583,7 +583,7 @@ The pattern revealed itself through a single devastating example. In the origina
 
 "Perfectly know" versus "know perfectly." Grace versus achievement. Gift versus laboratory.
 
-Five hundred and forty-one verses out of seven hundred had been systematically altered. Not improved. Transformed. Where Prabhupāda had written "Blessed Lord"—intimate, personal—the revision demanded "Supreme Personality of Godhead"—eleven syllables of institutional hierarchy. Where he had chosen "steadfast in yoga" (accessible to subway workers), they substituted "equipoised" (requiring philosophical credentials). Where he wrote that divinity "advents" to human level—comes down, becomes touchable—they made it "appear" in abstract theological distance.
+Five hundred and forty-one verses out of seven hundred had been systematically altered. Not improved. Transformed. Where Prabhupāda had written "Blessed Lord"—intimate, personal—the revision demanded "Supreme Personality of Godhead"—eleven syllables of institutional hierarchy. Where he had chosen "steadfast in yoga" (accessible to subway workers), they substituted "equipoised" (requiring philosophical credentials). Where Krishna declares "I advent Myself" (4.8)—descending, becoming touchable—they made it "I appear"—maintaining abstract theological distance.
 
 Maya stared at the two books on her table. Same title. Same author's name. Same Krishna on the cover. But one created mystics seeking divine love; the other created scholars pursuing systematic knowledge. And for four decades, no institution had informed readers they were unknowingly choosing between fundamentally different spiritual universes.
 
@@ -599,9 +599,13 @@ The question that haunted her was no longer *what* had been done, but *why*—an
 #+LATEX: \vspace{0.3cm}
 
 #+LATEX: \normalfont\justifying
-Every global conspiracy requires global confusion for its success, and Maya's investigation had revealed the mechanism by which textual alterations program different types of consciousness across continents. But she needed to understand how this theoretical possibility had translated into lived reality. If millions of readers worldwide were unknowingly receiving different spiritual programming through editorial choices, what were the measurable consequences for entire spiritual communities?
+*Without realizing.* That phrase haunted Maya more than any other. Because if the editors truly hadn't realized what they were doing—if they'd believed in good faith that changing "forgotten soul" to "forgetful soul" or "steadfast in yoga" to "equipoised" made no practical difference—then there should be no measurable impact on how readers experienced the Divine.
 
-The answer emerged through what could only be called the archaeology of institutional fracture—documented evidence that the substitution had created theological chaos on every continent where Krishna consciousness had taken root.
+But if Maya's analysis was correct—if these changes truly programmed different types of consciousness—then the effects should be visible, traceable, global.
+
+She needed to test this. Not in theory, but in the lived experience of millions of readers across continents.
+
+The answer emerged through what could only be called the archaeology of institutional fracture—documented evidence that the changes had created confusion on every continent where Krishna consciousness had taken root.
 
 By 2005, twenty-two years after the Great Substitution began, confusion had metastasized to every corner of the globe where the Bhagavad-gītā was studied. Maya discovered a pattern of institutional fractures that mirrored her own unsettling discovery, but magnified to continental scale—communities unknowingly split by editorial choices they never knew had been made.
 
@@ -778,7 +782,7 @@ But the division wasn't the most disturbing discovery. What truly shook Maya—w
 
 It was a Wednesday afternoon in late October when Maya stumbled upon what criminal prosecutors would call "smoking gun evidence"—documentation so specific it eliminated all ambiguity about authorization.
 
-She had been combing through the Vedabase archives—thousands of hours of Prabhupāda's recorded classes, painstakingly transcribed by devotees over decades—when she noticed something that made her hand freeze on the mouse. In a class from December 16, 1968, in Los Angeles, someone had read verse 2.48 aloud to Prabhupāda from the newly published edition:
+She had been combing through the Vedabase archives—thousands of hours of Prabhupāda's recorded classes, painstakingly transcribed by devotees over decades—when she noticed something that made her hand freeze on the mouse. In a class from December 16, 1968, in Los Angeles, someone had read verse 2.48 aloud to Prabhupāda from the newly published Macmillan abridged edition:
 
 "Be steadfast in yoga, O Arjuna. Perform your duty and abandon all attachment to success or failure. Such evenness of mind is called yoga."
 
