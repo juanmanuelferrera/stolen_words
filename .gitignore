@@ -1,2 +1,21 @@
+# macOS
 .DS_Store
-.DS_Store
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# Backup files
+*.backup
+*.org.backup*
+*_backup.org
