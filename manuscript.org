@@ -2254,91 +2254,171 @@ Maya's choice, in the end, was simply to give them back the choice itself.
 #+LATEX: \markright{Bibliography}
 #+LATEX: \thispagestyle{sectionopening}
 
-Barthes, Roland. "The Death of the Author." *Image, Music, Text*. Hill and Wang, 1977.
+**Primary Textual Sources**
 
-Bassnett, Susan. *Translation Studies*. Routledge, 2002.
+*Bhagavad-gītā As It Is*, Original 1972 Macmillan Edition. A. C. Bhaktivedanta Swami Prabhupāda. New York: Macmillan, 1972.
+- Online: asitis.com | prabhupadagita.com
 
-Azari, Nina P., et al. "Neural correlates of religious experience." *European Journal of Neuroscience* 13, no. 8 (2001): 1649-1652. [Demonstrates that religious recitation activates different neural networks than non-religious reading]
+*Bhagavad-gītā As It Is*, Revised and Enlarged 1983 Edition. Bhaktivedanta Book Trust. Los Angeles, 1983.
+- Online: vedabase.io
 
-Beauregard, Mario, and Vincent Paquette. "Neural correlates of a mystical experience in Carmelite nuns." *Neuroscience Letters* 405, no. 3 (2006): 186-190. [fMRI study identifying neural activation patterns during mystical contemplation: caudate nucleus, insula, and limbic regions]
+Vedabase Archives: Complete collection of Srila Prabhupāda's recorded lectures, class transcripts, letters, and conversations, 1966-1977.
+- Online: vedabase.io | prabhupadavani.org | vanisource.org
 
-Brooks, Charles R. *The Hare Krishnas in India*. Princeton University Press, 1989.
+"Bhagavad Gita Changes — Complete List." /ISKCON & BBT Prabhupada Book Changes/.
+- Online: bookchanges.com/bhagavad-gita-changes-complete-list
 
-Chaves, Mark. *Ordaining Women: Culture and Conflict in Religious Organizations*. Harvard University Press, 1997.
+"Changes in Bhagavad-gita." /Krishna Books/.
+- Online: krishna-books.com/77-of-bg-verses-is-changed.html
 
-Doniger, Wendy. *The Implied Spider: Politics and Theology in Myth*. New York: Columbia University Press, 1998. [Analysis of how sacred text transmission shifts from charismatic to bureaucratic language across traditions]
+Arsa-Prayoga documentation archive.
+- Online: arsaprayoga.com
 
-Schjoedt, Uffe, et al. "Highly religious participants recruit areas of social cognition in personal prayer." *Social Cognitive and Affective Neuroscience* 4, no. 2 (2009): 199-207. [Shows that perceived intimacy with divine figures correlates with specific brain activation patterns distinct from formal prayer]
+#+LATEX: \vspace{0.5cm}
 
-Dweck, Carol S. *Mindset: The New Psychology of Success*. New York: Random House, 2006. [Research on fixed versus growth mindset and linguistic framing effects on learning orientation]
+**Chapter 1: The Book That Exists Twice**
 
-Edgerton, Franklin. *The Bhagavad Gita*. Harvard University Press, 1944.
+Historical documentation:
+- 1968 Macmillan Abridged Edition (400 pages)
+  Documentation: vanisource.org/wiki/Bhagavad_Gita_As_It_Is_(1968)_Collier-Macmillan_Abridged_Edition
+- 1972 Macmillan Complete Edition (1,008 pages)
+  The edition Prabhupāda personally approved and taught from until his death in 1977
+- 1983 BBT Revised Edition
+  Published 6 years after Prabhupāda's death; contains 541 altered verses out of 700 (77%)
 
-Flood, Gavin D. *An Introduction to Hinduism*. Cambridge University Press, 1996.
+#+LATEX: \vspace{0.5cm}
 
-Greetham, D.C. *Textual Scholarship: An Introduction*. Garland Publishing, 1994.
+**Chapter 4: Two Souls, Two Paths**
 
-Hockey, Susan. "The History of Humanities Computing: An Overview." In *Digital Humanities*. Blackwell, 2004.
+Pattern of Divine Title Changes:
+"The Blessed Lord" → "The Supreme Personality of Godhead"
+- Systematic change: 22 instances throughout the text
+- Every moment Krishna speaks
+- Documentation: bookchanges.com/108-iskcon-bhagavad-gita-changes
 
-Judah, J. Stillson. *Hare Krishna and the Counterculture*. John Wiley & Sons, 1974.
+Accessibility Changes:
+"Steadfast in yoga" → "equipoised"
+"The self-realized soul" → "a sober person" (BG 2.13)
+- Complete comparison available at asitis.com vs vedabase.io
 
-Knott, Kim. *My Sweet Lord: The Hare Krishna Movement*. Aquarian Press, 1986.
+#+LATEX: \vspace{0.5cm}
 
-Legal Research Archives. BBT deposition records, copyright dispute filings. "Bhaktivedanta Book Trust vs. Multiple Plaintiffs," 2005.
+**Chapter 5: Two Different Souls**
 
-Mahmood, Saba. *Politics of Piety: The Islamic Revival and the Feminist Subject*. Princeton: Princeton University Press, 2005. [Ethnographic research showing how formal versus intimate divine address creates different social behaviors in religious communities]
+BG 2.13 Purport - "Forgotten soul" vs. "forgetful soul":
+- 1972: "Arjuna, who is a /forgotten/ soul deluded by māyā"
+- 1983: "Arjuna, who is a /forgetful/ soul deluded by māyā"
+- Verify: asitis.com/2/13 | vedabase.io/en/library/bg/2/13
 
-McGann, Jerome J. *A Critique of Modern Textual Criticism*. University of Chicago Press, 1983.
+BG 10.8 - "Perfectly know" vs. "know perfectly":
+- 1972: "The wise who /perfectly know/ this engage in My devotional service"
+- 1983: "The wise who /know/ this /perfectly/ engage in My devotional service"
 
-Meyer, David E., and Roger W. Schvaneveldt. "Facilitation in recognizing pairs of words: Evidence of a dependence between retrieval operations." *Journal of Experimental Psychology* 90, no. 2 (1971): 227-234. [Foundational semantic priming research]
+BG 6.31 - "Worships Me" vs. "worshipful service":
+- 1972: "The yogī who knows that I and the Supersoul within all creatures are one /worships Me/"
+- 1983: "Such a yogī, who engages in the /worshipful service of the Supersoul/"
+- Verify: asitis.com/6/31 | vedabase.io/en/library/bg/6/31
 
-Moretti, Franco. *Distant Reading*. Verso, 2013.
+#+LATEX: \vspace{0.5cm}
 
-Neely, James H. "Semantic priming effects in visual word recognition: A selective review of current findings and theories." In *Basic Processes in Reading Visual Word Recognition*, edited by D. Besner and G.W. Humphreys, 264-336. Hillsdale: Erlbaum, 1991. [Comprehensive review of how linguistic patterns activate associated emotional networks]
+**Chapter 6: The Smoking Guns**
 
-Newberg, Andrew, and Eugene d'Aquili. *Why God Won't Go Away: Brain Science and the Biology of Belief*. New York: Ballantine Books, 2001. [Neurobiology of mystical and religious experience]
+BG 2.48 - "Steadfast in yoga" → "equipoised":
+- Audio evidence: December 16, 1968 class, Los Angeles (Vedabase: 681216bgla)
+- Prabhupāda's documented approval: "This is the explanation of yoga, evenness of mind"
+- 1972: "Be steadfast in yoga, O Arjuna. Perform your duty and abandon all attachment to success or failure. Such evenness of mind is called yoga."
+- 1983: "Perform your duty equipoised, O Arjuna, abandoning all attachment to success or failure. Such equanimity is called yoga."
+- Verify: asitis.com/2/48 | vedabase.io/en/library/bg/2/48
 
-Nida, Eugene A. *Toward a Science of Translating*. E.J. Brill, 1964.
+BG 2.30 - "Eternal" deleted:
+- Audio evidence: 1973 London class recording
+- Prabhupāda emphasized "eternal" four times: "Dehi nityam, eternal. In so many ways, Krishna has explained. Nityam, eternal. Indestructible, immutable... again he says nityam, eternal."
+- 1972: "O descendant of Bharata, he who dwells in the body is /eternal/ and can never be slain."
+- 1983: "O descendant of Bharata, he who dwells in the body can never be slain." [word removed]
+- Verify: asitis.com/2/30 | vedabase.io/en/library/bg/2/30
+- Documentation: arsaprayoga.com/2013/08/31/removing-eternal-from-bhagavad-gita-as-it-is-2-30
 
-Northoff, Georg, et al. "Self-referential processing in our brain—a meta-analysis of imaging studies on the self." *NeuroImage* 31, no. 1 (2006): 440-457. [Neural basis of self-referential language processing]
+BG 4.19 - Verbatim quotation altered:
+- Class recording: Prabhupāda quoted verse as "the original verse" with approval
+- 1972: "I reward all of them accordingly"
+- 1983: "I reward them accordingly" [changed despite documented approval]
 
-Pascual-Leone, Alvaro, Amir Amedi, Felipe Fregni, and Lotfi B. Merabet. "The plastic human brain cortex." *Annual Review of Neuroscience* 28 (2005): 377-401. [Neural plasticity and how repeated linguistic exposure shapes brain architecture]
+#+LATEX: \vspace{0.5cm}
 
-Prabhupāda, A.C. Bhaktivedanta Swami. *Bhagavad-gītā As It Is* (1972 Macmillan Original Edition). New York: Macmillan, 1972.
+**Chapter 7: Global Confusion**
 
-Prabhupāda, A.C. Bhaktivedanta Swami. *Bhagavad-gītā As It Is* (1983 Revised and Enlarged Edition). Los Angeles: Bhaktivedanta Book Trust, 1983.
+Moscow Temple Incident (BG 7.12):
+- 1976 edition: "I am not under the modes of material nature"
+- 2003 edition: "for they, on the contrary, are within Me"
+- Verify: asitis.com/7/12 | vedabase.io/en/library/bg/7/12
 
-Prabhupāda, A.C. Bhaktivedanta Swami. Bhagavad-gītā Class 2.13, August 19, 1973, London. Audio recording and transcript. ISKCON Archives, Alachua, Florida. Verified via vedabase.io (730819bglon).
+#+LATEX: \vspace{0.5cm}
 
-Prabhupāda, A.C. Bhaktivedanta Swami. Bhagavad-gītā Class 2.48, December 16, 1968, Los Angeles. Audio recording and transcript. ISKCON Archives, Alachua, Florida.
+**Chapter 8: The Neurological Evidence**
 
-Prabhupāda, A.C. Bhaktivedanta Swami. Bhagavad-gītā Class 6.31, 1974. Audio recording and transcript. ISKCON Archives, Alachua, Florida.
+BG 4.8 - "I advent Myself" → "I appear":
+- 1972: "In order to deliver the pious and to annihilate the miscreants, as well as to reestablish the principles of religion, I advent Myself millennium after millennium."
+- 1983: "To deliver the pious and to annihilate the miscreants, as well as to reestablish the principles of religion, I Myself appear, millennium after millennium."
+- Verify: asitis.com/4/8 | vedabase.io/en/library/bg/4/8
+- Documentation: arsaprayoga.com/2015/04/27/disappearance-of-advent-bg-4-8
 
-Prabhupāda, A.C. Bhaktivedanta Swami. Bhagavad-gītā Class 4.11-18, January 8, 1969, Los Angeles. Audio recording and transcript. ISKCON Archives, Alachua, Florida.
+#+LATEX: \vspace{0.5cm}
 
-Prabhupāda, A.C. Bhaktivedanta Swami. Letter to Dixit das, September 18, 1976. Bhaktivedanta Archives, Sandy Ridge, North Carolina.
+**Scientific Research**
 
-Prabhupāda, A.C. Bhaktivedanta Swami. Letter to editors regarding translation methodology, 1975. Bhaktivedanta Archives, Sandy Ridge, North Carolina.
+/Neuroscience of Religious Experience:/
 
-Prabhupāda, A.C. Bhaktivedanta Swami. Letter to Hayagriva, 1967. Bhaktivedanta Archives, Sandy Ridge, North Carolina.
+Beauregard, M., & Paquette, V. (2006). Neural correlates of a mystical experience in Carmelite nuns. /Neuroscience Letters/, 405(3), 186-190.
 
-Prabhupāda, A.C. Bhaktivedanta Swami. Room conversation regarding textual changes, June 22, 1977. Audio recording and transcript. Bhaktivedanta Archives, Sandy Ridge, North Carolina.
+Newberg, A., & d'Aquili, E. (2001). /Why God Won't Go Away: Brain Science and the Biology of Belief/. New York: Ballantine Books.
 
-Ramsay, Stephen. *Reading Machines: Toward an Algorithmic Criticism*. University of Illinois Press, 2011.
+Schjoedt, U., Stødkilde-Jørgensen, H., Geertz, A. W., & Roepstorff, A. (2009). Highly religious participants recruit areas of social cognition in personal prayer. /Social Cognitive and Affective Neuroscience/, 4(2), 199-207.
 
-Robinson, Douglas. *Western Translation Theory from Herodotus to Nietzsche*. St. Jerome Publishing, 1997.
+/Neural Plasticity and Language Processing:/
 
-Rochford, E. Burke. *Hare Krishna in America*. Rutgers University Press, 1985.
+Pascual-Leone, A., Amedi, A., Fregni, F., & Merabet, L. B. (2005). The plastic human brain cortex. /Annual Review of Neuroscience/, 28, 377-401.
 
-Rocher, Ludo. "The Puranas." *A History of Indian Literature*, Vol. II. Otto Harrassowitz, 1986.
+Meyer, D. E., & Schvaneveldt, R. W. (1971). Facilitation in recognizing pairs of words: Evidence of a dependence between retrieval operations. /Journal of Experimental Psychology/, 90(2), 227-234.
 
-Tanselle, G. Thomas. *A Rationale of Textual Criticism*. University of Pennsylvania Press, 1989.
+Azari, N. P., et al. (2001). Neural correlates of religious experience. /European Journal of Neuroscience/, 13(8), 1649-1652.
 
-van Buitenen, J.A.B. *The Bhagavadgita in the Mahabharata*. University of Chicago Press, 1981.
+Dweck, C. S. (2006). /Mindset: The New Psychology of Success/. New York: Random House.
 
-Venuti, Lawrence. *The Translator's Invisibility*. Routledge, 1995.
+Mahmood, S. (2005). /Politics of Piety: The Islamic Revival and the Feminist Subject/. Princeton University Press.
 
-Zaehner, R.C. *The Bhagavad-Gita*. Oxford University Press, 1969.
+Neely, J. H. (1991). Semantic priming effects in visual word recognition. In D. Besner & G.W. Humphreys (Eds.), /Basic Processes in Reading Visual Word Recognition/ (pp. 264-336). Hillsdale: Erlbaum.
+
+Northoff, G., et al. (2006). Self-referential processing in our brain. /NeuroImage/, 31(1), 440-457.
+
+#+LATEX: \vspace{0.5cm}
+
+**Verification Resources**
+
+All textual comparisons, audio recordings, and documented changes can be independently verified:
+
+/Complete 1972 Original Text:/
+- asitis.com
+- prabhupadagita.com
+
+/Current Revised Text:/
+- vedabase.io
+
+/Audio Recordings & Transcripts:/
+- prabhupadavani.org
+- vanisource.org
+
+/Change Documentation:/
+- bookchanges.com
+- krishna-books.com
+- arsaprayoga.com
+
+#+LATEX: \vspace{0.5cm}
+
+**Suggested Further Reading**
+
+Ehrman, B. D. (2005). /Misquoting Jesus: The Story Behind Who Changed the Bible and Why/. HarperOne.
+
+Kugel, J. L. (2007). /How to Read the Bible: A Guide to Scripture, Then and Now/. Free Press.
 
 #+LATEX: \cleardoublepage
 #+LATEX: \section*{Research Methodology}
