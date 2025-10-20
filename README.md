@@ -83,14 +83,32 @@ CIF G-76660679
 
 This work is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
 
-## Version History
+## Version Information
 
-- **Version 1.2 (October 2025)** - Complete forensic analysis in Umberto Eco literary style
-- Updated verse 4.34 → 3.43 example for more dramatic textual differences
-- Enhanced LaTeX formatting for professional publication
-- Comprehensive quality assessment and systematic revisions
-- Fixed "forgotten" vs "forgetful" analysis accuracy
-- Professional 244-page book formatting
+**Current Version**: v1.2 (October 20, 2025)
+
+See [VERSION.md](VERSION.md) for complete version history and roadmap.
+
+### Quick Version Summary
+
+- **v1.2 (Current)** - Complete 244-page manuscript with Umberto Eco literary style
+  - Three-part narrative structure with fictional framework
+  - Comprehensive documentation of 541 altered verses (77%)
+  - Professional LaTeX formatting for Amazon KDP
+  - Complete bibliography, glossary, and methodology sections
+
+- **v2.0 (Planned)** - Major structural revisions based on reader assessment
+  - Tighten mid-book sections for better reader retention
+  - Reduce repetition and technical density
+  - Enhance narrative flow while maintaining scholarly rigor
+  - See VERSION.md for complete roadmap
+
+### Version Numbering
+
+Following semantic versioning:
+- **Major (X.0.0)**: Structural changes, major rewrites
+- **Minor (1.X.0)**: Content improvements, moderate edits
+- **Patch (1.2.X)**: Typo fixes, small corrections
 
 ---
 
