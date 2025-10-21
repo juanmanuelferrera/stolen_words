@@ -2199,6 +2199,9 @@ Ehrman, B. D. (2005). /Misquoting Jesus: The Story Behind Who Changed the Bible 
 
 Kugel, J. L. (2007). /How to Read the Bible: A Guide to Scripture, Then and Now/. Free Press.
 
+Mishra Dasa, Jagannatha. (2015). /Arsa Prayoga: Preserving Srila Prabhupada's Legacy/. CreateSpace Independent Publishing Platform.
+[A more technical and comprehensive treatment of the textual changes documented in this book, by the same author]
+
 #+LATEX: \cleardoublepage
 #+LATEX: \section*{Research Methodology}
 #+LATEX: \addcontentsline{toc}{section}{Research Methodology}
