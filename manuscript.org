@@ -2251,12 +2251,12 @@ This analysis represents intensive research conducted during 2023-2024 involving
 #+LATEX: \markright{About the Author}
 #+LATEX: \thispagestyle{sectionopening}
 
-#+LATEX: \vspace{1.5cm}
+#+LATEX: \vspace{0.5cm}
 
 #+LATEX: \begin{center}
 #+LATEX: \includegraphics[width=2in]{jaganat_2k.jpg}
 #+LATEX: \end{center}
-#+LATEX: \vspace{0.5cm}
+#+LATEX: \vspace{0.3cm}
 
 **Br. Jagannatha Mishra Dasa** has been studying intensively in various temples around the world since 1981, when he received initiation as a Brahmin, becoming part of the Gaudiya Vaisnava tradition.
 
