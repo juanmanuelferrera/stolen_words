@@ -2247,12 +2247,15 @@ This analysis represents intensive research conducted during 2023-2024 involving
 - Cross-reference with original manuscripts and class transcripts
 
 #+LATEX: \cleardoublepage
-#+LATEX: \section*{About the Author}
-#+LATEX: \addcontentsline{toc}{section}{About the Author}
-#+LATEX: \markright{About the Author}
-#+LATEX: \thispagestyle{sectionopening}
+#+LATEX: \thispagestyle{empty}
 
-#+LATEX: \vspace{4.5cm}
+#+LATEX: \vspace*{2cm}
+
+#+LATEX: \begin{center}
+#+LATEX: {\LARGE\textbf{About the Author}}
+#+LATEX: \end{center}
+
+#+LATEX: \vspace{3cm}
 
 #+LATEX: \begin{center}
 #+LATEX: \includegraphics[width=2in]{jaganat_2k.jpg}
