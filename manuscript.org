@@ -2254,7 +2254,7 @@ This analysis represents intensive research conducted during 2023-2024 involving
 #+LATEX: \vspace{1.5cm}
 
 #+LATEX: \begin{center}
-#+LATEX: \includegraphics[width=2.5in]{jaganat_2k.jpg}
+#+LATEX: \includegraphics[width=2in]{jaganat_2k.jpg}
 #+LATEX: \end{center}
 #+LATEX: \vspace{0.5cm}
 
