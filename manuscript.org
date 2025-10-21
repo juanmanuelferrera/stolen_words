@@ -2249,28 +2249,31 @@ This analysis represents intensive research conducted during 2023-2024 involving
 #+LATEX: \cleardoublepage
 #+LATEX: \thispagestyle{empty}
 #+LATEX: \addcontentsline{toc}{section}{About the Author}
-#+LATEX: \vspace*{-1cm}
 
+#+LATEX: \vspace*{1cm}
 #+LATEX: \begin{center}
-#+LATEX: {\Large\textbf{About the Author}}
+#+LATEX: {\Large\bfseries About the Author}
 #+LATEX: \end{center}
-
-#+LATEX: \vspace{0.8cm}
+#+LATEX: \vspace{2cm}
 
 #+LATEX: \begin{center}
 #+LATEX: \includegraphics[width=2in]{jaganat_2k.jpg}
 #+LATEX: \end{center}
+#+LATEX: \vspace{0.5cm}
 
-#+LATEX: \vspace{0.4cm}
-#+LATEX: \setlength{\parskip}{0.4em}
-
+#+LATEX: {\setlength{\parskip}{0.3em}
+#+LATEX: \noindent
 **Br. Jagannatha Mishra Dasa** has been studying intensively in various temples around the world since 1981, when he received initiation as a Brahmin, becoming part of the Gaudiya Vaisnava tradition.
 
+#+LATEX: \noindent
 Since then, his main activity has been to deepen and spread the Dharma shastras, the various branches of Vedic wisdom, and apply them for practical purposes in the modern world.
 
+#+LATEX: \noindent
 He is also the author of another book on this matter called *Arsa Prayoga, Preserving Srila Prabhupada's Legacy*.
 
+#+LATEX: \noindent
 This research emerges from concern for reader spiritual choice and authentic preservation of mystical devotional traditions alongside systematic religious approaches.
+#+LATEX: }
 
 #+LATEX: \newpage
 #+LATEX: \thispagestyle{empty}
