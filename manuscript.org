@@ -286,7 +286,7 @@ Specific names are not mentioned because this subject matter is highly inflammab
 
 The evidence is clear. The implications of these changes cannot be ignored. How readers respond is their choice alone.
 
-**Note on Narrative Framework:** This book uses narrative storytelling to present documented evidence. Character names and specific anecdotes are fictionalized to illustrate documented patterns, but the data is factual and verifiable. Fictional narrative characters include Maya Rodriguez, Dr. Sarah Chen, David Matthews, and temple community members whose experiences are composites drawn from documented testimonies. However, all scientific studies cited are authentic peer-reviewed research from real academics (Pascual-Leone, Beauregard, Paquette, Newberg, d'Aquili, and others). All verse comparisons, chapter statistics, textual changes, and Prabhupāda's recorded class transcripts can be independently verified through publicly available sources including asitis.com (1972 edition), vedabase.io (revised edition), and bookchanges.com documentation.
+**Note on Narrative Framework:** This book uses narrative storytelling to present documented evidence. Character names and specific anecdotes are fictionalized to illustrate documented patterns, but the data is factual and verifiable. Fictional narrative characters include Maya Rodriguez, Dr. Sarah Chen, David Matthews, and temple community members whose experiences are composites drawn from documented testimonies. However, all scientific studies cited are authentic peer-reviewed research from real academics (Pascual-Leone, Beauregard, Paquette, Newberg, d'Aquili, and others). All verse comparisons, chapter statistics, textual changes, and Prabhupāda's recorded class transcripts can be independently verified through publicly available sources including asitis.com (for the 1972 edition), vedabase.io (for the revised edition), and bookchanges.com documentation.
 
 #+LATEX: \clearpage
 #+LATEX: \pagestyle{empty}
@@ -2249,25 +2249,36 @@ This analysis represents intensive research conducted during 2023-2024 involving
 #+LATEX: \cleardoublepage
 #+LATEX: \thispagestyle{empty}
 
-#+LATEX: \vspace*{2cm}
+#+LATEX: \vspace*{3cm}
 
 #+LATEX: \begin{center}
 #+LATEX: {\LARGE\textbf{About the Author}}
 #+LATEX: \end{center}
 
-#+LATEX: \vspace{3cm}
+#+LATEX: \vspace{4cm}
 
 #+LATEX: \begin{center}
 #+LATEX: \includegraphics[width=2in]{jaganat_2k.jpg}
 #+LATEX: \end{center}
-#+LATEX: \vspace{1.5cm}
 
+#+LATEX: \vspace{2.5cm}
+
+#+LATEX: \noindent
 **Br. Jagannatha Mishra Dasa** has been studying intensively in various temples around the world since 1981, when he received initiation as a Brahmin, becoming part of the Gaudiya Vaisnava tradition.
 
+#+LATEX: \vspace{0.5cm}
+
+#+LATEX: \noindent
 Since then, his main activity has been to deepen and spread the Dharma shastras, the various branches of Vedic wisdom, and apply them for practical purposes in the modern world.
 
+#+LATEX: \vspace{0.5cm}
+
+#+LATEX: \noindent
 He is also the author of another book on this matter called *Arsa Prayoga, Preserving Srila Prabhupada's Legacy*.
 
+#+LATEX: \vspace{0.5cm}
+
+#+LATEX: \noindent
 This research emerges from concern for reader spiritual choice and authentic preservation of mystical devotional traditions alongside systematic religious approaches.
 
 #+LATEX: \newpage
