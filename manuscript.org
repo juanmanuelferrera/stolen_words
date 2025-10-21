@@ -286,7 +286,7 @@ Specific names are not mentioned because this subject matter is highly inflammab
 
 The evidence is clear. The implications of these changes cannot be ignored. How readers respond is their choice alone.
 
-**Note on Narrative Framework:** This book uses narrative storytelling to present documented evidence. Character names and specific anecdotes are fictionalized to illustrate documented patterns, but the data is factual and verifiable. Fictional narrative characters include Maya Rodriguez, Dr. Sarah Chen, David Matthews, and temple community members whose experiences are composites drawn from documented testimonies. However, all scientific studies cited are authentic peer-reviewed research from real academics (Pascual-Leone, Beauregard, Paquette, Newberg, d'Aquili, and others). All verse comparisons, chapter statistics, textual changes, and Prabhupāda's recorded class transcripts can be independently verified through publicly available sources including asitis.com (1972 edition), vedabase.io (revised edition), and krishna-books.com documentation.
+**Note on Narrative Framework:** This book uses narrative storytelling to present documented evidence. Character names and specific anecdotes are fictionalized to illustrate documented patterns, but the data is factual and verifiable. Fictional narrative characters include Maya Rodriguez, Dr. Sarah Chen, David Matthews, and temple community members whose experiences are composites drawn from documented testimonies. However, all scientific studies cited are authentic peer-reviewed research from real academics (Pascual-Leone, Beauregard, Paquette, Newberg, d'Aquili, and others). All verse comparisons, chapter statistics, textual changes, and Prabhupāda's recorded class transcripts can be independently verified through publicly available sources including asitis.com (1972 edition), vedabase.io (revised edition), and bookchanges.com documentation.
 
 #+LATEX: \clearpage
 #+LATEX: \pagestyle{empty}
@@ -2048,10 +2048,8 @@ Vedabase Archives: Complete collection of Srila Prabhupāda's recorded lectures,
 - Online: vedabase.io | prabhupadavani.org | vanisource.org
 
 "Bhagavad Gita Changes — Complete List." /ISKCON & BBT Prabhupada Book Changes/.
-- Online: bookchanges.com/bhagavad-gita-changes-complete-list
-
-"Changes in Bhagavad-gita." /Krishna Books/.
-- Online: krishna-books.com/77-of-bg-verses-is-changed.html
+- Complete side-by-side comparison: bookchanges.com/bhagavad-gita-changes-complete-list
+- Overview of 108 key changes: bookchanges.com/108-iskcon-bhagavad-gita-changes
 
 Arsa-Prayoga documentation archive.
 - Online: arsaprayoga.com
@@ -2190,9 +2188,8 @@ All textual comparisons, audio recordings, and documented changes can be indepen
 - vanisource.org
 
 /Change Documentation:/
-- bookchanges.com
-- krishna-books.com
-- arsaprayoga.com
+- bookchanges.com (complete side-by-side comparison)
+- arsaprayoga.com (focused analysis)
 
 #+LATEX: \vspace{0.5cm}
 
