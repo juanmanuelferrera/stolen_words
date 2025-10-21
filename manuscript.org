@@ -2251,8 +2251,6 @@ This analysis represents intensive research conducted during 2023-2024 involving
 #+LATEX: \markright{About the Author}
 #+LATEX: \thispagestyle{sectionopening}
 
-#+LATEX: \vspace{1.5cm}
-
 #+LATEX: \begin{center}
 #+LATEX: \includegraphics[width=2.5in]{jaganat_2k.jpg}
 #+LATEX: \end{center}
