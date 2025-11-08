@@ -1474,7 +1474,7 @@ The version determines the spiritual trajectory. The text shapes the soul. And b
 #+LATEX: \vspace{0.3cm}
 
 #+LATEX: \normalfont\justifying
-When institutions say "these are minor improvements," they're asking you to trust their judgment over your own spiritual experience. Maya was about to discover exactly how that rhetorical strategy worked—and why it had succeeded for so long.
+Maya was about to discover exactly how that rhetorical strategy worked—and why it had succeeded for so long.
 
 Armed with what David Matthews had revealed about the publishing process, Maya arranged a meeting with Dr. Richard Whitfield (Ritambhara Dasa), a senior BBT representative who had publicly defended the revisions for two decades. They met at the BBT offices in Los Angeles, a modern building filled with Sanskrit texts and photographs of Prabhupāda.
 
