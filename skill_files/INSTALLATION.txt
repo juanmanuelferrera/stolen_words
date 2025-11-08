@@ -1,0 +1,120 @@
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║     📚 BOOK WRITER SKILL - ECO-STYLE EDITION                        ║
+║                                                                      ║
+║     Custom-Built for Scientific Novel Writing                       ║
+║     In the Style of Umberto Eco                                     ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+🎯 QUICK START
+══════════════════════════════════════════════════════════════════════
+
+1. Download: book-writer.skill (37 KB)
+
+2. Install in Claude:
+   → Settings → Skills → Import Skill → Upload book-writer.skill
+
+3. Enable the skill
+
+4. Start chatting:
+   "I'm writing an Eco-style scientific novel about [your topic]..."
+
+
+📦 WHAT YOU GET
+══════════════════════════════════════════════════════════════════════
+
+✅ 6 Reference Guides (30,000+ words)
+   → Including 15,000-word Eco-style masterclass
+
+✅ 3 Planning Templates
+   → Character profiles, scene plans, book outlines
+
+✅ 2 Analysis Scripts
+   → manuscript_stats.py - Basic statistics
+   → timeline_checker.py - Advanced consistency checking
+
+
+🎨 ECO-STYLE SPECIALIZATION
+══════════════════════════════════════════════════════════════════════
+
+→ Balance science with literary elegance
+→ Write for three audiences simultaneously
+→ Lean description (precision over profusion)
+→ Investigation structure (reader as insider)
+→ Timeline & logic consistency checking
+→ Strategic vs wasteful repetition analysis
+→ Chapter hook evaluation (where readers stop)
+→ Confusion point detection
+
+
+🔧 ANALYSIS TOOLS
+══════════════════════════════════════════════════════════════════════
+
+Run on your manuscript files:
+
+  python scripts/manuscript_stats.py your_file.txt
+  → Word counts, pacing, dialogue balance
+
+  python scripts/timeline_checker.py your_file.txt
+  → Timeline errors, repetition, hooks, confusion points
+
+Then share results with Claude for detailed analysis.
+
+
+📚 DOCUMENTATION
+══════════════════════════════════════════════════════════════════════
+
+1. README.md - Complete package overview (this file's big brother)
+2. ECO_STYLE_GUIDE.md - Eco-specific features and workflow
+3. USAGE_EXAMPLES.md - 8 detailed usage scenarios
+4. BOOK_WRITER_GUIDE.md - General skill capabilities
+
+
+🎯 DESIGNED FOR
+══════════════════════════════════════════════════════════════════════
+
+✓ Scientific novels balancing data with narrative
+✓ Intellectual fiction (Eco, Borges, Danielewski style)
+✓ Three-audience approach (general/scientific/spiritual)
+✓ Investigation-structure mysteries
+✓ Philosophical depth without preaching
+✓ Engaged, intelligent readers
+
+
+NOT FOR
+══════════════════════════════════════════════════════════════════════
+
+✗ Netflix/TikTok attention spans
+✗ Mass-market formula fiction
+✗ Dumbed-down exposition
+✗ Passive entertainment consumers
+
+
+💡 EXAMPLE USAGE
+══════════════════════════════════════════════════════════════════════
+
+"I'm writing about a neuroscientist who discovers anomalies 
+suggesting consciousness persists after death. Help me balance 
+hard neuroscience with philosophical questions for three audiences."
+
+Claude automatically:
+→ Loads Eco-style guide
+→ Suggests investigation structure
+→ Plans scientific data integration
+→ Guides lean description approach
+→ Helps with timeline consistency
+
+
+🚀 NEXT STEPS
+══════════════════════════════════════════════════════════════════════
+
+1. Install book-writer.skill in Claude
+2. Read ECO_STYLE_GUIDE.md for your specific needs
+3. Check USAGE_EXAMPLES.md for detailed scenarios
+4. Start writing your novel!
+
+
+Questions? Just ask Claude after installing the skill.
+
+Happy writing! 📚✨
