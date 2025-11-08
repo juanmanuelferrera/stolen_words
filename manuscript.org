@@ -464,7 +464,7 @@ This initial comparison revealed enough discrepancies to convince Maya that some
 
 This was not editing. This was not improvement. This was ideological reconstruction wearing the mask of scholarship.
 
-The first discovery was the most pervasive: that alteration in the divine voice I mentioned earlier. Twenty-two times throughout the seven hundred verses, whenever Krishna spoke, the original presented him as "the Blessed Lord"—intimate, personal. The revision replaced this with "the Supreme Personality of Godhead"—formal, hierarchical. Not a translation choice, Maya realized, but a relationship choice. The editors had not improved the text; they had redirected the reader's spiritual orientation from the personal to the hierarchical.
+The first discovery was the most pervasive: that alteration in the divine voice I mentioned earlier. Twenty-two times throughout the seven hundred verses, whenever Krishna spoke, the original presented him as "the Blessed Lord"—intimate, personal. The revision replaced this with "the Supreme Personality of Godhead"—formal, hierarchical. Not a translation choice, but a relationship choice. The editors had not improved the text; they had redirected the reader's spiritual orientation from the personal to the hierarchical.
 
 Maya felt this in her bones before any neuroscientist would explain it: these were consciousness choices masquerading as editorial decisions.
 
@@ -694,7 +694,9 @@ It was as if the same poison had different symptoms in different bodies, each on
 
 #+LATEX: \newpage
 
-**Moscow—The Human Cost**
+#+LATEX: \vspace{0.5cm}
+@@latex:\textbf{Moscow—The Human Cost}@@
+#+LATEX: \vspace{0.2cm}
 
 The first symptom appeared in Russia. **The Moscow Incident** provides the perfect case study in how linguistic conditioning creates organizational schism. The crisis erupted during a Sunday evening class at the Mandir Temple, when an elderly Russian devotee began reading from his treasured 1976 edition, one of the precious few books that had survived the Soviet Union's systematic religious oppression. As he quoted verse 7.12 about divine source, younger students began shaking their heads with the confidence of those who possess newer information.
 
@@ -710,7 +712,8 @@ Within months, the Moscow temple had effectively schismatized into two congregat
 
 #+LATEX: \vspace{0.5cm}
 #+LATEX: \needspace{3\baselineskip}
-**The Pattern Emerges**
+@@latex:\textbf{The Pattern Emerges}@@
+#+LATEX: \vspace{0.2cm}
 
 What happened in Moscow was not an isolated incident. As Maya dug deeper into international ISKCON communications—temple newsletters archived online, academic conference proceedings, digital forums where devotees discussed their practices—she discovered that the same confusion had erupted independently across every continent where the Bhagavad-gītā had been translated and studied.
 
@@ -724,7 +727,9 @@ The consistency was so striking it suggested not coincidence but mathematical in
 Five continents revealed five different crises, each exposing a different way the same crime operates.
 
 #+LATEX: \needspace{4\baselineskip}
-**Brazil—The Mechanism of Spread**
+#+LATEX: \vspace{0.5cm}
+@@latex:\textbf{Brazil—The Mechanism of Spread}@@
+#+LATEX: \vspace{0.2cm}
 
 But community division was only the first symptom. In São Paulo, Brazil, she found something more insidious: the substitution was being weaponized to create new victims.
 
@@ -738,7 +743,9 @@ The BBT's response was illuminating in its evasion: "Use the revised edition as 
 
 The question of *whose* scholarship and whether such scholarship had been authorized by Prabhupāda himself went unanswered. The translation team eventually produced a version based on the revision, but the lead translator privately confessed to colleagues that she felt like an accomplice in what she termed "doctrinal colonization through editorial sleight of hand."
 
-**London—The Erasure of History**
+#+LATEX: \vspace{0.5cm}
+@@latex:\textbf{London—The Erasure of History}@@
+#+LATEX: \vspace{0.2cm}
 
 If Brazil revealed prospective victims, London revealed retrospective ones: scholars who had built entire careers on citations that no longer existed.
 
@@ -754,7 +761,9 @@ The professor spent the following year cataloging the discrepancies between his 
 
 When he did quietly share his concerns with ISKCON officials, the response was silence punctuated by a brief letter suggesting he consult the most recent edition for accurate quotations going forward.
 
-**Sydney—The Invisible Programming**
+#+LATEX: \vspace{0.5cm}
+@@latex:\textbf{Sydney—The Invisible Programming}@@
+#+LATEX: \vspace{0.2cm}
 
 But the most chilling discovery came from Sydney: the substitution could divide communities without anyone noticing the text had changed. Invisible programming.
 
@@ -772,7 +781,9 @@ Same tradition. Same temple. Same deity on the altar. But two completely differe
 
 When the temple president discovered this correlation, she described her reaction in the temple's monthly newsletter: "I realized we weren't experiencing diversity. We were experiencing textual manipulation."
 
-**Mumbai—The Homeland Betrayal**
+#+LATEX: \vspace{0.5cm}
+@@latex:\textbf{Mumbai—The Homeland Betrayal}@@
+#+LATEX: \vspace{0.2cm}
 
 The final insult: India—the homeland of the Bhagavad-gītā itself—rejecting the revision as Western colonial imposition.
 
@@ -788,14 +799,17 @@ The response from ISKCON leadership in India was notably different from response
 
 #+LATEX: \vspace{0.5cm}
 #+LATEX: \needspace{3\baselineskip}
-**The Global Architecture of Deception**
+@@latex:\textbf{The Global Architecture of Deception}@@
+#+LATEX: \vspace{0.2cm}
 
 Maya finally understood what connected them: each revealed a different way the same crime operates. Moscow showed the human cost—divided communities torn apart by unknowing allegiance to different texts. Brazil showed the mechanism of spread—translators forced into complicity, creating new generations of victims in languages Prabhupāda never anticipated. London showed the erasure of history—decades of scholarship invalidated retroactively. Sydney showed the invisibility—unconscious division programmed so subtly that communities blamed themselves rather than the books. Mumbai showed the cultural betrayal—the homeland of the Gītā itself rejecting Western editorial colonization.
 
 This phenomenon was mathematically consistent worldwide, but what haunted Maya was realizing that these were only the crises she had found. How many others existed in languages she couldn't read, communities she'd never heard of, temples where confusion festered in silence because no one knew to look for textual substitution?
 
 #+LATEX: \needspace{3\baselineskip}
-**The Mathematical Pattern**
+#+LATEX: \vspace{0.5cm}
+@@latex:\textbf{The Mathematical Pattern}@@
+#+LATEX: \vspace{0.2cm}
 
 Maya's research revealed a cascade of international incidents spanning multiple continents. The textual substitution had created measurable confusion, division, or organizational crisis wherever it occurred:
 
@@ -809,7 +823,7 @@ The evidence was mathematically consistent worldwide: readers discovering by acc
 
 But perhaps most tellingly, the response was uniformly identical across all continents: absolute silence about the scope of changes, combined with dismissal of concerned readers as "materialistic" about spiritual texts or lacking sufficient faith to appreciate editorial improvements.
 
-Maya realized she had stumbled upon something far more significant than textual confusion. She had discovered proof of how spiritual authority operates in the modern world—how sincere intentions to "improve" sacred transmission can create the most profound deception precisely when organizations prioritize self-protection over transparency.
+This was far more significant than textual confusion. Proof of how spiritual authority operates in the modern world—how sincere intentions to "improve" sacred transmission can create the most profound deception precisely when organizations prioritize self-protection over transparency.
 
 The crisis had become global, pervasive, and undeniable. Yet authorities worldwide continued implementing the very strategy that had created the problem: refusing to acknowledge the extent of alterations while characterizing concerned readers as lacking sufficient faith to appreciate editorial improvements.
 
@@ -1285,11 +1299,9 @@ She sought a second opinion from Dr. Rāmānuja Shastri, a former ISKCON scholar
 
 "The Swami's middle position—opposing changes while denying they matter—is contradiction, not moderation. Either textual changes shape consciousness or they don't. If they don't matter, why oppose them? If they do matter, why dismiss examination as childish? This reveals institutional self-preservation: fifty years of identity built on certain assumptions. To examine them too closely would require rebuilding that identity."
 
-Maya realized the Swami's response wasn't actually addressed to her. It was an internal debate he'd been having for years, perhaps decades.
+The Swami's response wasn't actually addressed to her. It was an internal debate he'd been having for years, perhaps decades.
 
 The medieval scholars had a term for this: double truth. The capacity to hold contradictory positions simultaneously by assigning them to different domains. One could recognize something evidentially while denying it practically.
-
-Maya understood what she had gained from the exchange.
 
 Not persuasion—she had never expected that—but confirmation. The institutional response to documented evidence would be: acknowledge but minimize, oppose but defend, recognize but compartmentalize. This wasn't unique to the Swami. This was structural, the ordinary way institutions preserve themselves against evidence that threatens foundational narratives.
 
@@ -1457,7 +1469,7 @@ Maya documented every revelation, her investigation deepening with each piece of
 
 "The committee structure was like a game of telephone with sacred texts. Editorial teams with English skills but no spiritual realization changed intimate language to theological terminology, thinking it sounded more philosophical. Sanskrit consultants 'corrected' Prabhupāda's interpretations based on academic standards, missing the devotional mood. The GBC wanted respectability in academic circles, pushing for formal theological language. Each group genuinely believed they were helping."
 
-Maya understood. "So each layer added their own agenda, and no single person was responsible for the cumulative effect."
+"So each layer added their own agenda, and no single person was responsible for the cumulative effect."
 
 "Exactly. The tragedy is that the one voice missing from every meeting was Prabhupāda's. He had emphasized intimacy and direct feeling in Krishna devotion—warmth that opens hearts. But committees couldn't know those intentions. They emerged from spiritual realization, not academic training."
 
@@ -1552,7 +1564,7 @@ As Maya packed up her notes, David offered one final insight:
 
 "The most disturbing aspect wasn't malicious intention—everyone meant well. It was deception through institutional processes that transformed sacred content while maintaining the appearance of authentic transmission."
 
-Maya understood now. Readers had a right to know they were receiving posthumous editorial theology, not Prabhupāda's approved work.
+Readers had a right to know they were receiving posthumous editorial theology, not Prabhupāda's approved work.
 
 "The deception ends," she said, closing her notebook, "when the choice becomes conscious."
 
@@ -1688,7 +1700,9 @@ Whitfield's fingers tightened on his papers.
 
 A long silence. When Whitfield finally spoke, his voice had lost its earlier confidence. "The manuscripts show—"
 
-**The Primary Source Contradiction**
+#+LATEX: \vspace{0.5cm}
+@@latex:\textbf{The Primary Source Contradiction}@@
+#+LATEX: \vspace{0.2cm}
 
 Maya interrupted: "Dr. Whitfield, you're an educated man. In any field—history, literature, science—what's the primary source?"
 
@@ -1791,7 +1805,9 @@ Maya met his eyes. "Here's my question: if your justifications are so strong, wh
 
 "You genuinely believe you're serving his mission. I respect that. But what if serving his mission means preserving his words, not improving them?"
 
-**The Return to Institutional Defense**
+#+LATEX: \vspace{0.5cm}
+@@latex:\textbf{The Return to Institutional Defense}@@
+#+LATEX: \vspace{0.2cm}
 
 Dr. Whitfield's expression hardened. "I think we're done here, Ms. Rodriguez. You've clearly already decided what you think."
 
@@ -1925,7 +1941,7 @@ The historical evidence provided clear judgment: Prabhupāda approved his publis
 
 The institutional defense collapsed under this weight of documentation. Five years of satisfied use. Hundreds of classes teaching from the published edition. Explicit preservation warnings. No authorization for systematic revision. The claim that he "privately wanted" comprehensive changes but somehow never mentioned them in thousands of hours of recorded teaching, hundreds of letters to editors, or five years of daily use became impossible to sustain.
 
-Maya understood what the evidence revealed: Prabhupāda wanted authentic preservation, not theological replacement. His heart-accessible methodology—intimate divine language, grace-dependent spiritual anthropology, emotional accessibility—represented conscious spiritual design, not limitation requiring scholarly correction.
+The evidence revealed: Prabhupāda wanted authentic preservation, not theological replacement. His heart-accessible methodology—intimate divine language, grace-dependent spiritual anthropology, emotional accessibility—represented conscious spiritual design, not limitation requiring scholarly correction.
 
 The solution seemed obvious to Maya, though apparently it had eluded institutional authorities for four decades. Preserve the original for those seeking Prabhupāda's authentic methodology. Offer the revision for those preferring systematic theological precision. Ensure clear identification of both versions. Enable conscious choice rather than institutional substitution.
 
@@ -2065,7 +2081,7 @@ Maya's choice, in the end, was simply to give them back the choice itself.
 
 @@latex:\textbf{@@ISKCON@@latex:}@@ — International Society for Krishna Consciousness; the global spiritual movement Prabhupāda founded. The revision controversy has divided this community for four decades.
 
-@@latex:\textbf{@@Jayadvaita Swami@@latex:}@@ — Lead editor of the 1983 revision. A sincere disciple who believed he was serving his guru by "perfecting" the texts using original manuscripts.
+@@latex:\textbf{@@Jayadvaita Swami@@latex:}@@ — Lead editor of the 1983 revision. A sincere disciple who believed he was serving his guru by "perfecting" the texts using pre-publication materials.
 
 @@latex:\textbf{@@Krishna@@latex:}@@ — Speaker of the Bhagavad-gītā; the Supreme Divine who reveals spiritual knowledge to his friend Arjuna. How Krishna is presented—as intimate friend or distant theology—shapes reader experience.
 
