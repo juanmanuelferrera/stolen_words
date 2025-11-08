@@ -85,25 +85,36 @@ This work is licensed under Creative Commons Attribution-NonCommercial-NoDerivat
 
 ## Version Information
 
-**Current Version**: v2 (November 2025)
+**Current Version**: v2.4 (November 2025) - Gentle Cuts for Balanced Pacing
 
 See [VERSION.md](VERSION.md) for complete version history and roadmap.
 
-### Quick Version Summary
+### Version Overview
 
-- **v2 (Current)** - Improved formatting and academic presentation
-  - Enhanced Research Methodology section with streamlined academic tone
-  - Improved Bibliography organization with clear hierarchical structure
-  - Reduced vertical spacing and better layout consistency
-  - Page break optimization for Methodology subsections
-  - Removed redundant documentation URLs
-  - Added Suggested Further Reading section with verified scholarly sources
+You now have **three versions** to choose from based on your audience:
 
-- **v1.2** - Complete 244-page manuscript with Umberto Eco literary style
-  - Three-part narrative structure with fictional framework
-  - Comprehensive documentation of 541 altered verses (77%)
-  - Professional LaTeX formatting for Amazon KDP
-  - Complete bibliography, glossary, and methodology sections
+- **v2.4 (Current - Gentle Cuts)** - Balanced academic thoroughness with reader retention
+  - Moderate 20-30% reductions in critical drop-off zones
+  - ~187 lines removed (8% overall)
+  - Preserves all essential narrative and investigative elements
+  - **Best for**: Academic readers, scholars, comprehensive analysis
+
+- **v2.3 (Aggressive Cuts)** - Maximized reader retention for general audience
+  - Aggressive 40-60% reductions in critical drop-off zones
+  - ~360 lines removed (15% overall)
+  - Streamlined for fastest pacing
+  - **Best for**: General readers, those new to subject, conciseness
+
+- **v2.2 (Original with Reorganization)** - Full content with improved chapter flow
+  - Chapter reorganization for better narrative momentum
+  - No content reductions
+  - **Best for**: Those wanting complete original analysis
+
+All versions include:
+- Strengthened prose (mechanical constructions removed in v2.1)
+- Improved chapter organization (v2.2)
+- Professional LaTeX formatting for Amazon KDP
+- Complete bibliography, glossary, and methodology sections
 
 ### Version Numbering
 
