@@ -127,8 +127,6 @@
 
 # Professional typesetting - maintain strict widow/orphan control
 # (Keep the maximum penalties set earlier - 10000 values)
-#+LATEX_HEADER: \emergencystretch=3em           % Allow some flexibility to avoid overfull boxes
-#+LATEX_HEADER: \tolerance=1414                 % Allow slightly looser spacing
 #+LATEX_HEADER: \hbadness=1414                 % Suppress overfull hbox warnings
 #+LATEX_HEADER: \hfuzz=0.3pt                   % Allow tiny overfull boxes
 
@@ -256,8 +254,6 @@ www.lightofdharma.com
 
 This work is licensed under Creative Commons Attribution
 NonCommercial-NoDerivatives 4.0 International License.
-
-# #+LATEX: \includegraphics[width=1cm]{cc-by-nc-nd.png}
 
 You are free to share this material in any medium or format for non-commercial purposes, provided you give appropriate credit. You may not distribute modified versions.
 
@@ -697,7 +693,6 @@ The room erupted in confusion—sincere souls trying to understand the most fund
 Within months, the Moscow temple had effectively schismatized into two congregations—those committed to what they called the "original" transmission and those trusting what they believed to be the "improved" version. Sunday classes became doctrinal battlegrounds where the very nature of divine reality was debated through conflicting quotations from books that claimed identical authority.
 
 #+LATEX: \vspace{0.5cm}
-#+LATEX: \needspace{3\baselineskip}
 @@latex:\textbf{The Pattern Repeats Globally}@@
 #+LATEX: \vspace{0.2cm}
 
@@ -765,7 +760,6 @@ He found instances where the revised edition contradicted not only Prabhupāda's
 Indian ISKCON scholars, steeped in traditional textual transmission, understood immediately what their Western counterparts had missed—that systematic textual alteration without transparent records violates how sacred knowledge is supposed to be preserved.
 
 #+LATEX: \vspace{0.5cm}
-#+LATEX: \needspace{3\baselineskip}
 @@latex:\textbf{The Global Architecture}@@
 #+LATEX: \vspace{0.2cm}
 
@@ -850,8 +844,7 @@ Maya's most important discovery: proof—recorded, timestamped, undeniable—tha
 
 The specificity of this evidence was what shook her. These weren't interpretive questions about what Prabhupāda might have wanted. These were documented approvals systematically altered after his death.
 
-#+LATEX: \vspace{0.3cm}
-#+LATEX: \needspace{2\baselineskip}
+#+LATEX: \vspace{0.5cm}
 @@latex:\textbf{The Smoking Guns}@@
 #+LATEX: \vspace{0.2cm}
 
@@ -929,9 +922,9 @@ The timeline made editorial authorization impossible to defend:
 
 Decades later: Audio evidence proved Prabhupāda had explicitly approved what was later changed
 
-#+LATEX: \vspace{0.3cm}
+#+LATEX: \vspace{0.5cm}
 @@latex:\textbf{The Unavoidable Question}@@
-#+LATEX: \vspace{0.1cm}
+#+LATEX: \vspace{0.2cm}
 
 The evidence made one question unavoidable: When you read the Bhagavad-gītā As It Is, do you want Prabhupāda's approved translations that he taught from for five years, or committee "improvements" implemented against his documented wishes by editors who believed their Sanskrit studies made them more qualified than their guru?
 
@@ -964,6 +957,7 @@ The alteration in the divine voice—the one that had haunted Maya since that ho
 
 Not editing. Systematic reprogramming of how readers encounter divinity itself.
 
+#+LATEX: \vspace{0.5cm}
 @@latex:\textbf{The Universal Transformation}@@
 #+LATEX: \vspace{0.2cm}
 
@@ -1156,6 +1150,7 @@ Maya had tracked him down—a former employee who had resigned after discovering
 "Good intentions," David sighed. "Let me explain how the publishing process worked: first under Prabhupāda, then after."
 
 #+LATEX: \clearpage
+#+LATEX: \vspace{0.5cm}
 @@latex:\textbf{The Original Publication Model (1972)}@@
 #+LATEX: \vspace{0.2cm}
 
