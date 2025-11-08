@@ -27,7 +27,7 @@ This repository contains the complete source files for "Stolen Words," a compreh
 - **Pages**: 244 pages
 - **Typography**: Professional layout with Times font, microtype optimization
 - **License**: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
-- **Publication**: First Edition: October 2025
+- **Publication**: First Edition: November 2025
 
 ## Key Features
 
@@ -85,23 +85,25 @@ This work is licensed under Creative Commons Attribution-NonCommercial-NoDerivat
 
 ## Version Information
 
-**Current Version**: v1.2 (October 20, 2025)
+**Current Version**: v2 (November 2025)
 
 See [VERSION.md](VERSION.md) for complete version history and roadmap.
 
 ### Quick Version Summary
 
-- **v1.2 (Current)** - Complete 244-page manuscript with Umberto Eco literary style
+- **v2 (Current)** - Improved formatting and academic presentation
+  - Enhanced Research Methodology section with streamlined academic tone
+  - Improved Bibliography organization with clear hierarchical structure
+  - Reduced vertical spacing and better layout consistency
+  - Page break optimization for Methodology subsections
+  - Removed redundant documentation URLs
+  - Added Suggested Further Reading section with verified scholarly sources
+
+- **v1.2** - Complete 244-page manuscript with Umberto Eco literary style
   - Three-part narrative structure with fictional framework
   - Comprehensive documentation of 541 altered verses (77%)
   - Professional LaTeX formatting for Amazon KDP
   - Complete bibliography, glossary, and methodology sections
-
-- **v2.0 (Planned)** - Major structural revisions based on reader assessment
-  - Tighten mid-book sections for better reader retention
-  - Reduce repetition and technical density
-  - Enhance narrative flow while maintaining scholarly rigor
-  - See VERSION.md for complete roadmap
 
 ### Version Numbering
 
