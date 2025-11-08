@@ -35,20 +35,16 @@
 #+LATEX_HEADER: \setlength{\parindent}{0pt}
 #+LATEX_HEADER: \setlength{\parskip}{4pt plus 2pt minus 1pt}  % Reduced paragraph spacing
 #+LATEX_HEADER: \usepackage{ragged2e}
-#+LATEX_HEADER: \justifying
+#+LATEX_HEADER: \RaggedRight  % Use ragged right instead of full justification
+#+LATEX_HEADER: \setlength{\RaggedRightParindent}{0pt}  % No paragraph indentation
 
-# Hyphenation and line breaking improvements
-#+LATEX_HEADER: \hyphenpenalty=0           % No penalty - hyphenate as much as needed
-#+LATEX_HEADER: \exhyphenpenalty=0         % No penalty for hyphenation after explicit hyphen
-#+LATEX_HEADER: \doublehyphendemerits=0    % No penalty for consecutive hyphens
-#+LATEX_HEADER: \finalhyphendemerits=0     % No penalty for penultimate line hyphen
-#+LATEX_HEADER: \tolerance=9999            % Maximum tolerance before overfull boxes
-#+LATEX_HEADER: \emergencystretch=3em      % Large emergency stretch for difficult lines
-#+LATEX_HEADER: \pretolerance=100          % Lower pretolerance to try hyphenation first
-#+LATEX_HEADER: \hbadness=10000            % Don't report underfull boxes
-#+LATEX_HEADER: \setlength{\parfillskip}{0pt plus 0.75\textwidth} % Allow short last lines
-#+LATEX_HEADER: \lefthyphenmin=2           % Allow hyphenation after 2 characters
-#+LATEX_HEADER: \righthyphenmin=2          % Allow hyphenation before 2 characters
+# Hyphenation and line breaking improvements (for ragged right)
+#+LATEX_HEADER: \hyphenpenalty=1000        % Some penalty for hyphenation in ragged right
+#+LATEX_HEADER: \exhyphenpenalty=1000      % Some penalty for hyphenation after explicit hyphen
+#+LATEX_HEADER: \tolerance=5000            % High tolerance for ragged right
+#+LATEX_HEADER: \emergencystretch=3em      % Large emergency stretch
+#+LATEX_HEADER: \righthyphenmin=3          % Hyphenate before at least 3 characters
+#+LATEX_HEADER: \lefthyphenmin=3           % Hyphenate after at least 3 characters
 
 # Widow and orphan control (maximum penalties for professional book typesetting)
 #+LATEX_HEADER: \widowpenalty=10000        % Prevent last line of paragraph at top of page
@@ -61,7 +57,8 @@
 #+LATEX_HEADER: \raggedbottom              % Already set below, but important for avoiding stretched pages
 
 # Custom hyphenation dictionary
-#+LATEX_HEADER: \hyphenation{deve-lopment transmi-ssion Prab-hu-pa-da ma-hat-ma Va-su-de-vah sys-tem-at-ic the-o-log-i-cal in-sti-tu-tion-al trans-for-ma-tion con-scious-ness man-i-fes-ta-tion au-then-tic-i-ty}
+#+LATEX_HEADER: \hyphenation{deve-lopment transmi-ssion Prab-hu-pa-da ma-hat-ma Va-su-de-vah sys-tem-at-ic the-o-log-i-cal in-sti-tu-tion-al trans-for-ma-tion con-scious-ness man-i-fes-ta-tion au-then-tic-i-ty pro-fes-sion-al-ism schol-ar-ly ed-i-to-ri-al ap-pa-ra-tus}
+#+LATEX_HEADER: \hyphenation{neu-ro-sci-ence neu-ro-log-i-cal fun-da-men-tal-ly in-ves-ti-ga-tion doc-u-men-ta-tion rep-re-sen-ta-tive or-gan-i-za-tion-al sub-sti-tu-tion con-tra-dic-tion spec-i-fi-ca-tions ver-i-fi-ca-tion trans-par-en-cy con-se-quen-ces dis-crep-an-cies in-ter-lo-cu-tor Bhak-ti-ve-dan-ta in-de-struc-ti-ble psy-cho-lin-guis-tic sys-tem-at-i-za-tion un-der-stand-ing ac-knowl-edge-ments bib-li-og-ra-phy}
 
 # Additional packages for the book
 #+LATEX_HEADER: \usepackage{xcolor}
@@ -1500,14 +1497,12 @@ Maya pulled out a photograph of Prabhupāda. "This man had spiritual realization
 
 Dr. Whitfield's jaw tightened. But Maya saw something shift in his eyes—not surrender, but recognition that she had done her homework.
 
-
 #+LATEX: \vspace{0.5cm}
-#+LATEX: \needspace{4\baselineskip}
 @@latex:\textbf{Defense Strategy 4: The "Prabhupāda Wanted Revisions" Defense}@@
 #+LATEX: \vspace{0.2cm}
 
 
-Dr. Whitfield played his strongest card: "Prabhupāda wanted these changes but didn't have time to implement them."
+Dr.@@latex:~@@Whitfield played his strongest card: "Prabhupāda wanted these changes but didn't have time to implement them."
 
 Maya had been waiting for this claim. She pulled out a thick folder labeled "Class Transcripts."
 
@@ -1754,7 +1749,7 @@ The solution seemed obvious to Maya, though apparently it had eluded institution
 
 Prabhupāda wanted his Bhagavad-gītā preserved "As It Is"—exactly as he published it after five years of satisfied use and documented approval.
 
-The historical evidence was overwhelming. But evidence alone couldn't answer the question that had driven Maya from the beginning: What would she tell her grandmother? The institutional archives had revealed what Prabhupāda wanted. Now Maya needed to face what the investigation had cost—and what it had preserved.
+The historical evidence was overwhelming. But evidence alone couldn't answer the question that had driven Maya from the beginning: What would she tell her grandmother? Maya had discovered the truth about stolen words. Now she needed to find the words to tell it.
 
 #+LATEX: \cleardoublepage
 #+LATEX: \addtocontents{toc}{\vspace{0.5em}}
@@ -1849,12 +1844,6 @@ The words we use while living our lives shape the lives themselves. Change the w
 
 The investigation was over. The work of restoration was just beginning.
 
-#+LATEX: \begin{center}
-#+LATEX: * * *
-#+LATEX: \end{center}
-
-#+LATEX: \vspace{0.5cm}
-
 This entire investigation ends exactly where it began: with a grandmother in a hospital bed asking about a single verse. Except now, three months and hundreds of pages later, we understand that the question "Can you explain this verse?" was never really a question at all. It was an invitation into a labyrinth where every answer revealed seven new corridors, where every discovery doubled back on itself. The map had systematically replaced the territory while claiming to represent it.
 
 Maya's grandmother is gone now, but her confusion—that beautiful, sacred confusion about verse 6.31—turned out to be the most spiritually accurate response possible to what had been done. She knew the text had been stolen. She just didn't know how to prove it. This book is that proof. But like all proofs in labyrinths, it raises more questions than it resolves.
@@ -1878,7 +1867,7 @@ Maya's choice, in the end, was simply to give them back the choice itself.
 
 @@latex:\textbf{@@Bhakti / Bhakti-yoga@@latex:}@@ — Sanskrit term meaning "devotional love" or "devotional yoga"; the practice of developing a personal loving relationship with God (Krishna). Prabhupāda emphasized this heart-centered approach. The original translation prioritized bhakti over intellectual understanding.
 
-@@latex:\textbf{@@Consciousness Programming@@latex:}@@ — The mechanism by which repeated exposure to specific language patterns literally rewires neural architecture. Devotional language activates emotional and receptivity centers; theological language activates analytical and systematic processing regions. Maya's investigation revealed this as the hidden method by which editorial choices create different types of human beings.
+@@latex:\textbf{@@Consciousness Programming@@latex:}@@ — How repeated exposure to specific language patterns rewires neural architecture. Devotional language activates emotional centers; theological language activates analytical regions. Editorial choices create different types of human beings.
 
 @@latex:\textbf{@@Devotional Service@@latex:}@@ — Prabhupāda's English rendering of "bhakti-yoga"; acts of love and service offered to Krishna. The original translation emphasized accessible devotional service; the revision emphasized systematic theological understanding.
 
@@ -1933,6 +1922,8 @@ This bibliography is organized into three sections: Primary Textual Sources, Doc
 
 **PRIMARY TEXTUAL SOURCES**
 
+#+LATEX: \vspace{0.3cm}
+
 *Bhagavad-gītā As It Is*, Original 1972 Macmillan Edition. A. C. Bhaktivedanta Swami Prabhupāda. New York: Macmillan, 1972.
 - Online: asitis.com | prabhupadagita.com
 
@@ -1952,6 +1943,8 @@ Arsa-Prayoga documentation archive.
 #+LATEX: \vspace{0.5cm}
 
 **DOCUMENTARY EVIDENCE** /(Chapter-by-Chapter)/
+
+#+LATEX: \vspace{0.3cm}
 
 **Chapter 1: The Book That Exists Twice**
 
@@ -2036,6 +2029,8 @@ BG 4.8 - "I advent Myself" → "I appear":
 
 **ACADEMIC SOURCES**
 
+#+LATEX: \vspace{0.3cm}
+
 /Neuroscience and Religious Experience:/
 
 Beauregard, M., & Paquette, V. (2006). Neural correlates of a mystical experience in Carmelite nuns. /Neuroscience Letters/, 405(3), 186-190.
@@ -2064,6 +2059,8 @@ Northoff, G., et al. (2006). Self-referential processing in our brain. /NeuroIma
 
 **SUGGESTED FURTHER READING**
 
+#+LATEX: \vspace{0.3cm}
+
 Armstrong, K. (2009). /The Case for God/. New York: Knopf.
 
 Doniger, W. (1998). /The Implied Spider: Politics and Theology in Myth/. New York: Columbia University Press.
@@ -2087,17 +2084,35 @@ Pagels, E. (1979). /The Gnostic Gospels/. New York: Random House.
 
 This investigation employed methodological precision from multiple scientific disciplines, each contributing a different lens for examining textual transformation:
 
-**The Neuroscientific Approach**: Published brain imaging studies—particularly Beauregard and Paquette's 2006 fMRI research on Carmelite nuns identifying mystical contemplation's neural signature (limbic regions, caudate nucleus, insula), and Newberg and d'Aquili's work on the neurology of mystical experience—combined with research on analytical religious cognition, revealed how different sacred languages create measurably different neural architectures. The evidence showed devotional, relational language activating limbic regions and emotional centers; theological, systematic language engaging prefrontal analytical processing and hierarchical recognition systems.
+#+LATEX: \vspace{0.5cm}
 
-**The Psycholinguistic Investigation**: Semantic priming studies demonstrated how "forgotten soul" versus "forgetful soul" consciousness creates different expectation patterns in the brain's language processing centers. Educational psychology provided frameworks for understanding how "mindset" programming occurs through repeated textual exposure.
+**The Neuroscientific Approach**
 
-**The Anthropological Excavation**: Cultural transmission studies revealed how sacred languages shift from charismatic intimacy to bureaucratic formality across religious traditions. Comparative religious analysis documented similar posthumous textual modifications in other spiritual movements—the transformation of living spiritual transmission into institutional preservation.
+Published brain imaging studies—particularly Beauregard and Paquette's 2006 fMRI research on Carmelite nuns identifying mystical contemplation's neural signature (limbic regions, caudate nucleus, insula), and Newberg and d'Aquili's work on the neurology of mystical experience—combined with research on analytical religious cognition, revealed how different sacred languages create measurably different neural architectures. The evidence showed devotional, relational language activating limbic regions and emotional centers; theological, systematic language engaging prefrontal analytical processing and hierarchical recognition systems.
 
-**The Sociological Detection**: Organizational psychology illuminated institutional defensiveness when textual authority is questioned. Formal linguistics provided tools for understanding prestige dialect adoption—how "spiritual sophistication" gets encoded through vocabulary complexity.
+#+LATEX: \vspace{0.5cm}
+
+**The Psycholinguistic Investigation**
+
+Semantic priming studies demonstrated how "forgotten soul" versus "forgetful soul" consciousness creates different expectation patterns in the brain's language processing centers. Educational psychology provided frameworks for understanding how "mindset" programming occurs through repeated textual exposure.
+
+#+LATEX: \clearpage
+
+**The Anthropological Excavation**
+
+Cultural transmission studies revealed how sacred languages shift from charismatic intimacy to bureaucratic formality across religious traditions. Comparative religious analysis documented similar posthumous textual modifications in other spiritual movements—the transformation of living spiritual transmission into institutional preservation.
+
+#+LATEX: \vspace{0.5cm}
+
+**The Sociological Detection**
+
+Organizational psychology illuminated institutional defensiveness when textual authority is questioned. Formal linguistics provided tools for understanding prestige dialect adoption—how "spiritual sophistication" gets encoded through vocabulary complexity.
 
 This methodological pluralism ensured convergent validation across disciplines rather than single-field speculation. Each approach contributed evidence for the same conclusion: systematic editorial choices can reprogram human consciousness at scales their creators never intended and in ways their subjects never recognize.
 
-Yet this raises a deeper epistemological question: How does one investigate institutional deception when institutions control access to evidence? The answer was characteristically recursive: by becoming the evidence oneself.
+Yet this raises a deeper epistemological question: How does one investigate institutional deception when institutions control access to evidence?
+
+The answer was characteristically recursive: by becoming the evidence oneself.
 
 #+LATEX: \vspace{0.3cm}
 
@@ -2111,9 +2126,7 @@ This analysis represents intensive research conducted during 2023-2024 involving
 - Focus on meaning-significant changes that affect spiritual interpretation
 - Representative examples provided rather than exhaustive documentation of all 5,000+ total changes
 
-#+LATEX: \newpage
-
-**Methodology:**
+**Methodology**
 - Statistical modeling of alteration patterns across 18 chapters
 - Sanskrit modification database with 1,247 catalogued changes
 - Linguistic quality assessment using semantic analysis frameworks
