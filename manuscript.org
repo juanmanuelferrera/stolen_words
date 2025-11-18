@@ -1,5 +1,5 @@
 #+TITLE: STOLEN WORDS
-#+SUBTITLE: How Editorial Changes Reshape Consciousness
+#+SUBTITLE: The Literary Crime of The Century
 #+Author: Br. Jagannatha Mishra Dasa
 #+DATE: First Edition, November 2025
 
@@ -235,7 +235,7 @@
 #+LATEX: \vspace*{0.18\textheight}
 #+LATEX: \begin{center}
 #+LATEX: {\fontfamily{cmr}\fontsize{36}{42}\selectfont\textbf{STOLEN WORDS}}\\[0.5cm]
-#+LATEX: {\large How Editorial Changes Reshape Consciousness}\\
+#+LATEX: {\large The Literary Crime of The Century}\\
 #+LATEX: \vspace{0.15\textheight}
 #+LATEX: {\Large Br. Jagannatha Mishra Dasa}\\
 #+LATEX: \vspace*{\fill}
@@ -247,7 +247,7 @@
 # Copyright page - NO PAGE NUMBER
 #+LATEX: \thispagestyle{empty}
 *STOLEN WORDS*\\
-/How Editorial Changes Reshape Consciousness/
+/The Literary Crime of The Century/
 
 Copyright © November 2025 Br. Jagannatha Mishra Dasa\\
 www.lightofdharma.com
@@ -301,6 +301,7 @@ Finally, I acknowledge all those who seek to preserve the sacred integrity of sp
 #+LATEX: \vspace*{0.15\textheight}
 #+LATEX: \section*{Preface}
 #+LATEX: \addcontentsline{toc}{section}{Preface}
+#+LATEX: \markright{Preface}
 #+LATEX: \thispagestyle{sectionopening}
 #+LATEX: \setlength{\parskip}{3pt plus 1pt minus 1pt}
 #+LATEX: \emergencystretch=3em
@@ -325,7 +326,7 @@ Since Prabhupāda had passed away in 1977, he could not consent to these changes
 
 These are not merely academic concerns. The differences create distinct sacred trajectories.
 
-Readers of the original develop intimate devotional consciousness through grace-dependent transformation. Readers of the revision develop methodical religious practice through knowledge-based progression.
+Readers of the original develop intimate devotional consciousness through grace-dependent transformation. Readers of the revision develop methodical religious practices through knowledge-based progression.
 
 These findings will disturb those who prefer sacred matters remain abstract and unexamined. It will challenge institutions that conflate religious authority with editorial authority. It will confront individuals who dismiss textual precision as unimportant to sacred life.
 
@@ -369,7 +370,7 @@ All verse comparisons, chapter statistics, textual changes, and Prabhupāda's re
 #+LATEX: \thispagestyle{chapterpage}
 
 #+LATEX: \normalfont\justifying
-The story begins with the book that does not exist, though millions have read it. Or perhaps one should say the book that exists twice, wearing the same name like a medieval forgery that has replaced its original, so completely that scholars debate which edition came first. Yet the end of this story makes nonsense of its beginning, and so we must start elsewhere.
+The story begins with the book that does not exist, though millions have read it. Or perhaps one should say the book that exists twice, wearing the same name like a medieval forgery that has replaced its original, so completely that scholars debate which edition came first. Yet the end of this story makes no sense at its beginning, and so we must start elsewhere.
 
 It was November 14, 1977, in Vṛndāvana, India (the holy land where Krishna danced five thousand years ago), when A.C. Bhaktivedanta Swami Prabhupāda spoke his last recorded words. Not, as legend would later claim, "Hare Krishna," but something far more revealing: "Meri kuch iccha nahin." I have no desires. A strange final statement for a man who had spent the last twelve years of his life possessed by a singular desire: to give the Western world his translation of the Bhagavad-gītā exactly as he understood it.
 
@@ -403,7 +404,7 @@ The method was elegantly simple: bookstores replaced old stock with new. Librari
 
 Consider the mathematics of deception: more than three-quarters of the verses altered. In percentage terms (and how modern our age has become, reducing mystery to statistics), 77% of verses modified. Not edited. Not improved. Altered. Which raises the philosophical question: at what point does revision become replacement? The medieval philosophers would have called this the Ship of Theseus problem, though they were concerned with wooden planks, not sacred words.
 
-Who authorized these changes? Here we encounter our first puzzle: Prabhupāda was dead, his final words ("I have no desires") fading like incense smoke in Vṛndāvana. Dead authors cannot authorize. Dead authors cannot forbid. Dead authors become, in Barthes' famous phrase, simply dead, and the text becomes an orphan seeking new parents.
+Who authorized these changes? Here we encounter our first puzzle: Prabhupāda was gone, his final words ("I have no desires") fading like incense smoke in Vṛndāvana. Dead authors cannot authorize. Dead authors cannot forbid. Dead authors become, in Barthes' famous phrase, simply dead, and the text becomes an orphan seeking new parents.
 
 Who made these changes? The answer leads us to Jayadvaita Swami, one of Prabhupāda's original disciples, a man who had helped produce the very books he would later transform. The irony is almost medieval: the guardian becomes the changer, the preserver becomes the innovator. But to call Jayadvaita a villain would miss the intricate complexity of his position. He believed (sincerely, we must assume) that he was serving his guru by perfecting what had been left imperfect.
 
@@ -413,7 +414,7 @@ And the most subtle alteration was the one that would prove most significant: a 
 
 For twenty years, the substitution remained undetected. Then the internet arrived, making comparison possible for the first time, and the discovery began.
 
-The story properly begins not with the crime but with its detection, and the detective was not a senior scholar but a doctoral candidate in Religious Studies at Stanford named Maya Rodriguez. She had completed her coursework and passed her qualifying exams, achieving ABD (All But Dissertation) status, and was in the early stages of her dissertation research when she discovered by accident what the BBT had hidden by design. Her background in comparative religion, her academic training in textual analysis, and her access to Stanford's research resources would prove essential, though she could never have anticipated that a simple question from her hospitalized grandmother would launch an investigation that would ultimately replace her planned dissertation entirely. The question was innocent enough: "Can you explain this verse?"
+The story properly begins not with the crime but with its detection, and the detective was not a senior scholar but a doctoral candidate in Religious Studies at Stanford named Maya Rodriguez. She had completed her coursework and passed her qualifying exams, achieving ABD (All But Dissertation) status, and was in the early stages of her dissertation research when she discovered by accident what the Bhaktivedanta Book Trust had hidden by design. Her background in comparative religion, her academic training in textual analysis, and her access to Stanford's research resources would prove essential, though she could never have anticipated that a simple question from her hospitalized grandmother would launch an investigation that would ultimately replace her planned dissertation entirely. The question was innocent enough: "Can you explain this verse?"
 
 #+LATEX: \cleardoublepage
 #+LATEX: \vspace*{0.20\textheight}
@@ -494,7 +495,7 @@ Every mystery contains within it another mystery, nested like Russian dolls. The
 
 Picture this: Abhay Charan De, sixty-nine years old, alone on the cargo ship Jaladuta in August 1965, carrying nothing but forty rupees (approximately seven dollars), a trunk of Sanskrit books, and a mission that had inspired him for thirty years. His spiritual master had charged him with the impossible: bring Krishna consciousness to the English-speaking world. Three decades later, with failing health and no prospects, he was finally attempting what younger men would have called suicide.
 
-The Atlantic Ocean nearly accomplished what age and poverty could not. Two heart attacks struck him mid-voyage, alone in his cabin while the ship rolled through storms. He survived by doing the thing he knew better how to do: chanting Sanskrit verses and writing poetry. "I am coming to America empty-handed," he wrote, "but I have faith in Your Holy Name." The poem reads like a man's final testament, not his arrival announcement.
+The Atlantic Ocean nearly accomplished what age and poverty could not. Two heart attacks struck him mid-voyage, alone in his cabin while the ship rolled through storms. He survived by doing the thing he knew best how to do: chanting Sanskrit verses and writing poetry. "I am coming to America empty-handed," he wrote, "but I have faith in Your Holy Name." The poem reads like a man's final testament, not his arrival announcement.
 
 September 19, 1965: the Jaladuta docks at a Brooklyn pier in New York. Abhay Charan—now A.C. Bhaktivedanta Swami Prabhupāda—steps onto American soil. He later recalled walking off the ship onto the pier: "I did not know whether to turn left or right." No destination, no clear plan, utterly alone in a foreign city. He travels to Butler, Pennsylvania, to stay with his sponsors Gopal and Sally Agarwal—a businessman and his American wife who had offered their home as his first foreign sanctuary. Little money. English so heavily accented that Americans strained to understand him. But he possessed something that money could not purchase: absolute conviction that five-thousand-year-old wisdom could transform the consciousness of a civilization that had never heard of Krishna.
 
@@ -588,7 +589,7 @@ Neither group could understand why the other seemed to miss the obvious point.
 
 The division wasn't about personality or maturity; it was about which edition they were reading. As she had found in her own experimentation, each version cultivated different responses: grace-seeking versus self-improvement consciousness.
 
-Most troubling was the discovery that this wasn't accidental. Through online research, she found references to Prabhupāda's pre-publication materials examined by scholars in the BBT archives. These early drafts consistently used "forgotten soul" rather than "forgetful soul." The 1972 Macmillan edition, which Prabhupāda personally approved and used for teaching from 1972 until his death in 1977, maintained this choice.
+Most troubling was the discovery that this wasn't accidental. Through online research, she found references to Prabhupāda's pre-publication materials examined by scholars in the Bhaktivedanta Book Trust archives. These early drafts consistently used "forgotten soul" rather than "forgetful soul." The 1972 Macmillan edition, which Prabhupāda personally approved and used for teaching from 1972 until his death in 1977, maintained this choice.
 
 The 1972 published edition reflected his choice: "who is a forgotten soul deluded by maya." But in 1983, six years after his passing, editors made the change to "forgetful soul" without any authorization from Prabhupāda himself.
 
@@ -673,8 +674,6 @@ The question haunting her was no longer *what* had been done, but *why*—and wh
 *Without realizing.* That phrase haunted Maya more than any other. If these changes truly oriented readers toward different types of consciousness, the effects should be visible, traceable, global.
 
 By 2005, twenty-two years after the Great Substitution began, what Maya discovered across five continents revealed different mechanisms of deception—the same substitution manifesting with different symptoms, each exposing a new way that textual theft operates in the modern world.
-
-#+LATEX: \newpage
 
 #+LATEX: \vspace{0.5cm}
 @@latex:\textbf{Moscow—The Human Cost}@@
@@ -1149,7 +1148,6 @@ Maya had tracked him down—a former employee who had resigned after discovering
 
 "Good intentions," David sighed. "Let me explain how the publishing process worked: first under Prabhupāda, then after."
 
-#+LATEX: \clearpage
 #+LATEX: \vspace{0.5cm}
 @@latex:\textbf{The Original Publication Model (1972)}@@
 #+LATEX: \vspace{0.2cm}
@@ -1328,7 +1326,7 @@ Maya responded with three documented examples, each chosen for its clarity:
 
 2. The systematic replacement of "The Blessed Lord said" with "The Supreme Personality of Godhead said" in twenty-two instances, reframing the divine relationship from blessing-bestower to ontological superior.
 
-3. The alteration of "all surrender" to "them surrender" in 4.11—transforming universal reciprocation into conditional response.
+3. The alteration of "all surrender" to "them surrender" in 4.11, transforming universal reciprocation into conditional response.
 
 The Swami's response came as another audio file, this time defensive: "These things are so honestly childish. Intimate names versus formal titles? Different tone, yes. But not a philosophical transformation. I oppose the changes, but to exaggerate that it changes everything—please, that's not for adults."
 
@@ -1476,7 +1474,8 @@ What followed would be a masterclass in institutional defense mechanisms.
 #+LATEX: \vspace{0.2cm}
 
 
-The first fifteen minutes were predictable institutional deflection. Dr. Whitfield employed every standard defense:
+The first fifteen minutes were predictable institutional deflection.
+Dr. Whitfield employed every standard defense:
 
 "These are minor editorial improvements, not substantial changes."
 
@@ -1878,19 +1877,19 @@ Maya's choice, in the end, was simply to give them back the choice itself.
 
 @@latex:\textbf{@@Krishna Consciousness@@latex:}@@ — Awareness and love of Krishna as the Supreme Divine; the spiritual practice and movement Prabhupāda brought to the Western world in 1965. Also refers to the state of consciousness developed through bhakti-yoga practice.
 
-@@latex:\textbf{@@Maya Rodriguez@@latex:}@@ — The everywoman narrator of this investigation; represents millions of readers who discovered by accident that their sacred text had been transformed.
+@@latex:\textbf{@@Maya Rodriguez@@latex:}@@ — The central figure whose discovery represents the experience of millions who found their sacred text had been transformed.
 
 @@latex:\textbf{@@Neuroscience Evidence@@latex:}@@ — Published neuroscience research from Beauregard, Pascual-Leone, Newberg, and other researchers demonstrating that different types of spiritual language (intimate vs. formal, devotional vs. analytical) create measurably different neural patterns—findings that suggest different translations could shape different types of spiritual practitioners.
 
 @@latex:\textbf{@@Original (1972) Edition@@latex:}@@ — The Bhagavad-gītā As It Is that Prabhupāda personally approved and used for teaching from 1972-1977. Emphasizes accessible devotion and personal divine relationship.
 
-@@latex:\textbf{@@Prabhupāda@@latex:}@@ — A.C. Bhaktivedanta Swami (1896-1977); the spiritual master who brought Krishna consciousness to the West. His final instruction: "Don't change" his books.
+@@latex:\textbf{@@Prabhupāda@@latex:}@@ — A.C. Bhaktivedanta Swami (1896-1977); the spiritual master who brought Krishna consciousness to the West. His final instruction: "Don't change my books."
 
 @@latex:\textbf{@@Revised (1983) Edition@@latex:}@@ — The posthumously edited version with 541 of 700 verses altered. Emphasizes theological precision and systematic understanding.
 
 @@latex:\textbf{@@Sacred Text Transparency@@latex:}@@ — The simple solution proposed: clearly label different versions so readers can choose consciously. Model: Bible translations (KJV, NIV, etc.) are distinguished, not hidden.
 
-@@latex:\textbf{@@Secretarial Errors@@latex:}@@ — The editors' justification for changes: early typists misheard Prabhupāda's accent. Critics note that Prabhupāda approved the "errors" in hundreds of classes.
+@@latex:\textbf{@@Secretarial Errors@@latex:}@@ — The institutional justification for posthumous changes: that early typists misheard Prabhupāda's dictation due to his accent. This claim does not take into consideration that the author meticulously checked his books before publishing.
 
 @@latex:\textbf{@@Supersoul@@latex:}@@ — Sanskrit: Paramātmā; the localized aspect of God present within every living being's heart. A key theological concept in the Gītā. The revision redirected worship from Krishna's personal form ("worships Me") to the impersonal Supersoul, shifting the emphasis from personal relationship to abstract meditation.
 
@@ -1947,9 +1946,9 @@ Historical documentation:
 - 1968 Macmillan Abridged Edition (400 pages)
   Documentation: vanisource.org/wiki/Bhagavad_Gita_As_It_Is_(1968)_Collier-Macmillan_Abridged_Edition
 - 1972 Macmillan Complete Edition (1,008 pages)
-  The edition Prabhupāda personally approved and taught from until his death in 1977
+  The edition Prabhupāda personally approved and taught from until his passing in 1977
 - 1983 BBT Revised Edition
-  Published 6 years after Prabhupāda's death; contains 541 altered verses out of 700 (77%)
+  Published 6 years after Prabhupāda's departure; contains 541 altered verses out of 700 (77%)
 
 #+LATEX: \vspace{0.3cm}
 
@@ -2134,6 +2133,7 @@ This analysis represents intensive research conducted during 2023-2024 involving
 - Cross-reference with original manuscripts and class transcripts
 
 #+LATEX: \cleardoublepage
+#+LATEX: \vspace*{0.01\textheight}
 #+LATEX: \section*{About the Author}
 #+LATEX: \addcontentsline{toc}{section}{About the Author}
 #+LATEX: \markright{About the Author}
