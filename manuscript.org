@@ -37,6 +37,7 @@
 #+LATEX_HEADER: \usepackage{ragged2e}
 #+LATEX_HEADER: \RaggedRight  % Use ragged right instead of full justification
 #+LATEX_HEADER: \setlength{\RaggedRightParindent}{0pt}  % No paragraph indentation
+#+LATEX_HEADER: \setlength{\RaggedRightRightskip}{0pt plus 2em}  % Allow flexible right margin for better line breaking
 
 # Hyphenation and line breaking improvements (for ragged right)
 #+LATEX_HEADER: \hyphenpenalty=1000        % Some penalty for hyphenation in ragged right
@@ -1662,7 +1663,7 @@ From 1972 until his departure in 1977, Prabhupāda used his published Bhagavad-g
 
 Think about what this means practically. For five years, he gave hundreds of lectures directly reading from the published edition. He heard devotees read verses aloud thousands of times in exactly the form later changed. He referenced specific verses and page numbers from the published text in correspondence, cited it as his authorized spiritual presentation, used it for his personal daily reading and spiritual reference.
 
-If he had wanted comprehensive divine address changes, he had five years and countless opportunities to request them.
+If he had wanted such extensive revisions throughout the text, he had five years and countless opportunities to request them.
 
 More tellingly, when Prabhupāda wanted textual changes, his approach was immediate and explicit. A 1970 letter demonstrates the pattern: "I have gone through the blueprint and I am also sending the necessary Sanskrit corrections to Pradyumna. So when these corrections are made then you can print immediately." Changes were implemented within days or weeks. He identified exactly what needed modification and how. He followed up to verify that requested changes were properly implemented.
 
@@ -1670,12 +1671,13 @@ This pattern of immediate, specific, verifiable change requests is completely ab
 
 
 #+LATEX: \vspace{0.3cm}
-#+LATEX: \subsection*{The Class Transcript Evidence: Documented Approval of Later-Changed Content}
+#+LATEX: \subsection*{The Recorded Classes}
 
+The most devastating evidence arrived on a Tuesday afternoon, delivered not through institutional documents but through the patient work of devotees who had spent years digitizing Prabhupāda's recorded lectures. Maya had requested access to class transcripts from 1972 to 1977, the five years when Prabhupāda taught using his published Bhagavad-gītā. What she discovered would make posthumous revision claims impossible to sustain.
 
-The most devastating evidence arrived on a Tuesday afternoon, delivered not through institutional documents but through the patient work of devotees who had spent years digitizing Prabhupāda's recorded lectures. Maya had requested access to class transcripts from 1972 to 1977, the five years when Prabhupāda taught using his published Bhagavad-gītā. What she discovered in those transcripts would make posthumous revision claims impossible to sustain.
+These transcripts documented something extraordinary: Prabhupāda's explicit approval of translations later changed without his consent.
 
-Picture the scene she reconstructed from audio recordings: morning classes in temples across the world, Prabhupāda seated before his students, a devotee reading aloud from the published book while the teacher listened, eyes closed, absorbing not just words but the transmission they carried. These weren't casual readings. These were formal instruction, recorded and preserved, creating an inadvertent archive of approval.
+Picture the scene she reconstructed from the audio recordings: morning classes in temples across the world, Prabhupāda seated before his students, a devotee reading aloud from the published book while the teacher listened, eyes closed, absorbing not just words but the transmission they carried. These weren't casual readings. These were formal instruction, recorded and preserved, creating an inadvertent archive of approval.
 
 The pattern Maya had documented in verses 2.48 and 6.31 repeated across dozens more verses. She found another striking example in verse 2.67.
 
@@ -1691,7 +1693,7 @@ The archive yielded another category of evidence that made Maya pause mid-resear
 
 "So you cannot change anything." The quote appeared in a 1976 discussion about maintaining his books exactly as published. The context was unambiguous: his disciples were to preserve, not improve.
 
-A 1975 letter to his editors carried equal clarity: "These things should be corrected by editorial revision, but the sense should remain the same." He authorized correction of technical errors: grammar, spelling, perhaps awkward phrasing, but explicitly required maintaining "the sense." This was precisely what comprehensive theological revision violated. You could fix a typo. You could not redirect readers from personal devotion to impersonal philosophy and claim you were maintaining "the sense."
+A June 1975 letter to his editors carried equal clarity: "He has not changed the meaning or the philosophy in any way." He authorized correction of technical errors—grammar, spelling, perhaps awkward phrasing—but explicitly required preserving "the meaning or the philosophy." This was precisely what comprehensive theological revision violated. You could fix a typo. You could not redirect readers from personal devotion to impersonal philosophy and claim you were maintaining the sense.
 
 But the most prophetic warning appeared in a letter dated September 18, 1976—fourteen months before his death—to a disciple named Dixit das. Maya read it three times, each reading making the hair on her arms rise:
 
