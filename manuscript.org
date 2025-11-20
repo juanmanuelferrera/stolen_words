@@ -691,9 +691,8 @@ The question haunting her was no longer *what* had been done, but *why*—and wh
 
 By 2005, twenty-two years after the Great Substitution began, what Maya discovered across five continents revealed different mechanisms of deception—the same substitution manifesting with different symptoms, each exposing a new way that textual theft operates in the modern world.
 
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{Moscow—The Human Cost}@@
-#+LATEX: \vspace{0.2cm}
+#+LATEX: \vspace{0.3cm}
+#+LATEX: \subsection*{Moscow—The Human Cost}
 
 The first symptom appeared in Russia. **The Moscow Incident** provides the perfect case study in how linguistic conditioning creates organizational schism. The crisis erupted during a Sunday evening class at the Mandir Temple, when an elderly Russian devotee began reading from his treasured 1976 edition, one of the precious few books that had survived the Soviet Union's systematic religious oppression. As he quoted verse 7.12 about divine source, younger students began shaking their heads with the confidence of those who possess newer information.
 
@@ -707,16 +706,14 @@ The room erupted in confusion—sincere souls trying to understand the most fund
 
 Within months, the Moscow temple had effectively schismatized into two congregations—those committed to what they called the "original" transmission and those trusting what they believed to be the "improved" version. Sunday classes became doctrinal battlegrounds where the very nature of divine reality was debated through conflicting quotations from books that claimed identical authority.
 
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Pattern Repeats Globally}@@
-#+LATEX: \vspace{0.2cm}
+#+LATEX: \vspace{0.3cm}
+#+LATEX: \subsection*{The Pattern Repeats Globally}
 
 What happened in Moscow was not isolated. As Maya examined international ISKCON communications, the same confusion had erupted independently across every continent. Five different crises, each exposing a different mechanism of the same crime.
 
 #+LATEX: \needspace{4\baselineskip}
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{Brazil—The Mechanism of Spread}@@
-#+LATEX: \vspace{0.2cm}
+#+LATEX: \vspace{0.3cm}
+#+LATEX: \subsection*{Brazil—The Mechanism of Spread}
 
 In São Paulo, Brazil, the substitution weaponized translators. In 2008, a team producing a Portuguese edition faced an impossible choice: which English version as source text?
 
@@ -726,9 +723,8 @@ A professor of Sanskrit at the Universidade de São Paulo discovered the two Eng
 
 The BBT's response: "Use the revised edition as it represents the most current scholarship." The question of whose scholarship went unanswered. The translator privately confessed she felt like an accomplice in "doctrinal colonization through editorial sleight of hand."
 
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{London—The Erasure of History}@@
-#+LATEX: \vspace{0.2cm}
+#+LATEX: \vspace{0.3cm}
+#+LATEX: \subsection*{London—The Erasure of History}
 
 London revealed retrospective victims: scholars who had built careers on citations that no longer existed.
 
@@ -740,9 +736,8 @@ He spent a year cataloging 127 discrepancies. He shared his findings with Maya b
 
 ISKCON's response: silence, then a letter suggesting he consult the most recent edition going forward.
 
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{Sydney—The Invisible Programming}@@
-#+LATEX: \vspace{0.2cm}
+#+LATEX: \vspace{0.3cm}
+#+LATEX: \subsection*{Sydney—The Invisible Programming}
 
 But the most chilling discovery came from Sydney: the substitution could divide communities without anyone noticing the text had changed. Invisible programming.
 
@@ -760,9 +755,8 @@ Same tradition. Same temple. Same deity on the altar. But two completely differe
 
 When the temple president discovered this correlation, she described her reaction in the temple's monthly newsletter: "I realized we weren't experiencing diversity. We were experiencing textual manipulation."
 
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{Mumbai—The Homeland Betrayal}@@
-#+LATEX: \vspace{0.2cm}
+#+LATEX: \vspace{0.3cm}
+#+LATEX: \subsection*{Mumbai—The Homeland Betrayal}
 
 India—the homeland of the Bhagavad-gītā itself—rejected the revision as Western colonial imposition.
 
@@ -774,9 +768,8 @@ He found instances where the revised edition contradicted not only Prabhupāda's
 
 Indian ISKCON scholars, steeped in traditional textual transmission, understood immediately what their Western counterparts had missed—that systematic textual alteration without transparent records violates how sacred knowledge is supposed to be preserved.
 
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Global Architecture}@@
-#+LATEX: \vspace{0.2cm}
+#+LATEX: \vspace{0.3cm}
+#+LATEX: \subsection*{The Global Architecture}
 
 Maya finally understood what connected them. Moscow showed the human cost—divided communities. Brazil showed the mechanism of spread—translators forced into complicity. London showed the erasure of history—scholarship invalidated retroactively. Sydney showed the invisibility—unconscious division. Mumbai showed cultural betrayal—the homeland itself rejecting Western editorial colonization.
 
@@ -859,9 +852,8 @@ Maya's most important discovery: proof—recorded, timestamped, undeniable—tha
 
 The specificity of this evidence was what shook her. These weren't interpretive questions about what Prabhupāda might have wanted. These were documented approvals systematically altered after his death.
 
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Smoking Guns}@@
-#+LATEX: \vspace{0.2cm}
+#+LATEX: \vspace{0.3cm}
+#+LATEX: \subsection*{The Smoking Guns}
 
 Combing through the Vedabase archives—thousands of hours of Prabhupāda's recorded classes—Maya found "smoking gun proof." In a class from December 16, 1968, someone had read verse 2.48 aloud to Prabhupāda:
 
@@ -876,9 +868,8 @@ The 1983 revised edition: "Perform your duty equipoised, O Arjuna, abandoning al
 Editors had deleted "steadfast in yoga" and replaced "evenness of mind" with "equanimity." The very concepts Prabhupāda had highlighted, systematically removed by people who believed they knew better than the author.
 
 
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Pattern of Systematic Alteration}@@
-#+LATEX: \vspace{0.2cm}
+#+LATEX: \vspace{0.3cm}
+#+LATEX: \subsection*{The Pattern of Systematic Alteration}
 
 This wasn't isolated. She discovered disturbing consistency across multiple verses—each recorded approval followed by posthumous alteration.
 
@@ -898,9 +889,8 @@ The conclusion was inescapable: comprehensive unauthorized alteration had occurr
 
 
 
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{Beyond Correction: Editorial Invention}@@
-#+LATEX: \vspace{0.2cm}
+#+LATEX: \vspace{0.3cm}
+#+LATEX: \subsection*{Beyond Correction: Editorial Invention}
 
 But unauthorized changes to approved translations was only part of Maya's discovery. She found something more disturbing: systematic editorial invention beyond claiming to restore Prabhupāda's intent.
 
@@ -915,9 +905,8 @@ The revisers changed it anyway: "As all surrender unto Me, I reward them accordi
 Her research revealed: The BBT created alternatives appearing in neither draft manuscripts nor published originals. Changes implemented even when Prabhupāda had explicitly approved the original in recorded classes. Doctrinal meanings shifted consistently toward technical precision and away from devotional accessibility. No documentation existed of Prabhupāda requesting these alterations.
 
 
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{Two Different Books}@@
-#+LATEX: \vspace{0.2cm}
+#+LATEX: \vspace{0.3cm}
+#+LATEX: \subsection*{Two Different Books}
 
 Maya's conclusion: These weren't two editions of the same book. They were two different books wearing the same title.
 
@@ -937,9 +926,8 @@ The timeline made editorial authorization impossible to defend:
 
 Decades later: Audio evidence proved Prabhupāda had explicitly approved what was later changed
 
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Unavoidable Question}@@
-#+LATEX: \vspace{0.2cm}
+#+LATEX: \vspace{0.3cm}
+#+LATEX: \subsection*{The Unavoidable Question}
 
 The evidence made one question unavoidable: When you read the Bhagavad-gītā As It Is, do you want Prabhupāda's approved translations that he taught from for five years, or committee "improvements" implemented against his documented wishes by editors who believed their Sanskrit studies made them more qualified than their guru?
 
@@ -972,9 +960,8 @@ The alteration in the divine voice—the one that had haunted Maya since that ho
 
 Not editing. Systematic reprogramming of how readers encounter divinity itself.
 
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Universal Transformation}@@
-#+LATEX: \vspace{0.2cm}
+#+LATEX: \vspace{0.3cm}
+#+LATEX: \subsection*{The Universal Transformation}
 
 
 Every divine utterance in the Bhagavad-gītā has been systematically altered:
@@ -1050,9 +1037,8 @@ Both are legitimate spiritual approaches. But you deserve to know which one you'
 
 
 
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Restoration Principle}@@
-#+LATEX: \vspace{0.2cm}
+#+LATEX: \vspace{0.3cm}
+#+LATEX: \subsection*{The Restoration Principle}
 
 
 The solution isn't eliminating systematic approaches but preserving choice. Readers seeking mystical devotion deserve access to the original intimate address. Readers preferring systematic theology can choose the formal theological version.
@@ -1164,9 +1150,8 @@ Maya had tracked him down—a former employee who had resigned after discovering
 
 "Good intentions," David sighed. "Let me explain how the publishing process worked: first under Prabhupāda, then after."
 
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Original Publication Model (1972)}@@
-#+LATEX: \vspace{0.2cm}
+#+LATEX: \vspace{0.3cm}
+#+LATEX: \subsection*{The Original Publication Model (1972)}
 
 "In 1972, the process was beautifully simple. Prabhupāda would dictate, his secretary would type, he would review everything personally."
 
@@ -1181,9 +1166,8 @@ The 1972 publication process:
 "He carried that 1972 edition everywhere. It was his authorized version, the one he quoted from memory in hundreds of lectures."
 
 
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Institutional Revision Process (Post-1977)}@@
-#+LATEX: \vspace{0.2cm}
+#+LATEX: \vspace{0.3cm}
+#+LATEX: \subsection*{The Institutional Revision Process (Post-1977)}
 
 "Everything changed when Prabhupāda passed away. Within six months, we had editorial committees, review boards, Sanskrit consultants—everyone suddenly knew better what Prabhupāda 'really meant.'"
 
@@ -1476,9 +1460,8 @@ Maya opened her notebook, now thick with documentation. "I have evidence of wide
 What followed would be a masterclass in institutional defense mechanisms.
 
 
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Defense}@@
-#+LATEX: \vspace{0.2cm}
+#+LATEX: \vspace{0.3cm}
+#+LATEX: \subsection*{The Defense}
 
 
 The first fifteen minutes were predictable institutional deflection.
@@ -1497,11 +1480,6 @@ Maya spread her statistical analysis across his desk. "Five hundred forty-one ve
 Maya pulled out a photograph of Prabhupāda. "This man had spiritual realization. He chose specific words for specific reasons. Your committees had what—good English degrees? There's a difference between administrative competence and spiritual realization. You've confused the two."
 
 Dr. Whitfield's jaw tightened. But Maya saw something shift in his eyes—not surrender, but recognition that she had done her homework.
-
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{Defense Strategy 4: The "Prabhupāda Wanted Revisions" Defense}@@
-#+LATEX: \vspace{0.2cm}
-
 
 Dr.@@latex:~@@Whitfield played his strongest card: "Prabhupāda wanted these changes but didn't have time to implement them."
 
@@ -1523,15 +1501,20 @@ Maya had been waiting for this claim. She pulled out a thick folder labeled "Cla
 
 "Stop. Let me show you what I have."
 
-She opened the class transcripts:
+She opened the class transcripts.
 
-**"Five Years of Published Use: From 1972 to 1977, Prabhupāda used his published Bhagavad-gītā in hundreds of classes. Not once did he request the changes you made."**
+#+LATEX: \vspace{0.3cm}
+#+LATEX: \subsection*{Five Years of Published Use}
 
-**December 16, 1968**: "A devotee reads verse 2.48 with 'steadfast in yoga.' Prabhupāda emphasizes these exact concepts. No correction."
+Maya pulled out the first transcript, dated December 16, 1968. "A devotee reads verse 2.48 aloud—'Be steadfast in yoga. Perform your duty with evenness of mind.' Prabhupāda emphasizes these exact concepts in his class. No correction. No request for changes."
 
-**1974 Lecture**: "Verse 6.31 read with 'worships Me.' Prabhupāda emphasizes: 'This is bhakti-yoga. Direct worship of Krishna.' You later redirected it to 'worshipful service of the Supersoul.'"
+She slid another transcript across his desk. "1974 lecture on verse 6.31. Listen to what he says: 'Worships Me. This is bhakti-yoga. Direct worship of Krishna.' He approved that translation. You later changed it to 'worshipful service of the Supersoul'—redirecting personal devotion to impersonal meditation."
 
-**March 1975**: "Verse 2.30 read with 'eternal.' Prabhupāda repeats 'eternal' five times. You removed it."
+Another transcript. "March 1975, verse 2.30. Prabhupāda repeats the word 'eternal' five times in his class, emphasizing the soul's eternal nature. The revision removed it."
+
+Maya looked up from the documents. "From 1972 until his departure in 1977—that's 1,825 consecutive days—Prabhupāda used his published Bhagavad-gītā without requesting any of your comprehensive changes."
+
+#+LATEX: \vspace{0.3cm}
 
 Dr. Whitfield was sweating now.
 
@@ -1547,9 +1530,8 @@ Dr. Whitfield was sweating now.
 
 A long silence.
 
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Primary Source Contradiction}@@
-#+LATEX: \vspace{0.2cm}
+#+LATEX: \vspace{0.3cm}
+#+LATEX: \subsection*{The Primary Source Contradiction}
 
 "Dr. Whitfield, in any field—history, literature, science—what's the primary source? The published work or the draft?"
 
@@ -1573,7 +1555,7 @@ Dr. Whitfield's answer revealed everything: "That would confuse people."
 
 "No. It would inform them. And that's what you're afraid of."
 
-Maya showed her final evidence: "When Prabhupāda wanted changes, look at his pattern: 1970: 'I am sending the necessary Sanskrit corrections.' 1971: 'So when these corrections are made then you can print.' 1973: 'That regulated should be rejected—please correct.' Immediate. Specific. Clear. If he wanted comprehensive divine address changes, he had 1,825 days to request them. He didn't."
+Maya showed her final evidence: "When Prabhupāda wanted changes, look at his pattern: 1970: 'I am sending the necessary Sanskrit corrections.' 1971: 'So when these corrections are made then you can print.' 1973: 'That regulated should be rejected—please correct.' Immediate. Specific. Clear. If he intended such extensive revision, he had five years—1,825 days—to request it. He didn't."
 
 Dr. Whitfield was silent for a long moment, staring at the photograph of Prabhupāda on his desk.
 
@@ -1586,9 +1568,8 @@ He paused. "But then I think about the thousands who've found spiritual life thr
 "We're not destroying Prabhupāda's work. We're fulfilling it. The revision represents his mature theological vision—what he would have wanted if he'd had time."
 
 
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Final Assault}@@
-#+LATEX: \vspace{0.2cm}
+#+LATEX: \vspace{0.3cm}
+#+LATEX: \subsection*{The Final Assault}
 
 Dr. Whitfield tried one more approach. "Ms. Rodriguez, you're looking at this through an idealized lens."
 
@@ -1612,9 +1593,8 @@ Appeal to authority—the classic fallacy when evidence runs thin.
 
 "You genuinely believe you're serving his mission. I respect that. But what if serving his mission means preserving his words, not improving them?"
 
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Return to Institutional Defense}@@
-#+LATEX: \vspace{0.2cm}
+#+LATEX: \vspace{0.3cm}
+#+LATEX: \subsection*{The Return to Institutional Defense}
 
 Dr. Whitfield's expression hardened. "I think we're done here. You've clearly already decided what you think."
 
@@ -1689,9 +1669,8 @@ More tellingly, when Prabhupāda wanted textual changes, his approach was immedi
 This pattern of immediate, specific, verifiable change requests is completely absent regarding any comprehensive theological alterations.
 
 
-#+LATEX: \vspace{0.5cm}
-@@latex:\textbf{The Class Transcript Evidence: Documented Approval of Later-Changed Content}@@
-#+LATEX: \vspace{0.2cm}
+#+LATEX: \vspace{0.3cm}
+#+LATEX: \subsection*{The Class Transcript Evidence: Documented Approval of Later-Changed Content}
 
 
 The most devastating evidence arrived on a Tuesday afternoon, delivered not through institutional documents but through the patient work of devotees who had spent years digitizing Prabhupāda's recorded lectures. Maya had requested access to class transcripts from 1972 to 1977, the five years when Prabhupāda taught using his published Bhagavad-gītā. What she discovered in those transcripts would make posthumous revision claims impossible to sustain.
