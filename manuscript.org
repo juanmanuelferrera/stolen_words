@@ -29,22 +29,28 @@
 # Typography Configuration - Optimized for print readability
 #+LATEX_HEADER: \usepackage{fontspec}
 #+LATEX_HEADER: \setmainfont{Libertinus Serif}
-#+LATEX_HEADER: \usepackage[final,babel=true]{microtype}
+#+LATEX_HEADER: \usepackage[final,babel=true,kerning=true,spacing=true,factor=1100,stretch=20,shrink=20]{microtype}
+#+LATEX_HEADER: \microtypecontext{spacing=nonfrench}  % Better spacing for English
+#+LATEX_HEADER: \SetExtraSpacing{font=*}{:={100,200,100}}  % Allow more flexibility after colons
 #+LATEX_HEADER: \usepackage{setspace}
 #+LATEX_HEADER: \setstretch{1.08}     % Tighter line spacing while maintaining readability
 #+LATEX_HEADER: \setlength{\parindent}{0pt}
-#+LATEX_HEADER: \setlength{\parskip}{4pt plus 2pt minus 1pt}  % Reduced paragraph spacing
+#+LATEX_HEADER: \setlength{\parskip}{4pt plus 0.5pt minus 0.5pt}  % Minimal flexibility in paragraph spacing
 #+LATEX_HEADER: \usepackage{ragged2e}
-#+LATEX_HEADER: \RaggedRight  % Use ragged right instead of full justification
-#+LATEX_HEADER: \setlength{\RaggedRightParindent}{0pt}  % No paragraph indentation
+# Switching to full justification to eliminate spacing issues
+# (Traditional book typography - both margins flush)
 
-# Hyphenation and line breaking improvements (for ragged right)
-#+LATEX_HEADER: \hyphenpenalty=1000        % Some penalty for hyphenation in ragged right
-#+LATEX_HEADER: \exhyphenpenalty=1000      % Some penalty for hyphenation after explicit hyphen
-#+LATEX_HEADER: \tolerance=5000            % High tolerance for ragged right
-#+LATEX_HEADER: \emergencystretch=3em      % Large emergency stretch
+# Hyphenation and line breaking improvements (for full justification)
+#+LATEX_HEADER: \hyphenpenalty=50          % Low penalty for hyphenation (improves justification)
+#+LATEX_HEADER: \exhyphenpenalty=50        % Low penalty for hyphenation after explicit hyphen
+#+LATEX_HEADER: \pretolerance=150          % Try hard to fit lines before using hyphenation
+#+LATEX_HEADER: \tolerance=2000            % Higher tolerance for better spacing distribution
+#+LATEX_HEADER: \hbadness=2000             % Suppress warnings for slightly underfull boxes
+#+LATEX_HEADER: \emergencystretch=3em      % Allow more stretch in difficult situations
 #+LATEX_HEADER: \righthyphenmin=3          % Hyphenate before at least 3 characters
 #+LATEX_HEADER: \lefthyphenmin=3           % Hyphenate after at least 3 characters
+#+LATEX_HEADER: \XeTeXlinebreaklocale "en" % Enable better line breaking for English
+#+LATEX_HEADER: \XeTeXlinebreakskip = 0pt plus 1pt  % Allow slight flexibility in line breaks
 
 # Widow and orphan control (maximum penalties for professional book typesetting)
 #+LATEX_HEADER: \widowpenalty=10000        % Prevent last line of paragraph at top of page
@@ -56,9 +62,9 @@
 #+LATEX_HEADER: \interlinepenalty=0        % Allow page breaks between lines
 #+LATEX_HEADER: \raggedbottom              % Already set below, but important for avoiding stretched pages
 
-# Custom hyphenation dictionary
-#+LATEX_HEADER: \hyphenation{deve-lopment transmi-ssion Prab-hu-pa-da ma-hat-ma Va-su-de-vah sys-tem-at-ic the-o-log-i-cal in-sti-tu-tion-al trans-for-ma-tion con-scious-ness man-i-fes-ta-tion au-then-tic-i-ty pro-fes-sion-al-ism schol-ar-ly ed-i-to-ri-al ap-pa-ra-tus}
-#+LATEX_HEADER: \hyphenation{neu-ro-sci-ence neu-ro-log-i-cal fun-da-men-tal-ly in-ves-ti-ga-tion doc-u-men-ta-tion rep-re-sen-ta-tive or-gan-i-za-tion-al sub-sti-tu-tion con-tra-dic-tion spec-i-fi-ca-tions ver-i-fi-ca-tion trans-par-en-cy con-se-quen-ces dis-crep-an-cies in-ter-lo-cu-tor Bhak-ti-ve-dan-ta in-de-struc-ti-ble psy-cho-lin-guis-tic sys-tem-at-i-za-tion un-der-stand-ing ac-knowl-edge-ments bib-li-og-ra-phy}
+# Custom hyphenation dictionary (including Unicode variants)
+#+LATEX_HEADER: \hyphenation{deve-lopment transmi-ssion Prab-hu-pa-da Prabhu-pāda ma-hat-ma Va-su-de-vah sys-tem-at-ic the-o-log-i-cal in-sti-tu-tion-al trans-for-ma-tion con-scious-ness man-i-fes-ta-tion au-then-tic-i-ty pro-fes-sion-al-ism schol-ar-ly ed-i-to-ri-al ap-pa-ra-tus}
+#+LATEX_HEADER: \hyphenation{neu-ro-sci-ence neu-ro-log-i-cal fun-da-men-tal-ly in-ves-ti-ga-tion doc-u-men-ta-tion rep-re-sen-ta-tive or-gan-i-za-tion-al sub-sti-tu-tion con-tra-dic-tion spec-i-fi-ca-tions ver-i-fi-ca-tion trans-par-en-cy con-se-quen-ces dis-crep-an-cies in-ter-lo-cu-tor Bhak-ti-ve-dan-ta in-de-struc-ti-ble psy-cho-lin-guis-tic sys-tem-at-i-za-tion un-der-stand-ing ac-knowl-edge-ments bib-li-og-ra-phy judge-ment Bhaga-vad-gītā}
 
 # Additional packages for the book
 #+LATEX_HEADER: \usepackage{xcolor}
@@ -1790,7 +1796,7 @@ Her grandmother squeezed Maya's hand. "And which will you choose, mija? For your
 
 Maya looked at both books lying on the hospital blanket—identical titles, containing fundamentally different spiritual universes. The question her grandmother had asked three months ago, "Can you explain this verse?," had taken her through comparative theology, neuroscience, global ethnography, institutional politics, and the complexity of her own spiritual identity. She had discovered how words program consciousness, how institutions shape souls, how editorial choices determine spiritual destinies.
 
-But she still had to choose how to pray.
+But she still had to choose which spiritual reality to inhabit.
 
 "I think... I think I need both, actually." The words surprised her as she said them. Three months ago, she would have demanded a single right answer—which book was authentic, which path was correct, which version God truly wanted her to read. That binary thinking had been its own kind of programming. "The original for my heart—for when I need to feel that grace and intimacy and surrender that first drew me to this path. The revision for my mind—for when I need systematic understanding and intellectual framework. But I'll keep them both visible, both available. I'll never pretend they're the same thing. And I'll teach others to make the same conscious choice."
 
