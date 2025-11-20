@@ -10,11 +10,11 @@
 #+OPTIONS: toc:nil num:t title:nil H:2
 
 # Page Layout Configuration (6x9 inches = 152.4x228.6mm)
-# Amazon KDP margins - meets minimum requirements for 155+ pages
+# Amazon KDP margins - professional standard for comfortable reading
 #+LATEX_HEADER: \usepackage[paperwidth=6in,paperheight=9in]{geometry}
 #+LATEX_HEADER: \geometry{
-#+LATEX_HEADER:   inner=15mm,        % Inside margin (gutter) - 0.59" > 0.5" requirement
-#+LATEX_HEADER:   outer=10mm,        % Outside margin - 0.39" > 0.25" requirement
+#+LATEX_HEADER:   inner=19mm,        % Inside margin (gutter) - 0.75" industry standard
+#+LATEX_HEADER:   outer=14mm,        % Outside margin - 0.55" optimal balance
 #+LATEX_HEADER:   top=13mm,          % Top margin - 0.51" > 0.25" requirement
 #+LATEX_HEADER:   bottom=13mm,       % Bottom margin - 0.51" > 0.25" requirement
 #+LATEX_HEADER:   headheight=12pt,   % Reduced header space
@@ -67,6 +67,22 @@
 #+LATEX_HEADER: \setcounter{tocdepth}{1}  % Show only parts and chapters in TOC
 #+LATEX_HEADER: \usepackage{etoolbox}
 #+LATEX_HEADER: \patchcmd{\tableofcontents}{\@starttoc{toc}}{\@starttoc{toc}}{}{}
+#+LATEX_HEADER: % Remove page numbers from Parts in TOC
+#+LATEX_HEADER: \makeatletter
+#+LATEX_HEADER: \renewcommand*\l@part[2]{%
+#+LATEX_HEADER:   \ifnum \c@tocdepth >-2\relax
+#+LATEX_HEADER:     \addpenalty{-\@highpenalty}%
+#+LATEX_HEADER:     \addvspace{2.25em \@plus\p@}%
+#+LATEX_HEADER:     \setlength\@tempdima{3em}%
+#+LATEX_HEADER:     \begingroup
+#+LATEX_HEADER:       \parindent \z@ \rightskip \@pnumwidth
+#+LATEX_HEADER:       \parfillskip -\@pnumwidth
+#+LATEX_HEADER:       {\leavevmode
+#+LATEX_HEADER:        \large \bfseries #1}\par
+#+LATEX_HEADER:        \nobreak
+#+LATEX_HEADER:     \endgroup
+#+LATEX_HEADER:   \fi}
+#+LATEX_HEADER: \makeatother
 #+LATEX_HEADER:
 # Front matter style: page numbers, no headers (for early pages)
 #+LATEX_HEADER: \fancypagestyle{frontmatter}{%
@@ -252,10 +268,7 @@
 Copyright © November 2025 Br. Jagannatha Mishra Dasa\\
 www.lightofdharma.com
 
-This work is licensed under Creative Commons Attribution
-NonCommercial-NoDerivatives 4.0 International License.
-
-You are free to share this material in any medium or format for non-commercial purposes, provided you give appropriate credit. You may not distribute modified versions.
+All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the author, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law.
 
 #+LATEX: \vspace*{\fill}
 
@@ -279,6 +292,7 @@ Published in Spain
 #+LATEX: \addcontentsline{toc}{section}{Acknowledgements}
 #+LATEX: \thispagestyle{sectionopening}
 
+#+LATEX: \normalfont\justifying
 This work would not have been possible without the grace and guidance of my spiritual masters, whose teachings continue to illuminate the path of devotion and scholarship.
 
 I am deeply grateful to Śrīla A. C. Bhaktivedanta Swami Prabhupāda for his original translation and commentary of the Bhagavad-gītā As It Is, which remains an invaluable gift to the world.
@@ -308,7 +322,8 @@ Finally, I acknowledge all those who seek to preserve the sacred integrity of sp
 #+LATEX: \tolerance=2000
 #+LATEX: \hbadness=2000
 
-In 1972, A.C. Bhaktivedanta Swami Prabhupāda gave the world his Bhagavad-gītā As It Is, a devotional translation that would introduce millions to Krishna consciousness. After his passing in 1977, some disciples decided to "improve" his work.
+#+LATEX: \normalfont\justifying
+In 1972, A. C. Bhaktivedanta Swami Prabhupāda gave the world his Bhagavad-gītā As It Is, a devotional translation that would introduce millions to Krishna consciousness. After his passing in 1977, some disciples decided to "improve" his work.
 
 This book documents what happened next.
 
@@ -346,6 +361,7 @@ How readers respond is their choice alone.
 
 #+LATEX: \subsection*{Note on Narrative Framework}
 
+#+LATEX: \normalfont\justifying
 This investigation uses narrative storytelling to present factual evidence. Character names and specific anecdotes are fictionalized to illustrate verified patterns, but the data is factual and verifiable. Fictional narrative characters include Maya Rodriguez, Dr. Sarah Chen, David Matthews, and temple community members whose experiences are composites drawn from recorded testimonies.
 
 However, all scientific studies cited are authentic peer-reviewed research from real academics (Pascual-Leone, Beauregard, Paquette, Newberg, d'Aquili, and others).
@@ -372,7 +388,7 @@ All verse comparisons, chapter statistics, textual changes, and Prabhupāda's re
 #+LATEX: \normalfont\justifying
 The story begins with the book that does not exist, though millions have read it. Or perhaps one should say the book that exists twice, wearing the same name like a medieval forgery that has replaced its original, so completely that scholars debate which edition came first. Yet the end of this story makes no sense at its beginning, and so we must start elsewhere.
 
-It was November 14, 1977, in Vṛndāvana, India (the holy land where Krishna danced five thousand years ago), when A.C. Bhaktivedanta Swami Prabhupāda spoke his last recorded words. Not, as legend would later claim, "Hare Krishna," but something far more revealing: "Meri kuch iccha nahin." I have no desires. A strange final statement for a man who had spent the last twelve years of his life possessed by a singular desire: to give the Western world his translation of the Bhagavad-gītā exactly as he understood it.
+It was November 14, 1977, in Vṛndāvana, India (the holy land where Krishna danced five thousand years ago), when A. C. Bhaktivedanta Swami Prabhupāda spoke his last recorded words. Not, as legend would later claim, "Hare Krishna," but something far more revealing: "Meri kuch iccha nahin." I have no desires. A strange final statement for a man who had spent the last twelve years of his life possessed by a singular desire: to give the Western world his translation of the Bhagavad-gītā exactly as he understood it.
 
 But to understand the mystery of the book that exists twice, we must first understand what Prabhupāda believed he was creating. The Bhagavad-gītā (literally "Song of God") unfolds as a battlefield conversation between the warrior Arjuna and his charioteer Krishna, who reveals Himself, verse by verse, as the Supreme Divine. Seven hundred verses. Five thousand years of spiritual guidance. And until 1972, a barrier of Sanskrit that kept Western understanding at bay.
 
@@ -497,7 +513,7 @@ Picture this: Abhay Charan De, sixty-nine years old, alone on the cargo ship Jal
 
 The Atlantic Ocean nearly accomplished what age and poverty could not. Two heart attacks struck him mid-voyage, alone in his cabin while the ship rolled through storms. He survived by doing the thing he knew best how to do: chanting Sanskrit verses and writing poetry. "I am coming to America empty-handed," he wrote, "but I have faith in Your Holy Name." The poem reads like a man's final testament, not his arrival announcement.
 
-September 19, 1965: the Jaladuta docks at a Brooklyn pier in New York. Abhay Charan—now A.C. Bhaktivedanta Swami Prabhupāda—steps onto American soil. He later recalled walking off the ship onto the pier: "I did not know whether to turn left or right." No destination, no clear plan, utterly alone in a foreign city. He travels to Butler, Pennsylvania, to stay with his sponsors Gopal and Sally Agarwal—a businessman and his American wife who had offered their home as his first foreign sanctuary. Little money. English so heavily accented that Americans strained to understand him. But he possessed something that money could not purchase: absolute conviction that five-thousand-year-old wisdom could transform the consciousness of a civilization that had never heard of Krishna.
+September 19, 1965: the Jaladuta docks at a Brooklyn pier in New York. Abhay Charan—now A. C. Bhaktivedanta Swami Prabhupāda—steps onto American soil. He later recalled walking off the ship onto the pier: "I did not know whether to turn left or right." No destination, no clear plan, utterly alone in a foreign country. He travels to Butler, Pennsylvania, to stay with his sponsors Gopal and Sally Agarwal—a businessman and his American wife who had offered their home as his first foreign sanctuary. Little money. English so heavily accented that Americans strained to understand him. But he possessed something that money could not purchase: absolute conviction that five-thousand-year-old wisdom could transform the consciousness of a civilization that had never heard of Krishna.
 
 What followed reads like urban mythology: an elderly Indian mystic in the Bowery, surrounded by drug addicts and alcoholics, offering five-thousand-year-old mantras to hippies seeking truth through LSD. While American intellectuals debated the death of God, he taught street kids to dance for Krishna. The contrast was so absurd it could only be true.
 
@@ -627,7 +643,7 @@ One evening, sitting with both editions open, Maya finally understood what had b
 
 Some traditions emphasized human lostness requiring divine rescue. Others emphasized human capability requiring proper education. But here was the difference: in healthy spiritual traditions, people chose their approach consciously. They knew whether they were joining a mystical community seeking divine grace or an educational community pursuing methodical development. In the case of the Bhagavad-gītā As It Is, millions of people believed they shared a path. The editors had divided them invisibly, substituting choice with organizational mandate.
 
-Maya closed both books and leaned back in her chair. Her grandmother deserved answers. Real answers, not reassurances. The investigation that had begun with a single confusing verse was revealing something far larger—deliberate word changes that could reshape human consciousness on a global scale. She had documented what was changed. But the question that kept her awake wasn't *what*—it was *how many*. If they had altered this verse so systematically, what else had they transformed while the world wasn't watching?
+Maya closed both books and leaned back in her chair. Her grandmother deserved answers. Real answers, not reassurances. The investigation that had begun with a single confusing verse was revealing something far larger—deliberate word changes that could reshape human consciousness on a global scale. She had documented what was changed. But the question that kept her awake wasn't **what**, it was **how many**. If they had altered this verse so systematically, what else had they transformed while the world wasn't watching?
 
 #+LATEX: \cleardoublepage
 #+LATEX: \vspace*{0.20\textheight}
@@ -685,7 +701,7 @@ The first symptom appeared in Russia. **The Moscow Incident** provides the perfe
 
 The elder's book: "I am not under the modes of material nature." Direct and simple.
 
-Her modern edition: "for they, on the contrary, are within Me." A philosophical addendum, a total editorial whim.
+Her modern edition: "For they, on the contrary, are within Me." A philosophical addendum, a total editorial whim.
 
 The room erupted in confusion—sincere souls trying to understand the most fundamental question of existence: the nature of God's relationship to creation. Same verse number. Same author's name. Completely different spiritual reality.
 
@@ -736,7 +752,7 @@ One group—predominantly older members who had joined in the 1970s and 80s—ap
 
 The other group—mostly younger practitioners who had joined after 2000—approached their practice through systematic study, disciplined meditation schedules, and measurable advancement. They spoke of "improving their focus" and "developing better habits."
 
-It was a doctoral student in religious studies, observing the community for her dissertation research, who noticed the correlation: the two groups were reading different editions of the Bhagavad-gītā.
+It was a doctoral student in religious studies, observing the community for his research, who noticed the correlation: the two groups were reading different editions of the Bhagavad-gītā.
 
 The older practitioners, many still using their original books from the 1970s, had been shaped by text that emphasized "forgotten soul" and divine relationship. The younger practitioners, reading recently purchased editions, had been shaped by text that emphasized "forgetful soul" and self-improvement.
 
@@ -1235,7 +1251,7 @@ Maya wrestled with questions that kept her awake: Do readers have the right to k
 David's framework:
 
 - **Edition Naming**: "Bhagavad-gītā As It Is (1972 Original)" vs "(1983 Revised)" vs "(2025 Student Edition)"
-- **Clear Attribution**: "Original translation by A.C. Bhaktivedanta Swami" vs "Revised by BBT Editorial Board"
+- **Clear Attribution**: "Original translation by A. C. Bhaktivedanta Swami" vs "Revised by BBT Editorial Board"
 - **Purpose Statements**: Each edition explains its intended audience
 - **Change Documentation**: Appendix listing major alterations
 - **Parallel Availability**: Bookstores stock multiple versions
@@ -1268,15 +1284,6 @@ Readers had a right to know they were receiving posthumous editorial theology, n
 
 As Maya left, she knew her next step: confronting the defenders of the revision.
 
-#+LATEX: \cleardoublepage
-#+LATEX: \thispagestyle{empty}
-#+LATEX: \vspace*{0.20\textheight}
-#+LATEX: \begin{center}
-#+LATEX: {\Huge\bfseries\MakeUppercase{\textbf{IV}}}\\[0.5cm]
-#+LATEX: {\huge\bfseries THE INSTITUTIONAL}\\[0.5cm]
-#+LATEX: {\huge\bfseries RESPONSE}
-#+LATEX: \end{center}
-#+LATEX: \vspace*{\fill}
 #+LATEX: \cleardoublepage
 #+LATEX: \vspace*{0.20\textheight}
 #+LATEX: \section*{13. The Unexpected Interlocutor}
@@ -1883,7 +1890,7 @@ Maya's choice, in the end, was simply to give them back the choice itself.
 
 @@latex:\textbf{@@Original (1972) Edition@@latex:}@@ — The Bhagavad-gītā As It Is that Prabhupāda personally approved and used for teaching from 1972-1977. Emphasizes accessible devotion and personal divine relationship.
 
-@@latex:\textbf{@@Prabhupāda@@latex:}@@ — A.C. Bhaktivedanta Swami (1896-1977); the spiritual master who brought Krishna consciousness to the West. His final instruction: "Don't change my books."
+@@latex:\textbf{@@Prabhupāda@@latex:}@@ — A. C. Bhaktivedanta Swami (1896-1977); the spiritual master who brought Krishna consciousness to the West. His final instruction: "Don't change my books."
 
 @@latex:\textbf{@@Revised (1983) Edition@@latex:}@@ — The posthumously edited version with 541 of 700 verses altered. Emphasizes theological precision and systematic understanding.
 
