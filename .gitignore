@@ -19,3 +19,4 @@
 *.backup
 *.org.backup*
 *_backup.org
+.wrangler/

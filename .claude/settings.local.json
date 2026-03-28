@@ -26,7 +26,9 @@
       "Bash(git commit:*)",
       "Bash(git push:*)",
       "Bash(npm run tauri:build:*)",
-      "Bash(brew tap:*)"
+      "Bash(brew tap:*)",
+      "Bash(xelatex:*)",
+      "Bash(unzip:*)"
     ],
     "deny": []
   }

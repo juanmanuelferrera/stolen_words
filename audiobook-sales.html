@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stolen Words - Audiobook</title>
+    <script src="https://js.stripe.com/v3/"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .header .subtitle {
+            font-size: 1.2em;
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .book-info {
+            margin-bottom: 30px;
+        }
+
+        .book-info h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+
+        .book-info p {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+
+        .audiobook-details {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .audiobook-details ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .audiobook-details li {
+            padding: 10px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .audiobook-details li:last-child {
+            border-bottom: none;
+        }
+
+        .audiobook-details li strong {
+            color: #667eea;
+            display: inline-block;
+            width: 120px;
+        }
+
+        .price-section {
+            text-align: center;
+            margin: 40px 0;
+            padding: 30px;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            border-radius: 8px;
+            color: white;
+        }
+
+        .price-section .price {
+            font-size: 3em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .price-section .original-price {
+            text-decoration: line-through;
+            opacity: 0.7;
+            font-size: 1.2em;
+        }
+
+        .buy-button {
+            background: white;
+            color: #667eea;
+            border: none;
+            padding: 18px 60px;
+            font-size: 1.3em;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            margin-top: 20px;
+        }
+
+        .buy-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+
+        .buy-button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .testimonial {
+            font-style: italic;
+            padding: 20px;
+            border-left: 4px solid #667eea;
+            background: #f8f9fa;
+            margin: 20px 0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            display: none;
+        }
+
+        .success {
+            background: #d4edda;
+            color: #155724;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            display: none;
+        }
+
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .price-section .price {
+                font-size: 2em;
+            }
+
+            .buy-button {
+                padding: 15px 40px;
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>STOLEN WORDS</h1>
+            <div class="subtitle">The Literary Crime of The Century</div>
+            <div style="margin-top: 15px; font-size: 0.9em;">Audiobook Edition</div>
+        </div>
+
+        <div class="content">
+            <div class="book-info">
+                <h2>About the Audiobook</h2>
+                <p>
+                    In 1972, A.C. Bhaktivedanta Swami Prabhupāda gave the world his
+                    <em>Bhagavad-gītā As It Is</em>. After his passing in 1977, something
+                    extraordinary happened to his work—it was thoroughly rewritten.
+                </p>
+                <p>
+                    This audiobook documents the literary crime of the century: how 77% of
+                    verses were altered, how millions of readers never knew, and what it means
+                    when sacred texts undergo wholesale transformation after an author's death.
+                </p>
+            </div>
+
+            <div class="audiobook-details">
+                <ul>
+                    <li><strong>Format:</strong> MP3 Download</li>
+                    <li><strong>Narrated by:</strong> Professional AI Voice</li>
+                    <li><strong>Author:</strong> Br. Jagannatha Mishra Dasa</li>
+                    <li><strong>Publisher:</strong> Light of Dharma</li>
+                    <li><strong>Language:</strong> English</li>
+                </ul>
+            </div>
+
+            <div class="testimonial">
+                "This investigation uses narrative storytelling to present factual evidence.
+                All verse comparisons, chapter statistics, and textual changes can be
+                independently verified through publicly available sources."
+            </div>
+
+            <div class="price-section">
+                <div>Special Launch Price</div>
+                <div class="price">$3.00</div>
+                <div style="font-size: 0.9em; margin-top: 10px;">
+                    Instant Download • Lifetime Access
+                </div>
+                <button id="checkout-button" class="buy-button">
+                    Purchase Audiobook Now
+                </button>
+            </div>
+
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p style="margin-top: 10px;">Processing your payment...</p>
+            </div>
+
+            <div class="error" id="error-message"></div>
+            <div class="success" id="success-message"></div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 Br. Jagannatha Mishra Dasa | www.lightofdharma.com</p>
+            <p style="margin-top: 10px;">
+                Secure payment processing by <strong>Stripe</strong>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Initialize Stripe with your publishable key
+        // REPLACE THIS WITH YOUR ACTUAL STRIPE PUBLISHABLE KEY
+        const stripe = Stripe('pk_test_YOUR_PUBLISHABLE_KEY_HERE');
+
+        const checkoutButton = document.getElementById('checkout-button');
+        const loading = document.getElementById('loading');
+        const errorMessage = document.getElementById('error-message');
+        const successMessage = document.getElementById('success-message');
+
+        checkoutButton.addEventListener('click', async () => {
+            // Disable button and show loading
+            checkoutButton.disabled = true;
+            loading.style.display = 'block';
+            errorMessage.style.display = 'none';
+            successMessage.style.display = 'none';
+
+            try {
+                // Call your server to create a checkout session
+                const response = await fetch('/create-checkout-session', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        product: 'stolen-words-audiobook',
+                        price: 300, // $3.00 in cents
+                    }),
+                });
+
+                const session = await response.json();
+
+                // Redirect to Stripe Checkout
+                const result = await stripe.redirectToCheckout({
+                    sessionId: session.id,
+                });
+
+                if (result.error) {
+                    throw new Error(result.error.message);
+                }
+            } catch (error) {
+                errorMessage.textContent = error.message;
+                errorMessage.style.display = 'block';
+                checkoutButton.disabled = false;
+                loading.style.display = 'none';
+            }
+        });
+
+        // Check for successful payment (after redirect back)
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('success')) {
+            successMessage.textContent = 'Payment successful! Check your email for the download link.';
+            successMessage.style.display = 'block';
+        }
+        if (urlParams.get('canceled')) {
+            errorMessage.textContent = 'Payment canceled. You can try again when ready.';
+            errorMessage.style.display = 'block';
+        }
+    </script>
+</body>
+</html>

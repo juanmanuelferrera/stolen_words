@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palabras Robadas - El Crimen Literario del Siglo</title>
+
+    <!-- SEO Meta -->
+    <meta name="description" content="An investigation reveals how 77% of verses in Bhagavad-gita As It Is were secretly altered after the author's death. 5,000 systematic changes. Two different spiritual paths. Millions of readers unaware.">
+    <meta name="keywords" content="Stolen Words, Bhagavad-gita, Prabhupada, textual integrity, book changes, sacred text, forensic analysis">
+    <meta name="author" content="Jagannatha Mishra Dasa">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Stolen Words - The Literary Crime of The Century">
+    <meta property="og:description" content="An investigation reveals how 77% of verses in Bhagavad-gita As It Is were secretly altered after the author's death. Two spiritual paths. Millions of readers unaware.">
+    <meta property="og:image" content="mockup.jpeg">
+    <meta property="og:type" content="book">
+    <meta property="og:url" content="https://stolen-words.pages.dev">
+    <meta property="book:isbn" content="9798298020817">
+    <meta property="book:author" content="Jagannatha Mishra Dasa">
+    <meta property="book:release_date" content="2025-12-01">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Stolen Words - The Literary Crime of The Century">
+    <meta name="twitter:description" content="77% of verses secretly altered. 5,000 changes. Two different spiritual paths. The investigation that reveals it all.">
+    <meta name="twitter:image" content="mockup.jpeg">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background-color: #ffffff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Language Toggle */
+        .lang-toggle {
+            position: absolute;
+            top: 1.5rem;
+            right: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: #6b7280;
+            z-index: 10;
+        }
+
+        .lang-toggle span {
+            cursor: pointer;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+            user-select: none;
+        }
+
+        .lang-toggle span:hover {
+            color: #1a1a1a;
+        }
+
+        .lang-toggle span.active {
+            color: #1a1a1a;
+            background: #f3f4f6;
+            font-weight: 600;
+        }
+
+        .lang-toggle .separator {
+            color: #d1d5db;
+            cursor: default;
+            padding: 0;
+        }
+
+        .lang-toggle .separator:hover {
+            color: #d1d5db;
+        }
+
+        /* Header */
+        .header {
+            background: #ffffff;
+            padding: 2rem 0;
+            text-align: center;
+            border-bottom: 1px solid #e5e7eb;
+            position: relative;
+        }
+
+        .title {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: #6b7280;
+            font-weight: 400;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 4rem 0;
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 400px 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .book-cover {
+            position: relative;
+        }
+
+        .book-cover a {
+            display: block;
+        }
+
+        .cover-placeholder {
+            width: 350px;
+            height: 500px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            position: relative;
+        }
+
+        .cover-placeholder::after {
+            content: '';
+            position: absolute;
+            top: 8px;
+            right: -8px;
+            width: 20px;
+            height: calc(100% - 16px);
+            background: linear-gradient(to right,
+                        rgba(0, 0, 0, 0.3) 0%,
+                        rgba(0, 0, 0, 0.1) 50%,
+                        transparent 100%);
+            border-radius: 0 8px 8px 0;
+            z-index: -1;
+        }
+
+        .cover-placeholder:hover {
+            transform: translateY(-5px) rotateY(-5deg);
+        }
+
+        .cover-placeholder:hover::after {
+            width: 25px;
+            right: -12px;
+            background: linear-gradient(to right,
+                        rgba(0, 0, 0, 0.4) 0%,
+                        rgba(0, 0, 0, 0.15) 50%,
+                        transparent 100%);
+        }
+
+        .cover-placeholder::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: -3px;
+            width: 3px;
+            height: 100%;
+            background: linear-gradient(to bottom,
+                        rgba(0, 0, 0, 0.1) 0%,
+                        rgba(0, 0, 0, 0.2) 50%,
+                        rgba(0, 0, 0, 0.1) 100%);
+            border-radius: 0 8px 8px 0;
+        }
+
+        .hero-content h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+
+        .hero-description {
+            font-size: 1.1rem;
+            color: #4b5563;
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #dc2626;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: #6b7280;
+            margin-top: 0.5rem;
+        }
+
+        /* Download Section */
+        .download-section {
+            background: #1f2937;
+            padding: 2rem;
+            border-radius: 12px;
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .download-title {
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .download-options {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+        }
+
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            padding: 0.875rem 2rem;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            font-size: 1rem;
+        }
+
+        .download-btn.primary {
+            background: #dc2626;
+            color: white;
+            font-size: 1.15rem;
+            font-weight: 700;
+            padding: 1.1rem 2rem;
+            letter-spacing: 0.3px;
+        }
+
+        .download-btn.primary:hover {
+            background: #b91c1c;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(220, 38, 38, 0.4);
+        }
+
+        .download-btn.secondary {
+            background: #f3f4f6;
+            color: #374151;
+            border: 1px solid #d1d5db;
+        }
+
+        .download-btn.secondary:hover {
+            background: #e5e7eb;
+            transform: translateY(-1px);
+        }
+
+        @media (min-width: 640px) {
+            .download-options {
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            .download-btn {
+                width: auto;
+                flex: 1;
+                max-width: 220px;
+            }
+        }
+
+        .book-details {
+            color: #9ca3af;
+            font-size: 0.8rem;
+            margin-top: 0.75rem;
+        }
+
+        /* Who Is This For Section */
+        .audience-section {
+            padding: 4rem 0;
+            background: white;
+        }
+
+        .audience-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .audience-card {
+            text-align: center;
+            padding: 2rem 1.5rem;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .audience-card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .audience-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .audience-card h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .audience-card p {
+            font-size: 0.95rem;
+            color: #6b7280;
+            line-height: 1.5;
+        }
+
+        /* Testimonials Section */
+        .testimonials-section {
+            padding: 4rem 0;
+            background: #f8fafc;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .testimonial-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+            border-left: 4px solid #dc2626;
+        }
+
+        .testimonial-card blockquote {
+            font-size: 1rem;
+            color: #374151;
+            line-height: 1.7;
+            font-style: italic;
+        }
+
+        /* Media Section */
+        .media-section {
+            padding: 4rem 0;
+            background: white;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 3rem;
+        }
+
+        .video-featured {
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        .video-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+        }
+
+        .video-player {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+            border-radius: 12px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            margin: 0 auto;
+        }
+
+        .video-description {
+            font-size: 1rem;
+            color: #6b7280;
+            margin-top: 1rem;
+        }
+
+        .audio-section {
+            background: #f8fafc;
+            padding: 2rem;
+            border-radius: 12px;
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .audio-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+        }
+
+        .audio-player {
+            width: 100%;
+            margin: 1rem 0;
+        }
+
+        .audio-description {
+            font-size: 0.9rem;
+            color: #6b7280;
+        }
+
+        /* Footer */
+        .footer {
+            background: #1f2937;
+            color: #9ca3af;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .footer-content {
+            font-size: 0.9rem;
+        }
+
+        .footer-highlight {
+            color: white;
+            font-weight: 500;
+        }
+
+        .footer a {
+            color: #60a5fa;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-note {
+            margin-top: 1rem;
+            font-style: italic;
+            opacity: 0.8;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                text-align: center;
+            }
+
+            .title {
+                font-size: 2.5rem;
+            }
+
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cover-placeholder {
+                width: 280px;
+                height: 400px;
+                margin: 0 auto;
+            }
+
+            .video-player {
+                height: 250px;
+            }
+
+            .audience-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .lang-toggle {
+                top: 0.75rem;
+                right: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="lang-toggle">
+            <span id="lang-en" class="active" onclick="setLang('en', true)">EN</span>
+            <span class="separator">|</span>
+            <span id="lang-es" onclick="setLang('es', true)">ES</span>
+        </div>
+        <div class="container">
+            <h1 class="title">PALABRAS ROBADAS</h1>
+            <p class="subtitle">
+                <span data-en="The Literary Crime of The Century" data-es="El crimen literario del siglo"></span>
+            </p>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="book-cover">
+                    <a href="https://a.co/d/0dh9Mv7H" target="_blank" rel="noopener">
+                        <div id="book-cover-img" class="cover-placeholder" style="background-image: url('../mockup_es.jpeg');">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="hero-content">
+                    <h1>
+                        <span data-en="What If the Book You Trust Was Secretly Rewritten?" data-es="Y si el libro en el que confías fue reescrito en secreto?"></span>
+                    </h1>
+
+                    <p class="hero-description">
+                        <span data-en="An investigation that began with a grandmother's confusion reveals how verses in one of the world's most influential spiritual texts were secretly altered after the author's death&mdash;transforming divine grace into human effort, mystical devotion into institutional control." data-es="Una investigación que comenzó con la confusión de una abuela revela cómo los versos de uno de los textos espirituales más influyentes del mundo fueron alterados en secreto tras la muerte del autor&mdash;transformando la gracia divina en esfuerzo humano, la devoción mística en control institucional."></span>
+                    </p>
+
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">77%</span>
+                            <div class="stat-label">
+                                <span data-en="Verses Altered" data-es="Versos alterados"></span>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">5,000+</span>
+                            <div class="stat-label">
+                                <span data-en="Systematic Changes" data-es="Cambios sistemáticos"></span>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">
+                                <span data-en="Investigative Novel" data-es="Novela de investigación"></span>
+                            </span>
+                            <div class="stat-label">
+                                <span data-en="Reads Like a Detective Story" data-es="Se lee como una novela de detectives"></span>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">
+                                <span data-en="Dec 2025" data-es="Dic 2025"></span>
+                            </span>
+                            <div class="stat-label">
+                                <span data-en="First Edition" data-es="Primera edición"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="download-section">
+                        <div class="download-title">
+                            <span data-en="Get the Book" data-es="Consigue el libro"></span>
+                        </div>
+
+                        <div class="download-options">
+                            <a id="buy-btn" href="https://a.co/d/0dh9Mv7H" target="_blank" class="download-btn primary">
+                                <span data-en="Buy on Amazon" data-es="Comprar en Amazon"></span>
+                            </a>
+                            <button class="download-btn secondary" onclick="downloadSample()">
+                                <span data-en="Free Sample (3 Chapters)" data-es="Muestra gratis (3 capítulos)"></span>
+                            </button>
+                            <button class="download-btn secondary" onclick="downloadAudio()">
+                                <span data-en="Audio Companion" data-es="Audio complementario"></span>
+                            </button>
+                        </div>
+                        <div class="book-details">
+                            ISBN 9798298020817 |
+                            <span data-en="Published in Spain, December 2025" data-es="Publicado en España, diciembre 2025"></span>
+                            | By Br. Jagannatha Mishra Dasa
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="audience-section">
+        <div class="container">
+            <h2 class="section-title">
+                <span data-en="Who Is This Book For?" data-es="A quién va dirigido este libro?"></span>
+            </h2>
+            <div class="audience-grid">
+                <div class="audience-card">
+                    <div class="audience-icon">&#128218;</div>
+                    <h3><span data-en="Spiritual Seekers" data-es="Buscadores espirituales"></span></h3>
+                    <p><span data-en="You read the Bhagavad-gita and want to know if what you hold in your hands is truly what the author wrote." data-es="Lees el Bhagavad-gita y quieres saber si lo que tienes en las manos es realmente lo que el autor escribió."></span></p>
+                </div>
+                <div class="audience-card">
+                    <div class="audience-icon">&#128270;</div>
+                    <h3><span data-en="Textual Integrity Advocates" data-es="Defensores de la integridad textual"></span></h3>
+                    <p><span data-en="Anyone who cares about how sacred texts are preserved, edited, and transmitted across generations." data-es="Cualquiera que se preocupe por cómo se preservan, editan y transmiten los textos sagrados a través de las generaciones."></span></p>
+                </div>
+                <div class="audience-card">
+                    <div class="audience-icon">&#9997;&#65039;</div>
+                    <h3><span data-en="Authors and Scholars" data-es="Autores y académicos"></span></h3>
+                    <p><span data-en="A documented case of posthumous rewriting with forensic textual comparison. Relevant to translation studies, editorial ethics, and the politics of sacred text transmission." data-es="Un caso documentado de reescritura póstuma con comparación textual forense. Relevante para estudios de traducción, ética editorial y la política de transmisión de textos sagrados."></span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">
+                <span data-en="From the Book" data-es="Del libro"></span>
+            </h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <blockquote>
+                        <span data-en="&ldquo;This was not editing. This was rewriting.&rdquo;" data-es="&ldquo;Esto no fue edición. Fue reescritura.&rdquo;"></span>
+                    </blockquote>
+                </div>
+                <div class="testimonial-card">
+                    <blockquote>
+                        <span data-en="&ldquo;Two editions. Two spiritual paths. Millions of readers who deserve to know which one they're actually following.&rdquo;" data-es="&ldquo;Dos ediciones. Dos caminos espirituales. Millones de lectores que merecen saber cuál están siguiendo realmente.&rdquo;"></span>
+                    </blockquote>
+                </div>
+                <div class="testimonial-card">
+                    <blockquote>
+                        <span data-en="&ldquo;They received a committee's interpretation, posthumously imposed, dressed in the author's clothing.&rdquo;" data-es="&ldquo;Recibieron la interpretación de un comité, impuesta póstumamente, vestida con la ropa del autor.&rdquo;"></span>
+                    </blockquote>
+                </div>
+                <div class="testimonial-card">
+                    <blockquote>
+                        <span data-en="&ldquo;The sacred trust was broken, but the sacred truth can still be told.&rdquo;" data-es="&ldquo;La confianza sagrada fue rota, pero la verdad sagrada aún puede ser contada.&rdquo;"></span>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="media-section">
+        <div class="container">
+            <div class="video-featured">
+                <h2 class="section-title">
+                    <span data-en="Watch the Investigation" data-es="Mira la investigación"></span>
+                </h2>
+                <video controls class="video-player">
+                    <source src="../Palabras_Robadas.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+                <p class="video-description">
+                    Desglose visual del análisis forense y los descubrimientos clave
+                </p>
+            </div>
+
+            <div class="audio-section">
+                <h3 class="audio-title">
+                    <span data-en="Listen to the Podcast Discussion" data-es="Escucha la conversación del podcast"></span>
+                </h3>
+                <audio id="audio-player" controls class="audio-player">
+                    <source id="audio-source" src="../palabras_robadas_web.m4a" type="audio/mp4">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="audio-description">
+                    <span data-en="A companion conversation exploring the book's findings and their implications" data-es="Una conversación complementaria que explora los hallazgos del libro y sus implicaciones"></span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div><span class="footer-highlight">CENTROS DE BHAKTI YOGA</span> | Research Team | CIF G-76660679</div>
+                <div>
+                    <span data-en="Licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0" data-es="Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0"></span>
+                </div>
+                <div style="margin-top: 1rem;">
+                    <a href="#" onclick="contactAuthor(); return false;">
+                        <span data-en="Contact the Author" data-es="Contactar al autor"></span>
+                    </a>
+                </div>
+                <div class="footer-note">
+                    <span data-en="&ldquo;Dedicated to authentic spiritual transmission over institutional convenience&rdquo;" data-es="&ldquo;Dedicado a la transmisión espiritual auténtica por encima de la conveniencia institucional&rdquo;"></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var currentLang = 'es';
+
+        function setLang(lang, navigate) {
+            if (navigate) {
+                window.location.href = lang === 'es' ? '/es/' : '/';
+                return;
+            }
+            currentLang = lang;
+            document.documentElement.lang = lang;
+            document.getElementById('lang-en').classList.toggle('active', lang === 'en');
+            document.getElementById('lang-es').classList.toggle('active', lang === 'es');
+            document.querySelectorAll('[data-en]').forEach(function(el) {
+                el.innerHTML = el.getAttribute('data-' + lang);
+            });
+            var cover = document.getElementById('book-cover-img');
+            var link = cover.parentElement;
+            if (lang === 'es') {
+                cover.style.backgroundImage = "url('../mockup_es.jpeg')";
+                link.href = 'https://a.co/d/0dh9Mv7H';
+            } else {
+                cover.style.backgroundImage = "url('../mockup_en.jpeg')";
+                link.href = 'https://a.co/d/04VJespm';
+            }
+            var buyBtn = document.getElementById('buy-btn');
+            buyBtn.href = link.href;
+            var audioSource = document.getElementById('audio-source');
+            var audioPlayer = document.getElementById('audio-player');
+            audioSource.src = lang === 'es' ? '../palabras_robadas_web.m4a' : '../stolen_words_web.m4a';
+            audioPlayer.load();
+        }
+
+        setLang(currentLang);
+
+        function downloadSample() {
+            var link = document.createElement('a');
+            link.href = '../StolenWords_Sample_3chapters.pdf';
+            link.download = 'StolenWords_Sample_3chapters.pdf';
+            link.click();
+        }
+
+        function downloadAudio() {
+            var link = document.createElement('a');
+            link.href = '../stolen_words_web.m4a';
+            link.download = 'Palabras_Robadas_Podcast.m4a';
+            link.click();
+        }
+
+        function contactAuthor() {
+            var a = ['j','a','g','a','n','a','t'];
+            var b = ['m','a','i','l','.','c','o','m'];
+            window.location.href = 'mai' + 'lto:' + a.join('') + '@' + b.join('');
+        }
+    </script>
+</body>
+</html>
