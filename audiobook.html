@@ -218,14 +218,8 @@
             <span class="player-label label-en">English</span>
             <div class="player-title">Stolen Words — Full Audiobook</div>
             <div class="player-info">Complete narration in English</div>
-            <div class="playlist" id="playlist-en">
-                <div class="part active" onclick="playPart('en', 0)">Part 1</div>
-                <div class="part" onclick="playPart('en', 1)">Part 2</div>
-                <div class="part" onclick="playPart('en', 2)">Part 3</div>
-                <div class="part" onclick="playPart('en', 3)">Part 4</div>
-            </div>
-            <audio id="player-en" controls preload="metadata">
-                <source src="stolenwords_part1.mp3" type="audio/mpeg">
+            <audio id="player-en" controls preload="metadata" style="width:100%">
+                <source src="https://pub-03dfc030c22e4d05ba3ec03d1351ca7e.r2.dev/stolen-words/stolenwords.mp3" type="audio/mpeg">
             </audio>
             <a href="https://github.com/juanmanuelferrera/stolen_words/releases/download/v1.0.0/stolenwords.mp3" class="download-link">Download MP3</a>
         </div>
@@ -234,14 +228,8 @@
             <span class="player-label label-es">Español</span>
             <div class="player-title">Palabras Robadas — Audiolibro completo</div>
             <div class="player-info">Narración completa en español — 2h 54m</div>
-            <div class="playlist" id="playlist-es">
-                <div class="part active" onclick="playPart('es', 0)">Parte 1</div>
-                <div class="part" onclick="playPart('es', 1)">Parte 2</div>
-                <div class="part" onclick="playPart('es', 2)">Parte 3</div>
-                <div class="part" onclick="playPart('es', 3)">Parte 4</div>
-            </div>
-            <audio id="player-es" controls preload="metadata">
-                <source src="palabras_part1.mp3" type="audio/mpeg">
+            <audio id="player-es" controls preload="metadata" style="width:100%">
+                <source src="https://pub-03dfc030c22e4d05ba3ec03d1351ca7e.r2.dev/stolen-words/palabras_robadas_completo.mp3" type="audio/mpeg">
             </audio>
             <a href="https://github.com/juanmanuelferrera/stolen_words/releases/download/v1.0.0/palabras_robadas_completo.mp3" class="download-link">Descargar MP3</a>
         </div>
@@ -270,28 +258,18 @@
             <a href="https://www.vedicvault.org">vedicvault.org</a>
         </div>
     </div>
-    <script>
-        var files = {
-            en: ['stolenwords_part1.mp3','stolenwords_part2.mp3','stolenwords_part3.mp3','stolenwords_part4.mp3'],
-            es: ['palabras_part1.mp3','palabras_part2.mp3','palabras_part3.mp3','palabras_part4.mp3']
-        };
-
-        function playPart(lang, idx) {
-            var player = document.getElementById('player-' + lang);
-            player.src = files[lang][idx];
-            player.play();
-            var parts = document.querySelectorAll('#playlist-' + lang + ' .part');
-            parts.forEach(function(p, i) {
-                p.classList.toggle('active', i === idx);
-            });
-
-            // Auto-advance to next part
-            player.onended = function() {
-                if (idx + 1 < files[lang].length) {
-                    playPart(lang, idx + 1);
-                }
-            };
-        }
-    </script>
+<!-- Vedic Vault Hub — floating lotus, bottom right -->
+<a href="https://vedicvault.org" title="Back to Vedic Vault Hub"
+   aria-label="Back to Vedic Vault Hub"
+   style="position:fixed;bottom:1.5rem;right:1.5rem;z-index:9999;
+          width:56px;height:56px;border-radius:50%;
+          background:radial-gradient(circle at 40% 35%,#fff7ed,#fed7aa 60%,#fb923c);
+          box-shadow:0 4px 16px rgba(249,115,22,0.35);
+          display:flex;align-items:center;justify-content:center;
+          text-decoration:none;font-size:1.7rem;
+          transition:transform 0.3s,box-shadow 0.3s;animation:lotus-float 3s ease-in-out infinite;"
+   onmouseover="this.style.transform='scale(1.12)';this.style.boxShadow='0 6px 24px rgba(249,115,22,0.5)'"
+   onmouseout="this.style.transform='scale(1)';this.style.boxShadow='0 4px 16px rgba(249,115,22,0.35)'">🪷</a>
+<style> lotus-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}</style>
 </body>
 </html>
