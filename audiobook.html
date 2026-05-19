@@ -97,13 +97,23 @@
 
         audio {
             width: 100%;
-            height: 44px;
-            border-radius: 8px;
+            height: 54px;
+            border-radius: 10px;
             outline: none;
+            /* Force light-themed native controls so the play button is highly visible on dark backgrounds */
+            color-scheme: light;
+            background: #f3f4f6;
+            box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.5);
         }
 
         audio::-webkit-media-controls-panel {
-            background: #252836;
+            background: #f3f4f6;
+        }
+
+        audio::-webkit-media-controls-play-button,
+        audio::-webkit-media-controls-mute-button {
+            filter: none;
+            opacity: 1;
         }
 
         .download-link {
