@@ -397,7 +397,7 @@ This investigation uses narrative storytelling to present factual evidence. Char
 
 However, all scientific studies cited are authentic peer-reviewed research from real academics (Pascual-Leone, Beauregard, Paquette, Newberg, d'Aquili, and others).
 
-All verse comparisons, chapter statistics, textual changes, and Prabhupāda's recorded class transcripts can be independently verified through publicly available sources including asitis.com (for the 1972 edition), vedabase.io (for the revised edition), and bookchanges.com documentation.
+All verse comparisons, chapter statistics, textual changes, and Prabhupāda's recorded class transcripts can be independently verified through publicly available sources including asitis.com and www.vedabase.cc (for the original Prabhupāda texts preserved unaltered), and bookchanges.com documentation.
 
 #+LATEX: \cleardoublepage
 #+LATEX: \pagestyle{empty}
@@ -1874,6 +1874,21 @@ The words that shape souls deserve to be chosen consciously, not stolen quietly.
 Maya's choice, in the end, was simply to give them back the choice itself.
 
 #+LATEX: \cleardoublepage
+#+LATEX: \thispagestyle{empty}
+#+LATEX: \vspace*{0.25\textheight}
+#+LATEX: \begin{center}
+#+LATEX: {\Large\itshape Where the Words Remain}
+#+LATEX: \vspace{1.6cm}
+#+LATEX: \par
+Prabhupāda's original 1972 /Bhagavad-gītā As It Is/ \\
+remains at *www.vedabase.cc*.
+#+LATEX: \vspace{1.6cm}
+#+LATEX: \par
+Free. Unchanged. As he wrote it.
+#+LATEX: \end{center}
+#+LATEX: \vfill
+
+#+LATEX: \cleardoublepage
 #+LATEX: \vspace*{0.15\textheight}
 #+LATEX: \section*{Glossary}
 #+LATEX: \addcontentsline{toc}{section}{Glossary}
@@ -1944,13 +1959,13 @@ PRIMARY TEXTUAL SOURCES
 #+LATEX: \vspace{0.1cm}
 
 */Bhagavad-gītā As It Is/*, Original 1972 Macmillan Edition. A. C. Bhaktivedanta Swami Prabhupāda. New York: Macmillan, 1972.
-- Online: asitis.com | prabhupadagita.com
+- Online: www.vedabase.cc | asitis.com | prabhupadagita.com
 
 */Bhagavad-gītā As It Is/*, Revised and Enlarged 1983 Edition. Bhaktivedanta Book Trust. Los Angeles, 1983.
 - Online: vedabase.io
 
 */Vedabase Archives/*: Complete collection of Srila Prabhupāda's recorded lectures, class transcripts, letters, and conversations, 1966-1977.
-- Online: vedabase.io | prabhupadavani.org | vanisource.org
+- Online: www.vedabase.cc | prabhupadavani.org
 
 */"Bhagavad Gita Changes — Complete List."/* /ISKCON & BBT Prabhupada Book Changes/.
 - Complete side-by-side comparison: bookchanges.com/bhagavad-gita-changes-complete-list
@@ -1969,7 +1984,6 @@ PRIMARY TEXTUAL SOURCES
 
 Historical documentation:
 - 1968 Macmillan Abridged Edition (400 pages)
-  Documentation: vanisource.org (search "Bhagavad Gita 1968 Abridged Edition")
 - 1972 Macmillan Complete Edition (1,008 pages)
   The edition Prabhupāda personally approved and taught from until his passing in 1977
 - 1983 BBT Revised Edition
@@ -1988,7 +2002,7 @@ Pattern of Divine Title Changes:
 Accessibility Changes:
 "Steadfast in yoga" → "equipoised"
 "The self-realized soul" → "a sober person" (BG 2.13)
-- Complete comparison available at asitis.com vs vedabase.io
+- Complete comparison documented at bookchanges.com
 
 #+LATEX: \vspace{0.5cm}
 
@@ -2179,6 +2193,13 @@ Since then, his main activity has been to deepen and spread the Dharma shastras,
 He is also the author of another book on this matter called /Arsa Prayoga, Preserving Srila Prabhupada's Legacy/.
 
 This research emerges from concern for reader spiritual choice and authentic preservation of mystical devotional traditions alongside systematic religious approaches.
+
+#+LATEX: \nopagebreak
+#+LATEX: \vspace{0.3cm}
+#+LATEX: \nopagebreak
+#+LATEX: \begin{center}
+The author welcomes correspondence at \textbf{jaganat@mail.com}.
+#+LATEX: \end{center}
 
 #+LATEX: \newpage
 #+LATEX: \thispagestyle{empty}
